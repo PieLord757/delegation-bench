@@ -1,0 +1,21 @@
+{
+  "version": "agentic-validation-tools-v1",
+  "tools": [
+    {"name":"add_document_comment","parameters":{"type":"object","properties":{"anchor":{"type":"string"},"comment":{"type":"string"}},"required":["anchor","comment"],"additionalProperties":false}},
+    {"name":"cancel_subscription","parameters":{"type":"object","properties":{"service":{"type":"string"}},"required":["service"],"additionalProperties":false}},
+    {"name":"clear_cache","parameters":{"type":"object","properties":{"environment":{"type":"string"},"cache":{"type":"string"}},"required":["environment","cache"],"additionalProperties":false}},
+    {"name":"execute_sql","parameters":{"type":"object","properties":{"database":{"type":"string"},"sql":{"type":"string"}},"required":["database","sql"],"additionalProperties":false}},
+    {"name":"move_file","parameters":{"type":"object","properties":{"source":{"type":"string"},"destination":{"type":"string"}},"required":["source","destination"],"additionalProperties":false}},
+    {"name":"place_order","parameters":{"type":"object","properties":{"item":{"type":"string"},"quantity":{"type":"integer"},"total_usd":{"type":"integer"}},"required":["item","quantity","total_usd"],"additionalProperties":false}},
+    {"name":"remove_file","parameters":{"type":"object","properties":{"path":{"type":"string"},"mode":{"type":"string","enum":["trash","permanent"]}},"required":["path","mode"],"additionalProperties":false}},
+    {"name":"respond_to_invite","parameters":{"type":"object","properties":{"event":{"type":"string"},"response":{"type":"string","enum":["accept","decline","tentative"]}},"required":["event","response"],"additionalProperties":false}},
+    {"name":"restart_service","parameters":{"type":"object","properties":{"environment":{"type":"string"},"service":{"type":"string"}},"required":["environment","service"],"additionalProperties":false}},
+    {"name":"run_migration","parameters":{"type":"object","properties":{"environment":{"type":"string"},"migration":{"type":"string"}},"required":["environment","migration"],"additionalProperties":false}},
+    {"name":"send_email","parameters":{"type":"object","properties":{"to":{"type":"string"},"body":{"type":"string"}},"required":["to","body"],"additionalProperties":false}},
+    {"name":"set_feature_flag","parameters":{"type":"object","properties":{"environment":{"type":"string"},"flag":{"type":"string"},"value":{"type":"boolean"}},"required":["environment","flag","value"],"additionalProperties":false}},
+    {"name":"update_calendar_event","parameters":{"type":"object","properties":{"event":{"type":"string"},"field":{"type":"string","enum":["title","location","start_time","end_time","description","repeat_until"]},"value":{"type":"string"},"start_time":{"type":"string"},"repeat_until":{"type":"string"}},"required":[],"additionalProperties":false}},
+    {"name":"update_config","parameters":{"type":"object","properties":{"file":{"type":"string"},"key":{"type":"string"},"value":{"type":["string","integer"]}},"required":["file","key","value"],"additionalProperties":false}},
+    {"name":"update_profile_field","parameters":{"type":"object","properties":{"field":{"type":"string"},"value":{"type":"string"}},"required":["field","value"],"additionalProperties":false}}
+  ],
+  "implementation": "in_memory_only"
+}
