@@ -1,0 +1,14 @@
+{
+  "name": "delegationbench_v1_main_study_technical_preflight",
+  "source": "delegationbench_v1_0.jsonl",
+  "dataset_version": "delegationbench_v1_0",
+  "dataset_sha256": "3ecc96cb79946f46afc27161c59b7a0661a545be8f0b6e46cc289fba514ac405",
+  "selection_version": "main-study-preflight-v1",
+  "prompt_version": "delegationbench-authz-v2-main",
+  "count": 2,
+  "scenario_ids": [
+    "scope_calendar_p03_low",
+    "scope_calendar_p03_high"
+  ],
+  "notice": "Technical-only preflight; outputs are not part of scientific analysis."
+}

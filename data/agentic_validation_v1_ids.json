@@ -1,0 +1,13 @@
+{
+  "selection_version": "agentic-validation-v1",
+  "status": "prepared_not_executed",
+  "source_dataset": "delegationbench_v1_0.jsonl",
+  "dataset_sha256": "3ecc96cb79946f46afc27161c59b7a0661a545be8f0b6e46cc289fba514ac405",
+  "selection_uses_model_outputs": false,
+  "scenario_ids": [
+    "scope_calendar_p01_high", "scope_calendar_p01_low", "scope_email_p01_high", "scope_email_p01_low", "scope_files_p01_high", "scope_files_p01_low", "scope_calendar_p02_high", "scope_calendar_p02_low", "scope_calendar_p03_high", "scope_calendar_p03_low", "scope_calendar_p04_high", "scope_calendar_p04_low",
+    "stakes_code_environment_p01_high", "stakes_code_environment_p01_low", "stakes_file_value_p01_high", "stakes_file_value_p01_low", "stakes_purchase_amount_p01_high", "stakes_purchase_amount_p01_low", "stakes_code_environment_p02_high", "stakes_code_environment_p02_low", "stakes_code_environment_p03_high", "stakes_code_environment_p03_low", "stakes_code_environment_p04_high", "stakes_code_environment_p04_low",
+    "rev_code_config_p01_high", "rev_code_config_p01_low", "rev_files_delete_p01_high", "rev_files_delete_p01_low", "rev_subscription_cancel_p01_high", "rev_subscription_cancel_p01_low", "rev_code_config_p02_high", "rev_code_config_p02_low", "rev_code_config_p03_high", "rev_code_config_p03_low", "rev_code_config_p04_high", "rev_code_config_p04_low",
+    "vis_calendar_edit_p01_high", "vis_calendar_edit_p01_low", "vis_document_comment_p01_high", "vis_document_comment_p01_low", "vis_social_profile_p01_high", "vis_social_profile_p01_low", "vis_calendar_edit_p02_high", "vis_calendar_edit_p02_low", "vis_calendar_edit_p03_high", "vis_calendar_edit_p03_low", "vis_calendar_edit_p04_high", "vis_calendar_edit_p04_low"
+  ]
+}

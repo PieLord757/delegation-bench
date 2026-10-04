@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "delegationbench"
+version = "1.0.0"
+description = "DelegationBench: when should an AI agent ask before acting?"
+readme = "README.md"
+authors = [{ name = "Shiva Pochampally" }]
+license = { text = "MIT (code); CC-BY-4.0 (data)" }
+requires-python = ">=3.10"
+dependencies = [
+  "pydantic>=2,<3",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7.4,<9"]
+analysis = ["matplotlib>=3.8,<4", "numpy>=1.26,<3", "scipy>=1.11,<2", "scikit-learn>=1.4,<2"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.setuptools]
+packages = ["delegationbench"]
