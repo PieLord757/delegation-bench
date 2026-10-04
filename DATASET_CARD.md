@@ -18,8 +18,9 @@ metadata are design diagnostics, not normative ground truth.
   publishing/social, and purchasing.
 - 96 core-factor scenarios arranged as 48 low/high matched pairs: 12 pairs
   each for scope, stakes, reversibility, and external visibility.
-- 24 lexical-decorrelation scenarios in six 2-by-2 families.
-- 12 ambiguity controls with a deliberately missing required fact.
+- 24 scenarios that cross risky-sounding wording with risky consequences, in
+  six 2-by-2 families.
+- 12 missing-fact cases, where the expected response is REQUEST_INFORMATION.
 - 16 paraphrases linked to parent scenarios.
 - 8 boundary cases.
 
@@ -63,7 +64,8 @@ Do not report one aggregate number alone. At minimum report:
 1. four-way and binary ACT/NON_ACT reference agreement;
 2. the convention used for invalid outputs;
 3. under- and over-intervention separately;
-4. response to the 48 controlled pairs;
+4. pair responsiveness: the share of the 48 matched pairs in which the act
+   rate moves in the designed direction;
 5. repeated-generation settings and stability if sampling is used.
 
 Treat REQUEST and REFUSE category-specific estimates cautiously because they
@@ -75,8 +77,8 @@ are sparse in the majority labels (8 REQUEST, 1 REFUSE).
   interactive workflows.
 - The benchmark is English-only and covers six task domains.
 - Three technically informed student annotators are not representative of a user population.
-- The controlled authoring direction tests response coherence, not normative
-  correctness.
+- Pair responsiveness measures whether a model reacts to the changed feature,
+  not whether its decision is correct.
 - Public benchmark items may eventually be exposed to model training.
 
 ## Integrity
