@@ -1,0 +1,881 @@
+endpoint_key,endpoint,condition,reference_condition,metric,estimate,ci_low,ci_high,n_scenarios,bootstrap_unit,invalid_handling
+sol,GPT-5.6 Sol,balanced_option_order,frozen_original,act_shift,-0.025000000000000005,-0.06666666666666667,0.012499999999999992,48,scenario,
+sol,GPT-5.6 Sol,balanced_option_order,frozen_original,scenario_tvd,0.08333333333333333,0.037500000000000006,0.13749999999999998,48,scenario,
+sol,GPT-5.6 Sol,balanced_option_order,frozen_original,scenario_jsd,0.049962528613077234,0.021105485959334508,0.08583341169065493,48,scenario,
+sol,GPT-5.6 Sol,balanced_option_order,frozen_original,modal_disagreement,0.041666666666666664,0.0,0.10416666666666667,48,scenario,
+sol,GPT-5.6 Sol,balanced_option_order,frozen_original,paired_trial_disagreement,0.09166666666666667,0.04583333333333334,0.14583333333333334,48,scenario,
+sol,GPT-5.6 Sol,balanced_option_order,frozen_original,overall_tvd,0.029166666666666667,nan,nan,48,descriptive_aggregate,
+sol,GPT-5.6 Sol,balanced_option_order,frozen_original,overall_jsd,0.0009474947376548197,nan,nan,48,descriptive_aggregate,
+sol,GPT-5.6 Sol,balanced_option_order,frozen_original,scenario_act_correlation,0.9532574136419272,nan,nan,48,not_bootstrapped,
+sol,GPT-5.6 Sol,concise_equivalent,frozen_original,act_shift,0.012500000000000002,-0.02083333333333333,0.05000000000000001,48,scenario,
+sol,GPT-5.6 Sol,concise_equivalent,frozen_original,scenario_tvd,0.07083333333333335,0.03333333333333333,0.11666666666666668,48,scenario,
+sol,GPT-5.6 Sol,concise_equivalent,frozen_original,scenario_jsd,0.03948320670820215,0.015754600479566686,0.07214469110264086,48,scenario,
+sol,GPT-5.6 Sol,concise_equivalent,frozen_original,modal_disagreement,0.041666666666666664,0.0,0.10416666666666667,48,scenario,
+sol,GPT-5.6 Sol,concise_equivalent,frozen_original,paired_trial_disagreement,0.08750000000000001,0.041666666666666664,0.14166666666666666,48,scenario,
+sol,GPT-5.6 Sol,concise_equivalent,frozen_original,overall_tvd,0.029166666666666653,nan,nan,48,descriptive_aggregate,
+sol,GPT-5.6 Sol,concise_equivalent,frozen_original,overall_jsd,0.0022263489893984603,nan,nan,48,descriptive_aggregate,
+sol,GPT-5.6 Sol,concise_equivalent,frozen_original,scenario_act_correlation,0.9621228367643043,nan,nan,48,not_bootstrapped,
+sol,GPT-5.6 Sol,policy_oriented_equivalent,frozen_original,act_shift,-0.08333333333333333,-0.15,-0.025000000000000005,48,scenario,
+sol,GPT-5.6 Sol,policy_oriented_equivalent,frozen_original,scenario_tvd,0.125,0.05833333333333333,0.20000000000000004,48,scenario,
+sol,GPT-5.6 Sol,policy_oriented_equivalent,frozen_original,scenario_jsd,0.08491664338071829,0.03629566860609495,0.1407233986359632,48,scenario,
+sol,GPT-5.6 Sol,policy_oriented_equivalent,frozen_original,modal_disagreement,0.16666666666666666,0.0625,0.2708333333333333,48,scenario,
+sol,GPT-5.6 Sol,policy_oriented_equivalent,frozen_original,paired_trial_disagreement,0.15833333333333333,0.08333333333333333,0.2416666666666667,48,scenario,
+sol,GPT-5.6 Sol,policy_oriented_equivalent,frozen_original,overall_tvd,0.08333333333333334,nan,nan,48,descriptive_aggregate,
+sol,GPT-5.6 Sol,policy_oriented_equivalent,frozen_original,overall_jsd,0.008304654122201898,nan,nan,48,descriptive_aggregate,
+sol,GPT-5.6 Sol,policy_oriented_equivalent,frozen_original,scenario_act_correlation,0.8845127785692628,nan,nan,48,not_bootstrapped,
+sol,GPT-5.6 Sol,open_ended,frozen_original,act_shift,-0.020833333333333332,-0.075,0.020833333333333325,48,scenario,
+sol,GPT-5.6 Sol,open_ended,frozen_original,scenario_tvd,0.19166666666666665,0.10416666666666667,0.2916666666666667,48,scenario,
+sol,GPT-5.6 Sol,open_ended,frozen_original,scenario_jsd,0.16132606502316507,0.07991720356311467,0.25839903538568726,48,scenario,
+sol,GPT-5.6 Sol,open_ended,frozen_original,modal_disagreement,0.16666666666666666,0.0625,0.2708333333333333,48,scenario,
+sol,GPT-5.6 Sol,open_ended,frozen_original,paired_trial_disagreement,0.225,0.12916666666666665,0.3333333333333333,48,scenario,
+sol,GPT-5.6 Sol,open_ended,frozen_original,overall_tvd,0.16666666666666669,nan,nan,48,descriptive_aggregate,
+sol,GPT-5.6 Sol,open_ended,frozen_original,overall_jsd,0.08417168129715576,nan,nan,48,descriptive_aggregate,
+sol,GPT-5.6 Sol,open_ended,frozen_original,scenario_act_correlation,0.9317935175401509,nan,nan,48,not_bootstrapped,
+oss120,GPT-OSS-120B,balanced_option_order,frozen_original,act_shift,-0.05416666666666666,-0.11666666666666665,0.00416666666666667,48,scenario,
+oss120,GPT-OSS-120B,balanced_option_order,frozen_original,scenario_tvd,0.15416666666666665,0.09583333333333333,0.21666666666666665,48,scenario,
+oss120,GPT-OSS-120B,balanced_option_order,frozen_original,scenario_jsd,0.09020962467647363,0.05132573777638575,0.1347881422007549,48,scenario,
+oss120,GPT-OSS-120B,balanced_option_order,frozen_original,modal_disagreement,0.20833333333333334,0.10416666666666667,0.3333333333333333,48,scenario,
+oss120,GPT-OSS-120B,balanced_option_order,frozen_original,paired_trial_disagreement,0.20833333333333334,0.13333333333333333,0.28750000000000003,48,scenario,
+oss120,GPT-OSS-120B,balanced_option_order,frozen_original,overall_tvd,0.09583333333333328,nan,nan,48,descriptive_aggregate,
+oss120,GPT-OSS-120B,balanced_option_order,frozen_original,overall_jsd,0.012643205469988343,nan,nan,48,descriptive_aggregate,
+oss120,GPT-OSS-120B,balanced_option_order,frozen_original,scenario_act_correlation,0.8785399030375043,nan,nan,48,not_bootstrapped,
+oss120,GPT-OSS-120B,concise_equivalent,frozen_original,act_shift,0.049999999999999996,-0.05416666666666667,0.15416666666666667,48,scenario,
+oss120,GPT-OSS-120B,concise_equivalent,frozen_original,scenario_tvd,0.2125,0.12916666666666665,0.30833333333333335,48,scenario,
+oss120,GPT-OSS-120B,concise_equivalent,frozen_original,scenario_jsd,0.16376615597287983,0.08575570557713096,0.253342823167518,48,scenario,
+oss120,GPT-OSS-120B,concise_equivalent,frozen_original,modal_disagreement,0.20833333333333334,0.10416666666666667,0.3333333333333333,48,scenario,
+oss120,GPT-OSS-120B,concise_equivalent,frozen_original,paired_trial_disagreement,0.2708333333333333,0.1791666666666667,0.3666666666666667,48,scenario,
+oss120,GPT-OSS-120B,concise_equivalent,frozen_original,overall_tvd,0.058333333333333355,nan,nan,48,descriptive_aggregate,
+oss120,GPT-OSS-120B,concise_equivalent,frozen_original,overall_jsd,0.0031989501725876667,nan,nan,48,descriptive_aggregate,
+oss120,GPT-OSS-120B,concise_equivalent,frozen_original,scenario_act_correlation,0.6333191430473588,nan,nan,48,not_bootstrapped,
+oss120,GPT-OSS-120B,policy_oriented_equivalent,frozen_original,act_shift,-0.4749999999999999,-0.6000000000000001,-0.3499999999999999,48,scenario,
+oss120,GPT-OSS-120B,policy_oriented_equivalent,frozen_original,scenario_tvd,0.5708333333333333,0.4583333333333333,0.6833333333333332,48,scenario,
+oss120,GPT-OSS-120B,policy_oriented_equivalent,frozen_original,scenario_jsd,0.49441261338858483,0.37697008098616774,0.610673087324263,48,scenario,
+oss120,GPT-OSS-120B,policy_oriented_equivalent,frozen_original,modal_disagreement,0.6041666666666666,0.4583333333333333,0.7291666666666666,48,scenario,
+oss120,GPT-OSS-120B,policy_oriented_equivalent,frozen_original,paired_trial_disagreement,0.6166666666666667,0.5041666666666668,0.7208333333333333,48,scenario,
+oss120,GPT-OSS-120B,policy_oriented_equivalent,frozen_original,overall_tvd,0.475,nan,nan,48,descriptive_aggregate,
+oss120,GPT-OSS-120B,policy_oriented_equivalent,frozen_original,overall_jsd,0.22535253108320386,nan,nan,48,descriptive_aggregate,
+oss120,GPT-OSS-120B,policy_oriented_equivalent,frozen_original,scenario_act_correlation,0.2574889703209615,nan,nan,48,not_bootstrapped,
+oss120,GPT-OSS-120B,open_ended,frozen_original,act_shift,0.033333333333333326,-0.05000000000000001,0.11666666666666665,48,scenario,
+oss120,GPT-OSS-120B,open_ended,frozen_original,scenario_tvd,0.27499999999999997,0.17916666666666667,0.37916666666666665,48,scenario,
+oss120,GPT-OSS-120B,open_ended,frozen_original,scenario_jsd,0.23556125906465375,0.14182592213822232,0.33702468194380464,48,scenario,
+oss120,GPT-OSS-120B,open_ended,frozen_original,modal_disagreement,0.2708333333333333,0.14583333333333334,0.3958333333333333,48,scenario,
+oss120,GPT-OSS-120B,open_ended,frozen_original,paired_trial_disagreement,0.29583333333333334,0.19166666666666665,0.4083333333333334,48,scenario,
+oss120,GPT-OSS-120B,open_ended,frozen_original,overall_tvd,0.21250000000000002,nan,nan,48,descriptive_aggregate,
+oss120,GPT-OSS-120B,open_ended,frozen_original,overall_jsd,0.12978017793720337,nan,nan,48,descriptive_aggregate,
+oss120,GPT-OSS-120B,open_ended,frozen_original,scenario_act_correlation,0.789273610901559,nan,nan,48,not_bootstrapped,
+oss20,GPT-OSS-20B,balanced_option_order,frozen_original,act_shift,-0.0375,-0.13333333333333333,0.05833333333333333,48,scenario,
+oss20,GPT-OSS-20B,balanced_option_order,frozen_original,scenario_tvd,0.2833333333333333,0.2041666666666667,0.36666666666666664,48,scenario,
+oss20,GPT-OSS-20B,balanced_option_order,frozen_original,scenario_jsd,0.19243410880321932,0.12978227338166232,0.26222619497887867,48,scenario,
+oss20,GPT-OSS-20B,balanced_option_order,frozen_original,modal_disagreement,0.25,0.125,0.375,48,scenario,
+oss20,GPT-OSS-20B,balanced_option_order,frozen_original,paired_trial_disagreement,0.32916666666666666,0.2416666666666667,0.4166666666666667,48,scenario,
+oss20,GPT-OSS-20B,balanced_option_order,frozen_original,overall_tvd,0.06249999999999997,nan,nan,48,descriptive_aggregate,
+oss20,GPT-OSS-20B,balanced_option_order,frozen_original,overall_jsd,0.004406375630395884,nan,nan,48,descriptive_aggregate,
+oss20,GPT-OSS-20B,balanced_option_order,frozen_original,scenario_act_correlation,0.6463028693531507,nan,nan,48,not_bootstrapped,
+oss20,GPT-OSS-20B,concise_equivalent,frozen_original,act_shift,0.05833333333333334,-0.016666666666666663,0.13749999999999998,48,scenario,
+oss20,GPT-OSS-20B,concise_equivalent,frozen_original,scenario_tvd,0.1875,0.125,0.2541666666666667,48,scenario,
+oss20,GPT-OSS-20B,concise_equivalent,frozen_original,scenario_jsd,0.11617105051996934,0.07435535169405834,0.16367033835050113,48,scenario,
+oss20,GPT-OSS-20B,concise_equivalent,frozen_original,modal_disagreement,0.16666666666666666,0.0625,0.2708333333333333,48,scenario,
+oss20,GPT-OSS-20B,concise_equivalent,frozen_original,paired_trial_disagreement,0.22916666666666666,0.15416666666666667,0.3125,48,scenario,
+oss20,GPT-OSS-20B,concise_equivalent,frozen_original,overall_tvd,0.0625,nan,nan,48,descriptive_aggregate,
+oss20,GPT-OSS-20B,concise_equivalent,frozen_original,overall_jsd,0.0041261066043598756,nan,nan,48,descriptive_aggregate,
+oss20,GPT-OSS-20B,concise_equivalent,frozen_original,scenario_act_correlation,0.7844241837635473,nan,nan,48,not_bootstrapped,
+oss20,GPT-OSS-20B,policy_oriented_equivalent,frozen_original,act_shift,-0.525,-0.6291666666666668,-0.4166666666666667,48,scenario,
+oss20,GPT-OSS-20B,policy_oriented_equivalent,frozen_original,scenario_tvd,0.5666666666666668,0.4666666666666666,0.6666666666666666,48,scenario,
+oss20,GPT-OSS-20B,policy_oriented_equivalent,frozen_original,scenario_jsd,0.4656229770272464,0.3675196547455488,0.5672106723110568,48,scenario,
+oss20,GPT-OSS-20B,policy_oriented_equivalent,frozen_original,modal_disagreement,0.625,0.4791666666666667,0.75,48,scenario,
+oss20,GPT-OSS-20B,policy_oriented_equivalent,frozen_original,paired_trial_disagreement,0.6333333333333333,0.5375,0.7208333333333333,48,scenario,
+oss20,GPT-OSS-20B,policy_oriented_equivalent,frozen_original,overall_tvd,0.525,nan,nan,48,descriptive_aggregate,
+oss20,GPT-OSS-20B,policy_oriented_equivalent,frozen_original,overall_jsd,0.26105028914013473,nan,nan,48,descriptive_aggregate,
+oss20,GPT-OSS-20B,policy_oriented_equivalent,frozen_original,scenario_act_correlation,0.43011066394615066,nan,nan,48,not_bootstrapped,
+oss20,GPT-OSS-20B,open_ended,frozen_original,act_shift,-0.033333333333333326,-0.1125,0.0375,48,scenario,
+oss20,GPT-OSS-20B,open_ended,frozen_original,scenario_tvd,0.29583333333333334,0.19583333333333333,0.4000000000000001,48,scenario,
+oss20,GPT-OSS-20B,open_ended,frozen_original,scenario_jsd,0.24744132320891613,0.15305965115256936,0.35283143602140893,48,scenario,
+oss20,GPT-OSS-20B,open_ended,frozen_original,modal_disagreement,0.2708333333333333,0.14583333333333334,0.3958333333333333,48,scenario,
+oss20,GPT-OSS-20B,open_ended,frozen_original,paired_trial_disagreement,0.30416666666666664,0.20000000000000004,0.4124999999999999,48,scenario,
+oss20,GPT-OSS-20B,open_ended,frozen_original,overall_tvd,0.19166666666666665,nan,nan,48,descriptive_aggregate,
+oss20,GPT-OSS-20B,open_ended,frozen_original,overall_jsd,0.12806630351988418,nan,nan,48,descriptive_aggregate,
+oss20,GPT-OSS-20B,open_ended,frozen_original,scenario_act_correlation,0.8167332359992645,nan,nan,48,not_bootstrapped,
+terra,GPT-5.6 Terra,balanced_option_order,frozen_original,act_shift,-0.1875,-0.30416666666666664,-0.075,48,scenario,
+terra,GPT-5.6 Terra,balanced_option_order,frozen_original,scenario_tvd,0.2625,0.15416666666666667,0.3833333333333333,48,scenario,
+terra,GPT-5.6 Terra,balanced_option_order,frozen_original,scenario_jsd,0.23517245166663617,0.13210482271906557,0.3486595107497214,48,scenario,
+terra,GPT-5.6 Terra,balanced_option_order,frozen_original,modal_disagreement,0.2708333333333333,0.14583333333333334,0.3958333333333333,48,scenario,
+terra,GPT-5.6 Terra,balanced_option_order,frozen_original,paired_trial_disagreement,0.2708333333333333,0.15833333333333335,0.3875,48,scenario,
+terra,GPT-5.6 Terra,balanced_option_order,frozen_original,overall_tvd,0.21250000000000002,nan,nan,48,descriptive_aggregate,
+terra,GPT-5.6 Terra,balanced_option_order,frozen_original,overall_jsd,0.04013358386824724,nan,nan,48,descriptive_aggregate,
+terra,GPT-5.6 Terra,balanced_option_order,frozen_original,scenario_act_correlation,0.6349330047569048,nan,nan,48,not_bootstrapped,
+terra,GPT-5.6 Terra,concise_equivalent,frozen_original,act_shift,-0.12916666666666665,-0.22499999999999998,-0.04583333333333334,48,scenario,
+terra,GPT-5.6 Terra,concise_equivalent,frozen_original,scenario_tvd,0.14166666666666666,0.05833333333333333,0.24166666666666667,48,scenario,
+terra,GPT-5.6 Terra,concise_equivalent,frozen_original,scenario_jsd,0.12443422378621333,0.04624943945879115,0.21749887891758232,48,scenario,
+terra,GPT-5.6 Terra,concise_equivalent,frozen_original,modal_disagreement,0.14583333333333334,0.0625,0.25,48,scenario,
+terra,GPT-5.6 Terra,concise_equivalent,frozen_original,paired_trial_disagreement,0.16666666666666666,0.07916666666666666,0.2625,48,scenario,
+terra,GPT-5.6 Terra,concise_equivalent,frozen_original,overall_tvd,0.1416666666666667,nan,nan,48,descriptive_aggregate,
+terra,GPT-5.6 Terra,concise_equivalent,frozen_original,overall_jsd,0.01883499232485371,nan,nan,48,descriptive_aggregate,
+terra,GPT-5.6 Terra,concise_equivalent,frozen_original,scenario_act_correlation,0.7892230086818883,nan,nan,48,not_bootstrapped,
+terra,GPT-5.6 Terra,policy_oriented_equivalent,frozen_original,act_shift,-0.3,-0.4166666666666667,-0.1875,48,scenario,
+terra,GPT-5.6 Terra,policy_oriented_equivalent,frozen_original,scenario_tvd,0.325,0.21250000000000002,0.44166666666666665,48,scenario,
+terra,GPT-5.6 Terra,policy_oriented_equivalent,frozen_original,scenario_jsd,0.2819979511754802,0.1757688477527831,0.39792618425612325,48,scenario,
+terra,GPT-5.6 Terra,policy_oriented_equivalent,frozen_original,modal_disagreement,0.2916666666666667,0.16666666666666666,0.4166666666666667,48,scenario,
+terra,GPT-5.6 Terra,policy_oriented_equivalent,frozen_original,paired_trial_disagreement,0.325,0.21250000000000002,0.4458333333333333,48,scenario,
+terra,GPT-5.6 Terra,policy_oriented_equivalent,frozen_original,overall_tvd,0.30833333333333335,nan,nan,48,descriptive_aggregate,
+terra,GPT-5.6 Terra,policy_oriented_equivalent,frozen_original,overall_jsd,0.07985571933958369,nan,nan,48,descriptive_aggregate,
+terra,GPT-5.6 Terra,policy_oriented_equivalent,frozen_original,scenario_act_correlation,0.593909546032241,nan,nan,48,not_bootstrapped,
+terra,GPT-5.6 Terra,open_ended,frozen_original,act_shift,-0.0375,-0.12916666666666668,0.04583333333333334,48,scenario,
+terra,GPT-5.6 Terra,open_ended,frozen_original,scenario_tvd,0.2833333333333333,0.17916666666666667,0.3958333333333333,48,scenario,
+terra,GPT-5.6 Terra,open_ended,frozen_original,scenario_jsd,0.2390442342272554,0.1426113474635786,0.34329251077590867,48,scenario,
+terra,GPT-5.6 Terra,open_ended,frozen_original,modal_disagreement,0.2916666666666667,0.16666666666666666,0.4166666666666667,48,scenario,
+terra,GPT-5.6 Terra,open_ended,frozen_original,paired_trial_disagreement,0.2916666666666667,0.1875,0.4083333333333334,48,scenario,
+terra,GPT-5.6 Terra,open_ended,frozen_original,overall_tvd,0.19166666666666665,nan,nan,48,descriptive_aggregate,
+terra,GPT-5.6 Terra,open_ended,frozen_original,overall_jsd,0.11195214773882903,nan,nan,48,descriptive_aggregate,
+terra,GPT-5.6 Terra,open_ended,frozen_original,scenario_act_correlation,0.7727291651010425,nan,nan,48,not_bootstrapped,
+luna,GPT-5.6 Luna,balanced_option_order,frozen_original,act_shift,-0.012499999999999999,-0.05833333333333333,0.03333333333333333,48,scenario,
+luna,GPT-5.6 Luna,balanced_option_order,frozen_original,scenario_tvd,0.07916666666666666,0.0375,0.12916666666666665,48,scenario,
+luna,GPT-5.6 Luna,balanced_option_order,frozen_original,scenario_jsd,0.045433915462903686,0.01917085717965373,0.07696640085653032,48,scenario,
+luna,GPT-5.6 Luna,balanced_option_order,frozen_original,modal_disagreement,0.08333333333333333,0.020833333333333332,0.16666666666666666,48,scenario,
+luna,GPT-5.6 Luna,balanced_option_order,frozen_original,paired_trial_disagreement,0.13333333333333333,0.07083333333333335,0.2041666666666667,48,scenario,
+luna,GPT-5.6 Luna,balanced_option_order,frozen_original,overall_tvd,0.037499999999999964,nan,nan,48,descriptive_aggregate,
+luna,GPT-5.6 Luna,balanced_option_order,frozen_original,overall_jsd,0.0018890235986183269,nan,nan,48,descriptive_aggregate,
+luna,GPT-5.6 Luna,balanced_option_order,frozen_original,scenario_act_correlation,0.9361886993455562,nan,nan,48,not_bootstrapped,
+luna,GPT-5.6 Luna,concise_equivalent,frozen_original,act_shift,-0.004166666666666669,-0.0625,0.049999999999999996,48,scenario,
+luna,GPT-5.6 Luna,concise_equivalent,frozen_original,scenario_tvd,0.08750000000000001,0.03333333333333333,0.15,48,scenario,
+luna,GPT-5.6 Luna,concise_equivalent,frozen_original,scenario_jsd,0.05398363734708048,0.017935441538788847,0.09908565827000802,48,scenario,
+luna,GPT-5.6 Luna,concise_equivalent,frozen_original,modal_disagreement,0.14583333333333334,0.0625,0.25,48,scenario,
+luna,GPT-5.6 Luna,concise_equivalent,frozen_original,paired_trial_disagreement,0.12083333333333335,0.05416666666666667,0.19583333333333333,48,scenario,
+luna,GPT-5.6 Luna,concise_equivalent,frozen_original,overall_tvd,0.02916666666666666,nan,nan,48,descriptive_aggregate,
+luna,GPT-5.6 Luna,concise_equivalent,frozen_original,overall_jsd,0.001494127478372076,nan,nan,48,descriptive_aggregate,
+luna,GPT-5.6 Luna,concise_equivalent,frozen_original,scenario_act_correlation,0.9105873171698615,nan,nan,48,not_bootstrapped,
+luna,GPT-5.6 Luna,policy_oriented_equivalent,frozen_original,act_shift,-0.08333333333333333,-0.14583333333333334,-0.029062500000009088,48,scenario,
+luna,GPT-5.6 Luna,policy_oriented_equivalent,frozen_original,scenario_tvd,0.1125,0.05416666666666666,0.17916666666666667,48,scenario,
+luna,GPT-5.6 Luna,policy_oriented_equivalent,frozen_original,scenario_jsd,0.07051502991734997,0.03056203623212661,0.11752463105819518,48,scenario,
+luna,GPT-5.6 Luna,policy_oriented_equivalent,frozen_original,modal_disagreement,0.125,0.041666666666666664,0.22916666666666666,48,scenario,
+luna,GPT-5.6 Luna,policy_oriented_equivalent,frozen_original,paired_trial_disagreement,0.13749999999999998,0.07500000000000001,0.2041666666666667,48,scenario,
+luna,GPT-5.6 Luna,policy_oriented_equivalent,frozen_original,overall_tvd,0.0833333333333333,nan,nan,48,descriptive_aggregate,
+luna,GPT-5.6 Luna,policy_oriented_equivalent,frozen_original,overall_jsd,0.006262188635015345,nan,nan,48,descriptive_aggregate,
+luna,GPT-5.6 Luna,policy_oriented_equivalent,frozen_original,scenario_act_correlation,0.8944206498364474,nan,nan,48,not_bootstrapped,
+luna,GPT-5.6 Luna,open_ended,frozen_original,act_shift,0.012499999999999997,-0.037500000000000006,0.06249999999999999,48,scenario,
+luna,GPT-5.6 Luna,open_ended,frozen_original,scenario_tvd,0.21666666666666665,0.125,0.31666666666666665,48,scenario,
+luna,GPT-5.6 Luna,open_ended,frozen_original,scenario_jsd,0.17859221104982057,0.09459424782736818,0.2708079842460895,48,scenario,
+luna,GPT-5.6 Luna,open_ended,frozen_original,modal_disagreement,0.20833333333333334,0.10416666666666667,0.3333333333333333,48,scenario,
+luna,GPT-5.6 Luna,open_ended,frozen_original,paired_trial_disagreement,0.24583333333333335,0.14583333333333334,0.3541666666666667,48,scenario,
+luna,GPT-5.6 Luna,open_ended,frozen_original,overall_tvd,0.1333333333333334,nan,nan,48,descriptive_aggregate,
+luna,GPT-5.6 Luna,open_ended,frozen_original,overall_jsd,0.07047467612483638,nan,nan,48,descriptive_aggregate,
+luna,GPT-5.6 Luna,open_ended,frozen_original,scenario_act_correlation,0.9316740959358926,nan,nan,48,not_bootstrapped,
+sonnet,Claude Sonnet 5,balanced_option_order,frozen_original,act_shift,-0.10833333333333334,-0.19583333333333333,-0.03333333333333333,48,scenario,
+sonnet,Claude Sonnet 5,balanced_option_order,frozen_original,scenario_tvd,0.125,0.04583333333333334,0.21666666666666667,48,scenario,
+sonnet,Claude Sonnet 5,balanced_option_order,frozen_original,scenario_jsd,0.11146430193374945,0.038123108222328804,0.1989177364403302,48,scenario,
+sonnet,Claude Sonnet 5,balanced_option_order,frozen_original,modal_disagreement,0.125,0.041666666666666664,0.22916666666666666,48,scenario,
+sonnet,Claude Sonnet 5,balanced_option_order,frozen_original,paired_trial_disagreement,0.125,0.04583333333333334,0.21666666666666667,48,scenario,
+sonnet,Claude Sonnet 5,balanced_option_order,frozen_original,overall_tvd,0.125,nan,nan,48,descriptive_aggregate,
+sonnet,Claude Sonnet 5,balanced_option_order,frozen_original,overall_jsd,0.012357538798175003,nan,nan,48,descriptive_aggregate,
+sonnet,Claude Sonnet 5,balanced_option_order,frozen_original,scenario_act_correlation,0.8256206948438691,nan,nan,48,not_bootstrapped,
+sonnet,Claude Sonnet 5,concise_equivalent,frozen_original,act_shift,-0.09583333333333333,-0.18333333333333335,-0.020833333333333332,48,scenario,
+sonnet,Claude Sonnet 5,concise_equivalent,frozen_original,scenario_tvd,0.1125,0.03333333333333333,0.2041666666666667,48,scenario,
+sonnet,Claude Sonnet 5,concise_equivalent,frozen_original,scenario_jsd,0.10428754477113221,0.029200369812868835,0.19220365089659,48,scenario,
+sonnet,Claude Sonnet 5,concise_equivalent,frozen_original,modal_disagreement,0.125,0.041666666666666664,0.22916666666666666,48,scenario,
+sonnet,Claude Sonnet 5,concise_equivalent,frozen_original,paired_trial_disagreement,0.1125,0.03333333333333333,0.2041666666666667,48,scenario,
+sonnet,Claude Sonnet 5,concise_equivalent,frozen_original,overall_tvd,0.11249999999999999,nan,nan,48,descriptive_aggregate,
+sonnet,Claude Sonnet 5,concise_equivalent,frozen_original,overall_jsd,0.011382385090775696,nan,nan,48,descriptive_aggregate,
+sonnet,Claude Sonnet 5,concise_equivalent,frozen_original,scenario_act_correlation,0.8322884808997515,nan,nan,48,not_bootstrapped,
+sonnet,Claude Sonnet 5,policy_oriented_equivalent,frozen_original,act_shift,-0.11666666666666665,-0.2125,-0.041666666666666664,48,scenario,
+sonnet,Claude Sonnet 5,policy_oriented_equivalent,frozen_original,scenario_tvd,0.15416666666666667,0.0625,0.2583333333333333,48,scenario,
+sonnet,Claude Sonnet 5,policy_oriented_equivalent,frozen_original,scenario_jsd,0.14595421143779888,0.054492575881249485,0.24578288347388352,48,scenario,
+sonnet,Claude Sonnet 5,policy_oriented_equivalent,frozen_original,modal_disagreement,0.16666666666666666,0.0625,0.2708333333333333,48,scenario,
+sonnet,Claude Sonnet 5,policy_oriented_equivalent,frozen_original,paired_trial_disagreement,0.15416666666666667,0.0625,0.25833333333333336,48,scenario,
+sonnet,Claude Sonnet 5,policy_oriented_equivalent,frozen_original,overall_tvd,0.15416666666666667,nan,nan,48,descriptive_aggregate,
+sonnet,Claude Sonnet 5,policy_oriented_equivalent,frozen_original,overall_jsd,0.027832305942848055,nan,nan,48,descriptive_aggregate,
+sonnet,Claude Sonnet 5,policy_oriented_equivalent,frozen_original,scenario_act_correlation,0.7983030666378168,nan,nan,48,not_bootstrapped,
+sonnet,Claude Sonnet 5,open_ended,frozen_original,act_shift,-0.0625,-0.14583333333333334,0.016666666666666666,48,scenario,
+sonnet,Claude Sonnet 5,open_ended,frozen_original,scenario_tvd,0.3208333333333333,0.2041666666666667,0.4416666666666667,48,scenario,
+sonnet,Claude Sonnet 5,open_ended,frozen_original,scenario_jsd,0.28295549760147165,0.17396430193374945,0.40090142941960455,48,scenario,
+sonnet,Claude Sonnet 5,open_ended,frozen_original,modal_disagreement,0.3333333333333333,0.20833333333333334,0.4583333333333333,48,scenario,
+sonnet,Claude Sonnet 5,open_ended,frozen_original,paired_trial_disagreement,0.3208333333333333,0.2041666666666667,0.4416666666666667,48,scenario,
+sonnet,Claude Sonnet 5,open_ended,frozen_original,overall_tvd,0.22500000000000003,nan,nan,48,descriptive_aggregate,
+sonnet,Claude Sonnet 5,open_ended,frozen_original,overall_jsd,0.12645947144321368,nan,nan,48,descriptive_aggregate,
+sonnet,Claude Sonnet 5,open_ended,frozen_original,scenario_act_correlation,0.8203922563099055,nan,nan,48,not_bootstrapped,
+opus,Claude Opus 4.8,balanced_option_order,frozen_original,act_shift,-0.020833333333333332,-0.05833333333333333,0.008333333333333333,48,scenario,
+opus,Claude Opus 4.8,balanced_option_order,frozen_original,scenario_tvd,0.10416666666666667,0.041666666666666664,0.1791666666666667,48,scenario,
+opus,Claude Opus 4.8,balanced_option_order,frozen_original,scenario_jsd,0.08147570685243337,0.026636781859446165,0.14985032991167113,48,scenario,
+opus,Claude Opus 4.8,balanced_option_order,frozen_original,modal_disagreement,0.08333333333333333,0.020833333333333332,0.16666666666666666,48,scenario,
+opus,Claude Opus 4.8,balanced_option_order,frozen_original,paired_trial_disagreement,0.10416666666666667,0.041666666666666664,0.1791666666666667,48,scenario,
+opus,Claude Opus 4.8,balanced_option_order,frozen_original,overall_tvd,0.03333333333333329,nan,nan,48,descriptive_aggregate,
+opus,Claude Opus 4.8,balanced_option_order,frozen_original,overall_jsd,0.0012133366848620848,nan,nan,48,descriptive_aggregate,
+opus,Claude Opus 4.8,balanced_option_order,frozen_original,scenario_act_correlation,0.970158570101785,nan,nan,48,not_bootstrapped,
+opus,Claude Opus 4.8,concise_equivalent,frozen_original,act_shift,-0.008333333333333333,-0.041666666666666664,0.016666666666666666,48,scenario,
+opus,Claude Opus 4.8,concise_equivalent,frozen_original,scenario_tvd,0.07083333333333335,0.029166666666666664,0.12083333333333333,48,scenario,
+opus,Claude Opus 4.8,concise_equivalent,frozen_original,scenario_jsd,0.04542489214489939,0.017718709073000518,0.08082884936480107,48,scenario,
+opus,Claude Opus 4.8,concise_equivalent,frozen_original,modal_disagreement,0.041666666666666664,0.0,0.10416666666666667,48,scenario,
+opus,Claude Opus 4.8,concise_equivalent,frozen_original,paired_trial_disagreement,0.075,0.03333333333333333,0.12916666666666668,48,scenario,
+opus,Claude Opus 4.8,concise_equivalent,frozen_original,overall_tvd,0.01666666666666665,nan,nan,48,descriptive_aggregate,
+opus,Claude Opus 4.8,concise_equivalent,frozen_original,overall_jsd,0.0003505966794059797,nan,nan,48,descriptive_aggregate,
+opus,Claude Opus 4.8,concise_equivalent,frozen_original,scenario_act_correlation,0.9747981928855367,nan,nan,48,not_bootstrapped,
+opus,Claude Opus 4.8,policy_oriented_equivalent,frozen_original,act_shift,0.041666666666666664,-1.1564823173178713e-18,0.09999999999999999,48,scenario,
+opus,Claude Opus 4.8,policy_oriented_equivalent,frozen_original,scenario_tvd,0.125,0.049895833333333424,0.21666666666666667,48,scenario,
+opus,Claude Opus 4.8,policy_oriented_equivalent,frozen_original,scenario_jsd,0.11206949788261052,0.03639723955628998,0.20292291553768718,48,scenario,
+opus,Claude Opus 4.8,policy_oriented_equivalent,frozen_original,modal_disagreement,0.125,0.041666666666666664,0.22916666666666666,48,scenario,
+opus,Claude Opus 4.8,policy_oriented_equivalent,frozen_original,paired_trial_disagreement,0.125,0.04583333333333334,0.21666666666666667,48,scenario,
+opus,Claude Opus 4.8,policy_oriented_equivalent,frozen_original,overall_tvd,0.0791666666666667,nan,nan,48,descriptive_aggregate,
+opus,Claude Opus 4.8,policy_oriented_equivalent,frozen_original,overall_jsd,0.007386716709076284,nan,nan,48,descriptive_aggregate,
+opus,Claude Opus 4.8,policy_oriented_equivalent,frozen_original,scenario_act_correlation,0.9304051630943667,nan,nan,48,not_bootstrapped,
+opus,Claude Opus 4.8,open_ended,frozen_original,act_shift,-0.020833333333333332,-0.06666666666666667,0.029166666666666674,48,scenario,
+opus,Claude Opus 4.8,open_ended,frozen_original,scenario_tvd,0.2583333333333333,0.15416666666666665,0.375,48,scenario,
+opus,Claude Opus 4.8,open_ended,frozen_original,scenario_jsd,0.2274443142821639,0.12676062277809888,0.33754159910903087,48,scenario,
+opus,Claude Opus 4.8,open_ended,frozen_original,modal_disagreement,0.20833333333333334,0.10416666666666667,0.3333333333333333,48,scenario,
+opus,Claude Opus 4.8,open_ended,frozen_original,paired_trial_disagreement,0.26666666666666666,0.15833333333333333,0.3833333333333333,48,scenario,
+opus,Claude Opus 4.8,open_ended,frozen_original,overall_tvd,0.18749999999999994,nan,nan,48,descriptive_aggregate,
+opus,Claude Opus 4.8,open_ended,frozen_original,overall_jsd,0.11664270246864236,nan,nan,48,descriptive_aggregate,
+opus,Claude Opus 4.8,open_ended,frozen_original,scenario_act_correlation,0.933005159934146,nan,nan,48,not_bootstrapped,
+flash,Gemini 3.6 Flash,balanced_option_order,frozen_original,act_shift,-0.10833333333333334,-0.1875,-0.041666666666666664,48,scenario,
+flash,Gemini 3.6 Flash,balanced_option_order,frozen_original,scenario_tvd,0.13749999999999998,0.06666666666666667,0.22083333333333335,48,scenario,
+flash,Gemini 3.6 Flash,balanced_option_order,frozen_original,scenario_jsd,0.10693991211602503,0.047370480673640795,0.1783254596519947,48,scenario,
+flash,Gemini 3.6 Flash,balanced_option_order,frozen_original,modal_disagreement,0.125,0.041666666666666664,0.22916666666666666,48,scenario,
+flash,Gemini 3.6 Flash,balanced_option_order,frozen_original,paired_trial_disagreement,0.14583333333333334,0.07083333333333333,0.23333333333333336,48,scenario,
+flash,Gemini 3.6 Flash,balanced_option_order,frozen_original,overall_tvd,0.12916666666666668,nan,nan,48,descriptive_aggregate,
+flash,Gemini 3.6 Flash,balanced_option_order,frozen_original,overall_jsd,0.014100339366979329,nan,nan,48,descriptive_aggregate,
+flash,Gemini 3.6 Flash,balanced_option_order,frozen_original,scenario_act_correlation,0.8586241801283102,nan,nan,48,not_bootstrapped,
+flash,Gemini 3.6 Flash,concise_equivalent,frozen_original,act_shift,-0.05833333333333333,-0.12083333333333335,-0.008333333333333331,48,scenario,
+flash,Gemini 3.6 Flash,concise_equivalent,frozen_original,scenario_tvd,0.10416666666666667,0.041666666666666664,0.17916666666666667,48,scenario,
+flash,Gemini 3.6 Flash,concise_equivalent,frozen_original,scenario_jsd,0.08105092132391613,0.026251416066003314,0.15141177937802427,48,scenario,
+flash,Gemini 3.6 Flash,concise_equivalent,frozen_original,modal_disagreement,0.08333333333333333,0.020833333333333332,0.16666666666666666,48,scenario,
+flash,Gemini 3.6 Flash,concise_equivalent,frozen_original,paired_trial_disagreement,0.10416666666666667,0.041666666666666664,0.1791666666666667,48,scenario,
+flash,Gemini 3.6 Flash,concise_equivalent,frozen_original,overall_tvd,0.09166666666666667,nan,nan,48,descriptive_aggregate,
+flash,Gemini 3.6 Flash,concise_equivalent,frozen_original,overall_jsd,0.006522894226784391,nan,nan,48,descriptive_aggregate,
+flash,Gemini 3.6 Flash,concise_equivalent,frozen_original,scenario_act_correlation,0.9122131335456507,nan,nan,48,not_bootstrapped,
+flash,Gemini 3.6 Flash,policy_oriented_equivalent,frozen_original,act_shift,-0.1708333333333333,-0.275,-0.075,48,scenario,
+flash,Gemini 3.6 Flash,policy_oriented_equivalent,frozen_original,scenario_tvd,0.22083333333333335,0.11666666666666665,0.3333333333333333,48,scenario,
+flash,Gemini 3.6 Flash,policy_oriented_equivalent,frozen_original,scenario_jsd,0.19471617689769163,0.09967458511434162,0.30232533387302113,48,scenario,
+flash,Gemini 3.6 Flash,policy_oriented_equivalent,frozen_original,modal_disagreement,0.22916666666666666,0.125,0.3541666666666667,48,scenario,
+flash,Gemini 3.6 Flash,policy_oriented_equivalent,frozen_original,paired_trial_disagreement,0.22083333333333335,0.11666666666666668,0.3333333333333333,48,scenario,
+flash,Gemini 3.6 Flash,policy_oriented_equivalent,frozen_original,overall_tvd,0.1708333333333333,nan,nan,48,descriptive_aggregate,
+flash,Gemini 3.6 Flash,policy_oriented_equivalent,frozen_original,overall_jsd,0.02481669180526736,nan,nan,48,descriptive_aggregate,
+flash,Gemini 3.6 Flash,policy_oriented_equivalent,frozen_original,scenario_act_correlation,0.7219453725618181,nan,nan,48,not_bootstrapped,
+flash,Gemini 3.6 Flash,open_ended,frozen_original,act_shift,0.09166666666666666,0.016666666666666666,0.17916666666666667,48,scenario,
+flash,Gemini 3.6 Flash,open_ended,frozen_original,scenario_tvd,0.23750000000000002,0.13749999999999998,0.3458333333333334,48,scenario,
+flash,Gemini 3.6 Flash,open_ended,frozen_original,scenario_jsd,0.2089488131184606,0.11276898775866775,0.31457224845543846,48,scenario,
+flash,Gemini 3.6 Flash,open_ended,frozen_original,modal_disagreement,0.20833333333333334,0.10416666666666667,0.3333333333333333,48,scenario,
+flash,Gemini 3.6 Flash,open_ended,frozen_original,paired_trial_disagreement,0.25,0.14583333333333334,0.36250000000000004,48,scenario,
+flash,Gemini 3.6 Flash,open_ended,frozen_original,overall_tvd,0.20416666666666666,nan,nan,48,descriptive_aggregate,
+flash,Gemini 3.6 Flash,open_ended,frozen_original,overall_jsd,0.08004939389254777,nan,nan,48,descriptive_aggregate,
+flash,Gemini 3.6 Flash,open_ended,frozen_original,scenario_act_correlation,0.8236942448649807,nan,nan,48,not_bootstrapped,
+flashlite,Gemini 3.5 Flash-Lite,balanced_option_order,frozen_original,act_shift,-0.0625,-0.125,1.1564823173178713e-18,48,scenario,
+flashlite,Gemini 3.5 Flash-Lite,balanced_option_order,frozen_original,scenario_tvd,0.12083333333333333,0.06666666666666667,0.1791666666666667,48,scenario,
+flashlite,Gemini 3.5 Flash-Lite,balanced_option_order,frozen_original,scenario_jsd,0.06661629254423536,0.03382955520028656,0.10511425797684656,48,scenario,
+flashlite,Gemini 3.5 Flash-Lite,balanced_option_order,frozen_original,modal_disagreement,0.125,0.041666666666666664,0.22916666666666666,48,scenario,
+flashlite,Gemini 3.5 Flash-Lite,balanced_option_order,frozen_original,paired_trial_disagreement,0.1375,0.07916666666666668,0.20000000000000004,48,scenario,
+flashlite,Gemini 3.5 Flash-Lite,balanced_option_order,frozen_original,overall_tvd,0.07499999999999998,nan,nan,48,descriptive_aggregate,
+flashlite,Gemini 3.5 Flash-Lite,balanced_option_order,frozen_original,overall_jsd,0.00416250930633935,nan,nan,48,descriptive_aggregate,
+flashlite,Gemini 3.5 Flash-Lite,balanced_option_order,frozen_original,scenario_act_correlation,0.8818716333543537,nan,nan,48,not_bootstrapped,
+flashlite,Gemini 3.5 Flash-Lite,concise_equivalent,frozen_original,act_shift,0.09166666666666667,0.020833333333333332,0.17083333333333336,48,scenario,
+flashlite,Gemini 3.5 Flash-Lite,concise_equivalent,frozen_original,scenario_tvd,0.15,0.07916666666666666,0.22916666666666666,48,scenario,
+flashlite,Gemini 3.5 Flash-Lite,concise_equivalent,frozen_original,scenario_jsd,0.09985604650054336,0.04669171866886993,0.16348701648810898,48,scenario,
+flashlite,Gemini 3.5 Flash-Lite,concise_equivalent,frozen_original,modal_disagreement,0.14583333333333334,0.0625,0.25,48,scenario,
+flashlite,Gemini 3.5 Flash-Lite,concise_equivalent,frozen_original,paired_trial_disagreement,0.15833333333333333,0.08750000000000001,0.24166666666666667,48,scenario,
+flashlite,Gemini 3.5 Flash-Lite,concise_equivalent,frozen_original,overall_tvd,0.10416666666666666,nan,nan,48,descriptive_aggregate,
+flashlite,Gemini 3.5 Flash-Lite,concise_equivalent,frozen_original,overall_jsd,0.008517291168111297,nan,nan,48,descriptive_aggregate,
+flashlite,Gemini 3.5 Flash-Lite,concise_equivalent,frozen_original,scenario_act_correlation,0.8354804721899782,nan,nan,48,not_bootstrapped,
+flashlite,Gemini 3.5 Flash-Lite,policy_oriented_equivalent,frozen_original,act_shift,0.0375,-0.012499999999999997,0.09583333333333334,48,scenario,
+flashlite,Gemini 3.5 Flash-Lite,policy_oriented_equivalent,frozen_original,scenario_tvd,0.1375,0.07083333333333335,0.2125,48,scenario,
+flashlite,Gemini 3.5 Flash-Lite,policy_oriented_equivalent,frozen_original,scenario_jsd,0.0946088893586244,0.045993488258151465,0.15033453339559288,48,scenario,
+flashlite,Gemini 3.5 Flash-Lite,policy_oriented_equivalent,frozen_original,modal_disagreement,0.10416666666666667,0.020833333333333332,0.1875,48,scenario,
+flashlite,Gemini 3.5 Flash-Lite,policy_oriented_equivalent,frozen_original,paired_trial_disagreement,0.15416666666666667,0.07916666666666668,0.23333333333333336,48,scenario,
+flashlite,Gemini 3.5 Flash-Lite,policy_oriented_equivalent,frozen_original,overall_tvd,0.11666666666666667,nan,nan,48,descriptive_aggregate,
+flashlite,Gemini 3.5 Flash-Lite,policy_oriented_equivalent,frozen_original,overall_jsd,0.015462096871014052,nan,nan,48,descriptive_aggregate,
+flashlite,Gemini 3.5 Flash-Lite,policy_oriented_equivalent,frozen_original,scenario_act_correlation,0.9185671815941803,nan,nan,48,not_bootstrapped,
+flashlite,Gemini 3.5 Flash-Lite,open_ended,frozen_original,act_shift,0.23750000000000002,0.13333333333333333,0.35000000000000003,48,scenario,
+flashlite,Gemini 3.5 Flash-Lite,open_ended,frozen_original,scenario_tvd,0.4458333333333333,0.32083333333333336,0.5708333333333333,48,scenario,
+flashlite,Gemini 3.5 Flash-Lite,open_ended,frozen_original,scenario_jsd,0.40351793882706577,0.2831990093430274,0.5267104688769139,48,scenario,
+flashlite,Gemini 3.5 Flash-Lite,open_ended,frozen_original,modal_disagreement,0.4375,0.2916666666666667,0.5833333333333334,48,scenario,
+flashlite,Gemini 3.5 Flash-Lite,open_ended,frozen_original,paired_trial_disagreement,0.44583333333333336,0.32083333333333336,0.575,48,scenario,
+flashlite,Gemini 3.5 Flash-Lite,open_ended,frozen_original,overall_tvd,0.44166666666666665,nan,nan,48,descriptive_aggregate,
+flashlite,Gemini 3.5 Flash-Lite,open_ended,frozen_original,overall_jsd,0.26779894851838776,nan,nan,48,descriptive_aggregate,
+flashlite,Gemini 3.5 Flash-Lite,open_ended,frozen_original,scenario_act_correlation,0.6586110512384733,nan,nan,48,not_bootstrapped,
+qwen,Qwen 3.6 27B,balanced_option_order,frozen_original,act_shift,-0.01666666666666666,-0.07916666666666665,0.04583333333333334,48,scenario,
+qwen,Qwen 3.6 27B,balanced_option_order,frozen_original,scenario_tvd,0.2333333333333333,0.17500000000000002,0.29583333333333334,48,scenario,
+qwen,Qwen 3.6 27B,balanced_option_order,frozen_original,scenario_jsd,0.13926406438267364,0.10104371106902918,0.1807059409793067,48,scenario,
+qwen,Qwen 3.6 27B,balanced_option_order,frozen_original,modal_disagreement,0.16666666666666666,0.0625,0.2708333333333333,48,scenario,
+qwen,Qwen 3.6 27B,balanced_option_order,frozen_original,paired_trial_disagreement,0.3583333333333334,0.27499999999999997,0.4458333333333333,48,scenario,
+qwen,Qwen 3.6 27B,balanced_option_order,frozen_original,overall_tvd,0.08333333333333334,nan,nan,48,descriptive_aggregate,
+qwen,Qwen 3.6 27B,balanced_option_order,frozen_original,overall_jsd,0.013668228643540857,nan,nan,48,descriptive_aggregate,
+qwen,Qwen 3.6 27B,balanced_option_order,frozen_original,scenario_act_correlation,0.8544772299892494,nan,nan,48,not_bootstrapped,
+qwen,Qwen 3.6 27B,concise_equivalent,frozen_original,act_shift,0.08333333333333333,0.012499999999999999,0.15416666666666667,48,scenario,
+qwen,Qwen 3.6 27B,concise_equivalent,frozen_original,scenario_tvd,0.22499999999999998,0.15833333333333333,0.3,48,scenario,
+qwen,Qwen 3.6 27B,concise_equivalent,frozen_original,scenario_jsd,0.14941264164764534,0.09697996154344893,0.21037944455902688,48,scenario,
+qwen,Qwen 3.6 27B,concise_equivalent,frozen_original,modal_disagreement,0.20833333333333334,0.10416666666666667,0.3333333333333333,48,scenario,
+qwen,Qwen 3.6 27B,concise_equivalent,frozen_original,paired_trial_disagreement,0.31666666666666665,0.225,0.41250000000000003,48,scenario,
+qwen,Qwen 3.6 27B,concise_equivalent,frozen_original,overall_tvd,0.15416666666666667,nan,nan,48,descriptive_aggregate,
+qwen,Qwen 3.6 27B,concise_equivalent,frozen_original,overall_jsd,0.026733136261759893,nan,nan,48,descriptive_aggregate,
+qwen,Qwen 3.6 27B,concise_equivalent,frozen_original,scenario_act_correlation,0.8088394527291464,nan,nan,48,not_bootstrapped,
+qwen,Qwen 3.6 27B,policy_oriented_equivalent,frozen_original,act_shift,0.07916666666666668,3.4405348940206937e-18,0.1625,48,scenario,
+qwen,Qwen 3.6 27B,policy_oriented_equivalent,frozen_original,scenario_tvd,0.2541666666666667,0.18333333333333335,0.32916666666666666,48,scenario,
+qwen,Qwen 3.6 27B,policy_oriented_equivalent,frozen_original,scenario_jsd,0.17488437697281814,0.11576812635140775,0.24194247853461834,48,scenario,
+qwen,Qwen 3.6 27B,policy_oriented_equivalent,frozen_original,modal_disagreement,0.1875,0.08333333333333333,0.3125,48,scenario,
+qwen,Qwen 3.6 27B,policy_oriented_equivalent,frozen_original,paired_trial_disagreement,0.35000000000000003,0.25416666666666665,0.45,48,scenario,
+qwen,Qwen 3.6 27B,policy_oriented_equivalent,frozen_original,overall_tvd,0.10833333333333335,nan,nan,48,descriptive_aggregate,
+qwen,Qwen 3.6 27B,policy_oriented_equivalent,frozen_original,overall_jsd,0.012476489074936776,nan,nan,48,descriptive_aggregate,
+qwen,Qwen 3.6 27B,policy_oriented_equivalent,frozen_original,scenario_act_correlation,0.7429459918059793,nan,nan,48,not_bootstrapped,
+qwen,Qwen 3.6 27B,open_ended,frozen_original,act_shift,-0.17500000000000002,-0.2625,-0.08750000000000001,48,scenario,
+qwen,Qwen 3.6 27B,open_ended,frozen_original,scenario_tvd,0.6416666666666666,0.5625000000000001,0.7166666666666667,48,scenario,
+qwen,Qwen 3.6 27B,open_ended,frozen_original,scenario_jsd,0.5384189256975905,0.4562074803085717,0.6224933748054239,48,scenario,
+qwen,Qwen 3.6 27B,open_ended,frozen_original,modal_disagreement,0.6875,0.5625,0.8125,48,scenario,
+qwen,Qwen 3.6 27B,open_ended,frozen_original,paired_trial_disagreement,0.6958333333333334,0.6124999999999999,0.775,48,scenario,
+qwen,Qwen 3.6 27B,open_ended,frozen_original,overall_tvd,0.5916666666666667,nan,nan,48,descriptive_aggregate,
+qwen,Qwen 3.6 27B,open_ended,frozen_original,overall_jsd,0.45226469412903186,nan,nan,48,descriptive_aggregate,
+qwen,Qwen 3.6 27B,open_ended,frozen_original,scenario_act_correlation,0.6519008313645718,nan,nan,48,not_bootstrapped,
+sol,GPT-5.6 Sol,balanced_option_order,frozen_original,panel_four_way_agreement,0.044444444444444446,0.008888888888888885,0.08888888888888889,45,scenario,retained_primary
+sol,GPT-5.6 Sol,balanced_option_order,frozen_original,panel_binary_agreement,0.044444444444444446,0.008888888888888884,0.08888888888888889,45,scenario,retained_primary
+sol,GPT-5.6 Sol,balanced_option_order,frozen_original,panel_under_intervention,-0.06956521739130436,-0.14782608695652175,-0.008695652173913047,23,scenario,retained_primary
+sol,GPT-5.6 Sol,balanced_option_order,frozen_original,panel_over_intervention,-0.018181818181818184,-0.05454545454545454,0.018181818181818184,22,scenario,retained_primary
+sol,GPT-5.6 Sol,balanced_option_order,frozen_original,panel_multiclass_brier,-0.055000000000000014,-0.1366666666666667,0.019444444444444427,48,scenario,retained_primary
+sol,GPT-5.6 Sol,balanced_option_order,frozen_original,panel_binary_brier,-0.06222222222222224,-0.14722222222222223,0.00999999999999999,48,scenario,retained_primary
+sol,GPT-5.6 Sol,balanced_option_order,frozen_original,panel_jsd,-0.023187010132707995,-0.06626177300038459,0.01739596989833931,48,scenario,retained_primary
+sol,GPT-5.6 Sol,balanced_option_order,frozen_original,panel_four_way_agreement,0.044444444444444446,0.008888888888888885,0.08888888888888889,45,scenario,valid_only_sensitivity
+sol,GPT-5.6 Sol,balanced_option_order,frozen_original,panel_binary_agreement,0.044444444444444446,0.008888888888888885,0.08888888888888889,45,scenario,valid_only_sensitivity
+sol,GPT-5.6 Sol,balanced_option_order,frozen_original,panel_under_intervention,-0.06956521739130436,-0.14782608695652175,-0.008695652173913047,23,scenario,valid_only_sensitivity
+sol,GPT-5.6 Sol,balanced_option_order,frozen_original,panel_over_intervention,-0.018181818181818184,-0.05454545454545454,0.018181818181818184,22,scenario,valid_only_sensitivity
+sol,GPT-5.6 Sol,balanced_option_order,frozen_original,panel_multiclass_brier,-0.055000000000000014,-0.13555555555555557,0.019999999999999973,48,scenario,valid_only_sensitivity
+sol,GPT-5.6 Sol,balanced_option_order,frozen_original,panel_binary_brier,-0.06222222222222224,-0.14611111111111114,0.00944444444444443,48,scenario,valid_only_sensitivity
+sol,GPT-5.6 Sol,balanced_option_order,frozen_original,panel_jsd,-0.023187010132707995,-0.06550198890424333,0.016728594364757068,48,scenario,valid_only_sensitivity
+sol,GPT-5.6 Sol,concise_equivalent,frozen_original,panel_four_way_agreement,0.017777777777777767,-0.022222222222222227,0.05333333333333332,45,scenario,retained_primary
+sol,GPT-5.6 Sol,concise_equivalent,frozen_original,panel_binary_agreement,0.017777777777777767,-0.022222222222222233,0.05333333333333332,45,scenario,retained_primary
+sol,GPT-5.6 Sol,concise_equivalent,frozen_original,panel_under_intervention,7.240584943207542e-18,-0.05217391304347826,0.06956521739130436,23,scenario,retained_primary
+sol,GPT-5.6 Sol,concise_equivalent,frozen_original,panel_over_intervention,-0.03636363636363637,-0.07272727272727272,-0.009090909090909092,22,scenario,retained_primary
+sol,GPT-5.6 Sol,concise_equivalent,frozen_original,panel_multiclass_brier,-0.006111111111111118,-0.06666666666666667,0.0588888888888889,48,scenario,retained_primary
+sol,GPT-5.6 Sol,concise_equivalent,frozen_original,panel_binary_brier,-0.014999999999999998,-0.08222222222222224,0.06333333333333332,48,scenario,retained_primary
+sol,GPT-5.6 Sol,concise_equivalent,frozen_original,panel_jsd,-0.010483319035605024,-0.046510804936093185,0.02839310205219546,48,scenario,retained_primary
+sol,GPT-5.6 Sol,concise_equivalent,frozen_original,panel_four_way_agreement,0.017777777777777767,-0.022222222222222227,0.05333333333333332,45,scenario,valid_only_sensitivity
+sol,GPT-5.6 Sol,concise_equivalent,frozen_original,panel_binary_agreement,0.017777777777777767,-0.022222222222222233,0.05333333333333332,45,scenario,valid_only_sensitivity
+sol,GPT-5.6 Sol,concise_equivalent,frozen_original,panel_under_intervention,7.240584943207542e-18,-0.05217391304347826,0.06956521739130436,23,scenario,valid_only_sensitivity
+sol,GPT-5.6 Sol,concise_equivalent,frozen_original,panel_over_intervention,-0.03636363636363637,-0.07272727272727272,-0.009090909090909092,22,scenario,valid_only_sensitivity
+sol,GPT-5.6 Sol,concise_equivalent,frozen_original,panel_multiclass_brier,-0.006111111111111118,-0.06722222222222222,0.05999999999999998,48,scenario,valid_only_sensitivity
+sol,GPT-5.6 Sol,concise_equivalent,frozen_original,panel_binary_brier,-0.014999999999999998,-0.08222222222222221,0.06333333333333332,48,scenario,valid_only_sensitivity
+sol,GPT-5.6 Sol,concise_equivalent,frozen_original,panel_jsd,-0.010483319035605024,-0.04696543812363279,0.02839413670179047,48,scenario,valid_only_sensitivity
+sol,GPT-5.6 Sol,policy_oriented_equivalent,frozen_original,panel_four_way_agreement,0.008888888888888892,-0.06666666666666668,0.08888888888888889,45,scenario,retained_primary
+sol,GPT-5.6 Sol,policy_oriented_equivalent,frozen_original,panel_binary_agreement,0.026666666666666672,-0.04000000000000001,0.09777777777777778,45,scenario,retained_primary
+sol,GPT-5.6 Sol,policy_oriented_equivalent,frozen_original,panel_under_intervention,-0.11304347826086956,-0.22608695652173913,-0.026086956521739126,23,scenario,retained_primary
+sol,GPT-5.6 Sol,policy_oriented_equivalent,frozen_original,panel_over_intervention,0.06363636363636364,-0.009090909090909092,0.15454545454545454,22,scenario,retained_primary
+sol,GPT-5.6 Sol,policy_oriented_equivalent,frozen_original,panel_multiclass_brier,0.023888888888888894,-0.09500000000000001,0.15333333333333332,48,scenario,retained_primary
+sol,GPT-5.6 Sol,policy_oriented_equivalent,frozen_original,panel_binary_brier,-0.025555555555555554,-0.1450138888888889,0.09444444444444444,48,scenario,retained_primary
+sol,GPT-5.6 Sol,policy_oriented_equivalent,frozen_original,panel_jsd,0.00818804262141728,-0.05236777755174351,0.0716034837727731,48,scenario,retained_primary
+sol,GPT-5.6 Sol,policy_oriented_equivalent,frozen_original,panel_four_way_agreement,0.008888888888888892,-0.07111111111111111,0.08888888888888889,45,scenario,valid_only_sensitivity
+sol,GPT-5.6 Sol,policy_oriented_equivalent,frozen_original,panel_binary_agreement,0.026666666666666672,-0.04000000000000001,0.09777777777777778,45,scenario,valid_only_sensitivity
+sol,GPT-5.6 Sol,policy_oriented_equivalent,frozen_original,panel_under_intervention,-0.11304347826086956,-0.22608695652173913,-0.026086956521739126,23,scenario,valid_only_sensitivity
+sol,GPT-5.6 Sol,policy_oriented_equivalent,frozen_original,panel_over_intervention,0.06363636363636364,-0.009090909090909092,0.15454545454545454,22,scenario,valid_only_sensitivity
+sol,GPT-5.6 Sol,policy_oriented_equivalent,frozen_original,panel_multiclass_brier,0.023888888888888894,-0.09666666666666668,0.1511111111111111,48,scenario,valid_only_sensitivity
+sol,GPT-5.6 Sol,policy_oriented_equivalent,frozen_original,panel_binary_brier,-0.025555555555555554,-0.1461111111111111,0.0938888888888889,48,scenario,valid_only_sensitivity
+sol,GPT-5.6 Sol,policy_oriented_equivalent,frozen_original,panel_jsd,0.00818804262141728,-0.052503018969681986,0.07092627148656343,48,scenario,valid_only_sensitivity
+sol,GPT-5.6 Sol,open_ended,frozen_original,panel_four_way_agreement,-0.09333333333333334,-0.18666666666666668,-0.01777777777777778,45,scenario,retained_primary
+sol,GPT-5.6 Sol,open_ended,frozen_original,panel_binary_agreement,-0.07111111111111111,-0.15111111111111114,-0.004444444444444449,45,scenario,retained_primary
+sol,GPT-5.6 Sol,open_ended,frozen_original,panel_under_intervention,-0.0608695652173913,-0.16521739130434784,0.017391304347826087,23,scenario,retained_primary
+sol,GPT-5.6 Sol,open_ended,frozen_original,panel_over_intervention,-0.02727272727272727,-0.05454545454545454,0.0,22,scenario,retained_primary
+sol,GPT-5.6 Sol,open_ended,frozen_original,panel_multiclass_brier,0.1605555555555556,0.04166666666666668,0.30388888888888893,48,scenario,retained_primary
+sol,GPT-5.6 Sol,open_ended,frozen_original,panel_binary_brier,0.11277777777777777,0.011666666666666681,0.23944444444444446,48,scenario,retained_primary
+sol,GPT-5.6 Sol,open_ended,frozen_original,panel_jsd,0.10787927317174158,0.04027211125132588,0.18917673414549363,48,scenario,retained_primary
+sol,GPT-5.6 Sol,open_ended,frozen_original,panel_four_way_agreement,-0.020930232558139538,-0.07906976744186048,0.018604651162790694,43,scenario,valid_only_sensitivity
+sol,GPT-5.6 Sol,open_ended,frozen_original,panel_binary_agreement,0.025581395348837205,-0.01627906976744186,0.08372093023255814,43,scenario,valid_only_sensitivity
+sol,GPT-5.6 Sol,open_ended,frozen_original,panel_under_intervention,-0.03333333333333333,-0.1476190476190476,0.04761904761904761,21,scenario,valid_only_sensitivity
+sol,GPT-5.6 Sol,open_ended,frozen_original,panel_over_intervention,-0.018181818181818184,-0.045454545454545456,0.0,22,scenario,valid_only_sensitivity
+sol,GPT-5.6 Sol,open_ended,frozen_original,panel_multiclass_brier,0.0926086956521739,0.013913043478260865,0.20231884057971014,46,scenario,valid_only_sensitivity
+sol,GPT-5.6 Sol,open_ended,frozen_original,panel_binary_brier,0.005072463768115938,-0.03942028985507247,0.053478260869565204,46,scenario,valid_only_sensitivity
+sol,GPT-5.6 Sol,open_ended,frozen_original,panel_jsd,0.04880127205047461,0.0030026434034033534,0.1095464239466131,46,scenario,valid_only_sensitivity
+oss120,GPT-OSS-120B,balanced_option_order,frozen_original,panel_four_way_agreement,4.934324553889585e-18,-0.07111111111111111,0.06666666666666668,45,scenario,retained_primary
+oss120,GPT-OSS-120B,balanced_option_order,frozen_original,panel_binary_agreement,-0.022222222222222216,-0.09333333333333332,0.04000000000000001,45,scenario,retained_primary
+oss120,GPT-OSS-120B,balanced_option_order,frozen_original,panel_under_intervention,-0.034782608695652174,-0.11304347826086959,0.04347826086956523,23,scenario,retained_primary
+oss120,GPT-OSS-120B,balanced_option_order,frozen_original,panel_over_intervention,0.08181818181818183,-0.009090909090909077,0.19090909090909092,22,scenario,retained_primary
+oss120,GPT-OSS-120B,balanced_option_order,frozen_original,panel_multiclass_brier,-0.0838888888888889,-0.1927777777777778,0.021666666666666678,48,scenario,retained_primary
+oss120,GPT-OSS-120B,balanced_option_order,frozen_original,panel_binary_brier,-0.04722222222222222,-0.15834722222222222,0.06,48,scenario,retained_primary
+oss120,GPT-OSS-120B,balanced_option_order,frozen_original,panel_jsd,-0.04594391768736536,-0.10393286691707365,0.011085247264329419,48,scenario,retained_primary
+oss120,GPT-OSS-120B,balanced_option_order,frozen_original,panel_four_way_agreement,4.934324553889585e-18,-0.07111111111111111,0.06666666666666668,45,scenario,valid_only_sensitivity
+oss120,GPT-OSS-120B,balanced_option_order,frozen_original,panel_binary_agreement,-0.022222222222222216,-0.09333333333333332,0.04000000000000001,45,scenario,valid_only_sensitivity
+oss120,GPT-OSS-120B,balanced_option_order,frozen_original,panel_under_intervention,-0.034782608695652174,-0.11304347826086959,0.05217391304347826,23,scenario,valid_only_sensitivity
+oss120,GPT-OSS-120B,balanced_option_order,frozen_original,panel_over_intervention,0.08181818181818183,-0.009090909090909077,0.19090909090909092,22,scenario,valid_only_sensitivity
+oss120,GPT-OSS-120B,balanced_option_order,frozen_original,panel_multiclass_brier,-0.0838888888888889,-0.1938888888888889,0.022222222222222223,48,scenario,valid_only_sensitivity
+oss120,GPT-OSS-120B,balanced_option_order,frozen_original,panel_binary_brier,-0.04722222222222222,-0.15833333333333335,0.05722222222222223,48,scenario,valid_only_sensitivity
+oss120,GPT-OSS-120B,balanced_option_order,frozen_original,panel_jsd,-0.04594391768736536,-0.10445029820791642,0.010614359457157638,48,scenario,valid_only_sensitivity
+oss120,GPT-OSS-120B,concise_equivalent,frozen_original,panel_four_way_agreement,-0.06666666666666667,-0.17777777777777778,0.04,45,scenario,retained_primary
+oss120,GPT-OSS-120B,concise_equivalent,frozen_original,panel_binary_agreement,-0.07111111111111111,-0.18666666666666665,0.03555555555555556,45,scenario,retained_primary
+oss120,GPT-OSS-120B,concise_equivalent,frozen_original,panel_under_intervention,0.1217391304347826,-0.05217391304347826,0.30434782608695654,23,scenario,retained_primary
+oss120,GPT-OSS-120B,concise_equivalent,frozen_original,panel_over_intervention,0.018181818181818195,-0.09999999999999999,0.15454545454545457,22,scenario,retained_primary
+oss120,GPT-OSS-120B,concise_equivalent,frozen_original,panel_multiclass_brier,0.04333333333333334,-0.085,0.1761111111111111,48,scenario,retained_primary
+oss120,GPT-OSS-120B,concise_equivalent,frozen_original,panel_binary_brier,0.04444444444444445,-0.11388888888888889,0.2066666666666667,48,scenario,retained_primary
+oss120,GPT-OSS-120B,concise_equivalent,frozen_original,panel_jsd,0.0213197802904326,-0.047972535704753044,0.09254683728760432,48,scenario,retained_primary
+oss120,GPT-OSS-120B,concise_equivalent,frozen_original,panel_four_way_agreement,-0.06666666666666667,-0.17777777777777778,0.039999999999999994,45,scenario,valid_only_sensitivity
+oss120,GPT-OSS-120B,concise_equivalent,frozen_original,panel_binary_agreement,-0.07111111111111111,-0.18666666666666668,0.035555555555555556,45,scenario,valid_only_sensitivity
+oss120,GPT-OSS-120B,concise_equivalent,frozen_original,panel_under_intervention,0.1217391304347826,-0.05217391304347826,0.2956521739130435,23,scenario,valid_only_sensitivity
+oss120,GPT-OSS-120B,concise_equivalent,frozen_original,panel_over_intervention,0.018181818181818195,-0.09999999999999999,0.15454545454545457,22,scenario,valid_only_sensitivity
+oss120,GPT-OSS-120B,concise_equivalent,frozen_original,panel_multiclass_brier,0.04333333333333334,-0.08722222222222221,0.17722222222222225,48,scenario,valid_only_sensitivity
+oss120,GPT-OSS-120B,concise_equivalent,frozen_original,panel_binary_brier,0.04444444444444445,-0.11334722222222222,0.21055555555555558,48,scenario,valid_only_sensitivity
+oss120,GPT-OSS-120B,concise_equivalent,frozen_original,panel_jsd,0.0213197802904326,-0.04774490666924144,0.09138357637724728,48,scenario,valid_only_sensitivity
+oss120,GPT-OSS-120B,policy_oriented_equivalent,frozen_original,panel_four_way_agreement,-0.17777777777777776,-0.3511111111111112,-9.86864910777917e-18,45,scenario,retained_primary
+oss120,GPT-OSS-120B,policy_oriented_equivalent,frozen_original,panel_binary_agreement,-0.17777777777777776,-0.36,0.004444444444444453,45,scenario,retained_primary
+oss120,GPT-OSS-120B,policy_oriented_equivalent,frozen_original,panel_under_intervention,-0.33043478260869563,-0.5217391304347826,-0.14782608695652175,23,scenario,retained_primary
+oss120,GPT-OSS-120B,policy_oriented_equivalent,frozen_original,panel_over_intervention,0.5636363636363637,0.41818181818181815,0.7000000000000001,22,scenario,retained_primary
+oss120,GPT-OSS-120B,policy_oriented_equivalent,frozen_original,panel_multiclass_brier,0.22333333333333338,-0.023888888888888887,0.47222222222222227,48,scenario,retained_primary
+oss120,GPT-OSS-120B,policy_oriented_equivalent,frozen_original,panel_binary_brier,0.2172222222222222,-0.052777777777777785,0.48611111111111116,48,scenario,retained_primary
+oss120,GPT-OSS-120B,policy_oriented_equivalent,frozen_original,panel_jsd,0.16994202729543403,0.034328874130027325,0.3049693307188023,48,scenario,retained_primary
+oss120,GPT-OSS-120B,policy_oriented_equivalent,frozen_original,panel_four_way_agreement,-0.1514814814814815,-0.3329722222222223,0.03037037037037036,45,scenario,valid_only_sensitivity
+oss120,GPT-OSS-120B,policy_oriented_equivalent,frozen_original,panel_binary_agreement,-0.1514814814814815,-0.33370370370370367,0.037777777777777785,45,scenario,valid_only_sensitivity
+oss120,GPT-OSS-120B,policy_oriented_equivalent,frozen_original,panel_under_intervention,-0.2992753623188406,-0.4978260869565217,-0.10434782608695652,23,scenario,valid_only_sensitivity
+oss120,GPT-OSS-120B,policy_oriented_equivalent,frozen_original,panel_over_intervention,0.6227272727272728,0.45909090909090916,0.7795454545454544,22,scenario,valid_only_sensitivity
+oss120,GPT-OSS-120B,policy_oriented_equivalent,frozen_original,panel_multiclass_brier,0.23592592592592596,-0.022582465277777762,0.4987384259259258,48,scenario,valid_only_sensitivity
+oss120,GPT-OSS-120B,policy_oriented_equivalent,frozen_original,panel_binary_brier,0.22966435185185183,-0.05216464120370374,0.5154658564814812,48,scenario,valid_only_sensitivity
+oss120,GPT-OSS-120B,policy_oriented_equivalent,frozen_original,panel_jsd,0.14889647925317603,0.01349381770969226,0.2903573938447693,48,scenario,valid_only_sensitivity
+oss120,GPT-OSS-120B,open_ended,frozen_original,panel_four_way_agreement,-0.08888888888888889,-0.2,0.013333333333333327,45,scenario,retained_primary
+oss120,GPT-OSS-120B,open_ended,frozen_original,panel_binary_agreement,-0.10222222222222223,-0.21333333333333337,-7.401486830834377e-18,45,scenario,retained_primary
+oss120,GPT-OSS-120B,open_ended,frozen_original,panel_under_intervention,-0.008695652173913049,-0.1565217391304348,0.13043478260869565,23,scenario,retained_primary
+oss120,GPT-OSS-120B,open_ended,frozen_original,panel_over_intervention,-0.1636363636363636,-0.29090909090909084,-0.05454545454545454,22,scenario,retained_primary
+oss120,GPT-OSS-120B,open_ended,frozen_original,panel_multiclass_brier,0.16222222222222224,0.009444444444444458,0.3344444444444445,48,scenario,retained_primary
+oss120,GPT-OSS-120B,open_ended,frozen_original,panel_binary_brier,0.19444444444444445,0.031111111111111117,0.3772222222222222,48,scenario,retained_primary
+oss120,GPT-OSS-120B,open_ended,frozen_original,panel_jsd,0.11675746002850264,0.02870080808920813,0.2150365380113532,48,scenario,retained_primary
+oss120,GPT-OSS-120B,open_ended,frozen_original,panel_four_way_agreement,0.003658536585365857,-0.09878048780487807,0.09999999999999999,41,scenario,valid_only_sensitivity
+oss120,GPT-OSS-120B,open_ended,frozen_original,panel_binary_agreement,-0.006097560975609756,-0.10853658536585364,0.0902439024390244,41,scenario,valid_only_sensitivity
+oss120,GPT-OSS-120B,open_ended,frozen_original,panel_under_intervention,0.10526315789473684,-0.06315789473684212,0.28421052631578947,19,scenario,valid_only_sensitivity
+oss120,GPT-OSS-120B,open_ended,frozen_original,panel_over_intervention,-0.07954545454545453,-0.17954545454545454,0.002272727272727272,22,scenario,valid_only_sensitivity
+oss120,GPT-OSS-120B,open_ended,frozen_original,panel_multiclass_brier,0.06768939393939394,-0.07171496212121209,0.22727272727272727,44,scenario,valid_only_sensitivity
+oss120,GPT-OSS-120B,open_ended,frozen_original,panel_binary_brier,0.07859848484848485,-0.07856060606060607,0.25780303030303026,44,scenario,valid_only_sensitivity
+oss120,GPT-OSS-120B,open_ended,frozen_original,panel_jsd,0.02446463575165164,-0.049315089682889016,0.10809708702201297,44,scenario,valid_only_sensitivity
+oss20,GPT-OSS-20B,balanced_option_order,frozen_original,panel_four_way_agreement,-0.008888888888888889,-0.11111111111111109,0.08888888888888889,45,scenario,retained_primary
+oss20,GPT-OSS-20B,balanced_option_order,frozen_original,panel_binary_agreement,-0.017777777777777778,-0.11111111111111113,0.07555555555555557,45,scenario,retained_primary
+oss20,GPT-OSS-20B,balanced_option_order,frozen_original,panel_under_intervention,0.008695652173913042,-0.1391304347826087,0.1565217391304348,23,scenario,retained_primary
+oss20,GPT-OSS-20B,balanced_option_order,frozen_original,panel_over_intervention,0.027272727272727285,-0.0818181818181818,0.14545454545454545,22,scenario,retained_primary
+oss20,GPT-OSS-20B,balanced_option_order,frozen_original,panel_multiclass_brier,-0.12277777777777776,-0.27444444444444444,0.023333333333333327,48,scenario,retained_primary
+oss20,GPT-OSS-20B,balanced_option_order,frozen_original,panel_binary_brier,-0.14277777777777778,-0.31166666666666665,0.019458333333332144,48,scenario,retained_primary
+oss20,GPT-OSS-20B,balanced_option_order,frozen_original,panel_jsd,-0.07071789742107215,-0.15051122588970614,0.007684425648448128,48,scenario,retained_primary
+oss20,GPT-OSS-20B,balanced_option_order,frozen_original,panel_four_way_agreement,-0.008888888888888889,-0.10666666666666669,0.08888888888888889,45,scenario,valid_only_sensitivity
+oss20,GPT-OSS-20B,balanced_option_order,frozen_original,panel_binary_agreement,-0.017777777777777778,-0.1111111111111111,0.07555555555555557,45,scenario,valid_only_sensitivity
+oss20,GPT-OSS-20B,balanced_option_order,frozen_original,panel_under_intervention,0.008695652173913042,-0.1391304347826087,0.1565217391304348,23,scenario,valid_only_sensitivity
+oss20,GPT-OSS-20B,balanced_option_order,frozen_original,panel_over_intervention,0.027272727272727285,-0.0818181818181818,0.14545454545454545,22,scenario,valid_only_sensitivity
+oss20,GPT-OSS-20B,balanced_option_order,frozen_original,panel_multiclass_brier,-0.12277777777777776,-0.27555555555555555,0.022777777777777772,48,scenario,valid_only_sensitivity
+oss20,GPT-OSS-20B,balanced_option_order,frozen_original,panel_binary_brier,-0.14277777777777778,-0.3111111111111111,0.015000000000000006,48,scenario,valid_only_sensitivity
+oss20,GPT-OSS-20B,balanced_option_order,frozen_original,panel_jsd,-0.07071789742107215,-0.15087683764432577,0.005458320801713412,48,scenario,valid_only_sensitivity
+oss20,GPT-OSS-20B,concise_equivalent,frozen_original,panel_four_way_agreement,-0.044444444444444446,-0.11999999999999997,0.022222222222222227,45,scenario,retained_primary
+oss20,GPT-OSS-20B,concise_equivalent,frozen_original,panel_binary_agreement,-0.06222222222222222,-0.13777777777777778,0.008888888888888884,45,scenario,retained_primary
+oss20,GPT-OSS-20B,concise_equivalent,frozen_original,panel_under_intervention,0.1391304347826087,0.026086956521739143,0.26086956521739135,23,scenario,retained_primary
+oss20,GPT-OSS-20B,concise_equivalent,frozen_original,panel_over_intervention,-0.01818181818181818,-0.09090909090909091,0.05454545454545454,22,scenario,retained_primary
+oss20,GPT-OSS-20B,concise_equivalent,frozen_original,panel_multiclass_brier,0.03666666666666668,-0.09055555555555554,0.17777777777777778,48,scenario,retained_primary
+oss20,GPT-OSS-20B,concise_equivalent,frozen_original,panel_binary_brier,0.040000000000000015,-0.09777777777777778,0.1922222222222222,48,scenario,retained_primary
+oss20,GPT-OSS-20B,concise_equivalent,frozen_original,panel_jsd,-0.0028783247091691993,-0.06943278164185493,0.07026365581441893,48,scenario,retained_primary
+oss20,GPT-OSS-20B,concise_equivalent,frozen_original,panel_four_way_agreement,-0.044444444444444446,-0.11555555555555558,0.022222222222222223,45,scenario,valid_only_sensitivity
+oss20,GPT-OSS-20B,concise_equivalent,frozen_original,panel_binary_agreement,-0.06222222222222222,-0.13777777777777778,0.008888888888888889,45,scenario,valid_only_sensitivity
+oss20,GPT-OSS-20B,concise_equivalent,frozen_original,panel_under_intervention,0.1391304347826087,0.026086956521739143,0.2608695652173913,23,scenario,valid_only_sensitivity
+oss20,GPT-OSS-20B,concise_equivalent,frozen_original,panel_over_intervention,-0.01818181818181818,-0.09090909090909091,0.05454545454545454,22,scenario,valid_only_sensitivity
+oss20,GPT-OSS-20B,concise_equivalent,frozen_original,panel_multiclass_brier,0.03666666666666668,-0.0911111111111111,0.1811111111111111,48,scenario,valid_only_sensitivity
+oss20,GPT-OSS-20B,concise_equivalent,frozen_original,panel_binary_brier,0.040000000000000015,-0.10055555555555551,0.19333333333333333,48,scenario,valid_only_sensitivity
+oss20,GPT-OSS-20B,concise_equivalent,frozen_original,panel_jsd,-0.0028783247091691993,-0.06967569237117217,0.06832284580310329,48,scenario,valid_only_sensitivity
+oss20,GPT-OSS-20B,policy_oriented_equivalent,frozen_original,panel_four_way_agreement,-0.10666666666666669,-0.28888888888888886,0.07555555555555557,45,scenario,retained_primary
+oss20,GPT-OSS-20B,policy_oriented_equivalent,frozen_original,panel_binary_agreement,-0.10666666666666666,-0.28444444444444444,0.07555555555555554,45,scenario,retained_primary
+oss20,GPT-OSS-20B,policy_oriented_equivalent,frozen_original,panel_under_intervention,-0.39130434782608686,-0.5565217391304348,-0.23478260869565215,23,scenario,retained_primary
+oss20,GPT-OSS-20B,policy_oriented_equivalent,frozen_original,panel_over_intervention,0.5818181818181819,0.4454545454545455,0.7090909090909091,22,scenario,retained_primary
+oss20,GPT-OSS-20B,policy_oriented_equivalent,frozen_original,panel_multiclass_brier,0.09500000000000001,-0.16611111111111113,0.3566666666666667,48,scenario,retained_primary
+oss20,GPT-OSS-20B,policy_oriented_equivalent,frozen_original,panel_binary_brier,0.07888888888888891,-0.22223611111111116,0.38055555555555554,48,scenario,retained_primary
+oss20,GPT-OSS-20B,policy_oriented_equivalent,frozen_original,panel_jsd,0.07319169496149452,-0.07151048195338008,0.21848971166002923,48,scenario,retained_primary
+oss20,GPT-OSS-20B,policy_oriented_equivalent,frozen_original,panel_four_way_agreement,-0.09555555555555557,-0.27555555555555555,0.08666666666666668,45,scenario,valid_only_sensitivity
+oss20,GPT-OSS-20B,policy_oriented_equivalent,frozen_original,panel_binary_agreement,-0.09555555555555555,-0.2733333333333334,0.0911111111111111,45,scenario,valid_only_sensitivity
+oss20,GPT-OSS-20B,policy_oriented_equivalent,frozen_original,panel_under_intervention,-0.38913043478260867,-0.5608695652173913,-0.2304347826086956,23,scenario,valid_only_sensitivity
+oss20,GPT-OSS-20B,policy_oriented_equivalent,frozen_original,panel_over_intervention,0.6022727272727273,0.4636363636363636,0.7340909090909092,22,scenario,valid_only_sensitivity
+oss20,GPT-OSS-20B,policy_oriented_equivalent,frozen_original,panel_multiclass_brier,0.10159722222222224,-0.16285156249999996,0.3680243055555552,48,scenario,valid_only_sensitivity
+oss20,GPT-OSS-20B,policy_oriented_equivalent,frozen_original,panel_binary_brier,0.08340277777777778,-0.2170217013888889,0.3859383680555555,48,scenario,valid_only_sensitivity
+oss20,GPT-OSS-20B,policy_oriented_equivalent,frozen_original,panel_jsd,0.06667150431589608,-0.07698934372559348,0.2100521498116473,48,scenario,valid_only_sensitivity
+oss20,GPT-OSS-20B,open_ended,frozen_original,panel_four_way_agreement,-0.05777777777777778,-0.14666666666666667,0.022222222222222227,45,scenario,retained_primary
+oss20,GPT-OSS-20B,open_ended,frozen_original,panel_binary_agreement,-0.07555555555555557,-0.17333333333333334,0.013333333333333336,45,scenario,retained_primary
+oss20,GPT-OSS-20B,open_ended,frozen_original,panel_under_intervention,-0.09565217391304348,-0.2086956521739131,4.827056628805028e-18,23,scenario,retained_primary
+oss20,GPT-OSS-20B,open_ended,frozen_original,panel_over_intervention,-0.16363636363636364,-0.27272727272727276,-0.07272727272727271,22,scenario,retained_primary
+oss20,GPT-OSS-20B,open_ended,frozen_original,panel_multiclass_brier,0.11,-0.03555555555555554,0.2739027777777766,48,scenario,retained_primary
+oss20,GPT-OSS-20B,open_ended,frozen_original,panel_binary_brier,0.0861111111111111,-0.08055555555555556,0.2655555555555556,48,scenario,retained_primary
+oss20,GPT-OSS-20B,open_ended,frozen_original,panel_jsd,0.06614356673273232,-0.009770139088486058,0.15052348105701996,48,scenario,retained_primary
+oss20,GPT-OSS-20B,open_ended,frozen_original,panel_four_way_agreement,0.054761904761904755,-0.02619047619047619,0.1380952380952381,42,scenario,valid_only_sensitivity
+oss20,GPT-OSS-20B,open_ended,frozen_original,panel_binary_agreement,0.05,-0.03809523809523809,0.1380952380952381,42,scenario,valid_only_sensitivity
+oss20,GPT-OSS-20B,open_ended,frozen_original,panel_under_intervention,0.034999999999999996,-0.11499999999999999,0.185,20,scenario,valid_only_sensitivity
+oss20,GPT-OSS-20B,open_ended,frozen_original,panel_over_intervention,-0.1272727272727273,-0.21363636363636365,-0.05454545454545454,22,scenario,valid_only_sensitivity
+oss20,GPT-OSS-20B,open_ended,frozen_original,panel_multiclass_brier,-0.029185185185185182,-0.131262962962963,0.07259259259259257,45,scenario,valid_only_sensitivity
+oss20,GPT-OSS-20B,open_ended,frozen_original,panel_binary_brier,-0.0780740740740741,-0.22237037037037038,0.05911481481481449,45,scenario,valid_only_sensitivity
+oss20,GPT-OSS-20B,open_ended,frozen_original,panel_jsd,-0.044171481009198876,-0.10488119160561897,0.011078847326785936,45,scenario,valid_only_sensitivity
+terra,GPT-5.6 Terra,balanced_option_order,frozen_original,panel_four_way_agreement,0.10222222222222221,-0.026666666666666665,0.23555555555555555,45,scenario,retained_primary
+terra,GPT-5.6 Terra,balanced_option_order,frozen_original,panel_binary_agreement,0.10222222222222221,-0.026666666666666665,0.23555555555555555,45,scenario,retained_primary
+terra,GPT-5.6 Terra,balanced_option_order,frozen_original,panel_under_intervention,-0.28695652173913044,-0.46956521739130436,-0.1217391304347826,23,scenario,retained_primary
+terra,GPT-5.6 Terra,balanced_option_order,frozen_original,panel_over_intervention,0.09090909090909091,-0.07272727272727274,0.2545454545454545,22,scenario,retained_primary
+terra,GPT-5.6 Terra,balanced_option_order,frozen_original,panel_multiclass_brier,-0.02777777777777779,-0.2016666666666667,0.15444444444444444,48,scenario,retained_primary
+terra,GPT-5.6 Terra,balanced_option_order,frozen_original,panel_binary_brier,-0.07944444444444447,-0.27111111111111114,0.11445833333333212,48,scenario,retained_primary
+terra,GPT-5.6 Terra,balanced_option_order,frozen_original,panel_jsd,-0.022856865077577615,-0.10947865314990081,0.06597774966189687,48,scenario,retained_primary
+terra,GPT-5.6 Terra,balanced_option_order,frozen_original,panel_four_way_agreement,0.10222222222222221,-0.026666666666666665,0.23555555555555555,45,scenario,valid_only_sensitivity
+terra,GPT-5.6 Terra,balanced_option_order,frozen_original,panel_binary_agreement,0.10222222222222221,-0.026666666666666665,0.23555555555555557,45,scenario,valid_only_sensitivity
+terra,GPT-5.6 Terra,balanced_option_order,frozen_original,panel_under_intervention,-0.28695652173913044,-0.46956521739130436,-0.12173913043478261,23,scenario,valid_only_sensitivity
+terra,GPT-5.6 Terra,balanced_option_order,frozen_original,panel_over_intervention,0.09090909090909091,-0.07272727272727274,0.2545454545454545,22,scenario,valid_only_sensitivity
+terra,GPT-5.6 Terra,balanced_option_order,frozen_original,panel_multiclass_brier,-0.02777777777777779,-0.1977777777777778,0.15555555555555553,48,scenario,valid_only_sensitivity
+terra,GPT-5.6 Terra,balanced_option_order,frozen_original,panel_binary_brier,-0.07944444444444447,-0.27111111111111114,0.11166666666666664,48,scenario,valid_only_sensitivity
+terra,GPT-5.6 Terra,balanced_option_order,frozen_original,panel_jsd,-0.022856865077577615,-0.10933333741222376,0.06705893315922104,48,scenario,valid_only_sensitivity
+terra,GPT-5.6 Terra,concise_equivalent,frozen_original,panel_four_way_agreement,0.07111111111111111,-0.02666666666666666,0.17333333333333334,45,scenario,retained_primary
+terra,GPT-5.6 Terra,concise_equivalent,frozen_original,panel_binary_agreement,0.07111111111111111,-0.022222222222222223,0.17333333333333334,45,scenario,retained_primary
+terra,GPT-5.6 Terra,concise_equivalent,frozen_original,panel_under_intervention,-0.19999999999999998,-0.3652173913043478,-0.043478260869565216,23,scenario,retained_primary
+terra,GPT-5.6 Terra,concise_equivalent,frozen_original,panel_over_intervention,0.06363636363636363,0.0,0.17272727272727273,22,scenario,retained_primary
+terra,GPT-5.6 Terra,concise_equivalent,frozen_original,panel_multiclass_brier,-0.007777777777777782,-0.12833333333333333,0.13,48,scenario,retained_primary
+terra,GPT-5.6 Terra,concise_equivalent,frozen_original,panel_binary_brier,-0.05388888888888891,-0.20555555555555557,0.09666666666666666,48,scenario,retained_primary
+terra,GPT-5.6 Terra,concise_equivalent,frozen_original,panel_jsd,-0.014091507211056805,-0.07883113250454458,0.05512019275082899,48,scenario,retained_primary
+terra,GPT-5.6 Terra,concise_equivalent,frozen_original,panel_four_way_agreement,0.07111111111111111,-0.026666666666666665,0.17333333333333334,45,scenario,valid_only_sensitivity
+terra,GPT-5.6 Terra,concise_equivalent,frozen_original,panel_binary_agreement,0.07111111111111111,-0.02666666666666666,0.17333333333333334,45,scenario,valid_only_sensitivity
+terra,GPT-5.6 Terra,concise_equivalent,frozen_original,panel_under_intervention,-0.19999999999999998,-0.3652173913043478,-0.043478260869565216,23,scenario,valid_only_sensitivity
+terra,GPT-5.6 Terra,concise_equivalent,frozen_original,panel_over_intervention,0.06363636363636363,0.0,0.17272727272727273,22,scenario,valid_only_sensitivity
+terra,GPT-5.6 Terra,concise_equivalent,frozen_original,panel_multiclass_brier,-0.007777777777777782,-0.13,0.1311111111111111,48,scenario,valid_only_sensitivity
+terra,GPT-5.6 Terra,concise_equivalent,frozen_original,panel_binary_brier,-0.05388888888888891,-0.20555555555555557,0.09666666666666664,48,scenario,valid_only_sensitivity
+terra,GPT-5.6 Terra,concise_equivalent,frozen_original,panel_jsd,-0.014091507211056805,-0.07833204237592246,0.054133294262638285,48,scenario,valid_only_sensitivity
+terra,GPT-5.6 Terra,policy_oriented_equivalent,frozen_original,panel_four_way_agreement,0.03111111111111112,-0.11555555555555554,0.17777777777777776,45,scenario,retained_primary
+terra,GPT-5.6 Terra,policy_oriented_equivalent,frozen_original,panel_binary_agreement,0.03111111111111112,-0.11555555555555556,0.17333333333333334,45,scenario,retained_primary
+terra,GPT-5.6 Terra,policy_oriented_equivalent,frozen_original,panel_under_intervention,-0.3130434782608696,-0.4956521739130435,-0.14782608695652175,23,scenario,retained_primary
+terra,GPT-5.6 Terra,policy_oriented_equivalent,frozen_original,panel_over_intervention,0.2636363636363636,0.11818181818181817,0.4272727272727273,22,scenario,retained_primary
+terra,GPT-5.6 Terra,policy_oriented_equivalent,frozen_original,panel_multiclass_brier,0.07611111111111113,-0.11333333333333334,0.285,48,scenario,retained_primary
+terra,GPT-5.6 Terra,policy_oriented_equivalent,frozen_original,panel_binary_brier,0.015555555555555553,-0.19833333333333333,0.23333333333333336,48,scenario,retained_primary
+terra,GPT-5.6 Terra,policy_oriented_equivalent,frozen_original,panel_jsd,0.03421548300945385,-0.060710385570861614,0.1374232065271816,48,scenario,retained_primary
+terra,GPT-5.6 Terra,policy_oriented_equivalent,frozen_original,panel_four_way_agreement,0.03111111111111112,-0.11111111111111113,0.17777777777777778,45,scenario,valid_only_sensitivity
+terra,GPT-5.6 Terra,policy_oriented_equivalent,frozen_original,panel_binary_agreement,0.03111111111111112,-0.11111111111111113,0.17333333333333334,45,scenario,valid_only_sensitivity
+terra,GPT-5.6 Terra,policy_oriented_equivalent,frozen_original,panel_under_intervention,-0.3130434782608696,-0.4956521739130435,-0.14782608695652175,23,scenario,valid_only_sensitivity
+terra,GPT-5.6 Terra,policy_oriented_equivalent,frozen_original,panel_over_intervention,0.2636363636363636,0.11818181818181818,0.42727272727272736,22,scenario,valid_only_sensitivity
+terra,GPT-5.6 Terra,policy_oriented_equivalent,frozen_original,panel_multiclass_brier,0.07611111111111113,-0.11722222222222224,0.2855555555555555,48,scenario,valid_only_sensitivity
+terra,GPT-5.6 Terra,policy_oriented_equivalent,frozen_original,panel_binary_brier,0.015555555555555553,-0.1933472222222223,0.23944444444444446,48,scenario,valid_only_sensitivity
+terra,GPT-5.6 Terra,policy_oriented_equivalent,frozen_original,panel_jsd,0.03421548300945385,-0.06066079565589402,0.13917288305125397,48,scenario,valid_only_sensitivity
+terra,GPT-5.6 Terra,open_ended,frozen_original,panel_four_way_agreement,-0.13777777777777778,-0.2488888888888889,-0.039999999999999994,45,scenario,retained_primary
+terra,GPT-5.6 Terra,open_ended,frozen_original,panel_binary_agreement,-0.13333333333333333,-0.24000000000000002,-0.035555555555555556,45,scenario,retained_primary
+terra,GPT-5.6 Terra,open_ended,frozen_original,panel_under_intervention,-0.06956521739130436,-0.22608695652173913,0.07826086956521738,23,scenario,retained_primary
+terra,GPT-5.6 Terra,open_ended,frozen_original,panel_over_intervention,-0.03636363636363637,-0.16363636363636364,0.09999999999999999,22,scenario,retained_primary
+terra,GPT-5.6 Terra,open_ended,frozen_original,panel_multiclass_brier,0.21944444444444441,0.048888888888888864,0.4155555555555555,48,scenario,retained_primary
+terra,GPT-5.6 Terra,open_ended,frozen_original,panel_binary_brier,0.20833333333333334,0.03277777777777776,0.4038888888888889,48,scenario,retained_primary
+terra,GPT-5.6 Terra,open_ended,frozen_original,panel_jsd,0.14869593178569476,0.059689343607589124,0.24870473014283306,48,scenario,retained_primary
+terra,GPT-5.6 Terra,open_ended,frozen_original,panel_four_way_agreement,-0.0738095238095238,-0.17857142857142858,0.023809523809523805,42,scenario,valid_only_sensitivity
+terra,GPT-5.6 Terra,open_ended,frozen_original,panel_binary_agreement,-0.05,-0.14523809523809522,0.03809523809523809,42,scenario,valid_only_sensitivity
+terra,GPT-5.6 Terra,open_ended,frozen_original,panel_under_intervention,0.08499999999999999,-0.06500000000000002,0.24500000000000002,20,scenario,valid_only_sensitivity
+terra,GPT-5.6 Terra,open_ended,frozen_original,panel_over_intervention,0.018181818181818177,-0.08181818181818183,0.13636363636363635,22,scenario,valid_only_sensitivity
+terra,GPT-5.6 Terra,open_ended,frozen_original,panel_multiclass_brier,0.19303703703703706,0.036592592592592586,0.38266666666666665,45,scenario,valid_only_sensitivity
+terra,GPT-5.6 Terra,open_ended,frozen_original,panel_binary_brier,0.13377777777777777,-0.017777777777777802,0.31466666666666665,45,scenario,valid_only_sensitivity
+terra,GPT-5.6 Terra,open_ended,frozen_original,panel_jsd,0.08645714724812434,0.004874606143056224,0.1798467946903027,45,scenario,valid_only_sensitivity
+luna,GPT-5.6 Luna,balanced_option_order,frozen_original,panel_four_way_agreement,0.05333333333333333,0.017777777777777778,0.09777777777777778,45,scenario,retained_primary
+luna,GPT-5.6 Luna,balanced_option_order,frozen_original,panel_binary_agreement,0.05333333333333333,0.017777777777777778,0.09777777777777778,45,scenario,retained_primary
+luna,GPT-5.6 Luna,balanced_option_order,frozen_original,panel_under_intervention,-0.05217391304347826,-0.11304347826086956,-0.008695652173913042,23,scenario,retained_primary
+luna,GPT-5.6 Luna,balanced_option_order,frozen_original,panel_over_intervention,-0.054545454545454536,-0.11818181818181818,-0.009090909090909084,22,scenario,retained_primary
+luna,GPT-5.6 Luna,balanced_option_order,frozen_original,panel_multiclass_brier,-0.1166666666666667,-0.20944444444444446,-0.04111111111111111,48,scenario,retained_primary
+luna,GPT-5.6 Luna,balanced_option_order,frozen_original,panel_binary_brier,-0.1272222222222222,-0.22666666666666668,-0.04777777777777778,48,scenario,retained_primary
+luna,GPT-5.6 Luna,balanced_option_order,frozen_original,panel_jsd,-0.05910972402618611,-0.10498754738789186,-0.02231070300268311,48,scenario,retained_primary
+luna,GPT-5.6 Luna,balanced_option_order,frozen_original,panel_four_way_agreement,0.05333333333333333,0.017777777777777778,0.09777777777777777,45,scenario,valid_only_sensitivity
+luna,GPT-5.6 Luna,balanced_option_order,frozen_original,panel_binary_agreement,0.05333333333333333,0.017777777777777778,0.09777777777777777,45,scenario,valid_only_sensitivity
+luna,GPT-5.6 Luna,balanced_option_order,frozen_original,panel_under_intervention,-0.05217391304347826,-0.11304347826086956,-0.008695652173913042,23,scenario,valid_only_sensitivity
+luna,GPT-5.6 Luna,balanced_option_order,frozen_original,panel_over_intervention,-0.054545454545454536,-0.11818181818181818,-0.009090909090909084,22,scenario,valid_only_sensitivity
+luna,GPT-5.6 Luna,balanced_option_order,frozen_original,panel_multiclass_brier,-0.1166666666666667,-0.2116666666666667,-0.041666666666666664,48,scenario,valid_only_sensitivity
+luna,GPT-5.6 Luna,balanced_option_order,frozen_original,panel_binary_brier,-0.1272222222222222,-0.22722222222222221,-0.047208333333334546,48,scenario,valid_only_sensitivity
+luna,GPT-5.6 Luna,balanced_option_order,frozen_original,panel_jsd,-0.05910972402618611,-0.10515352951878668,-0.022049785651916207,48,scenario,valid_only_sensitivity
+luna,GPT-5.6 Luna,concise_equivalent,frozen_original,panel_four_way_agreement,0.05777777777777777,0.0044444444444444444,0.11999999999999998,45,scenario,retained_primary
+luna,GPT-5.6 Luna,concise_equivalent,frozen_original,panel_binary_agreement,0.05777777777777777,0.0044444444444444444,0.11999999999999998,45,scenario,retained_primary
+luna,GPT-5.6 Luna,concise_equivalent,frozen_original,panel_under_intervention,-0.0608695652173913,-0.16521739130434782,0.026086956521739136,23,scenario,retained_primary
+luna,GPT-5.6 Luna,concise_equivalent,frozen_original,panel_over_intervention,-0.05454545454545456,-0.12727272727272726,0.0,22,scenario,retained_primary
+luna,GPT-5.6 Luna,concise_equivalent,frozen_original,panel_multiclass_brier,-0.08833333333333333,-0.20444444444444443,0.013333333333333338,48,scenario,retained_primary
+luna,GPT-5.6 Luna,concise_equivalent,frozen_original,panel_binary_brier,-0.11166666666666668,-0.24666666666666667,6.3606527452482924e-18,48,scenario,retained_primary
+luna,GPT-5.6 Luna,concise_equivalent,frozen_original,panel_jsd,-0.04772289171940106,-0.10261172172719457,-0.0018733236637524138,48,scenario,retained_primary
+luna,GPT-5.6 Luna,concise_equivalent,frozen_original,panel_four_way_agreement,0.05777777777777777,0.0044444444444444444,0.11999999999999998,45,scenario,valid_only_sensitivity
+luna,GPT-5.6 Luna,concise_equivalent,frozen_original,panel_binary_agreement,0.05777777777777777,0.0044444444444444444,0.12000000000000001,45,scenario,valid_only_sensitivity
+luna,GPT-5.6 Luna,concise_equivalent,frozen_original,panel_under_intervention,-0.0608695652173913,-0.16521739130434784,0.017391304347826094,23,scenario,valid_only_sensitivity
+luna,GPT-5.6 Luna,concise_equivalent,frozen_original,panel_over_intervention,-0.05454545454545456,-0.12727272727272726,0.0,22,scenario,valid_only_sensitivity
+luna,GPT-5.6 Luna,concise_equivalent,frozen_original,panel_multiclass_brier,-0.08833333333333333,-0.20722222222222222,0.013347222222221032,48,scenario,valid_only_sensitivity
+luna,GPT-5.6 Luna,concise_equivalent,frozen_original,panel_binary_brier,-0.11166666666666668,-0.24499999999999997,0.0,48,scenario,valid_only_sensitivity
+luna,GPT-5.6 Luna,concise_equivalent,frozen_original,panel_jsd,-0.04772289171940106,-0.10309199294257028,-0.0016149500804515718,48,scenario,valid_only_sensitivity
+luna,GPT-5.6 Luna,policy_oriented_equivalent,frozen_original,panel_four_way_agreement,-0.004444444444444444,-0.07111111111111112,0.06222222222222223,45,scenario,retained_primary
+luna,GPT-5.6 Luna,policy_oriented_equivalent,frozen_original,panel_binary_agreement,-0.004444444444444444,-0.07111111111111111,0.06222222222222223,45,scenario,retained_primary
+luna,GPT-5.6 Luna,policy_oriented_equivalent,frozen_original,panel_under_intervention,-0.0782608695652174,-0.1565217391304348,0.0,23,scenario,retained_primary
+luna,GPT-5.6 Luna,policy_oriented_equivalent,frozen_original,panel_over_intervention,0.09090909090909093,5.046468293750712e-18,0.19090909090909092,22,scenario,retained_primary
+luna,GPT-5.6 Luna,policy_oriented_equivalent,frozen_original,panel_multiclass_brier,-0.03888888888888888,-0.15833333333333333,0.06444444444444443,48,scenario,retained_primary
+luna,GPT-5.6 Luna,policy_oriented_equivalent,frozen_original,panel_binary_brier,-0.056666666666666664,-0.1922222222222222,0.065,48,scenario,retained_primary
+luna,GPT-5.6 Luna,policy_oriented_equivalent,frozen_original,panel_jsd,-0.015255603977527682,-0.0725587222037934,0.038986391717339496,48,scenario,retained_primary
+luna,GPT-5.6 Luna,policy_oriented_equivalent,frozen_original,panel_four_way_agreement,-0.004444444444444444,-0.07111111111111112,0.06222222222222223,45,scenario,valid_only_sensitivity
+luna,GPT-5.6 Luna,policy_oriented_equivalent,frozen_original,panel_binary_agreement,-0.004444444444444444,-0.07111111111111111,0.06222222222222223,45,scenario,valid_only_sensitivity
+luna,GPT-5.6 Luna,policy_oriented_equivalent,frozen_original,panel_under_intervention,-0.0782608695652174,-0.1565217391304348,0.0,23,scenario,valid_only_sensitivity
+luna,GPT-5.6 Luna,policy_oriented_equivalent,frozen_original,panel_over_intervention,0.09090909090909093,2.523234146875356e-18,0.19090909090909094,22,scenario,valid_only_sensitivity
+luna,GPT-5.6 Luna,policy_oriented_equivalent,frozen_original,panel_multiclass_brier,-0.03888888888888888,-0.15555555555555556,0.06499999999999999,48,scenario,valid_only_sensitivity
+luna,GPT-5.6 Luna,policy_oriented_equivalent,frozen_original,panel_binary_brier,-0.056666666666666664,-0.1927777777777778,0.06390277777777657,48,scenario,valid_only_sensitivity
+luna,GPT-5.6 Luna,policy_oriented_equivalent,frozen_original,panel_jsd,-0.015255603977527682,-0.07352123373385208,0.0399670592886745,48,scenario,valid_only_sensitivity
+luna,GPT-5.6 Luna,open_ended,frozen_original,panel_four_way_agreement,-0.06666666666666667,-0.17333333333333334,0.035555555555555556,45,scenario,retained_primary
+luna,GPT-5.6 Luna,open_ended,frozen_original,panel_binary_agreement,-0.07555555555555556,-0.17333333333333334,0.013333333333333336,45,scenario,retained_primary
+luna,GPT-5.6 Luna,open_ended,frozen_original,panel_under_intervention,-0.008695652173913049,-0.10434782608695654,0.07826086956521738,23,scenario,retained_primary
+luna,GPT-5.6 Luna,open_ended,frozen_original,panel_over_intervention,-0.1,-0.18181818181818182,-0.03636363636363636,22,scenario,retained_primary
+luna,GPT-5.6 Luna,open_ended,frozen_original,panel_multiclass_brier,0.04666666666666666,-0.09666666666666668,0.2022222222222222,48,scenario,retained_primary
+luna,GPT-5.6 Luna,open_ended,frozen_original,panel_binary_brier,0.06388888888888887,-0.05777777777777779,0.20279166666666548,48,scenario,retained_primary
+luna,GPT-5.6 Luna,open_ended,frozen_original,panel_jsd,0.04044262857110319,-0.03807017328486395,0.12188480193195914,48,scenario,retained_primary
+luna,GPT-5.6 Luna,open_ended,frozen_original,panel_four_way_agreement,0.017054263565891473,-0.05968992248062015,0.09457364341085271,43,scenario,valid_only_sensitivity
+luna,GPT-5.6 Luna,open_ended,frozen_original,panel_binary_agreement,0.017054263565891473,-0.051162790697674425,0.08217054263565891,43,scenario,valid_only_sensitivity
+luna,GPT-5.6 Luna,open_ended,frozen_original,panel_under_intervention,0.00952380952380952,-0.1142857142857143,0.14285714285714285,21,scenario,valid_only_sensitivity
+luna,GPT-5.6 Luna,open_ended,frozen_original,panel_over_intervention,-0.04242424242424243,-0.10606060606060609,0.0,22,scenario,valid_only_sensitivity
+luna,GPT-5.6 Luna,open_ended,frozen_original,panel_multiclass_brier,-0.05006038647342997,-0.155169384057971,0.03608695652173912,46,scenario,valid_only_sensitivity
+luna,GPT-5.6 Luna,open_ended,frozen_original,panel_binary_brier,-0.03227053140096618,-0.1105314009661836,0.033236714975845405,46,scenario,valid_only_sensitivity
+luna,GPT-5.6 Luna,open_ended,frozen_original,panel_jsd,-0.033049952175868653,-0.09382556871274148,0.014208329338564182,46,scenario,valid_only_sensitivity
+sonnet,Claude Sonnet 5,balanced_option_order,frozen_original,panel_four_way_agreement,0.02666666666666666,-0.06666666666666667,0.12000000000000001,45,scenario,retained_primary
+sonnet,Claude Sonnet 5,balanced_option_order,frozen_original,panel_binary_agreement,0.02666666666666666,-0.06666666666666667,0.12000000000000001,45,scenario,retained_primary
+sonnet,Claude Sonnet 5,balanced_option_order,frozen_original,panel_under_intervention,-0.1391304347826087,-0.2782608695652174,-0.02608695652173913,23,scenario,retained_primary
+sonnet,Claude Sonnet 5,balanced_option_order,frozen_original,panel_over_intervention,0.09090909090909091,0.0,0.22727272727272727,22,scenario,retained_primary
+sonnet,Claude Sonnet 5,balanced_option_order,frozen_original,panel_multiclass_brier,-0.06333333333333332,-0.2183333333333333,0.08222222222222224,48,scenario,retained_primary
+sonnet,Claude Sonnet 5,balanced_option_order,frozen_original,panel_binary_brier,-0.056666666666666664,-0.21055555555555552,0.08666666666666667,48,scenario,retained_primary
+sonnet,Claude Sonnet 5,balanced_option_order,frozen_original,panel_jsd,-0.02895861360393776,-0.10670291751214327,0.04455637681029275,48,scenario,retained_primary
+sonnet,Claude Sonnet 5,balanced_option_order,frozen_original,panel_four_way_agreement,0.02666666666666666,-0.06666666666666667,0.12000000000000001,45,scenario,valid_only_sensitivity
+sonnet,Claude Sonnet 5,balanced_option_order,frozen_original,panel_binary_agreement,0.02666666666666666,-0.06666666666666667,0.12000000000000001,45,scenario,valid_only_sensitivity
+sonnet,Claude Sonnet 5,balanced_option_order,frozen_original,panel_under_intervention,-0.1391304347826087,-0.2782608695652174,-0.02608695652173913,23,scenario,valid_only_sensitivity
+sonnet,Claude Sonnet 5,balanced_option_order,frozen_original,panel_over_intervention,0.09090909090909091,0.0,0.22727272727272727,22,scenario,valid_only_sensitivity
+sonnet,Claude Sonnet 5,balanced_option_order,frozen_original,panel_multiclass_brier,-0.06333333333333332,-0.21779166666666663,0.08222222222222224,48,scenario,valid_only_sensitivity
+sonnet,Claude Sonnet 5,balanced_option_order,frozen_original,panel_binary_brier,-0.056666666666666664,-0.21,0.09444444444444444,48,scenario,valid_only_sensitivity
+sonnet,Claude Sonnet 5,balanced_option_order,frozen_original,panel_jsd,-0.02895861360393776,-0.1080626334432961,0.04455637681029275,48,scenario,valid_only_sensitivity
+sonnet,Claude Sonnet 5,concise_equivalent,frozen_original,panel_four_way_agreement,0.07555555555555556,-0.013333333333333336,0.17333333333333334,45,scenario,retained_primary
+sonnet,Claude Sonnet 5,concise_equivalent,frozen_original,panel_binary_agreement,0.05777777777777778,-0.022222222222222223,0.1511111111111111,45,scenario,retained_primary
+sonnet,Claude Sonnet 5,concise_equivalent,frozen_original,panel_under_intervention,-0.1565217391304348,-0.31304347826086953,-0.02608695652173913,23,scenario,retained_primary
+sonnet,Claude Sonnet 5,concise_equivalent,frozen_original,panel_over_intervention,0.045454545454545456,0.0,0.13636363636363635,22,scenario,retained_primary
+sonnet,Claude Sonnet 5,concise_equivalent,frozen_original,panel_multiclass_brier,-0.14944444444444444,-0.325,-0.010555555555555549,48,scenario,retained_primary
+sonnet,Claude Sonnet 5,concise_equivalent,frozen_original,panel_binary_brier,-0.10944444444444444,-0.27448611111111104,0.015555555555555559,48,scenario,retained_primary
+sonnet,Claude Sonnet 5,concise_equivalent,frozen_original,panel_jsd,-0.07260393655321276,-0.15882698003017218,-0.004066245057949884,48,scenario,retained_primary
+sonnet,Claude Sonnet 5,concise_equivalent,frozen_original,panel_four_way_agreement,0.07555555555555556,-0.017777777777777774,0.17333333333333334,45,scenario,valid_only_sensitivity
+sonnet,Claude Sonnet 5,concise_equivalent,frozen_original,panel_binary_agreement,0.05777777777777778,-0.022222222222222223,0.15111111111111114,45,scenario,valid_only_sensitivity
+sonnet,Claude Sonnet 5,concise_equivalent,frozen_original,panel_under_intervention,-0.1565217391304348,-0.31304347826086953,-0.02608695652173913,23,scenario,valid_only_sensitivity
+sonnet,Claude Sonnet 5,concise_equivalent,frozen_original,panel_over_intervention,0.045454545454545456,0.0,0.13636363636363635,22,scenario,valid_only_sensitivity
+sonnet,Claude Sonnet 5,concise_equivalent,frozen_original,panel_multiclass_brier,-0.14944444444444444,-0.325,-0.010555555555555549,48,scenario,valid_only_sensitivity
+sonnet,Claude Sonnet 5,concise_equivalent,frozen_original,panel_binary_brier,-0.10944444444444444,-0.26388888888888884,0.015555555555555559,48,scenario,valid_only_sensitivity
+sonnet,Claude Sonnet 5,concise_equivalent,frozen_original,panel_jsd,-0.07260393655321276,-0.15702498488894057,-0.004066245057949887,48,scenario,valid_only_sensitivity
+sonnet,Claude Sonnet 5,policy_oriented_equivalent,frozen_original,panel_four_way_agreement,0.05777777777777778,-0.044444444444444446,0.1688888888888889,45,scenario,retained_primary
+sonnet,Claude Sonnet 5,policy_oriented_equivalent,frozen_original,panel_binary_agreement,0.035555555555555556,-0.06666666666666667,0.13777777777777778,45,scenario,retained_primary
+sonnet,Claude Sonnet 5,policy_oriented_equivalent,frozen_original,panel_under_intervention,-0.1565217391304348,-0.30434782608695654,-0.02608695652173913,23,scenario,retained_primary
+sonnet,Claude Sonnet 5,policy_oriented_equivalent,frozen_original,panel_over_intervention,0.09090909090909091,0.0,0.22727272727272727,22,scenario,retained_primary
+sonnet,Claude Sonnet 5,policy_oriented_equivalent,frozen_original,panel_multiclass_brier,-0.1161111111111111,-0.30333333333333334,0.05722222222222223,48,scenario,retained_primary
+sonnet,Claude Sonnet 5,policy_oriented_equivalent,frozen_original,panel_binary_brier,-0.06777777777777777,-0.23611111111111113,0.08833333333333333,48,scenario,retained_primary
+sonnet,Claude Sonnet 5,policy_oriented_equivalent,frozen_original,panel_jsd,-0.05402126043124609,-0.14583333333333334,0.03201139218358897,48,scenario,retained_primary
+sonnet,Claude Sonnet 5,policy_oriented_equivalent,frozen_original,panel_four_way_agreement,0.05777777777777778,-0.044444444444444446,0.1688888888888889,45,scenario,valid_only_sensitivity
+sonnet,Claude Sonnet 5,policy_oriented_equivalent,frozen_original,panel_binary_agreement,0.035555555555555556,-0.06666666666666667,0.13777777777777775,45,scenario,valid_only_sensitivity
+sonnet,Claude Sonnet 5,policy_oriented_equivalent,frozen_original,panel_under_intervention,-0.1565217391304348,-0.31304347826086953,-0.02608695652173913,23,scenario,valid_only_sensitivity
+sonnet,Claude Sonnet 5,policy_oriented_equivalent,frozen_original,panel_over_intervention,0.09090909090909091,0.0,0.22727272727272727,22,scenario,valid_only_sensitivity
+sonnet,Claude Sonnet 5,policy_oriented_equivalent,frozen_original,panel_multiclass_brier,-0.1161111111111111,-0.3055555555555555,0.05722222222222223,48,scenario,valid_only_sensitivity
+sonnet,Claude Sonnet 5,policy_oriented_equivalent,frozen_original,panel_binary_brier,-0.06777777777777777,-0.245,0.08833333333333333,48,scenario,valid_only_sensitivity
+sonnet,Claude Sonnet 5,policy_oriented_equivalent,frozen_original,panel_jsd,-0.05402126043124609,-0.14583333333333334,0.03220178304571333,48,scenario,valid_only_sensitivity
+sonnet,Claude Sonnet 5,open_ended,frozen_original,panel_four_way_agreement,-0.18222222222222226,-0.3066666666666667,-0.06222222222222223,45,scenario,retained_primary
+sonnet,Claude Sonnet 5,open_ended,frozen_original,panel_binary_agreement,-0.1911111111111111,-0.3022222222222223,-0.08888888888888889,45,scenario,retained_primary
+sonnet,Claude Sonnet 5,open_ended,frozen_original,panel_under_intervention,-0.06956521739130435,-0.17391304347826086,0.017391304347826087,23,scenario,retained_primary
+sonnet,Claude Sonnet 5,open_ended,frozen_original,panel_over_intervention,0.045454545454545456,-0.009090909090909089,0.11818181818181818,22,scenario,retained_primary
+sonnet,Claude Sonnet 5,open_ended,frozen_original,panel_multiclass_brier,0.16388888888888895,-0.027222222222222203,0.3583333333333334,48,scenario,retained_primary
+sonnet,Claude Sonnet 5,open_ended,frozen_original,panel_binary_brier,0.2427777777777778,0.07500000000000002,0.4177777777777778,48,scenario,retained_primary
+sonnet,Claude Sonnet 5,open_ended,frozen_original,panel_jsd,0.14199799273323835,0.03639909232434971,0.248949111188199,48,scenario,retained_primary
+sonnet,Claude Sonnet 5,open_ended,frozen_original,panel_four_way_agreement,-0.07500000000000001,-0.18452380952380953,0.02860119047618788,42,scenario,valid_only_sensitivity
+sonnet,Claude Sonnet 5,open_ended,frozen_original,panel_binary_agreement,-0.06309523809523811,-0.14484126984126985,0.0063492063492063475,42,scenario,valid_only_sensitivity
+sonnet,Claude Sonnet 5,open_ended,frozen_original,panel_under_intervention,0.045,-0.06499999999999999,0.175,20,scenario,valid_only_sensitivity
+sonnet,Claude Sonnet 5,open_ended,frozen_original,panel_over_intervention,0.07954545454545454,0.0,0.178030303030303,22,scenario,valid_only_sensitivity
+sonnet,Claude Sonnet 5,open_ended,frozen_original,panel_multiclass_brier,0.04939506172839506,-0.12466666666666665,0.22006172839506172,45,scenario,valid_only_sensitivity
+sonnet,Claude Sonnet 5,open_ended,frozen_original,panel_binary_brier,0.0827283950617284,-0.046567901234567895,0.2206990740740734,45,scenario,valid_only_sensitivity
+sonnet,Claude Sonnet 5,open_ended,frozen_original,panel_jsd,0.04563380335025693,-0.043962210310767684,0.1366944701332653,45,scenario,valid_only_sensitivity
+opus,Claude Opus 4.8,balanced_option_order,frozen_original,panel_four_way_agreement,0.022222222222222223,-0.008888888888888889,0.06222222222222222,45,scenario,retained_primary
+opus,Claude Opus 4.8,balanced_option_order,frozen_original,panel_binary_agreement,0.022222222222222223,-0.008888888888888889,0.06222222222222222,45,scenario,retained_primary
+opus,Claude Opus 4.8,balanced_option_order,frozen_original,panel_under_intervention,-0.043478260869565216,-0.11304347826086956,0.008695652173913047,23,scenario,retained_primary
+opus,Claude Opus 4.8,balanced_option_order,frozen_original,panel_over_intervention,-2.523234146875356e-18,-0.02727272727272728,0.027272727272727268,22,scenario,retained_primary
+opus,Claude Opus 4.8,balanced_option_order,frozen_original,panel_multiclass_brier,-0.052777777777777785,-0.16111111111111112,0.03888888888888888,48,scenario,retained_primary
+opus,Claude Opus 4.8,balanced_option_order,frozen_original,panel_binary_brier,-0.06166666666666667,-0.16834722222222223,0.018888888888888882,48,scenario,retained_primary
+opus,Claude Opus 4.8,balanced_option_order,frozen_original,panel_jsd,-0.026512055636804588,-0.08319516381042995,0.02553154289707146,48,scenario,retained_primary
+opus,Claude Opus 4.8,balanced_option_order,frozen_original,panel_four_way_agreement,0.022222222222222223,-0.008888888888888889,0.06222222222222222,45,scenario,valid_only_sensitivity
+opus,Claude Opus 4.8,balanced_option_order,frozen_original,panel_binary_agreement,0.022222222222222223,-0.008888888888888889,0.06222222222222222,45,scenario,valid_only_sensitivity
+opus,Claude Opus 4.8,balanced_option_order,frozen_original,panel_under_intervention,-0.043478260869565216,-0.11304347826086956,0.008695652173913047,23,scenario,valid_only_sensitivity
+opus,Claude Opus 4.8,balanced_option_order,frozen_original,panel_over_intervention,-2.523234146875356e-18,-0.02727272727272728,0.027272727272727268,22,scenario,valid_only_sensitivity
+opus,Claude Opus 4.8,balanced_option_order,frozen_original,panel_multiclass_brier,-0.052777777777777785,-0.1622222222222222,0.039999999999999994,48,scenario,valid_only_sensitivity
+opus,Claude Opus 4.8,balanced_option_order,frozen_original,panel_binary_brier,-0.06166666666666667,-0.16666666666666666,0.018888888888888882,48,scenario,valid_only_sensitivity
+opus,Claude Opus 4.8,balanced_option_order,frozen_original,panel_jsd,-0.026512055636804588,-0.08302560006904329,0.024062272588959484,48,scenario,valid_only_sensitivity
+opus,Claude Opus 4.8,concise_equivalent,frozen_original,panel_four_way_agreement,-0.008888888888888887,-0.048888888888888885,0.022222222222222223,45,scenario,retained_primary
+opus,Claude Opus 4.8,concise_equivalent,frozen_original,panel_binary_agreement,-0.017777777777777778,-0.05333333333333333,0.008888888888888889,45,scenario,retained_primary
+opus,Claude Opus 4.8,concise_equivalent,frozen_original,panel_under_intervention,0.008695652173913047,-0.017391304347826084,0.034782608695652174,23,scenario,retained_primary
+opus,Claude Opus 4.8,concise_equivalent,frozen_original,panel_over_intervention,0.027272727272727268,-0.018181818181818184,0.09090909090909091,22,scenario,retained_primary
+opus,Claude Opus 4.8,concise_equivalent,frozen_original,panel_multiclass_brier,-0.023333333333333334,-0.08499999999999996,0.03388888888888888,48,scenario,retained_primary
+opus,Claude Opus 4.8,concise_equivalent,frozen_original,panel_binary_brier,-2.3129646346357427e-18,-0.04388888888888887,0.044999999999999984,48,scenario,retained_primary
+opus,Claude Opus 4.8,concise_equivalent,frozen_original,panel_jsd,-0.006575980561557862,-0.045482960302032055,0.03117125088089369,48,scenario,retained_primary
+opus,Claude Opus 4.8,concise_equivalent,frozen_original,panel_four_way_agreement,-0.008888888888888887,-0.044444444444444446,0.022222222222222223,45,scenario,valid_only_sensitivity
+opus,Claude Opus 4.8,concise_equivalent,frozen_original,panel_binary_agreement,-0.017777777777777778,-0.05333333333333333,0.008888888888888889,45,scenario,valid_only_sensitivity
+opus,Claude Opus 4.8,concise_equivalent,frozen_original,panel_under_intervention,0.008695652173913047,-0.017391304347826084,0.034782608695652174,23,scenario,valid_only_sensitivity
+opus,Claude Opus 4.8,concise_equivalent,frozen_original,panel_over_intervention,0.027272727272727268,-0.018181818181818184,0.09090909090909091,22,scenario,valid_only_sensitivity
+opus,Claude Opus 4.8,concise_equivalent,frozen_original,panel_multiclass_brier,-0.023333333333333334,-0.08388888888888886,0.033333333333333326,48,scenario,valid_only_sensitivity
+opus,Claude Opus 4.8,concise_equivalent,frozen_original,panel_binary_brier,-2.3129646346357427e-18,-0.04444444444444443,0.044444444444444425,48,scenario,valid_only_sensitivity
+opus,Claude Opus 4.8,concise_equivalent,frozen_original,panel_jsd,-0.006575980561557862,-0.04599372419941833,0.03149197695787294,48,scenario,valid_only_sensitivity
+opus,Claude Opus 4.8,policy_oriented_equivalent,frozen_original,panel_four_way_agreement,-0.05777777777777778,-0.1333333333333333,-1.2335811384723962e-18,45,scenario,retained_primary
+opus,Claude Opus 4.8,policy_oriented_equivalent,frozen_original,panel_binary_agreement,-0.044444444444444446,-0.10666666666666666,-1.2335811384723962e-18,45,scenario,retained_primary
+opus,Claude Opus 4.8,policy_oriented_equivalent,frozen_original,panel_under_intervention,0.08695652173913043,0.0,0.19999999999999998,23,scenario,retained_primary
+opus,Claude Opus 4.8,policy_oriented_equivalent,frozen_original,panel_over_intervention,-2.523234146875356e-18,-0.02727272727272728,0.027272727272727268,22,scenario,retained_primary
+opus,Claude Opus 4.8,policy_oriented_equivalent,frozen_original,panel_multiclass_brier,0.04111111111111111,-0.010569444444444435,0.09555555555555556,48,scenario,retained_primary
+opus,Claude Opus 4.8,policy_oriented_equivalent,frozen_original,panel_binary_brier,0.043333333333333335,-0.0005555555555555557,0.09833333333333331,48,scenario,retained_primary
+opus,Claude Opus 4.8,policy_oriented_equivalent,frozen_original,panel_jsd,0.021594214331170338,-0.015318528295637271,0.05830384406476306,48,scenario,retained_primary
+opus,Claude Opus 4.8,policy_oriented_equivalent,frozen_original,panel_four_way_agreement,-0.05777777777777778,-0.13333333333333333,-1.2335811384723962e-18,45,scenario,valid_only_sensitivity
+opus,Claude Opus 4.8,policy_oriented_equivalent,frozen_original,panel_binary_agreement,-0.044444444444444446,-0.10666666666666666,0.0,45,scenario,valid_only_sensitivity
+opus,Claude Opus 4.8,policy_oriented_equivalent,frozen_original,panel_under_intervention,0.08695652173913043,0.0,0.19999999999999998,23,scenario,valid_only_sensitivity
+opus,Claude Opus 4.8,policy_oriented_equivalent,frozen_original,panel_over_intervention,-2.523234146875356e-18,-0.02727272727272728,0.027272727272727268,22,scenario,valid_only_sensitivity
+opus,Claude Opus 4.8,policy_oriented_equivalent,frozen_original,panel_multiclass_brier,0.04111111111111111,-0.011111111111111112,0.09555555555555556,48,scenario,valid_only_sensitivity
+opus,Claude Opus 4.8,policy_oriented_equivalent,frozen_original,panel_binary_brier,0.043333333333333335,0.0,0.098347222222221,48,scenario,valid_only_sensitivity
+opus,Claude Opus 4.8,policy_oriented_equivalent,frozen_original,panel_jsd,0.021594214331170338,-0.016283544558193086,0.05841728958161828,48,scenario,valid_only_sensitivity
+opus,Claude Opus 4.8,open_ended,frozen_original,panel_four_way_agreement,-0.12444444444444444,-0.23111111111111116,-0.026666666666666672,45,scenario,retained_primary
+opus,Claude Opus 4.8,open_ended,frozen_original,panel_binary_agreement,-0.1511111111111111,-0.25333333333333335,-0.06222222222222222,45,scenario,retained_primary
+opus,Claude Opus 4.8,open_ended,frozen_original,panel_under_intervention,-0.034782608695652174,-0.13043478260869565,0.06956521739130435,23,scenario,retained_primary
+opus,Claude Opus 4.8,open_ended,frozen_original,panel_over_intervention,-0.06363636363636364,-0.14545454545454548,0.0,22,scenario,retained_primary
+opus,Claude Opus 4.8,open_ended,frozen_original,panel_multiclass_brier,0.08166666666666667,-0.08277777777777777,0.2538888888888889,48,scenario,retained_primary
+opus,Claude Opus 4.8,open_ended,frozen_original,panel_binary_brier,0.13888888888888892,0.0044444444444444635,0.29055555555555557,48,scenario,retained_primary
+opus,Claude Opus 4.8,open_ended,frozen_original,panel_jsd,0.08069828544896256,-0.002217065798948901,0.1715940603352024,48,scenario,retained_primary
+opus,Claude Opus 4.8,open_ended,frozen_original,panel_four_way_agreement,-0.015873015873015876,-0.10162698412698411,0.06507936507936508,42,scenario,valid_only_sensitivity
+opus,Claude Opus 4.8,open_ended,frozen_original,panel_binary_agreement,-0.015873015873015876,-0.07464285714285712,0.023809523809523808,42,scenario,valid_only_sensitivity
+opus,Claude Opus 4.8,open_ended,frozen_original,panel_under_intervention,0.03333333333333333,-0.05,0.15,20,scenario,valid_only_sensitivity
+opus,Claude Opus 4.8,open_ended,frozen_original,panel_over_intervention,-2.523234146875356e-18,-0.02727272727272728,0.027272727272727268,22,scenario,valid_only_sensitivity
+opus,Claude Opus 4.8,open_ended,frozen_original,panel_multiclass_brier,-0.003753086419753091,-0.147358024691358,0.13985185185185184,45,scenario,valid_only_sensitivity
+opus,Claude Opus 4.8,open_ended,frozen_original,panel_binary_brier,0.0102716049382716,-0.05925925925925927,0.0711111111111111,45,scenario,valid_only_sensitivity
+opus,Claude Opus 4.8,open_ended,frozen_original,panel_jsd,-0.005534923853322097,-0.08050124997596146,0.06709576601023653,45,scenario,valid_only_sensitivity
+flash,Gemini 3.6 Flash,balanced_option_order,frozen_original,panel_four_way_agreement,-0.02666666666666668,-0.1111111111111111,0.05777777777777778,45,scenario,retained_primary
+flash,Gemini 3.6 Flash,balanced_option_order,frozen_original,panel_binary_agreement,-0.04444444444444445,-0.12444444444444444,0.026666666666666665,45,scenario,retained_primary
+flash,Gemini 3.6 Flash,balanced_option_order,frozen_original,panel_under_intervention,-0.05217391304347826,-0.13043478260869565,0.0,23,scenario,retained_primary
+flash,Gemini 3.6 Flash,balanced_option_order,frozen_original,panel_over_intervention,0.14545454545454545,0.03636363636363637,0.2818181818181818,22,scenario,retained_primary
+flash,Gemini 3.6 Flash,balanced_option_order,frozen_original,panel_multiclass_brier,-0.002222222222222225,-0.10944444444444446,0.115,48,scenario,retained_primary
+flash,Gemini 3.6 Flash,balanced_option_order,frozen_original,panel_binary_brier,0.029999999999999995,-0.04944444444444445,0.13556944444444324,48,scenario,retained_primary
+flash,Gemini 3.6 Flash,balanced_option_order,frozen_original,panel_jsd,0.0024069811704947853,-0.057162023462522395,0.06337114164350002,48,scenario,retained_primary
+flash,Gemini 3.6 Flash,balanced_option_order,frozen_original,panel_four_way_agreement,-0.02666666666666668,-0.1111111111111111,0.05777777777777778,45,scenario,valid_only_sensitivity
+flash,Gemini 3.6 Flash,balanced_option_order,frozen_original,panel_binary_agreement,-0.04444444444444445,-0.12444444444444444,0.026666666666666665,45,scenario,valid_only_sensitivity
+flash,Gemini 3.6 Flash,balanced_option_order,frozen_original,panel_under_intervention,-0.05217391304347826,-0.13043478260869568,0.0,23,scenario,valid_only_sensitivity
+flash,Gemini 3.6 Flash,balanced_option_order,frozen_original,panel_over_intervention,0.14545454545454545,0.03636363636363637,0.2818181818181818,22,scenario,valid_only_sensitivity
+flash,Gemini 3.6 Flash,balanced_option_order,frozen_original,panel_multiclass_brier,-0.002222222222222225,-0.10833333333333334,0.11722222222222223,48,scenario,valid_only_sensitivity
+flash,Gemini 3.6 Flash,balanced_option_order,frozen_original,panel_binary_brier,0.029999999999999995,-0.04833333333333333,0.13777777777777778,48,scenario,valid_only_sensitivity
+flash,Gemini 3.6 Flash,balanced_option_order,frozen_original,panel_jsd,0.0024069811704947853,-0.055837349105458685,0.06370537586925146,48,scenario,valid_only_sensitivity
+flash,Gemini 3.6 Flash,concise_equivalent,frozen_original,panel_four_way_agreement,-0.05333333333333333,-0.12444444444444444,0.004444444444444446,45,scenario,retained_primary
+flash,Gemini 3.6 Flash,concise_equivalent,frozen_original,panel_binary_agreement,-0.06222222222222222,-0.12888888888888891,-0.008888888888888889,45,scenario,retained_primary
+flash,Gemini 3.6 Flash,concise_equivalent,frozen_original,panel_under_intervention,-2.413528314402514e-18,-0.026086956521739136,0.026086956521739126,23,scenario,retained_primary
+flash,Gemini 3.6 Flash,concise_equivalent,frozen_original,panel_over_intervention,0.1272727272727273,0.02727272727272727,0.2545454545454545,22,scenario,retained_primary
+flash,Gemini 3.6 Flash,concise_equivalent,frozen_original,panel_multiclass_brier,0.04777777777777777,-0.026111111111111123,0.12777777777777777,48,scenario,retained_primary
+flash,Gemini 3.6 Flash,concise_equivalent,frozen_original,panel_binary_brier,0.05555555555555556,0.005555555555555556,0.12500000000000003,48,scenario,retained_primary
+flash,Gemini 3.6 Flash,concise_equivalent,frozen_original,panel_jsd,0.01902194439300991,-0.01775218437013553,0.05828098194861565,48,scenario,retained_primary
+flash,Gemini 3.6 Flash,concise_equivalent,frozen_original,panel_four_way_agreement,-0.05333333333333333,-0.12444444444444444,0.0044444444444444444,45,scenario,valid_only_sensitivity
+flash,Gemini 3.6 Flash,concise_equivalent,frozen_original,panel_binary_agreement,-0.06222222222222222,-0.13333333333333333,-0.008888888888888889,45,scenario,valid_only_sensitivity
+flash,Gemini 3.6 Flash,concise_equivalent,frozen_original,panel_under_intervention,-2.413528314402514e-18,-0.026086956521739136,0.026086956521739126,23,scenario,valid_only_sensitivity
+flash,Gemini 3.6 Flash,concise_equivalent,frozen_original,panel_over_intervention,0.1272727272727273,0.02727272727272727,0.2545454545454546,22,scenario,valid_only_sensitivity
+flash,Gemini 3.6 Flash,concise_equivalent,frozen_original,panel_multiclass_brier,0.04777777777777777,-0.02555555555555557,0.1277777777777778,48,scenario,valid_only_sensitivity
+flash,Gemini 3.6 Flash,concise_equivalent,frozen_original,panel_binary_brier,0.05555555555555556,0.006111111111111109,0.12388888888888892,48,scenario,valid_only_sensitivity
+flash,Gemini 3.6 Flash,concise_equivalent,frozen_original,panel_jsd,0.01902194439300991,-0.017148320343105376,0.05791395550440216,48,scenario,valid_only_sensitivity
+flash,Gemini 3.6 Flash,policy_oriented_equivalent,frozen_original,panel_four_way_agreement,-0.11999999999999998,-0.23555555555555557,-0.01333333333333333,45,scenario,retained_primary
+flash,Gemini 3.6 Flash,policy_oriented_equivalent,frozen_original,panel_binary_agreement,-0.11999999999999998,-0.23555555555555555,-0.01333333333333333,45,scenario,retained_primary
+flash,Gemini 3.6 Flash,policy_oriented_equivalent,frozen_original,panel_under_intervention,-0.06086956521739131,-0.1391304347826087,0.0,23,scenario,retained_primary
+flash,Gemini 3.6 Flash,policy_oriented_equivalent,frozen_original,panel_over_intervention,0.3090909090909091,0.12727272727272726,0.5,22,scenario,retained_primary
+flash,Gemini 3.6 Flash,policy_oriented_equivalent,frozen_original,panel_multiclass_brier,0.20166666666666666,0.04331944444444444,0.3888888888888889,48,scenario,retained_primary
+flash,Gemini 3.6 Flash,policy_oriented_equivalent,frozen_original,panel_binary_brier,0.19833333333333333,0.04277777777777778,0.38277777777777783,48,scenario,retained_primary
+flash,Gemini 3.6 Flash,policy_oriented_equivalent,frozen_original,panel_jsd,0.09822269122614975,0.02015165307383535,0.1896813048300875,48,scenario,retained_primary
+flash,Gemini 3.6 Flash,policy_oriented_equivalent,frozen_original,panel_four_way_agreement,-0.11999999999999998,-0.23555555555555557,-0.013333333333333336,45,scenario,valid_only_sensitivity
+flash,Gemini 3.6 Flash,policy_oriented_equivalent,frozen_original,panel_binary_agreement,-0.11999999999999998,-0.24000000000000002,-0.01333333333333333,45,scenario,valid_only_sensitivity
+flash,Gemini 3.6 Flash,policy_oriented_equivalent,frozen_original,panel_under_intervention,-0.06086956521739131,-0.1391304347826087,0.0,23,scenario,valid_only_sensitivity
+flash,Gemini 3.6 Flash,policy_oriented_equivalent,frozen_original,panel_over_intervention,0.3090909090909091,0.13636363636363635,0.5,22,scenario,valid_only_sensitivity
+flash,Gemini 3.6 Flash,policy_oriented_equivalent,frozen_original,panel_multiclass_brier,0.20166666666666666,0.03998611111111112,0.38888888888888884,48,scenario,valid_only_sensitivity
+flash,Gemini 3.6 Flash,policy_oriented_equivalent,frozen_original,panel_binary_brier,0.19833333333333333,0.03888888888888889,0.3788888888888889,48,scenario,valid_only_sensitivity
+flash,Gemini 3.6 Flash,policy_oriented_equivalent,frozen_original,panel_jsd,0.09822269122614975,0.020560173563033517,0.19011909438950597,48,scenario,valid_only_sensitivity
+flash,Gemini 3.6 Flash,open_ended,frozen_original,panel_four_way_agreement,-0.12444444444444445,-0.2222222222222222,-0.04,45,scenario,retained_primary
+flash,Gemini 3.6 Flash,open_ended,frozen_original,panel_binary_agreement,-0.14222222222222222,-0.24000000000000002,-0.05777777777777777,45,scenario,retained_primary
+flash,Gemini 3.6 Flash,open_ended,frozen_original,panel_under_intervention,0.1565217391304348,0.02608695652173913,0.3217391304347826,23,scenario,retained_primary
+flash,Gemini 3.6 Flash,open_ended,frozen_original,panel_over_intervention,-0.07272727272727274,-0.18181818181818182,0.0,22,scenario,retained_primary
+flash,Gemini 3.6 Flash,open_ended,frozen_original,panel_multiclass_brier,0.1127777777777778,-0.014999999999999986,0.265,48,scenario,retained_primary
+flash,Gemini 3.6 Flash,open_ended,frozen_original,panel_binary_brier,0.1905555555555556,0.051111111111111135,0.3561111111111111,48,scenario,retained_primary
+flash,Gemini 3.6 Flash,open_ended,frozen_original,panel_jsd,0.0882174968042918,0.02126324526612548,0.16648097884942242,48,scenario,retained_primary
+flash,Gemini 3.6 Flash,open_ended,frozen_original,panel_four_way_agreement,-0.05606060606060606,-0.15606060606060607,0.03636363636363636,44,scenario,valid_only_sensitivity
+flash,Gemini 3.6 Flash,open_ended,frozen_original,panel_binary_agreement,-0.06363636363636363,-0.1636363636363636,0.02727272727272727,44,scenario,valid_only_sensitivity
+flash,Gemini 3.6 Flash,open_ended,frozen_original,panel_under_intervention,0.17272727272727273,0.03636363636363637,0.33636363636363636,22,scenario,valid_only_sensitivity
+flash,Gemini 3.6 Flash,open_ended,frozen_original,panel_over_intervention,-0.045454545454545456,-0.13636363636363635,0.0,22,scenario,valid_only_sensitivity
+flash,Gemini 3.6 Flash,open_ended,frozen_original,panel_multiclass_brier,0.057304964539007096,-0.08680851063829788,0.20482269503546097,47,scenario,valid_only_sensitivity
+flash,Gemini 3.6 Flash,open_ended,frozen_original,panel_binary_brier,0.11177304964539009,-0.04255319148936169,0.2740425531914894,47,scenario,valid_only_sensitivity
+flash,Gemini 3.6 Flash,open_ended,frozen_original,panel_jsd,0.03137067854556262,-0.04273705903227307,0.10886216121529944,47,scenario,valid_only_sensitivity
+flashlite,Gemini 3.5 Flash-Lite,balanced_option_order,frozen_original,panel_four_way_agreement,-0.02666666666666666,-0.09333333333333334,0.04444444444444445,45,scenario,retained_primary
+flashlite,Gemini 3.5 Flash-Lite,balanced_option_order,frozen_original,panel_binary_agreement,-0.031111111111111103,-0.09777777777777778,0.04,45,scenario,retained_primary
+flashlite,Gemini 3.5 Flash-Lite,balanced_option_order,frozen_original,panel_under_intervention,-0.034782608695652174,-0.11304347826086959,0.017391304347826094,23,scenario,retained_primary
+flashlite,Gemini 3.5 Flash-Lite,balanced_option_order,frozen_original,panel_over_intervention,0.09999999999999999,-0.00909090909090911,0.2090909090909091,22,scenario,retained_primary
+flashlite,Gemini 3.5 Flash-Lite,balanced_option_order,frozen_original,panel_multiclass_brier,-0.012222222222222226,-0.10111111111111111,0.06944444444444443,48,scenario,retained_primary
+flashlite,Gemini 3.5 Flash-Lite,balanced_option_order,frozen_original,panel_binary_brier,-0.018333333333333344,-0.11055555555555556,0.0661111111111111,48,scenario,retained_primary
+flashlite,Gemini 3.5 Flash-Lite,balanced_option_order,frozen_original,panel_jsd,0.0010272981137776232,-0.04514373643366797,0.04457581876630908,48,scenario,retained_primary
+flashlite,Gemini 3.5 Flash-Lite,balanced_option_order,frozen_original,panel_four_way_agreement,-0.02666666666666666,-0.09333333333333334,0.044444444444444446,45,scenario,valid_only_sensitivity
+flashlite,Gemini 3.5 Flash-Lite,balanced_option_order,frozen_original,panel_binary_agreement,-0.031111111111111103,-0.09777777777777778,0.04,45,scenario,valid_only_sensitivity
+flashlite,Gemini 3.5 Flash-Lite,balanced_option_order,frozen_original,panel_under_intervention,-0.034782608695652174,-0.11304347826086956,0.017391304347826098,23,scenario,valid_only_sensitivity
+flashlite,Gemini 3.5 Flash-Lite,balanced_option_order,frozen_original,panel_over_intervention,0.09999999999999999,-0.018181818181818177,0.20909090909090908,22,scenario,valid_only_sensitivity
+flashlite,Gemini 3.5 Flash-Lite,balanced_option_order,frozen_original,panel_multiclass_brier,-0.012222222222222226,-0.10000000000000002,0.06777777777777777,48,scenario,valid_only_sensitivity
+flashlite,Gemini 3.5 Flash-Lite,balanced_option_order,frozen_original,panel_binary_brier,-0.018333333333333344,-0.11166666666666669,0.0661111111111111,48,scenario,valid_only_sensitivity
+flashlite,Gemini 3.5 Flash-Lite,balanced_option_order,frozen_original,panel_jsd,0.0010272981137776232,-0.04455837607938448,0.04412102275284237,48,scenario,valid_only_sensitivity
+flashlite,Gemini 3.5 Flash-Lite,concise_equivalent,frozen_original,panel_four_way_agreement,-0.07555555555555557,-0.1688888888888889,0.008888888888888892,45,scenario,retained_primary
+flashlite,Gemini 3.5 Flash-Lite,concise_equivalent,frozen_original,panel_binary_agreement,-0.06222222222222222,-0.14666666666666667,0.017777777777777785,45,scenario,retained_primary
+flashlite,Gemini 3.5 Flash-Lite,concise_equivalent,frozen_original,panel_under_intervention,0.15652173913043477,0.043478260869565216,0.28695652173913044,23,scenario,retained_primary
+flashlite,Gemini 3.5 Flash-Lite,concise_equivalent,frozen_original,panel_over_intervention,-0.03636363636363637,-0.14545454545454548,0.05454545454545454,22,scenario,retained_primary
+flashlite,Gemini 3.5 Flash-Lite,concise_equivalent,frozen_original,panel_multiclass_brier,0.07,-0.04390277777777778,0.18555555555555558,48,scenario,retained_primary
+flashlite,Gemini 3.5 Flash-Lite,concise_equivalent,frozen_original,panel_binary_brier,0.02999999999999999,-0.08055555555555559,0.13611111111111113,48,scenario,retained_primary
+flashlite,Gemini 3.5 Flash-Lite,concise_equivalent,frozen_original,panel_jsd,0.025855793746549418,-0.030607964760751564,0.08200573056751725,48,scenario,retained_primary
+flashlite,Gemini 3.5 Flash-Lite,concise_equivalent,frozen_original,panel_four_way_agreement,-0.07555555555555557,-0.16444444444444445,0.008888888888888894,45,scenario,valid_only_sensitivity
+flashlite,Gemini 3.5 Flash-Lite,concise_equivalent,frozen_original,panel_binary_agreement,-0.06222222222222222,-0.1511111111111111,0.017777777777777785,45,scenario,valid_only_sensitivity
+flashlite,Gemini 3.5 Flash-Lite,concise_equivalent,frozen_original,panel_under_intervention,0.15652173913043477,0.043478260869565216,0.28695652173913044,23,scenario,valid_only_sensitivity
+flashlite,Gemini 3.5 Flash-Lite,concise_equivalent,frozen_original,panel_over_intervention,-0.03636363636363637,-0.14545454545454548,0.05454545454545454,22,scenario,valid_only_sensitivity
+flashlite,Gemini 3.5 Flash-Lite,concise_equivalent,frozen_original,panel_multiclass_brier,0.07,-0.04555555555555557,0.18668055555555435,48,scenario,valid_only_sensitivity
+flashlite,Gemini 3.5 Flash-Lite,concise_equivalent,frozen_original,panel_binary_brier,0.02999999999999999,-0.07944444444444447,0.13555555555555554,48,scenario,valid_only_sensitivity
+flashlite,Gemini 3.5 Flash-Lite,concise_equivalent,frozen_original,panel_jsd,0.025855793746549418,-0.030976630176733556,0.08218004349352687,48,scenario,valid_only_sensitivity
+flashlite,Gemini 3.5 Flash-Lite,policy_oriented_equivalent,frozen_original,panel_four_way_agreement,-0.08888888888888888,-0.15555555555555559,-0.031111111111111114,45,scenario,retained_primary
+flashlite,Gemini 3.5 Flash-Lite,policy_oriented_equivalent,frozen_original,panel_binary_agreement,-0.06666666666666667,-0.12444444444444448,-0.017777777777777778,45,scenario,retained_primary
+flashlite,Gemini 3.5 Flash-Lite,policy_oriented_equivalent,frozen_original,panel_under_intervention,0.10434782608695652,0.017391304347826087,0.2086956521739131,23,scenario,retained_primary
+flashlite,Gemini 3.5 Flash-Lite,policy_oriented_equivalent,frozen_original,panel_over_intervention,0.027272727272727268,-0.009090909090909101,0.06363636363636363,22,scenario,retained_primary
+flashlite,Gemini 3.5 Flash-Lite,policy_oriented_equivalent,frozen_original,panel_multiclass_brier,0.11166666666666665,0.021666666666666667,0.2238888888888889,48,scenario,retained_primary
+flashlite,Gemini 3.5 Flash-Lite,policy_oriented_equivalent,frozen_original,panel_binary_brier,0.06944444444444443,0.007222222222222213,0.14055555555555554,48,scenario,retained_primary
+flashlite,Gemini 3.5 Flash-Lite,policy_oriented_equivalent,frozen_original,panel_jsd,0.06823854323522799,0.022986296891467212,0.12192323170262893,48,scenario,retained_primary
+flashlite,Gemini 3.5 Flash-Lite,policy_oriented_equivalent,frozen_original,panel_four_way_agreement,-0.08888888888888888,-0.16,-0.031111111111111114,45,scenario,valid_only_sensitivity
+flashlite,Gemini 3.5 Flash-Lite,policy_oriented_equivalent,frozen_original,panel_binary_agreement,-0.06666666666666667,-0.1288888888888889,-0.017777777777777778,45,scenario,valid_only_sensitivity
+flashlite,Gemini 3.5 Flash-Lite,policy_oriented_equivalent,frozen_original,panel_under_intervention,0.10434782608695652,0.017391304347826087,0.2086956521739131,23,scenario,valid_only_sensitivity
+flashlite,Gemini 3.5 Flash-Lite,policy_oriented_equivalent,frozen_original,panel_over_intervention,0.027272727272727268,-0.009090909090909101,0.06363636363636363,22,scenario,valid_only_sensitivity
+flashlite,Gemini 3.5 Flash-Lite,policy_oriented_equivalent,frozen_original,panel_multiclass_brier,0.11166666666666665,0.022222222222222202,0.22277777777777782,48,scenario,valid_only_sensitivity
+flashlite,Gemini 3.5 Flash-Lite,policy_oriented_equivalent,frozen_original,panel_binary_brier,0.06944444444444443,0.007777777777777763,0.13944444444444445,48,scenario,valid_only_sensitivity
+flashlite,Gemini 3.5 Flash-Lite,policy_oriented_equivalent,frozen_original,panel_jsd,0.06823854323522799,0.023567429743448425,0.12238789036006896,48,scenario,valid_only_sensitivity
+flashlite,Gemini 3.5 Flash-Lite,open_ended,frozen_original,panel_four_way_agreement,-0.23555555555555555,-0.39555555555555555,-0.07555555555555554,45,scenario,retained_primary
+flashlite,Gemini 3.5 Flash-Lite,open_ended,frozen_original,panel_binary_agreement,-0.2177777777777778,-0.3822222222222222,-0.05777777777777778,45,scenario,retained_primary
+flashlite,Gemini 3.5 Flash-Lite,open_ended,frozen_original,panel_under_intervention,0.2956521739130435,0.1391304347826087,0.46086956521739136,23,scenario,retained_primary
+flashlite,Gemini 3.5 Flash-Lite,open_ended,frozen_original,panel_over_intervention,-0.22727272727272732,-0.3818181818181818,-0.09090909090909091,22,scenario,retained_primary
+flashlite,Gemini 3.5 Flash-Lite,open_ended,frozen_original,panel_multiclass_brier,0.35666666666666663,0.12498611111111108,0.5972222222222222,48,scenario,retained_primary
+flashlite,Gemini 3.5 Flash-Lite,open_ended,frozen_original,panel_binary_brier,0.355,0.11444444444444442,0.6111111111111112,48,scenario,retained_primary
+flashlite,Gemini 3.5 Flash-Lite,open_ended,frozen_original,panel_jsd,0.21658535253077504,0.09410542729559547,0.34553188112984007,48,scenario,retained_primary
+flashlite,Gemini 3.5 Flash-Lite,open_ended,frozen_original,panel_four_way_agreement,-0.14390243902439026,-0.30731707317073176,0.019512195121951226,41,scenario,valid_only_sensitivity
+flashlite,Gemini 3.5 Flash-Lite,open_ended,frozen_original,panel_binary_agreement,-0.12439024390243904,-0.2878048780487805,0.036585365853658534,41,scenario,valid_only_sensitivity
+flashlite,Gemini 3.5 Flash-Lite,open_ended,frozen_original,panel_under_intervention,0.4842105263157894,0.27368421052631575,0.6947368421052632,19,scenario,valid_only_sensitivity
+flashlite,Gemini 3.5 Flash-Lite,open_ended,frozen_original,panel_over_intervention,-0.18636363636363634,-0.33636363636363636,-0.05909090909090909,22,scenario,valid_only_sensitivity
+flashlite,Gemini 3.5 Flash-Lite,open_ended,frozen_original,panel_multiclass_brier,0.2634469696969697,0.027689393939393906,0.5096969696969696,44,scenario,valid_only_sensitivity
+flashlite,Gemini 3.5 Flash-Lite,open_ended,frozen_original,panel_binary_brier,0.26166666666666666,0.01045454545454544,0.5248484848484849,44,scenario,valid_only_sensitivity
+flashlite,Gemini 3.5 Flash-Lite,open_ended,frozen_original,panel_jsd,0.13761252476245728,0.015161083124706438,0.2647848151854946,44,scenario,valid_only_sensitivity
+qwen,Qwen 3.6 27B,balanced_option_order,frozen_original,panel_four_way_agreement,-0.039999999999999994,-0.11999999999999998,0.035555555555555556,45,scenario,retained_primary
+qwen,Qwen 3.6 27B,balanced_option_order,frozen_original,panel_binary_agreement,-0.05777777777777777,-0.1377777777777778,0.017777777777777788,45,scenario,retained_primary
+qwen,Qwen 3.6 27B,balanced_option_order,frozen_original,panel_under_intervention,0.0,-0.08695652173913043,0.08695652173913046,23,scenario,retained_primary
+qwen,Qwen 3.6 27B,balanced_option_order,frozen_original,panel_over_intervention,-0.03636363636363637,-0.08181818181818182,0.009090909090909094,22,scenario,retained_primary
+qwen,Qwen 3.6 27B,balanced_option_order,frozen_original,panel_multiclass_brier,-0.014444444444444449,-0.09333333333333334,0.06833333333333332,48,scenario,retained_primary
+qwen,Qwen 3.6 27B,balanced_option_order,frozen_original,panel_binary_brier,0.019444444444444445,-0.07000000000000002,0.11444444444444446,48,scenario,retained_primary
+qwen,Qwen 3.6 27B,balanced_option_order,frozen_original,panel_jsd,0.02598426720789514,-0.026872213950220297,0.08023368483776433,48,scenario,retained_primary
+qwen,Qwen 3.6 27B,balanced_option_order,frozen_original,panel_four_way_agreement,-0.01925925925925926,-0.08925925925925927,0.044814814814814814,45,scenario,valid_only_sensitivity
+qwen,Qwen 3.6 27B,balanced_option_order,frozen_original,panel_binary_agreement,-0.01925925925925926,-0.08852777777777779,0.044444444444444446,45,scenario,valid_only_sensitivity
+qwen,Qwen 3.6 27B,balanced_option_order,frozen_original,panel_under_intervention,0.06304347826086956,-0.05,0.186231884057971,23,scenario,valid_only_sensitivity
+qwen,Qwen 3.6 27B,balanced_option_order,frozen_original,panel_over_intervention,-0.026515151515151516,-0.08181818181818182,0.027272727272727268,22,scenario,valid_only_sensitivity
+qwen,Qwen 3.6 27B,balanced_option_order,frozen_original,panel_multiclass_brier,0.014131944444444447,-0.06252459490740742,0.1004525462962962,48,scenario,valid_only_sensitivity
+qwen,Qwen 3.6 27B,balanced_option_order,frozen_original,panel_binary_brier,0.02692129629629629,-0.06817129629629631,0.13136776620370352,48,scenario,valid_only_sensitivity
+qwen,Qwen 3.6 27B,balanced_option_order,frozen_original,panel_jsd,0.006126895113113468,-0.036194918368436864,0.05298617182697071,48,scenario,valid_only_sensitivity
+qwen,Qwen 3.6 27B,concise_equivalent,frozen_original,panel_four_way_agreement,-0.06222222222222223,-0.14666666666666667,0.013333333333333348,45,scenario,retained_primary
+qwen,Qwen 3.6 27B,concise_equivalent,frozen_original,panel_binary_agreement,-0.06222222222222223,-0.1511111111111111,0.017777777777777774,45,scenario,retained_primary
+qwen,Qwen 3.6 27B,concise_equivalent,frozen_original,panel_under_intervention,0.11304347826086956,0.017391304347826087,0.22608695652173913,23,scenario,retained_primary
+qwen,Qwen 3.6 27B,concise_equivalent,frozen_original,panel_over_intervention,-0.11818181818181818,-0.18181818181818185,-0.05454545454545456,22,scenario,retained_primary
+qwen,Qwen 3.6 27B,concise_equivalent,frozen_original,panel_multiclass_brier,0.07388888888888889,-0.0177777777777778,0.1805555555555555,48,scenario,retained_primary
+qwen,Qwen 3.6 27B,concise_equivalent,frozen_original,panel_binary_brier,0.08833333333333333,-0.02500000000000001,0.2166666666666667,48,scenario,retained_primary
+qwen,Qwen 3.6 27B,concise_equivalent,frozen_original,panel_jsd,0.04549631543648058,-0.019728286186962155,0.1178531626915865,48,scenario,retained_primary
+qwen,Qwen 3.6 27B,concise_equivalent,frozen_original,panel_four_way_agreement,-0.024814814814814814,-0.12074074074074075,0.06370370370370369,45,scenario,valid_only_sensitivity
+qwen,Qwen 3.6 27B,concise_equivalent,frozen_original,panel_binary_agreement,-0.024814814814814814,-0.12148148148148148,0.06407407407407407,45,scenario,valid_only_sensitivity
+qwen,Qwen 3.6 27B,concise_equivalent,frozen_original,panel_under_intervention,0.17826086956521742,0.046376811594202906,0.3253623188405797,23,scenario,valid_only_sensitivity
+qwen,Qwen 3.6 27B,concise_equivalent,frozen_original,panel_over_intervention,-0.13560606060606062,-0.2136363636363636,-0.06363636363636364,22,scenario,valid_only_sensitivity
+qwen,Qwen 3.6 27B,concise_equivalent,frozen_original,panel_multiclass_brier,0.06505787037037038,-0.06587962962962964,0.21036053240740724,48,scenario,valid_only_sensitivity
+qwen,Qwen 3.6 27B,concise_equivalent,frozen_original,panel_binary_brier,0.0784375,-0.07920283564814815,0.25199074074074074,48,scenario,valid_only_sensitivity
+qwen,Qwen 3.6 27B,concise_equivalent,frozen_original,panel_jsd,0.018588542511054986,-0.053630450295188495,0.09820244755496135,48,scenario,valid_only_sensitivity
+qwen,Qwen 3.6 27B,policy_oriented_equivalent,frozen_original,panel_four_way_agreement,-0.10666666666666665,-0.20011111111111105,-0.017777777777777778,45,scenario,retained_primary
+qwen,Qwen 3.6 27B,policy_oriented_equivalent,frozen_original,panel_binary_agreement,-0.10666666666666665,-0.2,-0.017777777777777778,45,scenario,retained_primary
+qwen,Qwen 3.6 27B,policy_oriented_equivalent,frozen_original,panel_under_intervention,0.17391304347826084,0.06086956521739131,0.2956521739130435,23,scenario,retained_primary
+qwen,Qwen 3.6 27B,policy_oriented_equivalent,frozen_original,panel_over_intervention,-5.046468293750712e-18,-0.09090909090909091,0.0909090909090909,22,scenario,retained_primary
+qwen,Qwen 3.6 27B,policy_oriented_equivalent,frozen_original,panel_multiclass_brier,0.11444444444444442,0.013333333333333313,0.22611111111111115,48,scenario,retained_primary
+qwen,Qwen 3.6 27B,policy_oriented_equivalent,frozen_original,panel_binary_brier,0.13166666666666668,0.013888888888888886,0.26112499999999883,48,scenario,retained_primary
+qwen,Qwen 3.6 27B,policy_oriented_equivalent,frozen_original,panel_jsd,0.06810946304580277,0.0015040398000095029,0.1402769123185028,48,scenario,retained_primary
+qwen,Qwen 3.6 27B,policy_oriented_equivalent,frozen_original,panel_four_way_agreement,-0.10148148148148148,-0.2,-0.009629629629629623,45,scenario,valid_only_sensitivity
+qwen,Qwen 3.6 27B,policy_oriented_equivalent,frozen_original,panel_binary_agreement,-0.10148148148148148,-0.19888888888888887,-0.00851851851851852,45,scenario,valid_only_sensitivity
+qwen,Qwen 3.6 27B,policy_oriented_equivalent,frozen_original,panel_under_intervention,0.19130434782608696,0.0427536231884058,0.3507246376811594,23,scenario,valid_only_sensitivity
+qwen,Qwen 3.6 27B,policy_oriented_equivalent,frozen_original,panel_over_intervention,0.007575757575757577,-0.0893939393939394,0.10681818181818183,22,scenario,valid_only_sensitivity
+qwen,Qwen 3.6 27B,policy_oriented_equivalent,frozen_original,panel_multiclass_brier,0.13392361111111112,0.013725694444444445,0.2696417824074074,48,scenario,valid_only_sensitivity
+qwen,Qwen 3.6 27B,policy_oriented_equivalent,frozen_original,panel_binary_brier,0.16055555555555556,0.027071759259259254,0.313796875,48,scenario,valid_only_sensitivity
+qwen,Qwen 3.6 27B,policy_oriented_equivalent,frozen_original,panel_jsd,0.06848982606630748,0.0035752018161959802,0.14233862752950557,48,scenario,valid_only_sensitivity
+qwen,Qwen 3.6 27B,open_ended,frozen_original,panel_four_way_agreement,-0.35555555555555557,-0.46222222222222226,-0.2488888888888889,45,scenario,retained_primary
+qwen,Qwen 3.6 27B,open_ended,frozen_original,panel_binary_agreement,-0.3866666666666667,-0.488888888888889,-0.28444444444444444,45,scenario,retained_primary
+qwen,Qwen 3.6 27B,open_ended,frozen_original,panel_under_intervention,-0.09565217391304347,-0.21739130434782614,0.026086956521739126,23,scenario,retained_primary
+qwen,Qwen 3.6 27B,open_ended,frozen_original,panel_over_intervention,-0.19090909090909092,-0.30000000000000004,-0.09999999999999999,22,scenario,retained_primary
+qwen,Qwen 3.6 27B,open_ended,frozen_original,panel_multiclass_brier,0.4372222222222222,0.2644444444444444,0.6133333333333333,48,scenario,retained_primary
+qwen,Qwen 3.6 27B,open_ended,frozen_original,panel_binary_brier,0.5972222222222222,0.415,0.7905555555555553,48,scenario,retained_primary
+qwen,Qwen 3.6 27B,open_ended,frozen_original,panel_jsd,0.3245847122025947,0.23427190639949755,0.4174480025533898,48,scenario,retained_primary
+qwen,Qwen 3.6 27B,open_ended,frozen_original,panel_four_way_agreement,-0.035964912280701755,-0.15789473684210525,0.06929824561403508,38,scenario,valid_only_sensitivity
+qwen,Qwen 3.6 27B,open_ended,frozen_original,panel_binary_agreement,-0.04912280701754386,-0.16404605263157895,0.054385964912280704,38,scenario,valid_only_sensitivity
+qwen,Qwen 3.6 27B,open_ended,frozen_original,panel_under_intervention,0.22894736842105262,0.07368421052631578,0.40789473684210525,19,scenario,valid_only_sensitivity
+qwen,Qwen 3.6 27B,open_ended,frozen_original,panel_over_intervention,-0.1307017543859649,-0.21491228070175442,-0.05263157894736842,19,scenario,valid_only_sensitivity
+qwen,Qwen 3.6 27B,open_ended,frozen_original,panel_multiclass_brier,0.13582655826558265,-0.0444718834688347,0.3296947831978314,41,scenario,valid_only_sensitivity
+qwen,Qwen 3.6 27B,open_ended,frozen_original,panel_binary_brier,0.20872628726287262,0.029186314363143624,0.4125914634146338,41,scenario,valid_only_sensitivity
+qwen,Qwen 3.6 27B,open_ended,frozen_original,panel_jsd,0.05941732266424397,-0.030912204703287604,0.1611452719787569,41,scenario,valid_only_sensitivity

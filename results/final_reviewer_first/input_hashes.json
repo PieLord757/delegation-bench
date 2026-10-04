@@ -1,0 +1,11 @@
+{
+  "data/derived/decision_by_scenario_trial.csv": "fe86cbadbcc8558a52fc729faa6d3aeb327a3a9698d9b80a7c37970e0b8bf52a",
+  "delegationbench_v1_0.jsonl": "3ecc96cb79946f46afc27161c59b7a0661a545be8f0b6e46cc289fba514ac405",
+  "results/expert_grounding_final/final_expert_normalized.csv": "38dab2f1e190f2904532a8eea4172536dc8993252ce9265246f4ade097aa8ec1",
+  "results/expert_grounding_final/final_expert_reference.csv": "01d8bf94ca154c9f1e70b26e1ed1bcbd83a0da140ec3dc537455e944246ccd61",
+  "results/expert_grounding_final/final_model_vs_expert_reference.csv": "77bd7363e7abb23a54a75b459a08ae847b19e7123fe9f501869a04fb21e83ba7",
+  "results/panel_leave_one_out_v1/model_by_annotator_agreement.csv": "302714d676faf6a495d351aaae053d712c34395afcbd4a036a2afe004837bfa8",
+  "results/policy_consistency_lexical_audit/policy_consistency_core_pairs.csv": "89bf271f8e11e4f4c127870fe1dfa3dd65cea28fcd70b1218a61c48fc0774bfa",
+  "results/reviewer_extraction_existing_data/same48_ask_by_scenario.csv": "b89a0269dae1210e3a465c84ae4bac927545e32d649c00ed7bc0c18758418457",
+  "results/story_first_existing_data/aep_facet_values.csv": "1e522818aae22fa7841e93d875dc19b6a293941af6be345440f4f0bc08c3a764"
+}

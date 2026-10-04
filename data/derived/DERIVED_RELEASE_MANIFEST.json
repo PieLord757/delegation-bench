@@ -1,0 +1,58 @@
+{
+  "decision_projection": {
+    "output_sha256": "fe86cbadbcc8558a52fc729faa6d3aeb327a3a9698d9b80a7c37970e0b8bf52a",
+    "rows": 7800,
+    "source_hashes": {
+      "results/main_study_gpt_5_6_sol_canonical.jsonl": "8e76243546b24b430e67ebeaa35e52b6db9b0208809cb06f05db490c66495a31",
+      "results/main_study_gpt_oss_120b_groq_canonical.jsonl": "b74d1c396fe5d0bf24847f36910cee2d06d4df8140a15afae76f213aac9bb8b2",
+      "results/main_study_gpt_oss_20b_groq_canonical.jsonl": "209f53ba73ae1149a65bb609fbcbaa72d83f5486ddf494c7cf514a30b2bdec45",
+      "results/model_extension_v1/claude_opus_4_8_canonical.jsonl": "ca9efccddf104dd7a2359e0db40e63da16d3d4359b422dbc9da1b6d6a1be0609",
+      "results/model_extension_v1/claude_sonnet_5_canonical.jsonl": "00132a757cb1a2c87bc7e1567da0badae4350d8412c44e66b7d99a0e075cf090",
+      "results/model_extension_v1/gemini_3_5_flash_lite_canonical.jsonl": "453ece9529a0c9306e1433f01ca5634974574aaa1e39c7fc82f3023c0be91a1d",
+      "results/model_extension_v1/gemini_3_6_flash_canonical.jsonl": "e76278699c878d1aa7041ae5a854fee62d6daa697609214ca23c7fb825651ed6",
+      "results/model_extension_v1/gpt_5_6_luna_canonical.jsonl": "65d2611e7ea3617b5df6d9ecd46289f05ef6df0e0026b3181a0b725f8871ba09",
+      "results/model_extension_v1/gpt_5_6_terra_canonical.jsonl": "ed4128f874df34e5f7b935cd3d6059c163dc130d5a5f2e36413c6e81c77ec850",
+      "results/model_extension_v1/qwen_3_6_27b_groq_canonical.jsonl": "5248823efd12c27167b821152fb38f7ed3a56f2a7a8450657eaa39deaa478b92"
+    }
+  },
+  "frozen_classification_implementation_sha256": "f113c9b92679e142bc7181fd788d4ebb779ec36c0a1afd679ed6a5b1de248684",
+  "generator_sha256": "aa4f37808003faf3cc99e89c48984f6e09529bb4c0f8f432102fafadadfb8eb9",
+  "release_boundary": "Author-created deterministic categorical projections only; no provider text, reasoning, arguments, request metadata, or annotator-linked data.",
+  "sanitized_tool_calls": {
+    "endpoint_keys": [
+      "flash",
+      "flashlite",
+      "luna",
+      "opus",
+      "sol",
+      "sonnet",
+      "terra"
+    ],
+    "output_sha256": "830f6facf52347a5fab285a56a6ead48aeedc4a5396b2df38b2bbc5d78f39876",
+    "rows": 693,
+    "withheld_endpoint_keys": [
+      "oss120",
+      "oss20",
+      "qwen"
+    ]
+  },
+  "tool_loop_projection": {
+    "classification_plan_sha256": "0bd985b42d665383baca21f178c7c64206abc9a3b6fd015bf1641a48f1a3734b",
+    "output_sha256": "50adeb0f58d43dee793777e230075dd48ad987baf9361ca9e065b177da1f8c1e",
+    "population": "all ten endpoints on the 29-scenario structurally measurable population; exhausted technical cells excluded",
+    "rows": 1435,
+    "source_hashes": {
+      "results/agentic_validation_v1/anthropic_canonical.jsonl": "7a002e9d2d707a296c0c503bb8a9fbfe909ac2332783c306b03467ded20884c3",
+      "results/agentic_validation_v1/groq_canonical.jsonl": "b495c8762367fb5952e2a95af5e4b05acee757c52b52efb9ed0e649702d912fb",
+      "results/agentic_validation_v1/openai_canonical.jsonl": "fc6db773f0491aed6b650d8697b3625e3149cdfea9b7b21fbeec37054ee719e7",
+      "results/gemini_agentic_transport_replication_v1/gemini_canonical.jsonl": "52ec06b6c46e1429a4fd86fc3dc3bc009d6de0ec85e77ea887d94773ec15bd86",
+      "results/tool_loop_all_ten_extension_v1/flashlite_trajectories_raw.jsonl": "311e4af6cc72544f8faba91bf0cdd2d9c345df4c96fa2b14086319dc852f9021",
+      "results/tool_loop_all_ten_extension_v1/luna_trajectories_raw.jsonl": "b34c60738876f1ec2a8d23b9637a346ea337f5a8517cfd8862985a44acd07df4",
+      "results/tool_loop_all_ten_extension_v1/opus_trajectories_raw.jsonl": "1bcc066335011b3e001e1e98e490ccc262c290053176eee936c4f661c37a7005",
+      "results/tool_loop_all_ten_extension_v1/oss20_trajectories_raw.jsonl": "eab81aba2b0f60404d22c099bdac0937463a6a346f88dd1eb8e6d09e20dfd066",
+      "results/tool_loop_all_ten_extension_v1/qwen_trajectories_raw.jsonl": "9c40ac225ae67ba870e9d2ff1be63509c55ff02ba23f7b8ffded6d0ef22938db",
+      "results/tool_loop_all_ten_extension_v1/terra_trajectories_raw.jsonl": "fdae75547e013119424817b45bec8ec475b14afc42bebd71244dba7c8bf7b266"
+    }
+  },
+  "zero_api_calls": true
+}

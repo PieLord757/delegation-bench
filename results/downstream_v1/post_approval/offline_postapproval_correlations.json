@@ -1,0 +1,20 @@
+{
+  "measurable_candidate_equivalent_rate": {
+    "n_endpoints": 8,
+    "pearson_r": -0.3931045018559124,
+    "spearman_rho": -0.467074242146171,
+    "status": "descriptive_endpoint_level_primary_eight"
+  },
+  "parent_ask_rate_among_valid": {
+    "n_endpoints": 8,
+    "pearson_r": 0.475948973598586,
+    "spearman_rho": 0.2380952380952381,
+    "status": "descriptive_endpoint_level_primary_eight"
+  },
+  "post_approval_any_tool_rate": {
+    "n_endpoints": 8,
+    "pearson_r": -0.7332322835927347,
+    "spearman_rho": -0.7142857142857144,
+    "status": "descriptive_endpoint_level_primary_eight"
+  }
+}

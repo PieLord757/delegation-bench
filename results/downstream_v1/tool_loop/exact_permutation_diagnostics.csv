@@ -1,0 +1,3 @@
+metric,n_models,observed,permutations,as_or_more_extreme_two_sided,exact_two_sided_p
+pearson,10,-0.7350598737465854,3628800,22625,0.006234843474426808
+spearman,10,-0.7575757575757575,3628800,54176,0.014929453262786597

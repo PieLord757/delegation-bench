@@ -1,0 +1,61 @@
+{
+  "both_judges_available": 1309,
+  "collection_complete_claimed": false,
+  "currently_available_open_ended_items": 1310,
+  "freeze_file_hashes": {
+    "MEASUREMENT_ROBUSTNESS_ALL_TEN_EXTENSION_PLAN.md": "8b8c8935b21da64669d3d7e1c765affdfbc94c53945b4aa6c6e1c281bc745609",
+    "delegationbench/measurement_robustness_all_ten_coding_v1.py": "c49083b2663fbe46a72ebbc44ffad485d764ca62f65e34a30cb5975e7717cbae",
+    "scripts/code_measurement_robustness_all_ten_extension_v1.py": "fa305389c9e926d6fb091c740f92b03eed06029edfba07c5dca87b70fea2a692",
+    "scripts/finalize_measurement_robustness_all_ten_extension_v1.py": "f9fc522db522cabb57f473e996a46dab579f4f77d3c7aa18bfb86a93ead5cc45",
+    "tests/test_measurement_robustness_all_ten_coding_v1.py": "3e861bed5c4cc434758a83082e6db282c77e822a031739ffb066e78e21ca47bc"
+  },
+  "freeze_sha256": "b38e453ad0bbee9842f2d415174498f8d9b897a4c0e607c46716bb5391d80fde",
+  "note": "Primary resolution requires identical non-OTHER labels from both fixed coders. Coverage is relative to currently available codable source rows.",
+  "primary_resolved": 1095,
+  "protocol_id": "delegationbench-measurement-robustness-all-ten-coding-v1",
+  "self_coding_diagnostic_counts": {
+    "flashlite": 240,
+    "luna": 240
+  },
+  "source_coverage": {
+    "flashlite": {
+      "available_items": 240,
+      "both_judges_available": 240,
+      "primary_resolved": 200,
+      "unresolved_or_missing": 40
+    },
+    "luna": {
+      "available_items": 240,
+      "both_judges_available": 240,
+      "primary_resolved": 211,
+      "unresolved_or_missing": 29
+    },
+    "opus": {
+      "available_items": 240,
+      "both_judges_available": 240,
+      "primary_resolved": 195,
+      "unresolved_or_missing": 45
+    },
+    "oss20": {
+      "available_items": 240,
+      "both_judges_available": 240,
+      "primary_resolved": 194,
+      "unresolved_or_missing": 46
+    },
+    "qwen": {
+      "available_items": 110,
+      "both_judges_available": 110,
+      "primary_resolved": 98,
+      "unresolved_or_missing": 12
+    },
+    "terra": {
+      "available_items": 240,
+      "both_judges_available": 239,
+      "primary_resolved": 197,
+      "unresolved_or_missing": 43
+    }
+  },
+  "source_uncodable_items": 130,
+  "strict_agreement_including_OTHER": 1097,
+  "unresolved_or_missing": 215
+}

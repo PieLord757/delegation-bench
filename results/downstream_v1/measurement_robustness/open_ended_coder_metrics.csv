@@ -1,0 +1,1412 @@
+row_type,endpoint,metric,value,n,category,from_label,to_label,scheme,endpoint_key,invalid_handling,ci_low,ci_high,n_scenarios
+coder_agreement,ALL,raw_agreement,0.8532721967486453,2399,,,,,,,,,
+coder_agreement,ALL,cohen_kappa,0.7461251257802737,2399,,,,,,,,,
+coder_agreement,ALL,missing_either_coder_rate,0.0004166666666666667,2400,,,,,,,,,
+class_agreement,ALL,symmetric_f1,0.9078109285953738,2400,ACT,,,,,,,,
+class_agreement,ALL,gemini_given_luna,0.9428969359331476,1436,ACT,,,,,,,,
+class_agreement,ALL,luna_given_gemini,0.8752424046541694,1547,ACT,,,,,,,,
+class_agreement,ALL,symmetric_f1,0.6420118343195266,2400,ASK_AUTHORIZATION,,,,,,,,
+class_agreement,ALL,gemini_given_luna,0.5203836930455635,417,ASK_AUTHORIZATION,,,,,,,,
+class_agreement,ALL,luna_given_gemini,0.8378378378378378,259,ASK_AUTHORIZATION,,,,,,,,
+class_agreement,ALL,symmetric_f1,0.9190371991247265,2400,REQUEST_INFORMATION,,,,,,,,
+class_agreement,ALL,gemini_given_luna,0.8641975308641975,243,REQUEST_INFORMATION,,,,,,,,
+class_agreement,ALL,luna_given_gemini,0.9813084112149533,214,REQUEST_INFORMATION,,,,,,,,
+class_agreement,ALL,symmetric_f1,0.7231638418079096,2400,REFUSE,,,,,,,,
+class_agreement,ALL,gemini_given_luna,0.9411764705882353,136,REFUSE,,,,,,,,
+class_agreement,ALL,luna_given_gemini,0.5871559633027523,218,REFUSE,,,,,,,,
+class_agreement,ALL,symmetric_f1,0.2318840579710145,2400,OTHER_OR_AMBIGUOUS,,,,,,,,
+class_agreement,ALL,gemini_given_luna,0.21052631578947367,38,OTHER_OR_AMBIGUOUS,,,,,,,,
+class_agreement,ALL,luna_given_gemini,0.25806451612903225,31,OTHER_OR_AMBIGUOUS,,,,,,,,
+class_agreement,ALL,symmetric_f1,1.0,2400,SOURCE_UNCODABLE,,,,,,,,
+class_agreement,ALL,gemini_given_luna,1.0,130,SOURCE_UNCODABLE,,,,,,,,
+class_agreement,ALL,luna_given_gemini,1.0,130,SOURCE_UNCODABLE,,,,,,,,
+class_agreement,ALL,symmetric_f1,0.0,2400,CODER_MISSING,,,,,,,,
+class_agreement,ALL,gemini_given_luna,nan,0,CODER_MISSING,,,,,,,,
+class_agreement,ALL,luna_given_gemini,0.0,1,CODER_MISSING,,,,,,,,
+confusion,ALL,count,1354,2400,,ACT,ACT,,,,,,
+confusion,ALL,count,22,2400,,ACT,ASK_AUTHORIZATION,,,,,,
+confusion,ALL,count,2,2400,,ACT,REQUEST_INFORMATION,,,,,,
+confusion,ALL,count,42,2400,,ACT,REFUSE,,,,,,
+confusion,ALL,count,16,2400,,ACT,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,ALL,count,0,2400,,ACT,SOURCE_UNCODABLE,,,,,,
+confusion,ALL,count,0,2400,,ACT,CODER_MISSING,,,,,,
+confusion,ALL,count,184,2400,,ASK_AUTHORIZATION,ACT,,,,,,
+confusion,ALL,count,217,2400,,ASK_AUTHORIZATION,ASK_AUTHORIZATION,,,,,,
+confusion,ALL,count,0,2400,,ASK_AUTHORIZATION,REQUEST_INFORMATION,,,,,,
+confusion,ALL,count,13,2400,,ASK_AUTHORIZATION,REFUSE,,,,,,
+confusion,ALL,count,2,2400,,ASK_AUTHORIZATION,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,ALL,count,0,2400,,ASK_AUTHORIZATION,SOURCE_UNCODABLE,,,,,,
+confusion,ALL,count,1,2400,,ASK_AUTHORIZATION,CODER_MISSING,,,,,,
+confusion,ALL,count,6,2400,,REQUEST_INFORMATION,ACT,,,,,,
+confusion,ALL,count,7,2400,,REQUEST_INFORMATION,ASK_AUTHORIZATION,,,,,,
+confusion,ALL,count,210,2400,,REQUEST_INFORMATION,REQUEST_INFORMATION,,,,,,
+confusion,ALL,count,15,2400,,REQUEST_INFORMATION,REFUSE,,,,,,
+confusion,ALL,count,5,2400,,REQUEST_INFORMATION,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,ALL,count,0,2400,,REQUEST_INFORMATION,SOURCE_UNCODABLE,,,,,,
+confusion,ALL,count,0,2400,,REQUEST_INFORMATION,CODER_MISSING,,,,,,
+confusion,ALL,count,0,2400,,REFUSE,ACT,,,,,,
+confusion,ALL,count,6,2400,,REFUSE,ASK_AUTHORIZATION,,,,,,
+confusion,ALL,count,2,2400,,REFUSE,REQUEST_INFORMATION,,,,,,
+confusion,ALL,count,128,2400,,REFUSE,REFUSE,,,,,,
+confusion,ALL,count,0,2400,,REFUSE,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,ALL,count,0,2400,,REFUSE,SOURCE_UNCODABLE,,,,,,
+confusion,ALL,count,0,2400,,REFUSE,CODER_MISSING,,,,,,
+confusion,ALL,count,3,2400,,OTHER_OR_AMBIGUOUS,ACT,,,,,,
+confusion,ALL,count,7,2400,,OTHER_OR_AMBIGUOUS,ASK_AUTHORIZATION,,,,,,
+confusion,ALL,count,0,2400,,OTHER_OR_AMBIGUOUS,REQUEST_INFORMATION,,,,,,
+confusion,ALL,count,20,2400,,OTHER_OR_AMBIGUOUS,REFUSE,,,,,,
+confusion,ALL,count,8,2400,,OTHER_OR_AMBIGUOUS,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,ALL,count,0,2400,,OTHER_OR_AMBIGUOUS,SOURCE_UNCODABLE,,,,,,
+confusion,ALL,count,0,2400,,OTHER_OR_AMBIGUOUS,CODER_MISSING,,,,,,
+confusion,ALL,count,0,2400,,SOURCE_UNCODABLE,ACT,,,,,,
+confusion,ALL,count,0,2400,,SOURCE_UNCODABLE,ASK_AUTHORIZATION,,,,,,
+confusion,ALL,count,0,2400,,SOURCE_UNCODABLE,REQUEST_INFORMATION,,,,,,
+confusion,ALL,count,0,2400,,SOURCE_UNCODABLE,REFUSE,,,,,,
+confusion,ALL,count,0,2400,,SOURCE_UNCODABLE,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,ALL,count,130,2400,,SOURCE_UNCODABLE,SOURCE_UNCODABLE,,,,,,
+confusion,ALL,count,0,2400,,SOURCE_UNCODABLE,CODER_MISSING,,,,,,
+confusion,ALL,count,0,2400,,CODER_MISSING,ACT,,,,,,
+confusion,ALL,count,0,2400,,CODER_MISSING,ASK_AUTHORIZATION,,,,,,
+confusion,ALL,count,0,2400,,CODER_MISSING,REQUEST_INFORMATION,,,,,,
+confusion,ALL,count,0,2400,,CODER_MISSING,REFUSE,,,,,,
+confusion,ALL,count,0,2400,,CODER_MISSING,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,ALL,count,0,2400,,CODER_MISSING,SOURCE_UNCODABLE,,,,,,
+confusion,ALL,count,0,2400,,CODER_MISSING,CODER_MISSING,,,,,,
+coder_agreement,GPT-5.6 Sol,raw_agreement,0.8875,240,,,,,,,,,
+coder_agreement,GPT-5.6 Sol,cohen_kappa,0.7937225440886229,240,,,,,,,,,
+coder_agreement,GPT-5.6 Sol,missing_either_coder_rate,0.0,240,,,,,,,,,
+class_agreement,GPT-5.6 Sol,symmetric_f1,0.9415584415584416,240,ACT,,,,,,,,
+class_agreement,GPT-5.6 Sol,gemini_given_luna,0.9177215189873418,158,ACT,,,,,,,,
+class_agreement,GPT-5.6 Sol,luna_given_gemini,0.9666666666666667,150,ACT,,,,,,,,
+class_agreement,GPT-5.6 Sol,symmetric_f1,0.7837837837837838,240,ASK_AUTHORIZATION,,,,,,,,
+class_agreement,GPT-5.6 Sol,gemini_given_luna,0.7435897435897436,39,ASK_AUTHORIZATION,,,,,,,,
+class_agreement,GPT-5.6 Sol,luna_given_gemini,0.8285714285714286,35,ASK_AUTHORIZATION,,,,,,,,
+class_agreement,GPT-5.6 Sol,symmetric_f1,0.9523809523809523,240,REQUEST_INFORMATION,,,,,,,,
+class_agreement,GPT-5.6 Sol,gemini_given_luna,0.9090909090909091,22,REQUEST_INFORMATION,,,,,,,,
+class_agreement,GPT-5.6 Sol,luna_given_gemini,1.0,20,REQUEST_INFORMATION,,,,,,,,
+class_agreement,GPT-5.6 Sol,symmetric_f1,0.7037037037037037,240,REFUSE,,,,,,,,
+class_agreement,GPT-5.6 Sol,gemini_given_luna,0.95,20,REFUSE,,,,,,,,
+class_agreement,GPT-5.6 Sol,luna_given_gemini,0.5588235294117647,34,REFUSE,,,,,,,,
+class_agreement,GPT-5.6 Sol,symmetric_f1,0.0,240,OTHER_OR_AMBIGUOUS,,,,,,,,
+class_agreement,GPT-5.6 Sol,gemini_given_luna,0.0,1,OTHER_OR_AMBIGUOUS,,,,,,,,
+class_agreement,GPT-5.6 Sol,luna_given_gemini,0.0,1,OTHER_OR_AMBIGUOUS,,,,,,,,
+class_agreement,GPT-5.6 Sol,symmetric_f1,nan,240,SOURCE_UNCODABLE,,,,,,,,
+class_agreement,GPT-5.6 Sol,gemini_given_luna,nan,0,SOURCE_UNCODABLE,,,,,,,,
+class_agreement,GPT-5.6 Sol,luna_given_gemini,nan,0,SOURCE_UNCODABLE,,,,,,,,
+class_agreement,GPT-5.6 Sol,symmetric_f1,nan,240,CODER_MISSING,,,,,,,,
+class_agreement,GPT-5.6 Sol,gemini_given_luna,nan,0,CODER_MISSING,,,,,,,,
+class_agreement,GPT-5.6 Sol,luna_given_gemini,nan,0,CODER_MISSING,,,,,,,,
+confusion,GPT-5.6 Sol,count,145,240,,ACT,ACT,,,,,,
+confusion,GPT-5.6 Sol,count,4,240,,ACT,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,ACT,REQUEST_INFORMATION,,,,,,
+confusion,GPT-5.6 Sol,count,9,240,,ACT,REFUSE,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,ACT,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,ACT,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,ACT,CODER_MISSING,,,,,,
+confusion,GPT-5.6 Sol,count,5,240,,ASK_AUTHORIZATION,ACT,,,,,,
+confusion,GPT-5.6 Sol,count,29,240,,ASK_AUTHORIZATION,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,ASK_AUTHORIZATION,REQUEST_INFORMATION,,,,,,
+confusion,GPT-5.6 Sol,count,5,240,,ASK_AUTHORIZATION,REFUSE,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,ASK_AUTHORIZATION,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,ASK_AUTHORIZATION,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,ASK_AUTHORIZATION,CODER_MISSING,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,REQUEST_INFORMATION,ACT,,,,,,
+confusion,GPT-5.6 Sol,count,1,240,,REQUEST_INFORMATION,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-5.6 Sol,count,20,240,,REQUEST_INFORMATION,REQUEST_INFORMATION,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,REQUEST_INFORMATION,REFUSE,,,,,,
+confusion,GPT-5.6 Sol,count,1,240,,REQUEST_INFORMATION,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,REQUEST_INFORMATION,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,REQUEST_INFORMATION,CODER_MISSING,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,REFUSE,ACT,,,,,,
+confusion,GPT-5.6 Sol,count,1,240,,REFUSE,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,REFUSE,REQUEST_INFORMATION,,,,,,
+confusion,GPT-5.6 Sol,count,19,240,,REFUSE,REFUSE,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,REFUSE,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,REFUSE,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,REFUSE,CODER_MISSING,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,OTHER_OR_AMBIGUOUS,ACT,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,OTHER_OR_AMBIGUOUS,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,OTHER_OR_AMBIGUOUS,REQUEST_INFORMATION,,,,,,
+confusion,GPT-5.6 Sol,count,1,240,,OTHER_OR_AMBIGUOUS,REFUSE,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,OTHER_OR_AMBIGUOUS,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,OTHER_OR_AMBIGUOUS,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,OTHER_OR_AMBIGUOUS,CODER_MISSING,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,SOURCE_UNCODABLE,ACT,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,SOURCE_UNCODABLE,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,SOURCE_UNCODABLE,REQUEST_INFORMATION,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,SOURCE_UNCODABLE,REFUSE,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,SOURCE_UNCODABLE,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,SOURCE_UNCODABLE,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,SOURCE_UNCODABLE,CODER_MISSING,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,CODER_MISSING,ACT,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,CODER_MISSING,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,CODER_MISSING,REQUEST_INFORMATION,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,CODER_MISSING,REFUSE,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,CODER_MISSING,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,CODER_MISSING,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-5.6 Sol,count,0,240,,CODER_MISSING,CODER_MISSING,,,,,,
+coder_agreement,GPT-OSS-120B,raw_agreement,0.8208333333333333,240,,,,,,,,,
+coder_agreement,GPT-OSS-120B,cohen_kappa,0.6141623359629118,240,,,,,,,,,
+coder_agreement,GPT-OSS-120B,missing_either_coder_rate,0.0,240,,,,,,,,,
+class_agreement,GPT-OSS-120B,symmetric_f1,0.884393063583815,240,ACT,,,,,,,,
+class_agreement,GPT-OSS-120B,gemini_given_luna,0.9870967741935484,155,ACT,,,,,,,,
+class_agreement,GPT-OSS-120B,luna_given_gemini,0.8010471204188482,191,ACT,,,,,,,,
+class_agreement,GPT-OSS-120B,symmetric_f1,0.3448275862068966,240,ASK_AUTHORIZATION,,,,,,,,
+class_agreement,GPT-OSS-120B,gemini_given_luna,0.2127659574468085,47,ASK_AUTHORIZATION,,,,,,,,
+class_agreement,GPT-OSS-120B,luna_given_gemini,0.9090909090909091,11,ASK_AUTHORIZATION,,,,,,,,
+class_agreement,GPT-OSS-120B,symmetric_f1,0.9361702127659575,240,REQUEST_INFORMATION,,,,,,,,
+class_agreement,GPT-OSS-120B,gemini_given_luna,0.88,25,REQUEST_INFORMATION,,,,,,,,
+class_agreement,GPT-OSS-120B,luna_given_gemini,1.0,22,REQUEST_INFORMATION,,,,,,,,
+class_agreement,GPT-OSS-120B,symmetric_f1,0.8888888888888888,240,REFUSE,,,,,,,,
+class_agreement,GPT-OSS-120B,gemini_given_luna,1.0,12,REFUSE,,,,,,,,
+class_agreement,GPT-OSS-120B,luna_given_gemini,0.8,15,REFUSE,,,,,,,,
+class_agreement,GPT-OSS-120B,symmetric_f1,0.0,240,OTHER_OR_AMBIGUOUS,,,,,,,,
+class_agreement,GPT-OSS-120B,gemini_given_luna,0.0,1,OTHER_OR_AMBIGUOUS,,,,,,,,
+class_agreement,GPT-OSS-120B,luna_given_gemini,0.0,1,OTHER_OR_AMBIGUOUS,,,,,,,,
+class_agreement,GPT-OSS-120B,symmetric_f1,nan,240,SOURCE_UNCODABLE,,,,,,,,
+class_agreement,GPT-OSS-120B,gemini_given_luna,nan,0,SOURCE_UNCODABLE,,,,,,,,
+class_agreement,GPT-OSS-120B,luna_given_gemini,nan,0,SOURCE_UNCODABLE,,,,,,,,
+class_agreement,GPT-OSS-120B,symmetric_f1,nan,240,CODER_MISSING,,,,,,,,
+class_agreement,GPT-OSS-120B,gemini_given_luna,nan,0,CODER_MISSING,,,,,,,,
+class_agreement,GPT-OSS-120B,luna_given_gemini,nan,0,CODER_MISSING,,,,,,,,
+confusion,GPT-OSS-120B,count,153,240,,ACT,ACT,,,,,,
+confusion,GPT-OSS-120B,count,1,240,,ACT,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,ACT,REQUEST_INFORMATION,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,ACT,REFUSE,,,,,,
+confusion,GPT-OSS-120B,count,1,240,,ACT,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,ACT,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,ACT,CODER_MISSING,,,,,,
+confusion,GPT-OSS-120B,count,37,240,,ASK_AUTHORIZATION,ACT,,,,,,
+confusion,GPT-OSS-120B,count,10,240,,ASK_AUTHORIZATION,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,ASK_AUTHORIZATION,REQUEST_INFORMATION,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,ASK_AUTHORIZATION,REFUSE,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,ASK_AUTHORIZATION,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,ASK_AUTHORIZATION,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,ASK_AUTHORIZATION,CODER_MISSING,,,,,,
+confusion,GPT-OSS-120B,count,1,240,,REQUEST_INFORMATION,ACT,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,REQUEST_INFORMATION,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-OSS-120B,count,22,240,,REQUEST_INFORMATION,REQUEST_INFORMATION,,,,,,
+confusion,GPT-OSS-120B,count,2,240,,REQUEST_INFORMATION,REFUSE,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,REQUEST_INFORMATION,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,REQUEST_INFORMATION,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,REQUEST_INFORMATION,CODER_MISSING,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,REFUSE,ACT,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,REFUSE,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,REFUSE,REQUEST_INFORMATION,,,,,,
+confusion,GPT-OSS-120B,count,12,240,,REFUSE,REFUSE,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,REFUSE,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,REFUSE,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,REFUSE,CODER_MISSING,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,OTHER_OR_AMBIGUOUS,ACT,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,OTHER_OR_AMBIGUOUS,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,OTHER_OR_AMBIGUOUS,REQUEST_INFORMATION,,,,,,
+confusion,GPT-OSS-120B,count,1,240,,OTHER_OR_AMBIGUOUS,REFUSE,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,OTHER_OR_AMBIGUOUS,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,OTHER_OR_AMBIGUOUS,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,OTHER_OR_AMBIGUOUS,CODER_MISSING,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,SOURCE_UNCODABLE,ACT,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,SOURCE_UNCODABLE,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,SOURCE_UNCODABLE,REQUEST_INFORMATION,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,SOURCE_UNCODABLE,REFUSE,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,SOURCE_UNCODABLE,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,SOURCE_UNCODABLE,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,SOURCE_UNCODABLE,CODER_MISSING,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,CODER_MISSING,ACT,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,CODER_MISSING,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,CODER_MISSING,REQUEST_INFORMATION,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,CODER_MISSING,REFUSE,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,CODER_MISSING,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,CODER_MISSING,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-OSS-120B,count,0,240,,CODER_MISSING,CODER_MISSING,,,,,,
+coder_agreement,GPT-OSS-20B,raw_agreement,0.8083333333333333,240,,,,,,,,,
+coder_agreement,GPT-OSS-20B,cohen_kappa,0.6016166281755195,240,,,,,,,,,
+coder_agreement,GPT-OSS-20B,missing_either_coder_rate,0.0,240,,,,,,,,,
+class_agreement,GPT-OSS-20B,symmetric_f1,0.8764705882352941,240,ACT,,,,,,,,
+class_agreement,GPT-OSS-20B,gemini_given_luna,0.9802631578947368,152,ACT,,,,,,,,
+class_agreement,GPT-OSS-20B,luna_given_gemini,0.7925531914893617,188,ACT,,,,,,,,
+class_agreement,GPT-OSS-20B,symmetric_f1,0.22641509433962265,240,ASK_AUTHORIZATION,,,,,,,,
+class_agreement,GPT-OSS-20B,gemini_given_luna,0.13636363636363635,44,ASK_AUTHORIZATION,,,,,,,,
+class_agreement,GPT-OSS-20B,luna_given_gemini,0.6666666666666666,9,ASK_AUTHORIZATION,,,,,,,,
+class_agreement,GPT-OSS-20B,symmetric_f1,0.9433962264150944,240,REQUEST_INFORMATION,,,,,,,,
+class_agreement,GPT-OSS-20B,gemini_given_luna,0.8928571428571429,28,REQUEST_INFORMATION,,,,,,,,
+class_agreement,GPT-OSS-20B,luna_given_gemini,1.0,25,REQUEST_INFORMATION,,,,,,,,
+class_agreement,GPT-OSS-20B,symmetric_f1,0.9655172413793104,240,REFUSE,,,,,,,,
+class_agreement,GPT-OSS-20B,gemini_given_luna,1.0,14,REFUSE,,,,,,,,
+class_agreement,GPT-OSS-20B,luna_given_gemini,0.9333333333333333,15,REFUSE,,,,,,,,
+class_agreement,GPT-OSS-20B,symmetric_f1,0.0,240,OTHER_OR_AMBIGUOUS,,,,,,,,
+class_agreement,GPT-OSS-20B,gemini_given_luna,0.0,2,OTHER_OR_AMBIGUOUS,,,,,,,,
+class_agreement,GPT-OSS-20B,luna_given_gemini,0.0,3,OTHER_OR_AMBIGUOUS,,,,,,,,
+class_agreement,GPT-OSS-20B,symmetric_f1,nan,240,SOURCE_UNCODABLE,,,,,,,,
+class_agreement,GPT-OSS-20B,gemini_given_luna,nan,0,SOURCE_UNCODABLE,,,,,,,,
+class_agreement,GPT-OSS-20B,luna_given_gemini,nan,0,SOURCE_UNCODABLE,,,,,,,,
+class_agreement,GPT-OSS-20B,symmetric_f1,nan,240,CODER_MISSING,,,,,,,,
+class_agreement,GPT-OSS-20B,gemini_given_luna,nan,0,CODER_MISSING,,,,,,,,
+class_agreement,GPT-OSS-20B,luna_given_gemini,nan,0,CODER_MISSING,,,,,,,,
+confusion,GPT-OSS-20B,count,149,240,,ACT,ACT,,,,,,
+confusion,GPT-OSS-20B,count,1,240,,ACT,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,ACT,REQUEST_INFORMATION,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,ACT,REFUSE,,,,,,
+confusion,GPT-OSS-20B,count,2,240,,ACT,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,ACT,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,ACT,CODER_MISSING,,,,,,
+confusion,GPT-OSS-20B,count,38,240,,ASK_AUTHORIZATION,ACT,,,,,,
+confusion,GPT-OSS-20B,count,6,240,,ASK_AUTHORIZATION,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,ASK_AUTHORIZATION,REQUEST_INFORMATION,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,ASK_AUTHORIZATION,REFUSE,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,ASK_AUTHORIZATION,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,ASK_AUTHORIZATION,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,ASK_AUTHORIZATION,CODER_MISSING,,,,,,
+confusion,GPT-OSS-20B,count,1,240,,REQUEST_INFORMATION,ACT,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,REQUEST_INFORMATION,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-OSS-20B,count,25,240,,REQUEST_INFORMATION,REQUEST_INFORMATION,,,,,,
+confusion,GPT-OSS-20B,count,1,240,,REQUEST_INFORMATION,REFUSE,,,,,,
+confusion,GPT-OSS-20B,count,1,240,,REQUEST_INFORMATION,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,REQUEST_INFORMATION,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,REQUEST_INFORMATION,CODER_MISSING,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,REFUSE,ACT,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,REFUSE,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,REFUSE,REQUEST_INFORMATION,,,,,,
+confusion,GPT-OSS-20B,count,14,240,,REFUSE,REFUSE,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,REFUSE,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,REFUSE,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,REFUSE,CODER_MISSING,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,OTHER_OR_AMBIGUOUS,ACT,,,,,,
+confusion,GPT-OSS-20B,count,2,240,,OTHER_OR_AMBIGUOUS,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,OTHER_OR_AMBIGUOUS,REQUEST_INFORMATION,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,OTHER_OR_AMBIGUOUS,REFUSE,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,OTHER_OR_AMBIGUOUS,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,OTHER_OR_AMBIGUOUS,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,OTHER_OR_AMBIGUOUS,CODER_MISSING,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,SOURCE_UNCODABLE,ACT,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,SOURCE_UNCODABLE,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,SOURCE_UNCODABLE,REQUEST_INFORMATION,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,SOURCE_UNCODABLE,REFUSE,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,SOURCE_UNCODABLE,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,SOURCE_UNCODABLE,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,SOURCE_UNCODABLE,CODER_MISSING,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,CODER_MISSING,ACT,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,CODER_MISSING,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,CODER_MISSING,REQUEST_INFORMATION,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,CODER_MISSING,REFUSE,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,CODER_MISSING,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,CODER_MISSING,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-OSS-20B,count,0,240,,CODER_MISSING,CODER_MISSING,,,,,,
+coder_agreement,GPT-5.6 Terra,raw_agreement,0.8326359832635983,239,,,,,,,,,
+coder_agreement,GPT-5.6 Terra,cohen_kappa,0.6909249620122208,239,,,,,,,,,
+coder_agreement,GPT-5.6 Terra,missing_either_coder_rate,0.004166666666666667,240,,,,,,,,,
+class_agreement,GPT-5.6 Terra,symmetric_f1,0.8938906752411575,240,ACT,,,,,,,,
+class_agreement,GPT-5.6 Terra,gemini_given_luna,0.9328859060402684,149,ACT,,,,,,,,
+class_agreement,GPT-5.6 Terra,luna_given_gemini,0.8580246913580247,162,ACT,,,,,,,,
+class_agreement,GPT-5.6 Terra,symmetric_f1,0.6060606060606061,240,ASK_AUTHORIZATION,,,,,,,,
+class_agreement,GPT-5.6 Terra,gemini_given_luna,0.46511627906976744,43,ASK_AUTHORIZATION,,,,,,,,
+class_agreement,GPT-5.6 Terra,luna_given_gemini,0.8695652173913043,23,ASK_AUTHORIZATION,,,,,,,,
+class_agreement,GPT-5.6 Terra,symmetric_f1,0.8888888888888888,240,REQUEST_INFORMATION,,,,,,,,
+class_agreement,GPT-5.6 Terra,gemini_given_luna,0.8,25,REQUEST_INFORMATION,,,,,,,,
+class_agreement,GPT-5.6 Terra,luna_given_gemini,1.0,20,REQUEST_INFORMATION,,,,,,,,
+class_agreement,GPT-5.6 Terra,symmetric_f1,0.7346938775510204,240,REFUSE,,,,,,,,
+class_agreement,GPT-5.6 Terra,gemini_given_luna,0.9473684210526315,19,REFUSE,,,,,,,,
+class_agreement,GPT-5.6 Terra,luna_given_gemini,0.6,30,REFUSE,,,,,,,,
+class_agreement,GPT-5.6 Terra,symmetric_f1,0.5,240,OTHER_OR_AMBIGUOUS,,,,,,,,
+class_agreement,GPT-5.6 Terra,gemini_given_luna,0.5,4,OTHER_OR_AMBIGUOUS,,,,,,,,
+class_agreement,GPT-5.6 Terra,luna_given_gemini,0.5,4,OTHER_OR_AMBIGUOUS,,,,,,,,
+class_agreement,GPT-5.6 Terra,symmetric_f1,nan,240,SOURCE_UNCODABLE,,,,,,,,
+class_agreement,GPT-5.6 Terra,gemini_given_luna,nan,0,SOURCE_UNCODABLE,,,,,,,,
+class_agreement,GPT-5.6 Terra,luna_given_gemini,nan,0,SOURCE_UNCODABLE,,,,,,,,
+class_agreement,GPT-5.6 Terra,symmetric_f1,0.0,240,CODER_MISSING,,,,,,,,
+class_agreement,GPT-5.6 Terra,gemini_given_luna,nan,0,CODER_MISSING,,,,,,,,
+class_agreement,GPT-5.6 Terra,luna_given_gemini,0.0,1,CODER_MISSING,,,,,,,,
+confusion,GPT-5.6 Terra,count,139,240,,ACT,ACT,,,,,,
+confusion,GPT-5.6 Terra,count,2,240,,ACT,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,ACT,REQUEST_INFORMATION,,,,,,
+confusion,GPT-5.6 Terra,count,6,240,,ACT,REFUSE,,,,,,
+confusion,GPT-5.6 Terra,count,2,240,,ACT,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,ACT,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,ACT,CODER_MISSING,,,,,,
+confusion,GPT-5.6 Terra,count,21,240,,ASK_AUTHORIZATION,ACT,,,,,,
+confusion,GPT-5.6 Terra,count,20,240,,ASK_AUTHORIZATION,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,ASK_AUTHORIZATION,REQUEST_INFORMATION,,,,,,
+confusion,GPT-5.6 Terra,count,1,240,,ASK_AUTHORIZATION,REFUSE,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,ASK_AUTHORIZATION,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,ASK_AUTHORIZATION,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-5.6 Terra,count,1,240,,ASK_AUTHORIZATION,CODER_MISSING,,,,,,
+confusion,GPT-5.6 Terra,count,2,240,,REQUEST_INFORMATION,ACT,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,REQUEST_INFORMATION,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-5.6 Terra,count,20,240,,REQUEST_INFORMATION,REQUEST_INFORMATION,,,,,,
+confusion,GPT-5.6 Terra,count,3,240,,REQUEST_INFORMATION,REFUSE,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,REQUEST_INFORMATION,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,REQUEST_INFORMATION,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,REQUEST_INFORMATION,CODER_MISSING,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,REFUSE,ACT,,,,,,
+confusion,GPT-5.6 Terra,count,1,240,,REFUSE,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,REFUSE,REQUEST_INFORMATION,,,,,,
+confusion,GPT-5.6 Terra,count,18,240,,REFUSE,REFUSE,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,REFUSE,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,REFUSE,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,REFUSE,CODER_MISSING,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,OTHER_OR_AMBIGUOUS,ACT,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,OTHER_OR_AMBIGUOUS,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,OTHER_OR_AMBIGUOUS,REQUEST_INFORMATION,,,,,,
+confusion,GPT-5.6 Terra,count,2,240,,OTHER_OR_AMBIGUOUS,REFUSE,,,,,,
+confusion,GPT-5.6 Terra,count,2,240,,OTHER_OR_AMBIGUOUS,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,OTHER_OR_AMBIGUOUS,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,OTHER_OR_AMBIGUOUS,CODER_MISSING,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,SOURCE_UNCODABLE,ACT,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,SOURCE_UNCODABLE,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,SOURCE_UNCODABLE,REQUEST_INFORMATION,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,SOURCE_UNCODABLE,REFUSE,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,SOURCE_UNCODABLE,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,SOURCE_UNCODABLE,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,SOURCE_UNCODABLE,CODER_MISSING,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,CODER_MISSING,ACT,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,CODER_MISSING,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,CODER_MISSING,REQUEST_INFORMATION,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,CODER_MISSING,REFUSE,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,CODER_MISSING,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,CODER_MISSING,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-5.6 Terra,count,0,240,,CODER_MISSING,CODER_MISSING,,,,,,
+coder_agreement,GPT-5.6 Luna,raw_agreement,0.8791666666666667,240,,,,,,,,,
+coder_agreement,GPT-5.6 Luna,cohen_kappa,0.7898043005556897,240,,,,,,,,,
+coder_agreement,GPT-5.6 Luna,missing_either_coder_rate,0.0,240,,,,,,,,,
+class_agreement,GPT-5.6 Luna,symmetric_f1,0.9146757679180887,240,ACT,,,,,,,,
+class_agreement,GPT-5.6 Luna,gemini_given_luna,0.8701298701298701,154,ACT,,,,,,,,
+class_agreement,GPT-5.6 Luna,luna_given_gemini,0.9640287769784173,139,ACT,,,,,,,,
+class_agreement,GPT-5.6 Luna,symmetric_f1,0.8695652173913043,240,ASK_AUTHORIZATION,,,,,,,,
+class_agreement,GPT-5.6 Luna,gemini_given_luna,0.851063829787234,47,ASK_AUTHORIZATION,,,,,,,,
+class_agreement,GPT-5.6 Luna,luna_given_gemini,0.8888888888888888,45,ASK_AUTHORIZATION,,,,,,,,
+class_agreement,GPT-5.6 Luna,symmetric_f1,1.0,240,REQUEST_INFORMATION,,,,,,,,
+class_agreement,GPT-5.6 Luna,gemini_given_luna,1.0,23,REQUEST_INFORMATION,,,,,,,,
+class_agreement,GPT-5.6 Luna,luna_given_gemini,1.0,23,REQUEST_INFORMATION,,,,,,,,
+class_agreement,GPT-5.6 Luna,symmetric_f1,0.6222222222222222,240,REFUSE,,,,,,,,
+class_agreement,GPT-5.6 Luna,gemini_given_luna,1.0,14,REFUSE,,,,,,,,
+class_agreement,GPT-5.6 Luna,luna_given_gemini,0.45161290322580644,31,REFUSE,,,,,,,,
+class_agreement,GPT-5.6 Luna,symmetric_f1,0.0,240,OTHER_OR_AMBIGUOUS,,,,,,,,
+class_agreement,GPT-5.6 Luna,gemini_given_luna,0.0,2,OTHER_OR_AMBIGUOUS,,,,,,,,
+class_agreement,GPT-5.6 Luna,luna_given_gemini,0.0,2,OTHER_OR_AMBIGUOUS,,,,,,,,
+class_agreement,GPT-5.6 Luna,symmetric_f1,nan,240,SOURCE_UNCODABLE,,,,,,,,
+class_agreement,GPT-5.6 Luna,gemini_given_luna,nan,0,SOURCE_UNCODABLE,,,,,,,,
+class_agreement,GPT-5.6 Luna,luna_given_gemini,nan,0,SOURCE_UNCODABLE,,,,,,,,
+class_agreement,GPT-5.6 Luna,symmetric_f1,nan,240,CODER_MISSING,,,,,,,,
+class_agreement,GPT-5.6 Luna,gemini_given_luna,nan,0,CODER_MISSING,,,,,,,,
+class_agreement,GPT-5.6 Luna,luna_given_gemini,nan,0,CODER_MISSING,,,,,,,,
+confusion,GPT-5.6 Luna,count,134,240,,ACT,ACT,,,,,,
+confusion,GPT-5.6 Luna,count,5,240,,ACT,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,ACT,REQUEST_INFORMATION,,,,,,
+confusion,GPT-5.6 Luna,count,13,240,,ACT,REFUSE,,,,,,
+confusion,GPT-5.6 Luna,count,2,240,,ACT,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,ACT,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,ACT,CODER_MISSING,,,,,,
+confusion,GPT-5.6 Luna,count,5,240,,ASK_AUTHORIZATION,ACT,,,,,,
+confusion,GPT-5.6 Luna,count,40,240,,ASK_AUTHORIZATION,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,ASK_AUTHORIZATION,REQUEST_INFORMATION,,,,,,
+confusion,GPT-5.6 Luna,count,2,240,,ASK_AUTHORIZATION,REFUSE,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,ASK_AUTHORIZATION,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,ASK_AUTHORIZATION,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,ASK_AUTHORIZATION,CODER_MISSING,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,REQUEST_INFORMATION,ACT,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,REQUEST_INFORMATION,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-5.6 Luna,count,23,240,,REQUEST_INFORMATION,REQUEST_INFORMATION,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,REQUEST_INFORMATION,REFUSE,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,REQUEST_INFORMATION,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,REQUEST_INFORMATION,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,REQUEST_INFORMATION,CODER_MISSING,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,REFUSE,ACT,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,REFUSE,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,REFUSE,REQUEST_INFORMATION,,,,,,
+confusion,GPT-5.6 Luna,count,14,240,,REFUSE,REFUSE,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,REFUSE,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,REFUSE,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,REFUSE,CODER_MISSING,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,OTHER_OR_AMBIGUOUS,ACT,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,OTHER_OR_AMBIGUOUS,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,OTHER_OR_AMBIGUOUS,REQUEST_INFORMATION,,,,,,
+confusion,GPT-5.6 Luna,count,2,240,,OTHER_OR_AMBIGUOUS,REFUSE,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,OTHER_OR_AMBIGUOUS,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,OTHER_OR_AMBIGUOUS,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,OTHER_OR_AMBIGUOUS,CODER_MISSING,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,SOURCE_UNCODABLE,ACT,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,SOURCE_UNCODABLE,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,SOURCE_UNCODABLE,REQUEST_INFORMATION,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,SOURCE_UNCODABLE,REFUSE,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,SOURCE_UNCODABLE,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,SOURCE_UNCODABLE,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,SOURCE_UNCODABLE,CODER_MISSING,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,CODER_MISSING,ACT,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,CODER_MISSING,ASK_AUTHORIZATION,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,CODER_MISSING,REQUEST_INFORMATION,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,CODER_MISSING,REFUSE,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,CODER_MISSING,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,CODER_MISSING,SOURCE_UNCODABLE,,,,,,
+confusion,GPT-5.6 Luna,count,0,240,,CODER_MISSING,CODER_MISSING,,,,,,
+coder_agreement,Claude Sonnet 5,raw_agreement,0.8125,240,,,,,,,,,
+coder_agreement,Claude Sonnet 5,cohen_kappa,0.6881496881496882,240,,,,,,,,,
+coder_agreement,Claude Sonnet 5,missing_either_coder_rate,0.0,240,,,,,,,,,
+class_agreement,Claude Sonnet 5,symmetric_f1,0.9078014184397163,240,ACT,,,,,,,,
+class_agreement,Claude Sonnet 5,gemini_given_luna,0.9078014184397163,141,ACT,,,,,,,,
+class_agreement,Claude Sonnet 5,luna_given_gemini,0.9078014184397163,141,ACT,,,,,,,,
+class_agreement,Claude Sonnet 5,symmetric_f1,0.7727272727272727,240,ASK_AUTHORIZATION,,,,,,,,
+class_agreement,Claude Sonnet 5,gemini_given_luna,0.7555555555555555,45,ASK_AUTHORIZATION,,,,,,,,
+class_agreement,Claude Sonnet 5,luna_given_gemini,0.7906976744186046,43,ASK_AUTHORIZATION,,,,,,,,
+class_agreement,Claude Sonnet 5,symmetric_f1,0.8135593220338984,240,REQUEST_INFORMATION,,,,,,,,
+class_agreement,Claude Sonnet 5,gemini_given_luna,0.7272727272727273,33,REQUEST_INFORMATION,,,,,,,,
+class_agreement,Claude Sonnet 5,luna_given_gemini,0.9230769230769231,26,REQUEST_INFORMATION,,,,,,,,
+class_agreement,Claude Sonnet 5,symmetric_f1,0.32,240,REFUSE,,,,,,,,
+class_agreement,Claude Sonnet 5,gemini_given_luna,0.5714285714285714,7,REFUSE,,,,,,,,
+class_agreement,Claude Sonnet 5,luna_given_gemini,0.2222222222222222,18,REFUSE,,,,,,,,
+class_agreement,Claude Sonnet 5,symmetric_f1,0.38461538461538464,240,OTHER_OR_AMBIGUOUS,,,,,,,,
+class_agreement,Claude Sonnet 5,gemini_given_luna,0.35714285714285715,14,OTHER_OR_AMBIGUOUS,,,,,,,,
+class_agreement,Claude Sonnet 5,luna_given_gemini,0.4166666666666667,12,OTHER_OR_AMBIGUOUS,,,,,,,,
+class_agreement,Claude Sonnet 5,symmetric_f1,nan,240,SOURCE_UNCODABLE,,,,,,,,
+class_agreement,Claude Sonnet 5,gemini_given_luna,nan,0,SOURCE_UNCODABLE,,,,,,,,
+class_agreement,Claude Sonnet 5,luna_given_gemini,nan,0,SOURCE_UNCODABLE,,,,,,,,
+class_agreement,Claude Sonnet 5,symmetric_f1,nan,240,CODER_MISSING,,,,,,,,
+class_agreement,Claude Sonnet 5,gemini_given_luna,nan,0,CODER_MISSING,,,,,,,,
+class_agreement,Claude Sonnet 5,luna_given_gemini,nan,0,CODER_MISSING,,,,,,,,
+confusion,Claude Sonnet 5,count,128,240,,ACT,ACT,,,,,,
+confusion,Claude Sonnet 5,count,2,240,,ACT,ASK_AUTHORIZATION,,,,,,
+confusion,Claude Sonnet 5,count,1,240,,ACT,REQUEST_INFORMATION,,,,,,
+confusion,Claude Sonnet 5,count,6,240,,ACT,REFUSE,,,,,,
+confusion,Claude Sonnet 5,count,4,240,,ACT,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Claude Sonnet 5,count,0,240,,ACT,SOURCE_UNCODABLE,,,,,,
+confusion,Claude Sonnet 5,count,0,240,,ACT,CODER_MISSING,,,,,,
+confusion,Claude Sonnet 5,count,10,240,,ASK_AUTHORIZATION,ACT,,,,,,
+confusion,Claude Sonnet 5,count,34,240,,ASK_AUTHORIZATION,ASK_AUTHORIZATION,,,,,,
+confusion,Claude Sonnet 5,count,0,240,,ASK_AUTHORIZATION,REQUEST_INFORMATION,,,,,,
+confusion,Claude Sonnet 5,count,0,240,,ASK_AUTHORIZATION,REFUSE,,,,,,
+confusion,Claude Sonnet 5,count,1,240,,ASK_AUTHORIZATION,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Claude Sonnet 5,count,0,240,,ASK_AUTHORIZATION,SOURCE_UNCODABLE,,,,,,
+confusion,Claude Sonnet 5,count,0,240,,ASK_AUTHORIZATION,CODER_MISSING,,,,,,
+confusion,Claude Sonnet 5,count,2,240,,REQUEST_INFORMATION,ACT,,,,,,
+confusion,Claude Sonnet 5,count,3,240,,REQUEST_INFORMATION,ASK_AUTHORIZATION,,,,,,
+confusion,Claude Sonnet 5,count,24,240,,REQUEST_INFORMATION,REQUEST_INFORMATION,,,,,,
+confusion,Claude Sonnet 5,count,2,240,,REQUEST_INFORMATION,REFUSE,,,,,,
+confusion,Claude Sonnet 5,count,2,240,,REQUEST_INFORMATION,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Claude Sonnet 5,count,0,240,,REQUEST_INFORMATION,SOURCE_UNCODABLE,,,,,,
+confusion,Claude Sonnet 5,count,0,240,,REQUEST_INFORMATION,CODER_MISSING,,,,,,
+confusion,Claude Sonnet 5,count,0,240,,REFUSE,ACT,,,,,,
+confusion,Claude Sonnet 5,count,2,240,,REFUSE,ASK_AUTHORIZATION,,,,,,
+confusion,Claude Sonnet 5,count,1,240,,REFUSE,REQUEST_INFORMATION,,,,,,
+confusion,Claude Sonnet 5,count,4,240,,REFUSE,REFUSE,,,,,,
+confusion,Claude Sonnet 5,count,0,240,,REFUSE,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Claude Sonnet 5,count,0,240,,REFUSE,SOURCE_UNCODABLE,,,,,,
+confusion,Claude Sonnet 5,count,0,240,,REFUSE,CODER_MISSING,,,,,,
+confusion,Claude Sonnet 5,count,1,240,,OTHER_OR_AMBIGUOUS,ACT,,,,,,
+confusion,Claude Sonnet 5,count,2,240,,OTHER_OR_AMBIGUOUS,ASK_AUTHORIZATION,,,,,,
+confusion,Claude Sonnet 5,count,0,240,,OTHER_OR_AMBIGUOUS,REQUEST_INFORMATION,,,,,,
+confusion,Claude Sonnet 5,count,6,240,,OTHER_OR_AMBIGUOUS,REFUSE,,,,,,
+confusion,Claude Sonnet 5,count,5,240,,OTHER_OR_AMBIGUOUS,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Claude Sonnet 5,count,0,240,,OTHER_OR_AMBIGUOUS,SOURCE_UNCODABLE,,,,,,
+confusion,Claude Sonnet 5,count,0,240,,OTHER_OR_AMBIGUOUS,CODER_MISSING,,,,,,
+confusion,Claude Sonnet 5,count,0,240,,SOURCE_UNCODABLE,ACT,,,,,,
+confusion,Claude Sonnet 5,count,0,240,,SOURCE_UNCODABLE,ASK_AUTHORIZATION,,,,,,
+confusion,Claude Sonnet 5,count,0,240,,SOURCE_UNCODABLE,REQUEST_INFORMATION,,,,,,
+confusion,Claude Sonnet 5,count,0,240,,SOURCE_UNCODABLE,REFUSE,,,,,,
+confusion,Claude Sonnet 5,count,0,240,,SOURCE_UNCODABLE,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Claude Sonnet 5,count,0,240,,SOURCE_UNCODABLE,SOURCE_UNCODABLE,,,,,,
+confusion,Claude Sonnet 5,count,0,240,,SOURCE_UNCODABLE,CODER_MISSING,,,,,,
+confusion,Claude Sonnet 5,count,0,240,,CODER_MISSING,ACT,,,,,,
+confusion,Claude Sonnet 5,count,0,240,,CODER_MISSING,ASK_AUTHORIZATION,,,,,,
+confusion,Claude Sonnet 5,count,0,240,,CODER_MISSING,REQUEST_INFORMATION,,,,,,
+confusion,Claude Sonnet 5,count,0,240,,CODER_MISSING,REFUSE,,,,,,
+confusion,Claude Sonnet 5,count,0,240,,CODER_MISSING,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Claude Sonnet 5,count,0,240,,CODER_MISSING,SOURCE_UNCODABLE,,,,,,
+confusion,Claude Sonnet 5,count,0,240,,CODER_MISSING,CODER_MISSING,,,,,,
+coder_agreement,Claude Opus 4.8,raw_agreement,0.8125,240,,,,,,,,,
+coder_agreement,Claude Opus 4.8,cohen_kappa,0.6625421822272216,240,,,,,,,,,
+coder_agreement,Claude Opus 4.8,missing_either_coder_rate,0.0,240,,,,,,,,,
+class_agreement,Claude Opus 4.8,symmetric_f1,0.9150326797385621,240,ACT,,,,,,,,
+class_agreement,Claude Opus 4.8,gemini_given_luna,0.9090909090909091,154,ACT,,,,,,,,
+class_agreement,Claude Opus 4.8,luna_given_gemini,0.9210526315789473,152,ACT,,,,,,,,
+class_agreement,Claude Opus 4.8,symmetric_f1,0.6153846153846154,240,ASK_AUTHORIZATION,,,,,,,,
+class_agreement,Claude Opus 4.8,gemini_given_luna,0.6060606060606061,33,ASK_AUTHORIZATION,,,,,,,,
+class_agreement,Claude Opus 4.8,luna_given_gemini,0.625,32,ASK_AUTHORIZATION,,,,,,,,
+class_agreement,Claude Opus 4.8,symmetric_f1,0.8461538461538461,240,REQUEST_INFORMATION,,,,,,,,
+class_agreement,Claude Opus 4.8,gemini_given_luna,0.7586206896551724,29,REQUEST_INFORMATION,,,,,,,,
+class_agreement,Claude Opus 4.8,luna_given_gemini,0.9565217391304348,23,REQUEST_INFORMATION,,,,,,,,
+class_agreement,Claude Opus 4.8,symmetric_f1,0.6046511627906976,240,REFUSE,,,,,,,,
+class_agreement,Claude Opus 4.8,gemini_given_luna,0.8666666666666667,15,REFUSE,,,,,,,,
+class_agreement,Claude Opus 4.8,luna_given_gemini,0.4642857142857143,28,REFUSE,,,,,,,,
+class_agreement,Claude Opus 4.8,symmetric_f1,0.0,240,OTHER_OR_AMBIGUOUS,,,,,,,,
+class_agreement,Claude Opus 4.8,gemini_given_luna,0.0,9,OTHER_OR_AMBIGUOUS,,,,,,,,
+class_agreement,Claude Opus 4.8,luna_given_gemini,0.0,5,OTHER_OR_AMBIGUOUS,,,,,,,,
+class_agreement,Claude Opus 4.8,symmetric_f1,nan,240,SOURCE_UNCODABLE,,,,,,,,
+class_agreement,Claude Opus 4.8,gemini_given_luna,nan,0,SOURCE_UNCODABLE,,,,,,,,
+class_agreement,Claude Opus 4.8,luna_given_gemini,nan,0,SOURCE_UNCODABLE,,,,,,,,
+class_agreement,Claude Opus 4.8,symmetric_f1,nan,240,CODER_MISSING,,,,,,,,
+class_agreement,Claude Opus 4.8,gemini_given_luna,nan,0,CODER_MISSING,,,,,,,,
+class_agreement,Claude Opus 4.8,luna_given_gemini,nan,0,CODER_MISSING,,,,,,,,
+confusion,Claude Opus 4.8,count,140,240,,ACT,ACT,,,,,,
+confusion,Claude Opus 4.8,count,4,240,,ACT,ASK_AUTHORIZATION,,,,,,
+confusion,Claude Opus 4.8,count,1,240,,ACT,REQUEST_INFORMATION,,,,,,
+confusion,Claude Opus 4.8,count,6,240,,ACT,REFUSE,,,,,,
+confusion,Claude Opus 4.8,count,3,240,,ACT,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Claude Opus 4.8,count,0,240,,ACT,SOURCE_UNCODABLE,,,,,,
+confusion,Claude Opus 4.8,count,0,240,,ACT,CODER_MISSING,,,,,,
+confusion,Claude Opus 4.8,count,10,240,,ASK_AUTHORIZATION,ACT,,,,,,
+confusion,Claude Opus 4.8,count,20,240,,ASK_AUTHORIZATION,ASK_AUTHORIZATION,,,,,,
+confusion,Claude Opus 4.8,count,0,240,,ASK_AUTHORIZATION,REQUEST_INFORMATION,,,,,,
+confusion,Claude Opus 4.8,count,2,240,,ASK_AUTHORIZATION,REFUSE,,,,,,
+confusion,Claude Opus 4.8,count,1,240,,ASK_AUTHORIZATION,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Claude Opus 4.8,count,0,240,,ASK_AUTHORIZATION,SOURCE_UNCODABLE,,,,,,
+confusion,Claude Opus 4.8,count,0,240,,ASK_AUTHORIZATION,CODER_MISSING,,,,,,
+confusion,Claude Opus 4.8,count,0,240,,REQUEST_INFORMATION,ACT,,,,,,
+confusion,Claude Opus 4.8,count,3,240,,REQUEST_INFORMATION,ASK_AUTHORIZATION,,,,,,
+confusion,Claude Opus 4.8,count,22,240,,REQUEST_INFORMATION,REQUEST_INFORMATION,,,,,,
+confusion,Claude Opus 4.8,count,3,240,,REQUEST_INFORMATION,REFUSE,,,,,,
+confusion,Claude Opus 4.8,count,1,240,,REQUEST_INFORMATION,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Claude Opus 4.8,count,0,240,,REQUEST_INFORMATION,SOURCE_UNCODABLE,,,,,,
+confusion,Claude Opus 4.8,count,0,240,,REQUEST_INFORMATION,CODER_MISSING,,,,,,
+confusion,Claude Opus 4.8,count,0,240,,REFUSE,ACT,,,,,,
+confusion,Claude Opus 4.8,count,2,240,,REFUSE,ASK_AUTHORIZATION,,,,,,
+confusion,Claude Opus 4.8,count,0,240,,REFUSE,REQUEST_INFORMATION,,,,,,
+confusion,Claude Opus 4.8,count,13,240,,REFUSE,REFUSE,,,,,,
+confusion,Claude Opus 4.8,count,0,240,,REFUSE,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Claude Opus 4.8,count,0,240,,REFUSE,SOURCE_UNCODABLE,,,,,,
+confusion,Claude Opus 4.8,count,0,240,,REFUSE,CODER_MISSING,,,,,,
+confusion,Claude Opus 4.8,count,2,240,,OTHER_OR_AMBIGUOUS,ACT,,,,,,
+confusion,Claude Opus 4.8,count,3,240,,OTHER_OR_AMBIGUOUS,ASK_AUTHORIZATION,,,,,,
+confusion,Claude Opus 4.8,count,0,240,,OTHER_OR_AMBIGUOUS,REQUEST_INFORMATION,,,,,,
+confusion,Claude Opus 4.8,count,4,240,,OTHER_OR_AMBIGUOUS,REFUSE,,,,,,
+confusion,Claude Opus 4.8,count,0,240,,OTHER_OR_AMBIGUOUS,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Claude Opus 4.8,count,0,240,,OTHER_OR_AMBIGUOUS,SOURCE_UNCODABLE,,,,,,
+confusion,Claude Opus 4.8,count,0,240,,OTHER_OR_AMBIGUOUS,CODER_MISSING,,,,,,
+confusion,Claude Opus 4.8,count,0,240,,SOURCE_UNCODABLE,ACT,,,,,,
+confusion,Claude Opus 4.8,count,0,240,,SOURCE_UNCODABLE,ASK_AUTHORIZATION,,,,,,
+confusion,Claude Opus 4.8,count,0,240,,SOURCE_UNCODABLE,REQUEST_INFORMATION,,,,,,
+confusion,Claude Opus 4.8,count,0,240,,SOURCE_UNCODABLE,REFUSE,,,,,,
+confusion,Claude Opus 4.8,count,0,240,,SOURCE_UNCODABLE,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Claude Opus 4.8,count,0,240,,SOURCE_UNCODABLE,SOURCE_UNCODABLE,,,,,,
+confusion,Claude Opus 4.8,count,0,240,,SOURCE_UNCODABLE,CODER_MISSING,,,,,,
+confusion,Claude Opus 4.8,count,0,240,,CODER_MISSING,ACT,,,,,,
+confusion,Claude Opus 4.8,count,0,240,,CODER_MISSING,ASK_AUTHORIZATION,,,,,,
+confusion,Claude Opus 4.8,count,0,240,,CODER_MISSING,REQUEST_INFORMATION,,,,,,
+confusion,Claude Opus 4.8,count,0,240,,CODER_MISSING,REFUSE,,,,,,
+confusion,Claude Opus 4.8,count,0,240,,CODER_MISSING,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Claude Opus 4.8,count,0,240,,CODER_MISSING,SOURCE_UNCODABLE,,,,,,
+confusion,Claude Opus 4.8,count,0,240,,CODER_MISSING,CODER_MISSING,,,,,,
+coder_agreement,Gemini 3.6 Flash,raw_agreement,0.8958333333333334,240,,,,,,,,,
+coder_agreement,Gemini 3.6 Flash,cohen_kappa,0.8188132266344557,240,,,,,,,,,
+coder_agreement,Gemini 3.6 Flash,missing_either_coder_rate,0.0,240,,,,,,,,,
+class_agreement,Gemini 3.6 Flash,symmetric_f1,0.9448275862068966,240,ACT,,,,,,,,
+class_agreement,Gemini 3.6 Flash,gemini_given_luna,0.9513888888888888,144,ACT,,,,,,,,
+class_agreement,Gemini 3.6 Flash,luna_given_gemini,0.9383561643835616,146,ACT,,,,,,,,
+class_agreement,Gemini 3.6 Flash,symmetric_f1,0.8653846153846154,240,ASK_AUTHORIZATION,,,,,,,,
+class_agreement,Gemini 3.6 Flash,gemini_given_luna,0.8035714285714286,56,ASK_AUTHORIZATION,,,,,,,,
+class_agreement,Gemini 3.6 Flash,luna_given_gemini,0.9375,48,ASK_AUTHORIZATION,,,,,,,,
+class_agreement,Gemini 3.6 Flash,symmetric_f1,0.9333333333333333,240,REQUEST_INFORMATION,,,,,,,,
+class_agreement,Gemini 3.6 Flash,gemini_given_luna,0.9130434782608695,23,REQUEST_INFORMATION,,,,,,,,
+class_agreement,Gemini 3.6 Flash,luna_given_gemini,0.9545454545454546,22,REQUEST_INFORMATION,,,,,,,,
+class_agreement,Gemini 3.6 Flash,symmetric_f1,0.6666666666666666,240,REFUSE,,,,,,,,
+class_agreement,Gemini 3.6 Flash,gemini_given_luna,0.9166666666666666,12,REFUSE,,,,,,,,
+class_agreement,Gemini 3.6 Flash,luna_given_gemini,0.5238095238095238,21,REFUSE,,,,,,,,
+class_agreement,Gemini 3.6 Flash,symmetric_f1,0.25,240,OTHER_OR_AMBIGUOUS,,,,,,,,
+class_agreement,Gemini 3.6 Flash,gemini_given_luna,0.2,5,OTHER_OR_AMBIGUOUS,,,,,,,,
+class_agreement,Gemini 3.6 Flash,luna_given_gemini,0.3333333333333333,3,OTHER_OR_AMBIGUOUS,,,,,,,,
+class_agreement,Gemini 3.6 Flash,symmetric_f1,nan,240,SOURCE_UNCODABLE,,,,,,,,
+class_agreement,Gemini 3.6 Flash,gemini_given_luna,nan,0,SOURCE_UNCODABLE,,,,,,,,
+class_agreement,Gemini 3.6 Flash,luna_given_gemini,nan,0,SOURCE_UNCODABLE,,,,,,,,
+class_agreement,Gemini 3.6 Flash,symmetric_f1,nan,240,CODER_MISSING,,,,,,,,
+class_agreement,Gemini 3.6 Flash,gemini_given_luna,nan,0,CODER_MISSING,,,,,,,,
+class_agreement,Gemini 3.6 Flash,luna_given_gemini,nan,0,CODER_MISSING,,,,,,,,
+confusion,Gemini 3.6 Flash,count,137,240,,ACT,ACT,,,,,,
+confusion,Gemini 3.6 Flash,count,3,240,,ACT,ASK_AUTHORIZATION,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,ACT,REQUEST_INFORMATION,,,,,,
+confusion,Gemini 3.6 Flash,count,2,240,,ACT,REFUSE,,,,,,
+confusion,Gemini 3.6 Flash,count,2,240,,ACT,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,ACT,SOURCE_UNCODABLE,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,ACT,CODER_MISSING,,,,,,
+confusion,Gemini 3.6 Flash,count,9,240,,ASK_AUTHORIZATION,ACT,,,,,,
+confusion,Gemini 3.6 Flash,count,45,240,,ASK_AUTHORIZATION,ASK_AUTHORIZATION,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,ASK_AUTHORIZATION,REQUEST_INFORMATION,,,,,,
+confusion,Gemini 3.6 Flash,count,2,240,,ASK_AUTHORIZATION,REFUSE,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,ASK_AUTHORIZATION,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,ASK_AUTHORIZATION,SOURCE_UNCODABLE,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,ASK_AUTHORIZATION,CODER_MISSING,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,REQUEST_INFORMATION,ACT,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,REQUEST_INFORMATION,ASK_AUTHORIZATION,,,,,,
+confusion,Gemini 3.6 Flash,count,21,240,,REQUEST_INFORMATION,REQUEST_INFORMATION,,,,,,
+confusion,Gemini 3.6 Flash,count,2,240,,REQUEST_INFORMATION,REFUSE,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,REQUEST_INFORMATION,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,REQUEST_INFORMATION,SOURCE_UNCODABLE,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,REQUEST_INFORMATION,CODER_MISSING,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,REFUSE,ACT,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,REFUSE,ASK_AUTHORIZATION,,,,,,
+confusion,Gemini 3.6 Flash,count,1,240,,REFUSE,REQUEST_INFORMATION,,,,,,
+confusion,Gemini 3.6 Flash,count,11,240,,REFUSE,REFUSE,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,REFUSE,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,REFUSE,SOURCE_UNCODABLE,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,REFUSE,CODER_MISSING,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,OTHER_OR_AMBIGUOUS,ACT,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,OTHER_OR_AMBIGUOUS,ASK_AUTHORIZATION,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,OTHER_OR_AMBIGUOUS,REQUEST_INFORMATION,,,,,,
+confusion,Gemini 3.6 Flash,count,4,240,,OTHER_OR_AMBIGUOUS,REFUSE,,,,,,
+confusion,Gemini 3.6 Flash,count,1,240,,OTHER_OR_AMBIGUOUS,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,OTHER_OR_AMBIGUOUS,SOURCE_UNCODABLE,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,OTHER_OR_AMBIGUOUS,CODER_MISSING,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,SOURCE_UNCODABLE,ACT,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,SOURCE_UNCODABLE,ASK_AUTHORIZATION,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,SOURCE_UNCODABLE,REQUEST_INFORMATION,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,SOURCE_UNCODABLE,REFUSE,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,SOURCE_UNCODABLE,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,SOURCE_UNCODABLE,SOURCE_UNCODABLE,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,SOURCE_UNCODABLE,CODER_MISSING,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,CODER_MISSING,ACT,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,CODER_MISSING,ASK_AUTHORIZATION,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,CODER_MISSING,REQUEST_INFORMATION,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,CODER_MISSING,REFUSE,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,CODER_MISSING,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,CODER_MISSING,SOURCE_UNCODABLE,,,,,,
+confusion,Gemini 3.6 Flash,count,0,240,,CODER_MISSING,CODER_MISSING,,,,,,
+coder_agreement,Gemini 3.5 Flash-Lite,raw_agreement,0.8333333333333334,240,,,,,,,,,
+coder_agreement,Gemini 3.5 Flash-Lite,cohen_kappa,0.6450229256027216,240,,,,,,,,,
+coder_agreement,Gemini 3.5 Flash-Lite,missing_either_coder_rate,0.0,240,,,,,,,,,
+class_agreement,Gemini 3.5 Flash-Lite,symmetric_f1,0.8869565217391304,240,ACT,,,,,,,,
+class_agreement,Gemini 3.5 Flash-Lite,gemini_given_luna,1.0,153,ACT,,,,,,,,
+class_agreement,Gemini 3.5 Flash-Lite,luna_given_gemini,0.796875,192,ACT,,,,,,,,
+class_agreement,Gemini 3.5 Flash-Lite,symmetric_f1,0.2909090909090909,240,ASK_AUTHORIZATION,,,,,,,,
+class_agreement,Gemini 3.5 Flash-Lite,gemini_given_luna,0.1702127659574468,47,ASK_AUTHORIZATION,,,,,,,,
+class_agreement,Gemini 3.5 Flash-Lite,luna_given_gemini,1.0,8,ASK_AUTHORIZATION,,,,,,,,
+class_agreement,Gemini 3.5 Flash-Lite,symmetric_f1,0.9767441860465116,240,REQUEST_INFORMATION,,,,,,,,
+class_agreement,Gemini 3.5 Flash-Lite,gemini_given_luna,0.9545454545454546,22,REQUEST_INFORMATION,,,,,,,,
+class_agreement,Gemini 3.5 Flash-Lite,luna_given_gemini,1.0,21,REQUEST_INFORMATION,,,,,,,,
+class_agreement,Gemini 3.5 Flash-Lite,symmetric_f1,0.972972972972973,240,REFUSE,,,,,,,,
+class_agreement,Gemini 3.5 Flash-Lite,gemini_given_luna,1.0,18,REFUSE,,,,,,,,
+class_agreement,Gemini 3.5 Flash-Lite,luna_given_gemini,0.9473684210526315,19,REFUSE,,,,,,,,
+class_agreement,Gemini 3.5 Flash-Lite,symmetric_f1,nan,240,OTHER_OR_AMBIGUOUS,,,,,,,,
+class_agreement,Gemini 3.5 Flash-Lite,gemini_given_luna,nan,0,OTHER_OR_AMBIGUOUS,,,,,,,,
+class_agreement,Gemini 3.5 Flash-Lite,luna_given_gemini,nan,0,OTHER_OR_AMBIGUOUS,,,,,,,,
+class_agreement,Gemini 3.5 Flash-Lite,symmetric_f1,nan,240,SOURCE_UNCODABLE,,,,,,,,
+class_agreement,Gemini 3.5 Flash-Lite,gemini_given_luna,nan,0,SOURCE_UNCODABLE,,,,,,,,
+class_agreement,Gemini 3.5 Flash-Lite,luna_given_gemini,nan,0,SOURCE_UNCODABLE,,,,,,,,
+class_agreement,Gemini 3.5 Flash-Lite,symmetric_f1,nan,240,CODER_MISSING,,,,,,,,
+class_agreement,Gemini 3.5 Flash-Lite,gemini_given_luna,nan,0,CODER_MISSING,,,,,,,,
+class_agreement,Gemini 3.5 Flash-Lite,luna_given_gemini,nan,0,CODER_MISSING,,,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,153,240,,ACT,ACT,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,ACT,ASK_AUTHORIZATION,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,ACT,REQUEST_INFORMATION,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,ACT,REFUSE,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,ACT,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,ACT,SOURCE_UNCODABLE,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,ACT,CODER_MISSING,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,39,240,,ASK_AUTHORIZATION,ACT,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,8,240,,ASK_AUTHORIZATION,ASK_AUTHORIZATION,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,ASK_AUTHORIZATION,REQUEST_INFORMATION,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,ASK_AUTHORIZATION,REFUSE,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,ASK_AUTHORIZATION,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,ASK_AUTHORIZATION,SOURCE_UNCODABLE,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,ASK_AUTHORIZATION,CODER_MISSING,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,REQUEST_INFORMATION,ACT,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,REQUEST_INFORMATION,ASK_AUTHORIZATION,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,21,240,,REQUEST_INFORMATION,REQUEST_INFORMATION,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,1,240,,REQUEST_INFORMATION,REFUSE,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,REQUEST_INFORMATION,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,REQUEST_INFORMATION,SOURCE_UNCODABLE,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,REQUEST_INFORMATION,CODER_MISSING,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,REFUSE,ACT,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,REFUSE,ASK_AUTHORIZATION,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,REFUSE,REQUEST_INFORMATION,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,18,240,,REFUSE,REFUSE,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,REFUSE,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,REFUSE,SOURCE_UNCODABLE,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,REFUSE,CODER_MISSING,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,OTHER_OR_AMBIGUOUS,ACT,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,OTHER_OR_AMBIGUOUS,ASK_AUTHORIZATION,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,OTHER_OR_AMBIGUOUS,REQUEST_INFORMATION,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,OTHER_OR_AMBIGUOUS,REFUSE,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,OTHER_OR_AMBIGUOUS,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,OTHER_OR_AMBIGUOUS,SOURCE_UNCODABLE,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,OTHER_OR_AMBIGUOUS,CODER_MISSING,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,SOURCE_UNCODABLE,ACT,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,SOURCE_UNCODABLE,ASK_AUTHORIZATION,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,SOURCE_UNCODABLE,REQUEST_INFORMATION,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,SOURCE_UNCODABLE,REFUSE,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,SOURCE_UNCODABLE,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,SOURCE_UNCODABLE,SOURCE_UNCODABLE,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,SOURCE_UNCODABLE,CODER_MISSING,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,CODER_MISSING,ACT,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,CODER_MISSING,ASK_AUTHORIZATION,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,CODER_MISSING,REQUEST_INFORMATION,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,CODER_MISSING,REFUSE,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,CODER_MISSING,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,CODER_MISSING,SOURCE_UNCODABLE,,,,,,
+confusion,Gemini 3.5 Flash-Lite,count,0,240,,CODER_MISSING,CODER_MISSING,,,,,,
+coder_agreement,Qwen 3.6 27B,raw_agreement,0.95,240,,,,,,,,,
+coder_agreement,Qwen 3.6 27B,cohen_kappa,0.9150267016788127,240,,,,,,,,,
+coder_agreement,Qwen 3.6 27B,missing_either_coder_rate,0.0,240,,,,,,,,,
+class_agreement,Qwen 3.6 27B,symmetric_f1,0.9382716049382716,240,ACT,,,,,,,,
+class_agreement,Qwen 3.6 27B,gemini_given_luna,1.0,76,ACT,,,,,,,,
+class_agreement,Qwen 3.6 27B,luna_given_gemini,0.8837209302325582,86,ACT,,,,,,,,
+class_agreement,Qwen 3.6 27B,symmetric_f1,0.47619047619047616,240,ASK_AUTHORIZATION,,,,,,,,
+class_agreement,Qwen 3.6 27B,gemini_given_luna,0.3125,16,ASK_AUTHORIZATION,,,,,,,,
+class_agreement,Qwen 3.6 27B,luna_given_gemini,1.0,5,ASK_AUTHORIZATION,,,,,,,,
+class_agreement,Qwen 3.6 27B,symmetric_f1,0.96,240,REQUEST_INFORMATION,,,,,,,,
+class_agreement,Qwen 3.6 27B,gemini_given_luna,0.9230769230769231,13,REQUEST_INFORMATION,,,,,,,,
+class_agreement,Qwen 3.6 27B,luna_given_gemini,1.0,12,REQUEST_INFORMATION,,,,,,,,
+class_agreement,Qwen 3.6 27B,symmetric_f1,0.8333333333333334,240,REFUSE,,,,,,,,
+class_agreement,Qwen 3.6 27B,gemini_given_luna,1.0,5,REFUSE,,,,,,,,
+class_agreement,Qwen 3.6 27B,luna_given_gemini,0.7142857142857143,7,REFUSE,,,,,,,,
+class_agreement,Qwen 3.6 27B,symmetric_f1,nan,240,OTHER_OR_AMBIGUOUS,,,,,,,,
+class_agreement,Qwen 3.6 27B,gemini_given_luna,nan,0,OTHER_OR_AMBIGUOUS,,,,,,,,
+class_agreement,Qwen 3.6 27B,luna_given_gemini,nan,0,OTHER_OR_AMBIGUOUS,,,,,,,,
+class_agreement,Qwen 3.6 27B,symmetric_f1,1.0,240,SOURCE_UNCODABLE,,,,,,,,
+class_agreement,Qwen 3.6 27B,gemini_given_luna,1.0,130,SOURCE_UNCODABLE,,,,,,,,
+class_agreement,Qwen 3.6 27B,luna_given_gemini,1.0,130,SOURCE_UNCODABLE,,,,,,,,
+class_agreement,Qwen 3.6 27B,symmetric_f1,nan,240,CODER_MISSING,,,,,,,,
+class_agreement,Qwen 3.6 27B,gemini_given_luna,nan,0,CODER_MISSING,,,,,,,,
+class_agreement,Qwen 3.6 27B,luna_given_gemini,nan,0,CODER_MISSING,,,,,,,,
+confusion,Qwen 3.6 27B,count,76,240,,ACT,ACT,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,ACT,ASK_AUTHORIZATION,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,ACT,REQUEST_INFORMATION,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,ACT,REFUSE,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,ACT,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,ACT,SOURCE_UNCODABLE,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,ACT,CODER_MISSING,,,,,,
+confusion,Qwen 3.6 27B,count,10,240,,ASK_AUTHORIZATION,ACT,,,,,,
+confusion,Qwen 3.6 27B,count,5,240,,ASK_AUTHORIZATION,ASK_AUTHORIZATION,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,ASK_AUTHORIZATION,REQUEST_INFORMATION,,,,,,
+confusion,Qwen 3.6 27B,count,1,240,,ASK_AUTHORIZATION,REFUSE,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,ASK_AUTHORIZATION,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,ASK_AUTHORIZATION,SOURCE_UNCODABLE,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,ASK_AUTHORIZATION,CODER_MISSING,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,REQUEST_INFORMATION,ACT,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,REQUEST_INFORMATION,ASK_AUTHORIZATION,,,,,,
+confusion,Qwen 3.6 27B,count,12,240,,REQUEST_INFORMATION,REQUEST_INFORMATION,,,,,,
+confusion,Qwen 3.6 27B,count,1,240,,REQUEST_INFORMATION,REFUSE,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,REQUEST_INFORMATION,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,REQUEST_INFORMATION,SOURCE_UNCODABLE,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,REQUEST_INFORMATION,CODER_MISSING,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,REFUSE,ACT,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,REFUSE,ASK_AUTHORIZATION,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,REFUSE,REQUEST_INFORMATION,,,,,,
+confusion,Qwen 3.6 27B,count,5,240,,REFUSE,REFUSE,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,REFUSE,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,REFUSE,SOURCE_UNCODABLE,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,REFUSE,CODER_MISSING,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,OTHER_OR_AMBIGUOUS,ACT,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,OTHER_OR_AMBIGUOUS,ASK_AUTHORIZATION,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,OTHER_OR_AMBIGUOUS,REQUEST_INFORMATION,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,OTHER_OR_AMBIGUOUS,REFUSE,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,OTHER_OR_AMBIGUOUS,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,OTHER_OR_AMBIGUOUS,SOURCE_UNCODABLE,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,OTHER_OR_AMBIGUOUS,CODER_MISSING,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,SOURCE_UNCODABLE,ACT,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,SOURCE_UNCODABLE,ASK_AUTHORIZATION,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,SOURCE_UNCODABLE,REQUEST_INFORMATION,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,SOURCE_UNCODABLE,REFUSE,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,SOURCE_UNCODABLE,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Qwen 3.6 27B,count,130,240,,SOURCE_UNCODABLE,SOURCE_UNCODABLE,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,SOURCE_UNCODABLE,CODER_MISSING,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,CODER_MISSING,ACT,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,CODER_MISSING,ASK_AUTHORIZATION,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,CODER_MISSING,REQUEST_INFORMATION,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,CODER_MISSING,REFUSE,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,CODER_MISSING,OTHER_OR_AMBIGUOUS,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,CODER_MISSING,SOURCE_UNCODABLE,,,,,,
+confusion,Qwen 3.6 27B,count,0,240,,CODER_MISSING,CODER_MISSING,,,,,,
+composition,GPT-5.6 Sol,proportion,0.6583333333333333,240,ACT,,,luna,,,,,
+composition,GPT-5.6 Sol,proportion,0.1625,240,ASK_AUTHORIZATION,,,luna,,,,,
+composition,GPT-5.6 Sol,proportion,0.09166666666666666,240,REQUEST_INFORMATION,,,luna,,,,,
+composition,GPT-5.6 Sol,proportion,0.08333333333333333,240,REFUSE,,,luna,,,,,
+composition,GPT-5.6 Sol,proportion,0.0,240,INVALID,,,luna,,,,,
+composition,GPT-5.6 Sol,proportion,0.0,240,UNRESOLVED,,,luna,,,,,
+composition,GPT-5.6 Sol,proportion,0.004166666666666667,240,OTHER_OR_AMBIGUOUS,,,luna,,,,,
+composition,GPT-5.6 Sol,proportion,0.0,240,SOURCE_UNCODABLE,,,luna,,,,,
+composition,GPT-5.6 Sol,proportion,0.0,240,CODER_MISSING,,,luna,,,,,
+composition,GPT-5.6 Sol,proportion,0.625,240,ACT,,,gemini35,,,,,
+composition,GPT-5.6 Sol,proportion,0.14583333333333334,240,ASK_AUTHORIZATION,,,gemini35,,,,,
+composition,GPT-5.6 Sol,proportion,0.08333333333333333,240,REQUEST_INFORMATION,,,gemini35,,,,,
+composition,GPT-5.6 Sol,proportion,0.14166666666666666,240,REFUSE,,,gemini35,,,,,
+composition,GPT-5.6 Sol,proportion,0.0,240,INVALID,,,gemini35,,,,,
+composition,GPT-5.6 Sol,proportion,0.0,240,UNRESOLVED,,,gemini35,,,,,
+composition,GPT-5.6 Sol,proportion,0.004166666666666667,240,OTHER_OR_AMBIGUOUS,,,gemini35,,,,,
+composition,GPT-5.6 Sol,proportion,0.0,240,SOURCE_UNCODABLE,,,gemini35,,,,,
+composition,GPT-5.6 Sol,proportion,0.0,240,CODER_MISSING,,,gemini35,,,,,
+composition,GPT-5.6 Sol,proportion,0.6041666666666666,240,ACT,,,strict_consensus,,,,,
+composition,GPT-5.6 Sol,proportion,0.12083333333333333,240,ASK_AUTHORIZATION,,,strict_consensus,,,,,
+composition,GPT-5.6 Sol,proportion,0.08333333333333333,240,REQUEST_INFORMATION,,,strict_consensus,,,,,
+composition,GPT-5.6 Sol,proportion,0.07916666666666666,240,REFUSE,,,strict_consensus,,,,,
+composition,GPT-5.6 Sol,proportion,0.0,240,INVALID,,,strict_consensus,,,,,
+composition,GPT-5.6 Sol,proportion,0.1125,240,UNRESOLVED,,,strict_consensus,,,,,
+composition,GPT-5.6 Sol,proportion,0.0,240,OTHER_OR_AMBIGUOUS,,,strict_consensus,,,,,
+composition,GPT-5.6 Sol,proportion,0.0,240,SOURCE_UNCODABLE,,,strict_consensus,,,,,
+composition,GPT-5.6 Sol,proportion,0.0,240,CODER_MISSING,,,strict_consensus,,,,,
+composition,GPT-OSS-120B,proportion,0.6458333333333334,240,ACT,,,luna,,,,,
+composition,GPT-OSS-120B,proportion,0.19583333333333333,240,ASK_AUTHORIZATION,,,luna,,,,,
+composition,GPT-OSS-120B,proportion,0.10416666666666667,240,REQUEST_INFORMATION,,,luna,,,,,
+composition,GPT-OSS-120B,proportion,0.05,240,REFUSE,,,luna,,,,,
+composition,GPT-OSS-120B,proportion,0.0,240,INVALID,,,luna,,,,,
+composition,GPT-OSS-120B,proportion,0.0,240,UNRESOLVED,,,luna,,,,,
+composition,GPT-OSS-120B,proportion,0.004166666666666667,240,OTHER_OR_AMBIGUOUS,,,luna,,,,,
+composition,GPT-OSS-120B,proportion,0.0,240,SOURCE_UNCODABLE,,,luna,,,,,
+composition,GPT-OSS-120B,proportion,0.0,240,CODER_MISSING,,,luna,,,,,
+composition,GPT-OSS-120B,proportion,0.7958333333333333,240,ACT,,,gemini35,,,,,
+composition,GPT-OSS-120B,proportion,0.04583333333333333,240,ASK_AUTHORIZATION,,,gemini35,,,,,
+composition,GPT-OSS-120B,proportion,0.09166666666666666,240,REQUEST_INFORMATION,,,gemini35,,,,,
+composition,GPT-OSS-120B,proportion,0.0625,240,REFUSE,,,gemini35,,,,,
+composition,GPT-OSS-120B,proportion,0.0,240,INVALID,,,gemini35,,,,,
+composition,GPT-OSS-120B,proportion,0.0,240,UNRESOLVED,,,gemini35,,,,,
+composition,GPT-OSS-120B,proportion,0.004166666666666667,240,OTHER_OR_AMBIGUOUS,,,gemini35,,,,,
+composition,GPT-OSS-120B,proportion,0.0,240,SOURCE_UNCODABLE,,,gemini35,,,,,
+composition,GPT-OSS-120B,proportion,0.0,240,CODER_MISSING,,,gemini35,,,,,
+composition,GPT-OSS-120B,proportion,0.6375,240,ACT,,,strict_consensus,,,,,
+composition,GPT-OSS-120B,proportion,0.041666666666666664,240,ASK_AUTHORIZATION,,,strict_consensus,,,,,
+composition,GPT-OSS-120B,proportion,0.09166666666666666,240,REQUEST_INFORMATION,,,strict_consensus,,,,,
+composition,GPT-OSS-120B,proportion,0.05,240,REFUSE,,,strict_consensus,,,,,
+composition,GPT-OSS-120B,proportion,0.0,240,INVALID,,,strict_consensus,,,,,
+composition,GPT-OSS-120B,proportion,0.17916666666666667,240,UNRESOLVED,,,strict_consensus,,,,,
+composition,GPT-OSS-120B,proportion,0.0,240,OTHER_OR_AMBIGUOUS,,,strict_consensus,,,,,
+composition,GPT-OSS-120B,proportion,0.0,240,SOURCE_UNCODABLE,,,strict_consensus,,,,,
+composition,GPT-OSS-120B,proportion,0.0,240,CODER_MISSING,,,strict_consensus,,,,,
+composition,GPT-OSS-20B,proportion,0.6333333333333333,240,ACT,,,luna,,,,,
+composition,GPT-OSS-20B,proportion,0.18333333333333332,240,ASK_AUTHORIZATION,,,luna,,,,,
+composition,GPT-OSS-20B,proportion,0.11666666666666667,240,REQUEST_INFORMATION,,,luna,,,,,
+composition,GPT-OSS-20B,proportion,0.058333333333333334,240,REFUSE,,,luna,,,,,
+composition,GPT-OSS-20B,proportion,0.0,240,INVALID,,,luna,,,,,
+composition,GPT-OSS-20B,proportion,0.0,240,UNRESOLVED,,,luna,,,,,
+composition,GPT-OSS-20B,proportion,0.008333333333333333,240,OTHER_OR_AMBIGUOUS,,,luna,,,,,
+composition,GPT-OSS-20B,proportion,0.0,240,SOURCE_UNCODABLE,,,luna,,,,,
+composition,GPT-OSS-20B,proportion,0.0,240,CODER_MISSING,,,luna,,,,,
+composition,GPT-OSS-20B,proportion,0.7833333333333333,240,ACT,,,gemini35,,,,,
+composition,GPT-OSS-20B,proportion,0.0375,240,ASK_AUTHORIZATION,,,gemini35,,,,,
+composition,GPT-OSS-20B,proportion,0.10416666666666667,240,REQUEST_INFORMATION,,,gemini35,,,,,
+composition,GPT-OSS-20B,proportion,0.0625,240,REFUSE,,,gemini35,,,,,
+composition,GPT-OSS-20B,proportion,0.0,240,INVALID,,,gemini35,,,,,
+composition,GPT-OSS-20B,proportion,0.0,240,UNRESOLVED,,,gemini35,,,,,
+composition,GPT-OSS-20B,proportion,0.0125,240,OTHER_OR_AMBIGUOUS,,,gemini35,,,,,
+composition,GPT-OSS-20B,proportion,0.0,240,SOURCE_UNCODABLE,,,gemini35,,,,,
+composition,GPT-OSS-20B,proportion,0.0,240,CODER_MISSING,,,gemini35,,,,,
+composition,GPT-OSS-20B,proportion,0.6208333333333333,240,ACT,,,strict_consensus,,,,,
+composition,GPT-OSS-20B,proportion,0.025,240,ASK_AUTHORIZATION,,,strict_consensus,,,,,
+composition,GPT-OSS-20B,proportion,0.10416666666666667,240,REQUEST_INFORMATION,,,strict_consensus,,,,,
+composition,GPT-OSS-20B,proportion,0.058333333333333334,240,REFUSE,,,strict_consensus,,,,,
+composition,GPT-OSS-20B,proportion,0.0,240,INVALID,,,strict_consensus,,,,,
+composition,GPT-OSS-20B,proportion,0.19166666666666668,240,UNRESOLVED,,,strict_consensus,,,,,
+composition,GPT-OSS-20B,proportion,0.0,240,OTHER_OR_AMBIGUOUS,,,strict_consensus,,,,,
+composition,GPT-OSS-20B,proportion,0.0,240,SOURCE_UNCODABLE,,,strict_consensus,,,,,
+composition,GPT-OSS-20B,proportion,0.0,240,CODER_MISSING,,,strict_consensus,,,,,
+composition,GPT-5.6 Terra,proportion,0.6208333333333333,240,ACT,,,luna,,,,,
+composition,GPT-5.6 Terra,proportion,0.17916666666666667,240,ASK_AUTHORIZATION,,,luna,,,,,
+composition,GPT-5.6 Terra,proportion,0.10416666666666667,240,REQUEST_INFORMATION,,,luna,,,,,
+composition,GPT-5.6 Terra,proportion,0.07916666666666666,240,REFUSE,,,luna,,,,,
+composition,GPT-5.6 Terra,proportion,0.0,240,INVALID,,,luna,,,,,
+composition,GPT-5.6 Terra,proportion,0.0,240,UNRESOLVED,,,luna,,,,,
+composition,GPT-5.6 Terra,proportion,0.016666666666666666,240,OTHER_OR_AMBIGUOUS,,,luna,,,,,
+composition,GPT-5.6 Terra,proportion,0.0,240,SOURCE_UNCODABLE,,,luna,,,,,
+composition,GPT-5.6 Terra,proportion,0.0,240,CODER_MISSING,,,luna,,,,,
+composition,GPT-5.6 Terra,proportion,0.675,240,ACT,,,gemini35,,,,,
+composition,GPT-5.6 Terra,proportion,0.09583333333333334,240,ASK_AUTHORIZATION,,,gemini35,,,,,
+composition,GPT-5.6 Terra,proportion,0.08333333333333333,240,REQUEST_INFORMATION,,,gemini35,,,,,
+composition,GPT-5.6 Terra,proportion,0.125,240,REFUSE,,,gemini35,,,,,
+composition,GPT-5.6 Terra,proportion,0.0,240,INVALID,,,gemini35,,,,,
+composition,GPT-5.6 Terra,proportion,0.0,240,UNRESOLVED,,,gemini35,,,,,
+composition,GPT-5.6 Terra,proportion,0.016666666666666666,240,OTHER_OR_AMBIGUOUS,,,gemini35,,,,,
+composition,GPT-5.6 Terra,proportion,0.0,240,SOURCE_UNCODABLE,,,gemini35,,,,,
+composition,GPT-5.6 Terra,proportion,0.004166666666666667,240,CODER_MISSING,,,gemini35,,,,,
+composition,GPT-5.6 Terra,proportion,0.5791666666666667,240,ACT,,,strict_consensus,,,,,
+composition,GPT-5.6 Terra,proportion,0.08333333333333333,240,ASK_AUTHORIZATION,,,strict_consensus,,,,,
+composition,GPT-5.6 Terra,proportion,0.08333333333333333,240,REQUEST_INFORMATION,,,strict_consensus,,,,,
+composition,GPT-5.6 Terra,proportion,0.075,240,REFUSE,,,strict_consensus,,,,,
+composition,GPT-5.6 Terra,proportion,0.0,240,INVALID,,,strict_consensus,,,,,
+composition,GPT-5.6 Terra,proportion,0.17916666666666667,240,UNRESOLVED,,,strict_consensus,,,,,
+composition,GPT-5.6 Terra,proportion,0.0,240,OTHER_OR_AMBIGUOUS,,,strict_consensus,,,,,
+composition,GPT-5.6 Terra,proportion,0.0,240,SOURCE_UNCODABLE,,,strict_consensus,,,,,
+composition,GPT-5.6 Terra,proportion,0.0,240,CODER_MISSING,,,strict_consensus,,,,,
+composition,GPT-5.6 Luna,proportion,0.6416666666666667,240,ACT,,,luna,,,,,
+composition,GPT-5.6 Luna,proportion,0.19583333333333333,240,ASK_AUTHORIZATION,,,luna,,,,,
+composition,GPT-5.6 Luna,proportion,0.09583333333333334,240,REQUEST_INFORMATION,,,luna,,,,,
+composition,GPT-5.6 Luna,proportion,0.058333333333333334,240,REFUSE,,,luna,,,,,
+composition,GPT-5.6 Luna,proportion,0.0,240,INVALID,,,luna,,,,,
+composition,GPT-5.6 Luna,proportion,0.0,240,UNRESOLVED,,,luna,,,,,
+composition,GPT-5.6 Luna,proportion,0.008333333333333333,240,OTHER_OR_AMBIGUOUS,,,luna,,,,,
+composition,GPT-5.6 Luna,proportion,0.0,240,SOURCE_UNCODABLE,,,luna,,,,,
+composition,GPT-5.6 Luna,proportion,0.0,240,CODER_MISSING,,,luna,,,,,
+composition,GPT-5.6 Luna,proportion,0.5791666666666667,240,ACT,,,gemini35,,,,,
+composition,GPT-5.6 Luna,proportion,0.1875,240,ASK_AUTHORIZATION,,,gemini35,,,,,
+composition,GPT-5.6 Luna,proportion,0.09583333333333334,240,REQUEST_INFORMATION,,,gemini35,,,,,
+composition,GPT-5.6 Luna,proportion,0.12916666666666668,240,REFUSE,,,gemini35,,,,,
+composition,GPT-5.6 Luna,proportion,0.0,240,INVALID,,,gemini35,,,,,
+composition,GPT-5.6 Luna,proportion,0.0,240,UNRESOLVED,,,gemini35,,,,,
+composition,GPT-5.6 Luna,proportion,0.008333333333333333,240,OTHER_OR_AMBIGUOUS,,,gemini35,,,,,
+composition,GPT-5.6 Luna,proportion,0.0,240,SOURCE_UNCODABLE,,,gemini35,,,,,
+composition,GPT-5.6 Luna,proportion,0.0,240,CODER_MISSING,,,gemini35,,,,,
+composition,GPT-5.6 Luna,proportion,0.5583333333333333,240,ACT,,,strict_consensus,,,,,
+composition,GPT-5.6 Luna,proportion,0.16666666666666666,240,ASK_AUTHORIZATION,,,strict_consensus,,,,,
+composition,GPT-5.6 Luna,proportion,0.09583333333333334,240,REQUEST_INFORMATION,,,strict_consensus,,,,,
+composition,GPT-5.6 Luna,proportion,0.058333333333333334,240,REFUSE,,,strict_consensus,,,,,
+composition,GPT-5.6 Luna,proportion,0.0,240,INVALID,,,strict_consensus,,,,,
+composition,GPT-5.6 Luna,proportion,0.12083333333333333,240,UNRESOLVED,,,strict_consensus,,,,,
+composition,GPT-5.6 Luna,proportion,0.0,240,OTHER_OR_AMBIGUOUS,,,strict_consensus,,,,,
+composition,GPT-5.6 Luna,proportion,0.0,240,SOURCE_UNCODABLE,,,strict_consensus,,,,,
+composition,GPT-5.6 Luna,proportion,0.0,240,CODER_MISSING,,,strict_consensus,,,,,
+composition,GPT-5.6 Luna,proportion,0.5791666666666667,240,ACT,,,prespecified_nonself_gemini35,,,,,
+composition,GPT-5.6 Luna,proportion,0.1875,240,ASK_AUTHORIZATION,,,prespecified_nonself_gemini35,,,,,
+composition,GPT-5.6 Luna,proportion,0.09583333333333334,240,REQUEST_INFORMATION,,,prespecified_nonself_gemini35,,,,,
+composition,GPT-5.6 Luna,proportion,0.12916666666666668,240,REFUSE,,,prespecified_nonself_gemini35,,,,,
+composition,GPT-5.6 Luna,proportion,0.0,240,INVALID,,,prespecified_nonself_gemini35,,,,,
+composition,GPT-5.6 Luna,proportion,0.0,240,UNRESOLVED,,,prespecified_nonself_gemini35,,,,,
+composition,GPT-5.6 Luna,proportion,0.008333333333333333,240,OTHER_OR_AMBIGUOUS,,,prespecified_nonself_gemini35,,,,,
+composition,GPT-5.6 Luna,proportion,0.0,240,SOURCE_UNCODABLE,,,prespecified_nonself_gemini35,,,,,
+composition,GPT-5.6 Luna,proportion,0.0,240,CODER_MISSING,,,prespecified_nonself_gemini35,,,,,
+composition,Claude Sonnet 5,proportion,0.5875,240,ACT,,,luna,,,,,
+composition,Claude Sonnet 5,proportion,0.1875,240,ASK_AUTHORIZATION,,,luna,,,,,
+composition,Claude Sonnet 5,proportion,0.1375,240,REQUEST_INFORMATION,,,luna,,,,,
+composition,Claude Sonnet 5,proportion,0.029166666666666667,240,REFUSE,,,luna,,,,,
+composition,Claude Sonnet 5,proportion,0.0,240,INVALID,,,luna,,,,,
+composition,Claude Sonnet 5,proportion,0.0,240,UNRESOLVED,,,luna,,,,,
+composition,Claude Sonnet 5,proportion,0.058333333333333334,240,OTHER_OR_AMBIGUOUS,,,luna,,,,,
+composition,Claude Sonnet 5,proportion,0.0,240,SOURCE_UNCODABLE,,,luna,,,,,
+composition,Claude Sonnet 5,proportion,0.0,240,CODER_MISSING,,,luna,,,,,
+composition,Claude Sonnet 5,proportion,0.5875,240,ACT,,,gemini35,,,,,
+composition,Claude Sonnet 5,proportion,0.17916666666666667,240,ASK_AUTHORIZATION,,,gemini35,,,,,
+composition,Claude Sonnet 5,proportion,0.10833333333333334,240,REQUEST_INFORMATION,,,gemini35,,,,,
+composition,Claude Sonnet 5,proportion,0.075,240,REFUSE,,,gemini35,,,,,
+composition,Claude Sonnet 5,proportion,0.0,240,INVALID,,,gemini35,,,,,
+composition,Claude Sonnet 5,proportion,0.0,240,UNRESOLVED,,,gemini35,,,,,
+composition,Claude Sonnet 5,proportion,0.05,240,OTHER_OR_AMBIGUOUS,,,gemini35,,,,,
+composition,Claude Sonnet 5,proportion,0.0,240,SOURCE_UNCODABLE,,,gemini35,,,,,
+composition,Claude Sonnet 5,proportion,0.0,240,CODER_MISSING,,,gemini35,,,,,
+composition,Claude Sonnet 5,proportion,0.5333333333333333,240,ACT,,,strict_consensus,,,,,
+composition,Claude Sonnet 5,proportion,0.14166666666666666,240,ASK_AUTHORIZATION,,,strict_consensus,,,,,
+composition,Claude Sonnet 5,proportion,0.1,240,REQUEST_INFORMATION,,,strict_consensus,,,,,
+composition,Claude Sonnet 5,proportion,0.016666666666666666,240,REFUSE,,,strict_consensus,,,,,
+composition,Claude Sonnet 5,proportion,0.0,240,INVALID,,,strict_consensus,,,,,
+composition,Claude Sonnet 5,proportion,0.20833333333333334,240,UNRESOLVED,,,strict_consensus,,,,,
+composition,Claude Sonnet 5,proportion,0.0,240,OTHER_OR_AMBIGUOUS,,,strict_consensus,,,,,
+composition,Claude Sonnet 5,proportion,0.0,240,SOURCE_UNCODABLE,,,strict_consensus,,,,,
+composition,Claude Sonnet 5,proportion,0.0,240,CODER_MISSING,,,strict_consensus,,,,,
+composition,Claude Opus 4.8,proportion,0.6416666666666667,240,ACT,,,luna,,,,,
+composition,Claude Opus 4.8,proportion,0.1375,240,ASK_AUTHORIZATION,,,luna,,,,,
+composition,Claude Opus 4.8,proportion,0.12083333333333333,240,REQUEST_INFORMATION,,,luna,,,,,
+composition,Claude Opus 4.8,proportion,0.0625,240,REFUSE,,,luna,,,,,
+composition,Claude Opus 4.8,proportion,0.0,240,INVALID,,,luna,,,,,
+composition,Claude Opus 4.8,proportion,0.0,240,UNRESOLVED,,,luna,,,,,
+composition,Claude Opus 4.8,proportion,0.0375,240,OTHER_OR_AMBIGUOUS,,,luna,,,,,
+composition,Claude Opus 4.8,proportion,0.0,240,SOURCE_UNCODABLE,,,luna,,,,,
+composition,Claude Opus 4.8,proportion,0.0,240,CODER_MISSING,,,luna,,,,,
+composition,Claude Opus 4.8,proportion,0.6333333333333333,240,ACT,,,gemini35,,,,,
+composition,Claude Opus 4.8,proportion,0.13333333333333333,240,ASK_AUTHORIZATION,,,gemini35,,,,,
+composition,Claude Opus 4.8,proportion,0.09583333333333334,240,REQUEST_INFORMATION,,,gemini35,,,,,
+composition,Claude Opus 4.8,proportion,0.11666666666666667,240,REFUSE,,,gemini35,,,,,
+composition,Claude Opus 4.8,proportion,0.0,240,INVALID,,,gemini35,,,,,
+composition,Claude Opus 4.8,proportion,0.0,240,UNRESOLVED,,,gemini35,,,,,
+composition,Claude Opus 4.8,proportion,0.020833333333333332,240,OTHER_OR_AMBIGUOUS,,,gemini35,,,,,
+composition,Claude Opus 4.8,proportion,0.0,240,SOURCE_UNCODABLE,,,gemini35,,,,,
+composition,Claude Opus 4.8,proportion,0.0,240,CODER_MISSING,,,gemini35,,,,,
+composition,Claude Opus 4.8,proportion,0.5833333333333334,240,ACT,,,strict_consensus,,,,,
+composition,Claude Opus 4.8,proportion,0.08333333333333333,240,ASK_AUTHORIZATION,,,strict_consensus,,,,,
+composition,Claude Opus 4.8,proportion,0.09166666666666666,240,REQUEST_INFORMATION,,,strict_consensus,,,,,
+composition,Claude Opus 4.8,proportion,0.05416666666666667,240,REFUSE,,,strict_consensus,,,,,
+composition,Claude Opus 4.8,proportion,0.0,240,INVALID,,,strict_consensus,,,,,
+composition,Claude Opus 4.8,proportion,0.1875,240,UNRESOLVED,,,strict_consensus,,,,,
+composition,Claude Opus 4.8,proportion,0.0,240,OTHER_OR_AMBIGUOUS,,,strict_consensus,,,,,
+composition,Claude Opus 4.8,proportion,0.0,240,SOURCE_UNCODABLE,,,strict_consensus,,,,,
+composition,Claude Opus 4.8,proportion,0.0,240,CODER_MISSING,,,strict_consensus,,,,,
+composition,Gemini 3.6 Flash,proportion,0.6,240,ACT,,,luna,,,,,
+composition,Gemini 3.6 Flash,proportion,0.23333333333333334,240,ASK_AUTHORIZATION,,,luna,,,,,
+composition,Gemini 3.6 Flash,proportion,0.09583333333333334,240,REQUEST_INFORMATION,,,luna,,,,,
+composition,Gemini 3.6 Flash,proportion,0.05,240,REFUSE,,,luna,,,,,
+composition,Gemini 3.6 Flash,proportion,0.0,240,INVALID,,,luna,,,,,
+composition,Gemini 3.6 Flash,proportion,0.0,240,UNRESOLVED,,,luna,,,,,
+composition,Gemini 3.6 Flash,proportion,0.020833333333333332,240,OTHER_OR_AMBIGUOUS,,,luna,,,,,
+composition,Gemini 3.6 Flash,proportion,0.0,240,SOURCE_UNCODABLE,,,luna,,,,,
+composition,Gemini 3.6 Flash,proportion,0.0,240,CODER_MISSING,,,luna,,,,,
+composition,Gemini 3.6 Flash,proportion,0.6083333333333333,240,ACT,,,gemini35,,,,,
+composition,Gemini 3.6 Flash,proportion,0.2,240,ASK_AUTHORIZATION,,,gemini35,,,,,
+composition,Gemini 3.6 Flash,proportion,0.09166666666666666,240,REQUEST_INFORMATION,,,gemini35,,,,,
+composition,Gemini 3.6 Flash,proportion,0.0875,240,REFUSE,,,gemini35,,,,,
+composition,Gemini 3.6 Flash,proportion,0.0,240,INVALID,,,gemini35,,,,,
+composition,Gemini 3.6 Flash,proportion,0.0,240,UNRESOLVED,,,gemini35,,,,,
+composition,Gemini 3.6 Flash,proportion,0.0125,240,OTHER_OR_AMBIGUOUS,,,gemini35,,,,,
+composition,Gemini 3.6 Flash,proportion,0.0,240,SOURCE_UNCODABLE,,,gemini35,,,,,
+composition,Gemini 3.6 Flash,proportion,0.0,240,CODER_MISSING,,,gemini35,,,,,
+composition,Gemini 3.6 Flash,proportion,0.5708333333333333,240,ACT,,,strict_consensus,,,,,
+composition,Gemini 3.6 Flash,proportion,0.1875,240,ASK_AUTHORIZATION,,,strict_consensus,,,,,
+composition,Gemini 3.6 Flash,proportion,0.0875,240,REQUEST_INFORMATION,,,strict_consensus,,,,,
+composition,Gemini 3.6 Flash,proportion,0.04583333333333333,240,REFUSE,,,strict_consensus,,,,,
+composition,Gemini 3.6 Flash,proportion,0.0,240,INVALID,,,strict_consensus,,,,,
+composition,Gemini 3.6 Flash,proportion,0.10833333333333334,240,UNRESOLVED,,,strict_consensus,,,,,
+composition,Gemini 3.6 Flash,proportion,0.0,240,OTHER_OR_AMBIGUOUS,,,strict_consensus,,,,,
+composition,Gemini 3.6 Flash,proportion,0.0,240,SOURCE_UNCODABLE,,,strict_consensus,,,,,
+composition,Gemini 3.6 Flash,proportion,0.0,240,CODER_MISSING,,,strict_consensus,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.6375,240,ACT,,,luna,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.19583333333333333,240,ASK_AUTHORIZATION,,,luna,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.09166666666666666,240,REQUEST_INFORMATION,,,luna,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.075,240,REFUSE,,,luna,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.0,240,INVALID,,,luna,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.0,240,UNRESOLVED,,,luna,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.0,240,OTHER_OR_AMBIGUOUS,,,luna,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.0,240,SOURCE_UNCODABLE,,,luna,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.0,240,CODER_MISSING,,,luna,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.8,240,ACT,,,gemini35,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.03333333333333333,240,ASK_AUTHORIZATION,,,gemini35,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.0875,240,REQUEST_INFORMATION,,,gemini35,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.07916666666666666,240,REFUSE,,,gemini35,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.0,240,INVALID,,,gemini35,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.0,240,UNRESOLVED,,,gemini35,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.0,240,OTHER_OR_AMBIGUOUS,,,gemini35,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.0,240,SOURCE_UNCODABLE,,,gemini35,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.0,240,CODER_MISSING,,,gemini35,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.6375,240,ACT,,,strict_consensus,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.03333333333333333,240,ASK_AUTHORIZATION,,,strict_consensus,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.0875,240,REQUEST_INFORMATION,,,strict_consensus,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.075,240,REFUSE,,,strict_consensus,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.0,240,INVALID,,,strict_consensus,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.16666666666666666,240,UNRESOLVED,,,strict_consensus,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.0,240,OTHER_OR_AMBIGUOUS,,,strict_consensus,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.0,240,SOURCE_UNCODABLE,,,strict_consensus,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.0,240,CODER_MISSING,,,strict_consensus,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.6375,240,ACT,,,prespecified_nonself_luna,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.19583333333333333,240,ASK_AUTHORIZATION,,,prespecified_nonself_luna,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.09166666666666666,240,REQUEST_INFORMATION,,,prespecified_nonself_luna,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.075,240,REFUSE,,,prespecified_nonself_luna,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.0,240,INVALID,,,prespecified_nonself_luna,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.0,240,UNRESOLVED,,,prespecified_nonself_luna,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.0,240,OTHER_OR_AMBIGUOUS,,,prespecified_nonself_luna,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.0,240,SOURCE_UNCODABLE,,,prespecified_nonself_luna,,,,,
+composition,Gemini 3.5 Flash-Lite,proportion,0.0,240,CODER_MISSING,,,prespecified_nonself_luna,,,,,
+composition,Qwen 3.6 27B,proportion,0.31666666666666665,240,ACT,,,luna,,,,,
+composition,Qwen 3.6 27B,proportion,0.06666666666666667,240,ASK_AUTHORIZATION,,,luna,,,,,
+composition,Qwen 3.6 27B,proportion,0.05416666666666667,240,REQUEST_INFORMATION,,,luna,,,,,
+composition,Qwen 3.6 27B,proportion,0.020833333333333332,240,REFUSE,,,luna,,,,,
+composition,Qwen 3.6 27B,proportion,0.0,240,INVALID,,,luna,,,,,
+composition,Qwen 3.6 27B,proportion,0.0,240,UNRESOLVED,,,luna,,,,,
+composition,Qwen 3.6 27B,proportion,0.0,240,OTHER_OR_AMBIGUOUS,,,luna,,,,,
+composition,Qwen 3.6 27B,proportion,0.5416666666666666,240,SOURCE_UNCODABLE,,,luna,,,,,
+composition,Qwen 3.6 27B,proportion,0.0,240,CODER_MISSING,,,luna,,,,,
+composition,Qwen 3.6 27B,proportion,0.35833333333333334,240,ACT,,,gemini35,,,,,
+composition,Qwen 3.6 27B,proportion,0.020833333333333332,240,ASK_AUTHORIZATION,,,gemini35,,,,,
+composition,Qwen 3.6 27B,proportion,0.05,240,REQUEST_INFORMATION,,,gemini35,,,,,
+composition,Qwen 3.6 27B,proportion,0.029166666666666667,240,REFUSE,,,gemini35,,,,,
+composition,Qwen 3.6 27B,proportion,0.0,240,INVALID,,,gemini35,,,,,
+composition,Qwen 3.6 27B,proportion,0.0,240,UNRESOLVED,,,gemini35,,,,,
+composition,Qwen 3.6 27B,proportion,0.0,240,OTHER_OR_AMBIGUOUS,,,gemini35,,,,,
+composition,Qwen 3.6 27B,proportion,0.5416666666666666,240,SOURCE_UNCODABLE,,,gemini35,,,,,
+composition,Qwen 3.6 27B,proportion,0.0,240,CODER_MISSING,,,gemini35,,,,,
+composition,Qwen 3.6 27B,proportion,0.31666666666666665,240,ACT,,,strict_consensus,,,,,
+composition,Qwen 3.6 27B,proportion,0.020833333333333332,240,ASK_AUTHORIZATION,,,strict_consensus,,,,,
+composition,Qwen 3.6 27B,proportion,0.05,240,REQUEST_INFORMATION,,,strict_consensus,,,,,
+composition,Qwen 3.6 27B,proportion,0.020833333333333332,240,REFUSE,,,strict_consensus,,,,,
+composition,Qwen 3.6 27B,proportion,0.0,240,INVALID,,,strict_consensus,,,,,
+composition,Qwen 3.6 27B,proportion,0.05,240,UNRESOLVED,,,strict_consensus,,,,,
+composition,Qwen 3.6 27B,proportion,0.0,240,OTHER_OR_AMBIGUOUS,,,strict_consensus,,,,,
+composition,Qwen 3.6 27B,proportion,0.5416666666666666,240,SOURCE_UNCODABLE,,,strict_consensus,,,,,
+composition,Qwen 3.6 27B,proportion,0.0,240,CODER_MISSING,,,strict_consensus,,,,,
+open_forced_correspondence,GPT-5.6 Sol,act_shift,0.03333333333333333,,,,,luna,sol,retained_primary,-0.0375,0.10416666666666667,48
+open_forced_correspondence,GPT-5.6 Sol,scenario_tvd,0.15833333333333333,,,,,luna,sol,retained_primary,0.07916666666666668,0.24583333333333335,48
+open_forced_correspondence,GPT-5.6 Sol,scenario_jsd,0.12271758799058281,,,,,luna,sol,retained_primary,0.056446220153162974,0.20054452029295372,48
+open_forced_correspondence,GPT-5.6 Sol,modal_agreement,0.875,,,,,luna,sol,retained_primary,0.7708333333333334,0.9583333333333334,48
+open_forced_correspondence,GPT-5.6 Sol,scenario_act_correlation,0.8468119338049706,,,,,luna,sol,retained_primary,nan,nan,48
+open_forced_correspondence,GPT-5.6 Sol,act_shift,0.034374999999999996,,,,,luna,sol,valid_only_sensitivity,-0.03125,0.10833333333333334,48
+open_forced_correspondence,GPT-5.6 Sol,scenario_tvd,0.1572916666666667,,,,,luna,sol,valid_only_sensitivity,0.07916666666666668,0.24687499999999998,48
+open_forced_correspondence,GPT-5.6 Sol,scenario_jsd,0.12144276285900803,,,,,luna,sol,valid_only_sensitivity,0.05563403834839345,0.19801544515518196,48
+open_forced_correspondence,GPT-5.6 Sol,modal_agreement,0.875,,,,,luna,sol,valid_only_sensitivity,0.7708333333333334,0.9583333333333334,48
+open_forced_correspondence,GPT-5.6 Sol,scenario_act_correlation,0.8508673902655548,,,,,luna,sol,valid_only_sensitivity,nan,nan,48
+open_forced_correspondence,GPT-5.6 Sol,act_shift,-3.469446951953614e-18,,,,,gemini35,sol,retained_primary,-0.05416666666666667,0.04166666666666666,48
+open_forced_correspondence,GPT-5.6 Sol,scenario_tvd,0.15833333333333333,,,,,gemini35,sol,retained_primary,0.08333333333333333,0.2416666666666667,48
+open_forced_correspondence,GPT-5.6 Sol,scenario_jsd,0.12119300483254274,,,,,gemini35,sol,retained_primary,0.05447153694549314,0.20036135665651938,48
+open_forced_correspondence,GPT-5.6 Sol,modal_agreement,0.8333333333333334,,,,,gemini35,sol,retained_primary,0.7291666666666666,0.9375,48
+open_forced_correspondence,GPT-5.6 Sol,scenario_act_correlation,0.9327898038455105,,,,,gemini35,sol,retained_primary,nan,nan,48
+open_forced_correspondence,GPT-5.6 Sol,act_shift,-3.469446951953614e-18,,,,,gemini35,sol,valid_only_sensitivity,-0.05416666666666667,0.04166666666666666,48
+open_forced_correspondence,GPT-5.6 Sol,scenario_tvd,0.15833333333333335,,,,,gemini35,sol,valid_only_sensitivity,0.08333333333333333,0.24583333333333335,48
+open_forced_correspondence,GPT-5.6 Sol,scenario_jsd,0.12119300483254274,,,,,gemini35,sol,valid_only_sensitivity,0.054365206345554695,0.20108603582904327,48
+open_forced_correspondence,GPT-5.6 Sol,modal_agreement,0.8333333333333334,,,,,gemini35,sol,valid_only_sensitivity,0.7291666666666666,0.9375,48
+open_forced_correspondence,GPT-5.6 Sol,scenario_act_correlation,0.9327898038455105,,,,,gemini35,sol,valid_only_sensitivity,nan,nan,48
+open_forced_correspondence,GPT-5.6 Sol,act_shift,-0.020833333333333332,,,,,strict_consensus,sol,retained_primary,-0.075,0.020833333333333325,48
+open_forced_correspondence,GPT-5.6 Sol,scenario_tvd,0.19166666666666665,,,,,strict_consensus,sol,retained_primary,0.10416666666666667,0.2916666666666667,48
+open_forced_correspondence,GPT-5.6 Sol,scenario_jsd,0.16132606502316507,,,,,strict_consensus,sol,retained_primary,0.07991720356311467,0.25839903538568726,48
+open_forced_correspondence,GPT-5.6 Sol,modal_agreement,0.8333333333333334,,,,,strict_consensus,sol,retained_primary,0.7291666666666666,0.9375,48
+open_forced_correspondence,GPT-5.6 Sol,scenario_act_correlation,0.9317935175401509,,,,,strict_consensus,sol,retained_primary,nan,nan,48
+open_forced_correspondence,GPT-5.6 Sol,act_shift,-0.006521739130434784,,,,,strict_consensus,sol,valid_only_sensitivity,-0.0608695652173913,0.032608695652173905,46
+open_forced_correspondence,GPT-5.6 Sol,scenario_tvd,0.11086956521739132,,,,,strict_consensus,sol,valid_only_sensitivity,0.041304347826086954,0.1956521739130435,46
+open_forced_correspondence,GPT-5.6 Sol,scenario_jsd,0.09380905955489563,,,,,strict_consensus,sol,valid_only_sensitivity,0.02859166825054778,0.17482853764333453,46
+open_forced_correspondence,GPT-5.6 Sol,modal_agreement,0.8913043478260869,,,,,strict_consensus,sol,valid_only_sensitivity,0.8043478260869565,0.9782608695652174,46
+open_forced_correspondence,GPT-5.6 Sol,scenario_act_correlation,0.9341164994005198,,,,,strict_consensus,sol,valid_only_sensitivity,nan,nan,46
+open_forced_correspondence,GPT-OSS-120B,act_shift,0.04166666666666666,,,,,luna,oss120,retained_primary,-0.04583333333333334,0.12916666666666665,48
+open_forced_correspondence,GPT-OSS-120B,scenario_tvd,0.17916666666666667,,,,,luna,oss120,retained_primary,0.10833333333333332,0.2625,48
+open_forced_correspondence,GPT-OSS-120B,scenario_jsd,0.12865665452803768,,,,,luna,oss120,retained_primary,0.06901202085859875,0.20050424698123667,48
+open_forced_correspondence,GPT-OSS-120B,modal_agreement,0.8125,,,,,luna,oss120,retained_primary,0.7083333333333334,0.9166666666666666,48
+open_forced_correspondence,GPT-OSS-120B,scenario_act_correlation,0.7692351849198442,,,,,luna,oss120,retained_primary,nan,nan,48
+open_forced_correspondence,GPT-OSS-120B,act_shift,0.04166666666666666,,,,,luna,oss120,valid_only_sensitivity,-0.045937499999999916,0.12916666666666665,48
+open_forced_correspondence,GPT-OSS-120B,scenario_tvd,0.17916666666666667,,,,,luna,oss120,valid_only_sensitivity,0.10416666666666667,0.2625,48
+open_forced_correspondence,GPT-OSS-120B,scenario_jsd,0.12674064507273766,,,,,luna,oss120,valid_only_sensitivity,0.06761418946162467,0.19936265921543012,48
+open_forced_correspondence,GPT-OSS-120B,modal_agreement,0.8125,,,,,luna,oss120,valid_only_sensitivity,0.6875,0.9166666666666666,48
+open_forced_correspondence,GPT-OSS-120B,scenario_act_correlation,0.7692351849198442,,,,,luna,oss120,valid_only_sensitivity,nan,nan,48
+open_forced_correspondence,GPT-OSS-120B,act_shift,0.19166666666666665,,,,,gemini35,oss120,retained_primary,0.10416666666666667,0.28750000000000003,48
+open_forced_correspondence,GPT-OSS-120B,scenario_tvd,0.2125,,,,,gemini35,oss120,retained_primary,0.12916666666666665,0.3042708333333243,48
+open_forced_correspondence,GPT-OSS-120B,scenario_jsd,0.16484880383578598,,,,,gemini35,oss120,retained_primary,0.08967437125103092,0.24813640980729126,48
+open_forced_correspondence,GPT-OSS-120B,modal_agreement,0.7708333333333334,,,,,gemini35,oss120,retained_primary,0.6458333333333334,0.875,48
+open_forced_correspondence,GPT-OSS-120B,scenario_act_correlation,0.6986011913410237,,,,,gemini35,oss120,retained_primary,nan,nan,48
+open_forced_correspondence,GPT-OSS-120B,act_shift,0.19270833333333334,,,,,gemini35,oss120,valid_only_sensitivity,0.10416666666666667,0.28750000000000003,48
+open_forced_correspondence,GPT-OSS-120B,scenario_tvd,0.21145833333333333,,,,,gemini35,oss120,valid_only_sensitivity,0.125,0.3041666666666667,48
+open_forced_correspondence,GPT-OSS-120B,scenario_jsd,0.16291307628166776,,,,,gemini35,oss120,valid_only_sensitivity,0.08993905248710696,0.2482158242643235,48
+open_forced_correspondence,GPT-OSS-120B,modal_agreement,0.7708333333333334,,,,,gemini35,oss120,valid_only_sensitivity,0.6458333333333334,0.875,48
+open_forced_correspondence,GPT-OSS-120B,scenario_act_correlation,0.6978710306771226,,,,,gemini35,oss120,valid_only_sensitivity,nan,nan,48
+open_forced_correspondence,GPT-OSS-120B,act_shift,0.033333333333333326,,,,,strict_consensus,oss120,retained_primary,-0.05000000000000001,0.11666666666666665,48
+open_forced_correspondence,GPT-OSS-120B,scenario_tvd,0.27499999999999997,,,,,strict_consensus,oss120,retained_primary,0.17916666666666667,0.37916666666666665,48
+open_forced_correspondence,GPT-OSS-120B,scenario_jsd,0.23556125906465375,,,,,strict_consensus,oss120,retained_primary,0.14182592213822232,0.33702468194380464,48
+open_forced_correspondence,GPT-OSS-120B,modal_agreement,0.7291666666666666,,,,,strict_consensus,oss120,retained_primary,0.6041666666666666,0.8541666666666666,48
+open_forced_correspondence,GPT-OSS-120B,scenario_act_correlation,0.789273610901559,,,,,strict_consensus,oss120,retained_primary,nan,nan,48
+open_forced_correspondence,GPT-OSS-120B,act_shift,0.08977272727272727,,,,,strict_consensus,oss120,valid_only_sensitivity,0.004545454545454539,0.1818181818181818,44
+open_forced_correspondence,GPT-OSS-120B,scenario_tvd,0.16931818181818184,,,,,strict_consensus,oss120,valid_only_sensitivity,0.09204545454545454,0.25795454545454544,44
+open_forced_correspondence,GPT-OSS-120B,scenario_jsd,0.1246184263867502,,,,,strict_consensus,oss120,valid_only_sensitivity,0.05949923741273102,0.20321595487354563,44
+open_forced_correspondence,GPT-OSS-120B,modal_agreement,0.8181818181818182,,,,,strict_consensus,oss120,valid_only_sensitivity,0.7045454545454546,0.9318181818181818,44
+open_forced_correspondence,GPT-OSS-120B,scenario_act_correlation,0.7739462356147844,,,,,strict_consensus,oss120,valid_only_sensitivity,nan,nan,44
+open_forced_correspondence,GPT-OSS-20B,act_shift,-0.020833333333333332,,,,,luna,oss20,retained_primary,-0.10000000000000002,0.05416666666666665,48
+open_forced_correspondence,GPT-OSS-20B,scenario_tvd,0.19583333333333333,,,,,luna,oss20,retained_primary,0.125,0.2791666666666667,48
+open_forced_correspondence,GPT-OSS-20B,scenario_jsd,0.14507013180802883,,,,,luna,oss20,retained_primary,0.08206292699947064,0.21716666633933396,48
+open_forced_correspondence,GPT-OSS-20B,modal_agreement,0.8541666666666666,,,,,luna,oss20,retained_primary,0.75,0.9375,48
+open_forced_correspondence,GPT-OSS-20B,scenario_act_correlation,0.8122819738242967,,,,,luna,oss20,retained_primary,nan,nan,48
+open_forced_correspondence,GPT-OSS-20B,act_shift,-0.01979166666666667,,,,,luna,oss20,valid_only_sensitivity,-0.098984375,0.05416666666666666,48
+open_forced_correspondence,GPT-OSS-20B,scenario_tvd,0.19583333333333333,,,,,luna,oss20,valid_only_sensitivity,0.12083333333333335,0.27499999999999997,48
+open_forced_correspondence,GPT-OSS-20B,scenario_jsd,0.14401828067985686,,,,,luna,oss20,valid_only_sensitivity,0.08211763955017591,0.2160586398929021,48
+open_forced_correspondence,GPT-OSS-20B,modal_agreement,0.8541666666666666,,,,,luna,oss20,valid_only_sensitivity,0.75,0.9375,48
+open_forced_correspondence,GPT-OSS-20B,scenario_act_correlation,0.8104305720776148,,,,,luna,oss20,valid_only_sensitivity,nan,nan,48
+open_forced_correspondence,GPT-OSS-20B,act_shift,0.12916666666666668,,,,,gemini35,oss20,retained_primary,0.04166666666666666,0.225,48
+open_forced_correspondence,GPT-OSS-20B,scenario_tvd,0.22916666666666666,,,,,gemini35,oss20,retained_primary,0.14166666666666666,0.325,48
+open_forced_correspondence,GPT-OSS-20B,scenario_jsd,0.1767826837070544,,,,,gemini35,oss20,retained_primary,0.09796710695356356,0.2680468507985149,48
+open_forced_correspondence,GPT-OSS-20B,modal_agreement,0.7708333333333334,,,,,gemini35,oss20,retained_primary,0.6458333333333334,0.875,48
+open_forced_correspondence,GPT-OSS-20B,scenario_act_correlation,0.6682958021883552,,,,,gemini35,oss20,retained_primary,nan,nan,48
+open_forced_correspondence,GPT-OSS-20B,act_shift,0.140625,,,,,gemini35,oss20,valid_only_sensitivity,0.05208333333333332,0.23645833333333335,48
+open_forced_correspondence,GPT-OSS-20B,scenario_tvd,0.22083333333333333,,,,,gemini35,oss20,valid_only_sensitivity,0.13333333333333333,0.3208333333333333,48
+open_forced_correspondence,GPT-OSS-20B,scenario_jsd,0.17228136928432106,,,,,gemini35,oss20,valid_only_sensitivity,0.09266655502864657,0.26273311306679104,48
+open_forced_correspondence,GPT-OSS-20B,modal_agreement,0.7708333333333334,,,,,gemini35,oss20,valid_only_sensitivity,0.6458333333333334,0.875,48
+open_forced_correspondence,GPT-OSS-20B,scenario_act_correlation,0.6708357283128763,,,,,gemini35,oss20,valid_only_sensitivity,nan,nan,48
+open_forced_correspondence,GPT-OSS-20B,act_shift,-0.033333333333333326,,,,,strict_consensus,oss20,retained_primary,-0.1125,0.0375,48
+open_forced_correspondence,GPT-OSS-20B,scenario_tvd,0.29583333333333334,,,,,strict_consensus,oss20,retained_primary,0.19583333333333333,0.4000000000000001,48
+open_forced_correspondence,GPT-OSS-20B,scenario_jsd,0.24744132320891613,,,,,strict_consensus,oss20,retained_primary,0.15305965115256936,0.35283143602140893,48
+open_forced_correspondence,GPT-OSS-20B,modal_agreement,0.7291666666666666,,,,,strict_consensus,oss20,retained_primary,0.6041666666666666,0.8541666666666666,48
+open_forced_correspondence,GPT-OSS-20B,scenario_act_correlation,0.8167332359992645,,,,,strict_consensus,oss20,retained_primary,nan,nan,48
+open_forced_correspondence,GPT-OSS-20B,act_shift,0.05999999999999999,,,,,strict_consensus,oss20,valid_only_sensitivity,-0.02666666666666668,0.14666666666666667,45
+open_forced_correspondence,GPT-OSS-20B,scenario_tvd,0.18,,,,,strict_consensus,oss20,valid_only_sensitivity,0.09333333333333332,0.2777777777777778,45
+open_forced_correspondence,GPT-OSS-20B,scenario_jsd,0.14976762687197792,,,,,strict_consensus,oss20,valid_only_sensitivity,0.0686093613526184,0.24206919429014281,45
+open_forced_correspondence,GPT-OSS-20B,modal_agreement,0.8,,,,,strict_consensus,oss20,valid_only_sensitivity,0.6888888888888889,0.9111111111111111,45
+open_forced_correspondence,GPT-OSS-20B,scenario_act_correlation,0.7446147037911846,,,,,strict_consensus,oss20,valid_only_sensitivity,nan,nan,45
+open_forced_correspondence,GPT-5.6 Terra,act_shift,0.004166666666666666,,,,,luna,terra,retained_primary,-0.09166666666666667,0.09999999999999998,48
+open_forced_correspondence,GPT-5.6 Terra,scenario_tvd,0.20000000000000004,,,,,luna,terra,retained_primary,0.1125,0.29583333333333334,48
+open_forced_correspondence,GPT-5.6 Terra,scenario_jsd,0.16041420787556726,,,,,luna,terra,retained_primary,0.08319684077362936,0.2506983817440249,48
+open_forced_correspondence,GPT-5.6 Terra,modal_agreement,0.8541666666666666,,,,,luna,terra,retained_primary,0.75,0.9375,48
+open_forced_correspondence,GPT-5.6 Terra,scenario_act_correlation,0.7226547051033382,,,,,luna,terra,retained_primary,nan,nan,48
+open_forced_correspondence,GPT-5.6 Terra,act_shift,0.01284722222222222,,,,,luna,terra,valid_only_sensitivity,-0.08715277777777779,0.10868055555555556,48
+open_forced_correspondence,GPT-5.6 Terra,scenario_tvd,0.19687500000000002,,,,,luna,terra,valid_only_sensitivity,0.109375,0.29270833333333335,48
+open_forced_correspondence,GPT-5.6 Terra,scenario_jsd,0.1583615533611923,,,,,luna,terra,valid_only_sensitivity,0.08092135349336124,0.24835867814424598,48
+open_forced_correspondence,GPT-5.6 Terra,modal_agreement,0.8541666666666666,,,,,luna,terra,valid_only_sensitivity,0.75,0.9375,48
+open_forced_correspondence,GPT-5.6 Terra,scenario_act_correlation,0.7132183391945035,,,,,luna,terra,valid_only_sensitivity,nan,nan,48
+open_forced_correspondence,GPT-5.6 Terra,act_shift,0.05833333333333334,,,,,gemini35,terra,retained_primary,-0.03333333333333333,0.15416666666666667,48
+open_forced_correspondence,GPT-5.6 Terra,scenario_tvd,0.22916666666666666,,,,,gemini35,terra,retained_primary,0.13333333333333333,0.3333333333333333,48
+open_forced_correspondence,GPT-5.6 Terra,scenario_jsd,0.18415721009613437,,,,,gemini35,terra,retained_primary,0.09959408072537079,0.27832436224124985,48
+open_forced_correspondence,GPT-5.6 Terra,modal_agreement,0.7708333333333334,,,,,gemini35,terra,retained_primary,0.6458333333333334,0.875,48
+open_forced_correspondence,GPT-5.6 Terra,scenario_act_correlation,0.7275043320443102,,,,,gemini35,terra,retained_primary,nan,nan,48
+open_forced_correspondence,GPT-5.6 Terra,act_shift,0.075,,,,,gemini35,terra,valid_only_sensitivity,-0.016666666666666666,0.16666666666666666,48
+open_forced_correspondence,GPT-5.6 Terra,scenario_tvd,0.209375,,,,,gemini35,terra,valid_only_sensitivity,0.11458333333333333,0.31354166666666666,48
+open_forced_correspondence,GPT-5.6 Terra,scenario_jsd,0.17267714120777547,,,,,gemini35,terra,valid_only_sensitivity,0.08768856338350552,0.26817742333067,48
+open_forced_correspondence,GPT-5.6 Terra,modal_agreement,0.7708333333333334,,,,,gemini35,terra,valid_only_sensitivity,0.6458333333333334,0.875,48
+open_forced_correspondence,GPT-5.6 Terra,scenario_act_correlation,0.7481271148163591,,,,,gemini35,terra,valid_only_sensitivity,nan,nan,48
+open_forced_correspondence,GPT-5.6 Terra,act_shift,-0.0375,,,,,strict_consensus,terra,retained_primary,-0.12916666666666668,0.04583333333333334,48
+open_forced_correspondence,GPT-5.6 Terra,scenario_tvd,0.2833333333333333,,,,,strict_consensus,terra,retained_primary,0.17916666666666667,0.3958333333333333,48
+open_forced_correspondence,GPT-5.6 Terra,scenario_jsd,0.2390442342272554,,,,,strict_consensus,terra,retained_primary,0.1426113474635786,0.34329251077590867,48
+open_forced_correspondence,GPT-5.6 Terra,modal_agreement,0.7083333333333334,,,,,strict_consensus,terra,retained_primary,0.5833333333333334,0.8333333333333334,48
+open_forced_correspondence,GPT-5.6 Terra,scenario_act_correlation,0.7727291651010425,,,,,strict_consensus,terra,retained_primary,nan,nan,48
+open_forced_correspondence,GPT-5.6 Terra,act_shift,0.042222222222222223,,,,,strict_consensus,terra,valid_only_sensitivity,-0.04888888888888889,0.13333333333333333,45
+open_forced_correspondence,GPT-5.6 Terra,scenario_tvd,0.1711111111111111,,,,,strict_consensus,terra,valid_only_sensitivity,0.08,0.2733333333333334,45
+open_forced_correspondence,GPT-5.6 Terra,scenario_jsd,0.14530990032842278,,,,,strict_consensus,terra,valid_only_sensitivity,0.06382152116180714,0.24070819525777545,45
+open_forced_correspondence,GPT-5.6 Terra,modal_agreement,0.8222222222222222,,,,,strict_consensus,terra,valid_only_sensitivity,0.7111111111111111,0.9333333333333333,45
+open_forced_correspondence,GPT-5.6 Terra,scenario_act_correlation,0.7789226720288585,,,,,strict_consensus,terra,valid_only_sensitivity,nan,nan,45
+open_forced_correspondence,GPT-5.6 Luna,act_shift,0.09583333333333333,,,,,luna,luna,retained_primary,0.024999999999999994,0.17500000000000002,48
+open_forced_correspondence,GPT-5.6 Luna,scenario_tvd,0.18333333333333335,,,,,luna,luna,retained_primary,0.09999999999999999,0.27083333333333337,48
+open_forced_correspondence,GPT-5.6 Luna,scenario_jsd,0.1402456028069733,,,,,luna,luna,retained_primary,0.07242745956275781,0.21881377560702786,48
+open_forced_correspondence,GPT-5.6 Luna,modal_agreement,0.7916666666666666,,,,,luna,luna,retained_primary,0.6666666666666666,0.8958333333333334,48
+open_forced_correspondence,GPT-5.6 Luna,scenario_act_correlation,0.8259011797809407,,,,,luna,luna,retained_primary,nan,nan,48
+open_forced_correspondence,GPT-5.6 Luna,act_shift,0.09791666666666667,,,,,luna,luna,valid_only_sensitivity,0.027083333333333324,0.17708333333333334,48
+open_forced_correspondence,GPT-5.6 Luna,scenario_tvd,0.1802083333333333,,,,,luna,luna,valid_only_sensitivity,0.09999999999999999,0.26979166666666665,48
+open_forced_correspondence,GPT-5.6 Luna,scenario_jsd,0.137432729912124,,,,,luna,luna,valid_only_sensitivity,0.07059689772506071,0.21400423255427894,48
+open_forced_correspondence,GPT-5.6 Luna,modal_agreement,0.7916666666666666,,,,,luna,luna,valid_only_sensitivity,0.6666666666666666,0.8958333333333334,48
+open_forced_correspondence,GPT-5.6 Luna,scenario_act_correlation,0.8220444569946429,,,,,luna,luna,valid_only_sensitivity,nan,nan,48
+open_forced_correspondence,GPT-5.6 Luna,act_shift,0.033333333333333326,,,,,gemini35,luna,retained_primary,-0.025000000000000005,0.09583333333333333,48
+open_forced_correspondence,GPT-5.6 Luna,scenario_tvd,0.1958333333333333,,,,,gemini35,luna,retained_primary,0.10833333333333332,0.29583333333333334,48
+open_forced_correspondence,GPT-5.6 Luna,scenario_jsd,0.1580207465062222,,,,,gemini35,luna,retained_primary,0.08006326925882432,0.2474880199669892,48
+open_forced_correspondence,GPT-5.6 Luna,modal_agreement,0.75,,,,,gemini35,luna,retained_primary,0.625,0.875,48
+open_forced_correspondence,GPT-5.6 Luna,scenario_act_correlation,0.8939511876596608,,,,,gemini35,luna,retained_primary,nan,nan,48
+open_forced_correspondence,GPT-5.6 Luna,act_shift,0.033333333333333326,,,,,gemini35,luna,valid_only_sensitivity,-0.025000000000000005,0.09583333333333334,48
+open_forced_correspondence,GPT-5.6 Luna,scenario_tvd,0.19479166666666667,,,,,gemini35,luna,valid_only_sensitivity,0.10729166666666667,0.2916666666666667,48
+open_forced_correspondence,GPT-5.6 Luna,scenario_jsd,0.1561916828583563,,,,,gemini35,luna,valid_only_sensitivity,0.07765966211151397,0.24450880655925783,48
+open_forced_correspondence,GPT-5.6 Luna,modal_agreement,0.75,,,,,gemini35,luna,valid_only_sensitivity,0.625,0.875,48
+open_forced_correspondence,GPT-5.6 Luna,scenario_act_correlation,0.8939511876596608,,,,,gemini35,luna,valid_only_sensitivity,nan,nan,48
+open_forced_correspondence,GPT-5.6 Luna,act_shift,0.012499999999999997,,,,,strict_consensus,luna,retained_primary,-0.037500000000000006,0.06249999999999999,48
+open_forced_correspondence,GPT-5.6 Luna,scenario_tvd,0.21666666666666665,,,,,strict_consensus,luna,retained_primary,0.125,0.31666666666666665,48
+open_forced_correspondence,GPT-5.6 Luna,scenario_jsd,0.17859221104982057,,,,,strict_consensus,luna,retained_primary,0.09459424782736818,0.2708079842460895,48
+open_forced_correspondence,GPT-5.6 Luna,modal_agreement,0.7916666666666666,,,,,strict_consensus,luna,retained_primary,0.6666666666666666,0.8958333333333334,48
+open_forced_correspondence,GPT-5.6 Luna,scenario_act_correlation,0.9316740959358926,,,,,strict_consensus,luna,retained_primary,nan,nan,48
+open_forced_correspondence,GPT-5.6 Luna,act_shift,0.024637681159420284,,,,,strict_consensus,luna,valid_only_sensitivity,-0.034782608695652174,0.0898550724637681,46
+open_forced_correspondence,GPT-5.6 Luna,scenario_tvd,0.1246376811594203,,,,,strict_consensus,luna,valid_only_sensitivity,0.05434782608695652,0.20652173913043478,46
+open_forced_correspondence,GPT-5.6 Luna,scenario_jsd,0.1009095436891538,,,,,strict_consensus,luna,valid_only_sensitivity,0.0361805847497056,0.17811080726045006,46
+open_forced_correspondence,GPT-5.6 Luna,modal_agreement,0.8695652173913043,,,,,strict_consensus,luna,valid_only_sensitivity,0.7608695652173914,0.9565217391304348,46
+open_forced_correspondence,GPT-5.6 Luna,scenario_act_correlation,0.8963441929453618,,,,,strict_consensus,luna,valid_only_sensitivity,nan,nan,46
+open_forced_correspondence,GPT-5.6 Luna,act_shift,0.033333333333333326,,,,,prespecified_nonself_gemini35,luna,retained_primary,-0.02500000000000001,0.09583333333333334,48
+open_forced_correspondence,GPT-5.6 Luna,scenario_tvd,0.1958333333333333,,,,,prespecified_nonself_gemini35,luna,retained_primary,0.10833333333333332,0.2916666666666667,48
+open_forced_correspondence,GPT-5.6 Luna,scenario_jsd,0.1580207465062222,,,,,prespecified_nonself_gemini35,luna,retained_primary,0.08077300951406623,0.24760615779747697,48
+open_forced_correspondence,GPT-5.6 Luna,modal_agreement,0.75,,,,,prespecified_nonself_gemini35,luna,retained_primary,0.625,0.875,48
+open_forced_correspondence,GPT-5.6 Luna,scenario_act_correlation,0.8939511876596608,,,,,prespecified_nonself_gemini35,luna,retained_primary,nan,nan,48
+open_forced_correspondence,GPT-5.6 Luna,act_shift,0.033333333333333326,,,,,prespecified_nonself_gemini35,luna,valid_only_sensitivity,-0.02500000000000001,0.09583333333333334,48
+open_forced_correspondence,GPT-5.6 Luna,scenario_tvd,0.19479166666666667,,,,,prespecified_nonself_gemini35,luna,valid_only_sensitivity,0.10729166666666667,0.29062499999999997,48
+open_forced_correspondence,GPT-5.6 Luna,scenario_jsd,0.1561916828583563,,,,,prespecified_nonself_gemini35,luna,valid_only_sensitivity,0.07937395470165601,0.24332636374248623,48
+open_forced_correspondence,GPT-5.6 Luna,modal_agreement,0.75,,,,,prespecified_nonself_gemini35,luna,valid_only_sensitivity,0.625,0.875,48
+open_forced_correspondence,GPT-5.6 Luna,scenario_act_correlation,0.8939511876596608,,,,,prespecified_nonself_gemini35,luna,valid_only_sensitivity,nan,nan,48
+open_forced_correspondence,Claude Sonnet 5,act_shift,-0.00833333333333333,,,,,luna,sonnet,retained_primary,-0.09583333333333333,0.07916666666666668,48
+open_forced_correspondence,Claude Sonnet 5,scenario_tvd,0.2708333333333333,,,,,luna,sonnet,retained_primary,0.16666666666666666,0.3833333333333333,48
+open_forced_correspondence,Claude Sonnet 5,scenario_jsd,0.22584580281631386,,,,,luna,sonnet,retained_primary,0.13181304019111725,0.32856130686970414,48
+open_forced_correspondence,Claude Sonnet 5,modal_agreement,0.7083333333333334,,,,,luna,sonnet,retained_primary,0.5833333333333334,0.8333333333333334,48
+open_forced_correspondence,Claude Sonnet 5,scenario_act_correlation,0.7883438334263744,,,,,luna,sonnet,retained_primary,nan,nan,48
+open_forced_correspondence,Claude Sonnet 5,act_shift,0.012500000000000002,,,,,luna,sonnet,valid_only_sensitivity,-0.07916666666666668,0.11388888888888887,48
+open_forced_correspondence,Claude Sonnet 5,scenario_tvd,0.24861111111111112,,,,,luna,sonnet,valid_only_sensitivity,0.1486111111111111,0.35694444444444445,48
+open_forced_correspondence,Claude Sonnet 5,scenario_jsd,0.2068528068375957,,,,,luna,sonnet,valid_only_sensitivity,0.11598898721638717,0.30778454122500404,48
+open_forced_correspondence,Claude Sonnet 5,modal_agreement,0.7291666666666666,,,,,luna,sonnet,valid_only_sensitivity,0.6041666666666666,0.8541666666666666,48
+open_forced_correspondence,Claude Sonnet 5,scenario_act_correlation,0.7377237841748936,,,,,luna,sonnet,valid_only_sensitivity,nan,nan,48
+open_forced_correspondence,Claude Sonnet 5,act_shift,-0.008333333333333333,,,,,gemini35,sonnet,retained_primary,-0.09166666666666667,0.07916666666666666,48
+open_forced_correspondence,Claude Sonnet 5,scenario_tvd,0.2625,,,,,gemini35,sonnet,retained_primary,0.1625,0.37083333333333335,48
+open_forced_correspondence,Claude Sonnet 5,scenario_jsd,0.21138169422288008,,,,,gemini35,sonnet,retained_primary,0.12410619633536923,0.3051048532670699,48
+open_forced_correspondence,Claude Sonnet 5,modal_agreement,0.7083333333333334,,,,,gemini35,sonnet,retained_primary,0.5833333333333334,0.8333333333333334,48
+open_forced_correspondence,Claude Sonnet 5,scenario_act_correlation,0.8126984446518308,,,,,gemini35,sonnet,retained_primary,nan,nan,48
+open_forced_correspondence,Claude Sonnet 5,act_shift,0.007986111111111112,,,,,gemini35,sonnet,valid_only_sensitivity,-0.06944444444444443,0.09166666666666667,48
+open_forced_correspondence,Claude Sonnet 5,scenario_tvd,0.22743055555555558,,,,,gemini35,sonnet,valid_only_sensitivity,0.13055555555555556,0.33229166666666665,48
+open_forced_correspondence,Claude Sonnet 5,scenario_jsd,0.1853183899591265,,,,,gemini35,sonnet,valid_only_sensitivity,0.10061126903616442,0.27952453389866844,48
+open_forced_correspondence,Claude Sonnet 5,modal_agreement,0.75,,,,,gemini35,sonnet,valid_only_sensitivity,0.625,0.875,48
+open_forced_correspondence,Claude Sonnet 5,scenario_act_correlation,0.8232743029267882,,,,,gemini35,sonnet,valid_only_sensitivity,nan,nan,48
+open_forced_correspondence,Claude Sonnet 5,act_shift,-0.0625,,,,,strict_consensus,sonnet,retained_primary,-0.14583333333333334,0.016666666666666666,48
+open_forced_correspondence,Claude Sonnet 5,scenario_tvd,0.3208333333333333,,,,,strict_consensus,sonnet,retained_primary,0.2041666666666667,0.4416666666666667,48
+open_forced_correspondence,Claude Sonnet 5,scenario_jsd,0.28295549760147165,,,,,strict_consensus,sonnet,retained_primary,0.17396430193374945,0.40090142941960455,48
+open_forced_correspondence,Claude Sonnet 5,modal_agreement,0.6666666666666666,,,,,strict_consensus,sonnet,retained_primary,0.5416666666666666,0.7916666666666666,48
+open_forced_correspondence,Claude Sonnet 5,scenario_act_correlation,0.8203922563099055,,,,,strict_consensus,sonnet,retained_primary,nan,nan,48
+open_forced_correspondence,Claude Sonnet 5,act_shift,0.003333333333333334,,,,,strict_consensus,sonnet,valid_only_sensitivity,-0.07777777777777778,0.09037037037037036,45
+open_forced_correspondence,Claude Sonnet 5,scenario_tvd,0.19666666666666666,,,,,strict_consensus,sonnet,valid_only_sensitivity,0.09629629629629631,0.30925925925925923,45
+open_forced_correspondence,Claude Sonnet 5,scenario_jsd,0.1756869130845832,,,,,strict_consensus,sonnet,valid_only_sensitivity,0.08056320219100067,0.28158567384048405,45
+open_forced_correspondence,Claude Sonnet 5,modal_agreement,0.7777777777777778,,,,,strict_consensus,sonnet,valid_only_sensitivity,0.6444444444444445,0.8888888888888888,45
+open_forced_correspondence,Claude Sonnet 5,scenario_act_correlation,0.8149593830065581,,,,,strict_consensus,sonnet,valid_only_sensitivity,nan,nan,45
+open_forced_correspondence,Claude Opus 4.8,act_shift,0.0375,,,,,luna,opus,retained_primary,-0.020833333333333332,0.10416666666666667,48
+open_forced_correspondence,Claude Opus 4.8,scenario_tvd,0.19166666666666665,,,,,luna,opus,retained_primary,0.10416666666666667,0.2916666666666667,48
+open_forced_correspondence,Claude Opus 4.8,scenario_jsd,0.1555839622856395,,,,,luna,opus,retained_primary,0.07415697351116984,0.24996053474881888,48
+open_forced_correspondence,Claude Opus 4.8,modal_agreement,0.8333333333333334,,,,,luna,opus,retained_primary,0.7291666666666666,0.9375,48
+open_forced_correspondence,Claude Opus 4.8,scenario_act_correlation,0.8913830631042321,,,,,luna,opus,retained_primary,nan,nan,48
+open_forced_correspondence,Claude Opus 4.8,act_shift,0.06666666666666667,,,,,luna,opus,valid_only_sensitivity,-0.0031250000000000028,0.14895833333333333,48
+open_forced_correspondence,Claude Opus 4.8,scenario_tvd,0.18020833333333333,,,,,luna,opus,valid_only_sensitivity,0.09270833333333332,0.278125,48
+open_forced_correspondence,Claude Opus 4.8,scenario_jsd,0.14860520782001393,,,,,luna,opus,valid_only_sensitivity,0.06714858253890094,0.2433382026381728,48
+open_forced_correspondence,Claude Opus 4.8,modal_agreement,0.8333333333333334,,,,,luna,opus,valid_only_sensitivity,0.7291666666666666,0.9375,48
+open_forced_correspondence,Claude Opus 4.8,scenario_act_correlation,0.8322946522632386,,,,,luna,opus,valid_only_sensitivity,nan,nan,48
+open_forced_correspondence,Claude Opus 4.8,act_shift,0.029166666666666664,,,,,gemini35,opus,retained_primary,-0.02916666666666666,0.09583333333333333,48
+open_forced_correspondence,Claude Opus 4.8,scenario_tvd,0.1875,,,,,gemini35,opus,retained_primary,0.09583333333333333,0.2916666666666667,48
+open_forced_correspondence,Claude Opus 4.8,scenario_jsd,0.16260648211253384,,,,,gemini35,opus,retained_primary,0.07522701630205454,0.26281489507506106,48
+open_forced_correspondence,Claude Opus 4.8,modal_agreement,0.8541666666666666,,,,,gemini35,opus,retained_primary,0.75,0.9375,48
+open_forced_correspondence,Claude Opus 4.8,scenario_act_correlation,0.8965210211131147,,,,,gemini35,opus,retained_primary,nan,nan,48
+open_forced_correspondence,Claude Opus 4.8,act_shift,0.03333333333333333,,,,,gemini35,opus,valid_only_sensitivity,-0.024999999999999998,0.10416666666666667,48
+open_forced_correspondence,Claude Opus 4.8,scenario_tvd,0.17361111111111108,,,,,gemini35,opus,valid_only_sensitivity,0.08472222222222221,0.2736111111111111,48
+open_forced_correspondence,Claude Opus 4.8,scenario_jsd,0.153972507411622,,,,,gemini35,opus,valid_only_sensitivity,0.068039641027545,0.2538749759997495,48
+open_forced_correspondence,Claude Opus 4.8,modal_agreement,0.8541666666666666,,,,,gemini35,opus,valid_only_sensitivity,0.75,0.9375,48
+open_forced_correspondence,Claude Opus 4.8,scenario_act_correlation,0.8807825456037162,,,,,gemini35,opus,valid_only_sensitivity,nan,nan,48
+open_forced_correspondence,Claude Opus 4.8,act_shift,-0.020833333333333332,,,,,strict_consensus,opus,retained_primary,-0.06666666666666667,0.029166666666666674,48
+open_forced_correspondence,Claude Opus 4.8,scenario_tvd,0.2583333333333333,,,,,strict_consensus,opus,retained_primary,0.15416666666666665,0.375,48
+open_forced_correspondence,Claude Opus 4.8,scenario_jsd,0.2274443142821639,,,,,strict_consensus,opus,retained_primary,0.12676062277809888,0.33754159910903087,48
+open_forced_correspondence,Claude Opus 4.8,modal_agreement,0.7916666666666666,,,,,strict_consensus,opus,retained_primary,0.6666666666666666,0.8958333333333334,48
+open_forced_correspondence,Claude Opus 4.8,scenario_act_correlation,0.933005159934146,,,,,strict_consensus,opus,retained_primary,nan,nan,48
+open_forced_correspondence,Claude Opus 4.8,act_shift,0.014814814814814812,,,,,strict_consensus,opus,valid_only_sensitivity,-0.02370370370370371,0.06814814814814815,45
+open_forced_correspondence,Claude Opus 4.8,scenario_tvd,0.1288888888888889,,,,,strict_consensus,opus,valid_only_sensitivity,0.044444444444444446,0.22962962962962966,45
+open_forced_correspondence,Claude Opus 4.8,scenario_jsd,0.12023094725003636,,,,,strict_consensus,opus,valid_only_sensitivity,0.035812129847938697,0.217603147455419,45
+open_forced_correspondence,Claude Opus 4.8,modal_agreement,0.8888888888888888,,,,,strict_consensus,opus,valid_only_sensitivity,0.8,0.9777777777777777,45
+open_forced_correspondence,Claude Opus 4.8,scenario_act_correlation,0.940587427145018,,,,,strict_consensus,opus,valid_only_sensitivity,nan,nan,45
+open_forced_correspondence,Gemini 3.6 Flash,act_shift,0.12083333333333333,,,,,luna,flash,retained_primary,0.041666666666666664,0.2125,48
+open_forced_correspondence,Gemini 3.6 Flash,scenario_tvd,0.19166666666666665,,,,,luna,flash,retained_primary,0.09999999999999999,0.29583333333333334,48
+open_forced_correspondence,Gemini 3.6 Flash,scenario_jsd,0.16269069425661004,,,,,luna,flash,retained_primary,0.07726094104763288,0.25823633563198145,48
+open_forced_correspondence,Gemini 3.6 Flash,modal_agreement,0.8125,,,,,luna,flash,retained_primary,0.7083333333333334,0.9166666666666666,48
+open_forced_correspondence,Gemini 3.6 Flash,scenario_act_correlation,0.7991572563943595,,,,,luna,flash,retained_primary,nan,nan,48
+open_forced_correspondence,Gemini 3.6 Flash,act_shift,0.12881944444444446,,,,,luna,flash,valid_only_sensitivity,0.04583333333333334,0.22430555555555554,48
+open_forced_correspondence,Gemini 3.6 Flash,scenario_tvd,0.1885416666666667,,,,,luna,flash,valid_only_sensitivity,0.09791666666666665,0.2916666666666667,48
+open_forced_correspondence,Gemini 3.6 Flash,scenario_jsd,0.160032843793374,,,,,luna,flash,valid_only_sensitivity,0.07462630708219654,0.25828823284809277,48
+open_forced_correspondence,Gemini 3.6 Flash,modal_agreement,0.8125,,,,,luna,flash,valid_only_sensitivity,0.7083333333333334,0.9166666666666666,48
+open_forced_correspondence,Gemini 3.6 Flash,scenario_act_correlation,0.7828323658479682,,,,,luna,flash,valid_only_sensitivity,nan,nan,48
+open_forced_correspondence,Gemini 3.6 Flash,act_shift,0.12916666666666668,,,,,gemini35,flash,retained_primary,0.04583333333333334,0.225,48
+open_forced_correspondence,Gemini 3.6 Flash,scenario_tvd,0.2125,,,,,gemini35,flash,retained_primary,0.1125,0.32083333333333336,48
+open_forced_correspondence,Gemini 3.6 Flash,scenario_jsd,0.1892182402288373,,,,,gemini35,flash,retained_primary,0.09228948046167824,0.2975515735621706,48
+open_forced_correspondence,Gemini 3.6 Flash,modal_agreement,0.7916666666666666,,,,,gemini35,flash,retained_primary,0.6666666666666666,0.8958333333333334,48
+open_forced_correspondence,Gemini 3.6 Flash,scenario_act_correlation,0.7736932426048626,,,,,gemini35,flash,retained_primary,nan,nan,48
+open_forced_correspondence,Gemini 3.6 Flash,act_shift,0.13541666666666666,,,,,gemini35,flash,valid_only_sensitivity,0.049999999999999996,0.2354166666666667,48
+open_forced_correspondence,Gemini 3.6 Flash,scenario_tvd,0.2125,,,,,gemini35,flash,valid_only_sensitivity,0.1125,0.325,48
+open_forced_correspondence,Gemini 3.6 Flash,scenario_jsd,0.1892182402288373,,,,,gemini35,flash,valid_only_sensitivity,0.09188474646975514,0.29658430419993426,48
+open_forced_correspondence,Gemini 3.6 Flash,modal_agreement,0.7916666666666666,,,,,gemini35,flash,valid_only_sensitivity,0.6666666666666666,0.8958333333333334,48
+open_forced_correspondence,Gemini 3.6 Flash,scenario_act_correlation,0.76646373412171,,,,,gemini35,flash,valid_only_sensitivity,nan,nan,48
+open_forced_correspondence,Gemini 3.6 Flash,act_shift,0.09166666666666666,,,,,strict_consensus,flash,retained_primary,0.016666666666666666,0.17916666666666667,48
+open_forced_correspondence,Gemini 3.6 Flash,scenario_tvd,0.23750000000000002,,,,,strict_consensus,flash,retained_primary,0.13749999999999998,0.3458333333333334,48
+open_forced_correspondence,Gemini 3.6 Flash,scenario_jsd,0.2089488131184606,,,,,strict_consensus,flash,retained_primary,0.11276898775866775,0.31457224845543846,48
+open_forced_correspondence,Gemini 3.6 Flash,modal_agreement,0.7916666666666666,,,,,strict_consensus,flash,retained_primary,0.6666666666666666,0.8958333333333334,48
+open_forced_correspondence,Gemini 3.6 Flash,scenario_act_correlation,0.8236942448649807,,,,,strict_consensus,flash,retained_primary,nan,nan,48
+open_forced_correspondence,Gemini 3.6 Flash,act_shift,0.12340425531914893,,,,,strict_consensus,flash,valid_only_sensitivity,0.03829787234042553,0.225531914893617,47
+open_forced_correspondence,Gemini 3.6 Flash,scenario_tvd,0.18014184397163122,,,,,strict_consensus,flash,valid_only_sensitivity,0.0822695035460993,0.2865248226950355,47
+open_forced_correspondence,Gemini 3.6 Flash,scenario_jsd,0.16353754308356772,,,,,strict_consensus,flash,valid_only_sensitivity,0.07080860936526756,0.2676232610794561,47
+open_forced_correspondence,Gemini 3.6 Flash,modal_agreement,0.8085106382978723,,,,,strict_consensus,flash,valid_only_sensitivity,0.6808510638297872,0.9148936170212766,47
+open_forced_correspondence,Gemini 3.6 Flash,scenario_act_correlation,0.7769098788737125,,,,,strict_consensus,flash,valid_only_sensitivity,nan,nan,47
+open_forced_correspondence,Gemini 3.5 Flash-Lite,act_shift,0.23750000000000002,,,,,luna,flashlite,retained_primary,0.13333333333333333,0.35000000000000003,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,scenario_tvd,0.2833333333333333,,,,,luna,flashlite,retained_primary,0.17916666666666667,0.3958333333333333,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,scenario_jsd,0.23799916892805573,,,,,luna,flashlite,retained_primary,0.14169591374225854,0.3432085747096405,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,modal_agreement,0.7291666666666666,,,,,luna,flashlite,retained_primary,0.6041666666666666,0.8541666666666666,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,scenario_act_correlation,0.6586110512384733,,,,,luna,flashlite,retained_primary,nan,nan,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,act_shift,0.23750000000000002,,,,,luna,flashlite,valid_only_sensitivity,0.13333333333333333,0.35000000000000003,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,scenario_tvd,0.2833333333333333,,,,,luna,flashlite,valid_only_sensitivity,0.17916666666666667,0.39166666666666666,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,scenario_jsd,0.23799916892805573,,,,,luna,flashlite,valid_only_sensitivity,0.14359118059490475,0.3445794095448713,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,modal_agreement,0.7291666666666666,,,,,luna,flashlite,valid_only_sensitivity,0.6041666666666666,0.8541666666666666,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,scenario_act_correlation,0.6586110512384733,,,,,luna,flashlite,valid_only_sensitivity,nan,nan,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,act_shift,0.4000000000000001,,,,,gemini35,flashlite,retained_primary,0.2708333333333333,0.5291666666666667,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,scenario_tvd,0.4416666666666667,,,,,gemini35,flashlite,retained_primary,0.31666666666666665,0.5708333333333333,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,scenario_jsd,0.4012672816156991,,,,,gemini35,flashlite,retained_primary,0.2784451598607341,0.5247267522224185,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,modal_agreement,0.5625,,,,,gemini35,flashlite,retained_primary,0.4166666666666667,0.7083333333333334,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,scenario_act_correlation,0.44453973495055527,,,,,gemini35,flashlite,retained_primary,nan,nan,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,act_shift,0.4000000000000001,,,,,gemini35,flashlite,valid_only_sensitivity,0.27499999999999997,0.5291666666666667,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,scenario_tvd,0.4416666666666667,,,,,gemini35,flashlite,valid_only_sensitivity,0.31666666666666665,0.5708333333333333,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,scenario_jsd,0.4012672816156991,,,,,gemini35,flashlite,valid_only_sensitivity,0.2789409048814247,0.5265332233239032,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,modal_agreement,0.5625,,,,,gemini35,flashlite,valid_only_sensitivity,0.4166666666666667,0.7083333333333334,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,scenario_act_correlation,0.44453973495055527,,,,,gemini35,flashlite,valid_only_sensitivity,nan,nan,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,act_shift,0.23750000000000002,,,,,strict_consensus,flashlite,retained_primary,0.13333333333333333,0.35000000000000003,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,scenario_tvd,0.4458333333333333,,,,,strict_consensus,flashlite,retained_primary,0.32083333333333336,0.5708333333333333,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,scenario_jsd,0.40351793882706577,,,,,strict_consensus,flashlite,retained_primary,0.2831990093430274,0.5267104688769139,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,modal_agreement,0.5625,,,,,strict_consensus,flashlite,retained_primary,0.4166666666666667,0.7083333333333334,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,scenario_act_correlation,0.6586110512384733,,,,,strict_consensus,flashlite,retained_primary,nan,nan,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,act_shift,0.325,,,,,strict_consensus,flashlite,valid_only_sensitivity,0.20227272727272727,0.45454545454545453,44
+open_forced_correspondence,Gemini 3.5 Flash-Lite,scenario_tvd,0.3693181818181818,,,,,strict_consensus,flashlite,valid_only_sensitivity,0.24318181818181817,0.5011647727272702,44
+open_forced_correspondence,Gemini 3.5 Flash-Lite,scenario_jsd,0.3311524103528546,,,,,strict_consensus,flashlite,valid_only_sensitivity,0.2123196842707225,0.4557814201300488,44
+open_forced_correspondence,Gemini 3.5 Flash-Lite,modal_agreement,0.6136363636363636,,,,,strict_consensus,flashlite,valid_only_sensitivity,0.4772727272727273,0.75,44
+open_forced_correspondence,Gemini 3.5 Flash-Lite,scenario_act_correlation,0.5264249495593525,,,,,strict_consensus,flashlite,valid_only_sensitivity,nan,nan,44
+open_forced_correspondence,Gemini 3.5 Flash-Lite,act_shift,0.23750000000000002,,,,,prespecified_nonself_luna,flashlite,retained_primary,0.13333333333333333,0.35000000000000003,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,scenario_tvd,0.2833333333333333,,,,,prespecified_nonself_luna,flashlite,retained_primary,0.17916666666666667,0.3958333333333333,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,scenario_jsd,0.23799916892805573,,,,,prespecified_nonself_luna,flashlite,retained_primary,0.1416124189136326,0.3428545263722092,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,modal_agreement,0.7291666666666666,,,,,prespecified_nonself_luna,flashlite,retained_primary,0.6041666666666666,0.8541666666666666,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,scenario_act_correlation,0.6586110512384733,,,,,prespecified_nonself_luna,flashlite,retained_primary,nan,nan,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,act_shift,0.23750000000000002,,,,,prespecified_nonself_luna,flashlite,valid_only_sensitivity,0.13333333333333333,0.3499999999999999,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,scenario_tvd,0.2833333333333333,,,,,prespecified_nonself_luna,flashlite,valid_only_sensitivity,0.17916666666666667,0.39166666666666666,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,scenario_jsd,0.23799916892805573,,,,,prespecified_nonself_luna,flashlite,valid_only_sensitivity,0.14256297848085456,0.34174308652543967,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,modal_agreement,0.7291666666666666,,,,,prespecified_nonself_luna,flashlite,valid_only_sensitivity,0.6041666666666666,0.8541666666666666,48
+open_forced_correspondence,Gemini 3.5 Flash-Lite,scenario_act_correlation,0.6586110512384733,,,,,prespecified_nonself_luna,flashlite,valid_only_sensitivity,nan,nan,48
+open_forced_correspondence,Qwen 3.6 27B,act_shift,-0.17500000000000002,,,,,luna,qwen,retained_primary,-0.26666666666666666,-0.08749999999999998,48
+open_forced_correspondence,Qwen 3.6 27B,scenario_tvd,0.5958333333333333,,,,,luna,qwen,retained_primary,0.5291666666666667,0.6583333333333333,48
+open_forced_correspondence,Qwen 3.6 27B,scenario_jsd,0.47667870289711917,,,,,luna,qwen,retained_primary,0.40582635661996536,0.5470627096376494,48
+open_forced_correspondence,Qwen 3.6 27B,modal_agreement,0.3333333333333333,,,,,luna,qwen,retained_primary,0.20833333333333334,0.4791666666666667,48
+open_forced_correspondence,Qwen 3.6 27B,scenario_act_correlation,0.6519008313645718,,,,,luna,qwen,retained_primary,nan,nan,48
+open_forced_correspondence,Qwen 3.6 27B,act_shift,0.15289855072463768,,,,,luna,qwen,valid_only_sensitivity,0.07028985507246377,0.24420289855072466,46
+open_forced_correspondence,Qwen 3.6 27B,scenario_tvd,0.213768115942029,,,,,luna,qwen,valid_only_sensitivity,0.1391304347826087,0.2956521739130435,46
+open_forced_correspondence,Qwen 3.6 27B,scenario_jsd,0.143246942389006,,,,,luna,qwen,valid_only_sensitivity,0.08265317358036421,0.21517488766501328,46
+open_forced_correspondence,Qwen 3.6 27B,modal_agreement,0.8043478260869565,,,,,luna,qwen,valid_only_sensitivity,0.6956521739130435,0.9130434782608695,46
+open_forced_correspondence,Qwen 3.6 27B,scenario_act_correlation,0.7741168515527959,,,,,luna,qwen,valid_only_sensitivity,nan,nan,46
+open_forced_correspondence,Qwen 3.6 27B,act_shift,-0.13333333333333333,,,,,gemini35,qwen,retained_primary,-0.22916666666666666,-0.03749999999999999,48
+open_forced_correspondence,Qwen 3.6 27B,scenario_tvd,0.6291666666666668,,,,,gemini35,qwen,retained_primary,0.5541666666666667,0.7000000000000001,48
+open_forced_correspondence,Qwen 3.6 27B,scenario_jsd,0.5196281965128949,,,,,gemini35,qwen,retained_primary,0.4428320387789296,0.5991591209154196,48
+open_forced_correspondence,Qwen 3.6 27B,modal_agreement,0.3125,,,,,gemini35,qwen,retained_primary,0.1875,0.4375,48
+open_forced_correspondence,Qwen 3.6 27B,scenario_act_correlation,0.5710963275286999,,,,,gemini35,qwen,retained_primary,nan,nan,48
+open_forced_correspondence,Qwen 3.6 27B,act_shift,0.27971014492753626,,,,,gemini35,qwen,valid_only_sensitivity,0.18478260869565216,0.38115942028985506,46
+open_forced_correspondence,Qwen 3.6 27B,scenario_tvd,0.29057971014492756,,,,,gemini35,qwen,valid_only_sensitivity,0.19782608695652174,0.3891304347826087,46
+open_forced_correspondence,Qwen 3.6 27B,scenario_jsd,0.21469772970743,,,,,gemini35,qwen,valid_only_sensitivity,0.13050912319889288,0.30797763500902037,46
+open_forced_correspondence,Qwen 3.6 27B,modal_agreement,0.7391304347826086,,,,,gemini35,qwen,valid_only_sensitivity,0.6086956521739131,0.8695652173913043,46
+open_forced_correspondence,Qwen 3.6 27B,scenario_act_correlation,0.6652739735551794,,,,,gemini35,qwen,valid_only_sensitivity,nan,nan,46
+open_forced_correspondence,Qwen 3.6 27B,act_shift,-0.17500000000000002,,,,,strict_consensus,qwen,retained_primary,-0.2625,-0.08750000000000001,48
+open_forced_correspondence,Qwen 3.6 27B,scenario_tvd,0.6416666666666666,,,,,strict_consensus,qwen,retained_primary,0.5625000000000001,0.7166666666666667,48
+open_forced_correspondence,Qwen 3.6 27B,scenario_jsd,0.5384189256975905,,,,,strict_consensus,qwen,retained_primary,0.4562074803085717,0.6224933748054239,48
+open_forced_correspondence,Qwen 3.6 27B,modal_agreement,0.3125,,,,,strict_consensus,qwen,retained_primary,0.1875,0.4375,48
+open_forced_correspondence,Qwen 3.6 27B,scenario_act_correlation,0.6519008313645718,,,,,strict_consensus,qwen,retained_primary,nan,nan,48
+open_forced_correspondence,Qwen 3.6 27B,act_shift,0.2073170731707317,,,,,strict_consensus,qwen,valid_only_sensitivity,0.11707317073170734,0.3097560975609756,41
+open_forced_correspondence,Qwen 3.6 27B,scenario_tvd,0.22682926829268293,,,,,strict_consensus,qwen,valid_only_sensitivity,0.14146341463414636,0.3195121951219512,41
+open_forced_correspondence,Qwen 3.6 27B,scenario_jsd,0.15627190663436563,,,,,strict_consensus,qwen,valid_only_sensitivity,0.08821087604360803,0.23689627633466523,41
+open_forced_correspondence,Qwen 3.6 27B,modal_agreement,0.8048780487804879,,,,,strict_consensus,qwen,valid_only_sensitivity,0.6829268292682927,0.926829268292683,41
+open_forced_correspondence,Qwen 3.6 27B,scenario_act_correlation,0.74429105800211,,,,,strict_consensus,qwen,valid_only_sensitivity,nan,nan,41

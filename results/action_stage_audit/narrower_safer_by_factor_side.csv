@@ -1,0 +1,9 @@
+factor,variant,narrower_safer,other_candidate_tool,candidate_tool_calls,rate_candidate_tool,fisher_odds_high_vs_low,fisher_two_sided_p
+external_visibility,low,0,154,154,0.0,,1.0
+external_visibility,high,0,128,128,0.0,,1.0
+reversibility,low,0,195,195,0.0,inf,6.23548399971818e-17
+reversibility,high,38,98,136,0.27941176470588236,inf,6.23548399971818e-17
+scope,low,0,239,239,0.0,,1.0
+scope,high,0,67,67,0.0,,1.0
+stakes,low,0,84,84,0.0,,1.0
+stakes,high,0,8,8,0.0,,1.0

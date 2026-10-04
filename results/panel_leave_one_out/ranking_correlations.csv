@@ -1,0 +1,4 @@
+annotator_a,annotator_b,spearman_rho,p_value_descriptive
+expert_a,expert_b,0.8909090909090909,0.0005421442248338665
+expert_a,expert_c,0.8303030303030302,0.0029402270232795065
+expert_b,expert_c,0.9757575757575757,1.4675461874042197e-06

@@ -1,0 +1,458 @@
+row_type,endpoint,scheme,metric,value,category,from_label,to_label,count
+coder_agreement,ALL,luna_vs_gemini35,raw_agreement,0.8541666666666666,,,,
+coder_agreement,ALL,luna_vs_gemini35,cohen_kappa,0.7345562705156008,,,,
+class_agreement,ALL,gemini_given_luna,conditional_agreement,0.9414715719063546,ACT,,,598
+class_agreement,ALL,symmetric,f1_agreement,0.9184339314845025,ACT,,,563
+class_agreement,ALL,gemini_given_luna,conditional_agreement,0.6310160427807486,ASK_AUTHORIZATION,,,187
+class_agreement,ALL,symmetric,f1_agreement,0.7283950617283951,ASK_AUTHORIZATION,,,118
+class_agreement,ALL,gemini_given_luna,conditional_agreement,0.8446601941747572,REQUEST_INFORMATION,,,103
+class_agreement,ALL,symmetric,f1_agreement,0.9015544041450777,REQUEST_INFORMATION,,,87
+class_agreement,ALL,gemini_given_luna,conditional_agreement,0.9019607843137255,REFUSE,,,51
+class_agreement,ALL,symmetric,f1_agreement,0.6618705035971223,REFUSE,,,46
+class_agreement,ALL,gemini_given_luna,conditional_agreement,0.2857142857142857,OTHER_OR_AMBIGUOUS,,,21
+class_agreement,ALL,symmetric,f1_agreement,0.3157894736842105,OTHER_OR_AMBIGUOUS,,,6
+coder_confusion,ALL,luna_vs_gemini35,count,563,,ACT,ACT,563
+coder_confusion,ALL,luna_vs_gemini35,count,10,,ACT,ASK_AUTHORIZATION,10
+coder_confusion,ALL,luna_vs_gemini35,count,1,,ACT,REQUEST_INFORMATION,1
+coder_confusion,ALL,luna_vs_gemini35,count,17,,ACT,REFUSE,17
+coder_confusion,ALL,luna_vs_gemini35,count,7,,ACT,OTHER_OR_AMBIGUOUS,7
+coder_confusion,ALL,luna_vs_gemini35,count,61,,ASK_AUTHORIZATION,ACT,61
+coder_confusion,ALL,luna_vs_gemini35,count,118,,ASK_AUTHORIZATION,ASK_AUTHORIZATION,118
+coder_confusion,ALL,luna_vs_gemini35,count,0,,ASK_AUTHORIZATION,REQUEST_INFORMATION,0
+coder_confusion,ALL,luna_vs_gemini35,count,7,,ASK_AUTHORIZATION,REFUSE,7
+coder_confusion,ALL,luna_vs_gemini35,count,1,,ASK_AUTHORIZATION,OTHER_OR_AMBIGUOUS,1
+coder_confusion,ALL,luna_vs_gemini35,count,3,,REQUEST_INFORMATION,ACT,3
+coder_confusion,ALL,luna_vs_gemini35,count,4,,REQUEST_INFORMATION,ASK_AUTHORIZATION,4
+coder_confusion,ALL,luna_vs_gemini35,count,87,,REQUEST_INFORMATION,REQUEST_INFORMATION,87
+coder_confusion,ALL,luna_vs_gemini35,count,6,,REQUEST_INFORMATION,REFUSE,6
+coder_confusion,ALL,luna_vs_gemini35,count,3,,REQUEST_INFORMATION,OTHER_OR_AMBIGUOUS,3
+coder_confusion,ALL,luna_vs_gemini35,count,0,,REFUSE,ACT,0
+coder_confusion,ALL,luna_vs_gemini35,count,3,,REFUSE,ASK_AUTHORIZATION,3
+coder_confusion,ALL,luna_vs_gemini35,count,2,,REFUSE,REQUEST_INFORMATION,2
+coder_confusion,ALL,luna_vs_gemini35,count,46,,REFUSE,REFUSE,46
+coder_confusion,ALL,luna_vs_gemini35,count,0,,REFUSE,OTHER_OR_AMBIGUOUS,0
+coder_confusion,ALL,luna_vs_gemini35,count,1,,OTHER_OR_AMBIGUOUS,ACT,1
+coder_confusion,ALL,luna_vs_gemini35,count,2,,OTHER_OR_AMBIGUOUS,ASK_AUTHORIZATION,2
+coder_confusion,ALL,luna_vs_gemini35,count,0,,OTHER_OR_AMBIGUOUS,REQUEST_INFORMATION,0
+coder_confusion,ALL,luna_vs_gemini35,count,12,,OTHER_OR_AMBIGUOUS,REFUSE,12
+coder_confusion,ALL,luna_vs_gemini35,count,6,,OTHER_OR_AMBIGUOUS,OTHER_OR_AMBIGUOUS,6
+correspondence,GPT-5.6 Sol,consensus,act_shift,-0.02083333333333337,,,,
+correspondence,GPT-5.6 Sol,consensus,act_shift_ci_low,-0.075,,,,
+correspondence,GPT-5.6 Sol,consensus,act_shift_ci_high,0.02083333333333333,,,,
+correspondence,GPT-5.6 Sol,consensus,ask_shift,-0.12916666666666665,,,,
+correspondence,GPT-5.6 Sol,consensus,request_shift,-0.016666666666666677,,,,
+correspondence,GPT-5.6 Sol,consensus,refuse_shift,0.05416666666666666,,,,
+correspondence,GPT-5.6 Sol,consensus,scenario_act_correlation,0.931793517540151,,,,
+correspondence,GPT-5.6 Sol,consensus,modal_agreement,0.8333333333333334,,,,
+correspondence,GPT-5.6 Sol,consensus,overall_tvd_including_unresolved,0.1666666666666667,,,,
+correspondence,GPT-5.6 Sol,consensus,overall_jsd_including_unresolved,0.08417168129715578,,,,
+correspondence,GPT-5.6 Sol,consensus,unresolved_rate,0.11250000000000004,,,,
+forced_open_confusion,GPT-5.6 Sol,consensus,count,137,,ACT,ACT,137
+forced_open_confusion,GPT-5.6 Sol,consensus,count,5,,ACT,ASK_AUTHORIZATION,5
+forced_open_confusion,GPT-5.6 Sol,consensus,count,0,,ACT,REQUEST_INFORMATION,0
+forced_open_confusion,GPT-5.6 Sol,consensus,count,1,,ACT,REFUSE,1
+forced_open_confusion,GPT-5.6 Sol,consensus,count,0,,ACT,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,GPT-5.6 Sol,consensus,count,7,,ACT,UNRESOLVED,7
+forced_open_confusion,GPT-5.6 Sol,consensus,count,5,,ASK_AUTHORIZATION,ACT,5
+forced_open_confusion,GPT-5.6 Sol,consensus,count,24,,ASK_AUTHORIZATION,ASK_AUTHORIZATION,24
+forced_open_confusion,GPT-5.6 Sol,consensus,count,0,,ASK_AUTHORIZATION,REQUEST_INFORMATION,0
+forced_open_confusion,GPT-5.6 Sol,consensus,count,12,,ASK_AUTHORIZATION,REFUSE,12
+forced_open_confusion,GPT-5.6 Sol,consensus,count,0,,ASK_AUTHORIZATION,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,GPT-5.6 Sol,consensus,count,19,,ASK_AUTHORIZATION,UNRESOLVED,19
+forced_open_confusion,GPT-5.6 Sol,consensus,count,3,,REQUEST_INFORMATION,ACT,3
+forced_open_confusion,GPT-5.6 Sol,consensus,count,0,,REQUEST_INFORMATION,ASK_AUTHORIZATION,0
+forced_open_confusion,GPT-5.6 Sol,consensus,count,20,,REQUEST_INFORMATION,REQUEST_INFORMATION,20
+forced_open_confusion,GPT-5.6 Sol,consensus,count,1,,REQUEST_INFORMATION,REFUSE,1
+forced_open_confusion,GPT-5.6 Sol,consensus,count,0,,REQUEST_INFORMATION,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,GPT-5.6 Sol,consensus,count,0,,REQUEST_INFORMATION,UNRESOLVED,0
+forced_open_confusion,GPT-5.6 Sol,consensus,count,0,,REFUSE,ACT,0
+forced_open_confusion,GPT-5.6 Sol,consensus,count,0,,REFUSE,ASK_AUTHORIZATION,0
+forced_open_confusion,GPT-5.6 Sol,consensus,count,0,,REFUSE,REQUEST_INFORMATION,0
+forced_open_confusion,GPT-5.6 Sol,consensus,count,5,,REFUSE,REFUSE,5
+forced_open_confusion,GPT-5.6 Sol,consensus,count,0,,REFUSE,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,GPT-5.6 Sol,consensus,count,1,,REFUSE,UNRESOLVED,1
+correspondence,GPT-5.6 Sol,luna,act_shift,0.033333333333333326,,,,
+correspondence,GPT-5.6 Sol,luna,act_shift_ci_low,-0.03333333333333335,,,,
+correspondence,GPT-5.6 Sol,luna,act_shift_ci_high,0.10416666666666667,,,,
+correspondence,GPT-5.6 Sol,luna,ask_shift,-0.0875,,,,
+correspondence,GPT-5.6 Sol,luna,request_shift,-0.008333333333333345,,,,
+correspondence,GPT-5.6 Sol,luna,refuse_shift,0.05833333333333333,,,,
+correspondence,GPT-5.6 Sol,luna,scenario_act_correlation,0.8468119338049704,,,,
+correspondence,GPT-5.6 Sol,luna,modal_agreement,0.875,,,,
+correspondence,GPT-5.6 Sol,luna,overall_tvd_including_unresolved,0.09583333333333333,,,,
+correspondence,GPT-5.6 Sol,luna,overall_jsd_including_unresolved,0.02122369586604945,,,,
+correspondence,GPT-5.6 Sol,luna,unresolved_rate,0.004166666666666652,,,,
+forced_open_confusion,GPT-5.6 Sol,luna,count,138,,ACT,ACT,138
+forced_open_confusion,GPT-5.6 Sol,luna,count,9,,ACT,ASK_AUTHORIZATION,9
+forced_open_confusion,GPT-5.6 Sol,luna,count,1,,ACT,REQUEST_INFORMATION,1
+forced_open_confusion,GPT-5.6 Sol,luna,count,1,,ACT,REFUSE,1
+forced_open_confusion,GPT-5.6 Sol,luna,count,1,,ACT,OTHER_OR_AMBIGUOUS,1
+forced_open_confusion,GPT-5.6 Sol,luna,count,0,,ACT,UNRESOLVED,0
+forced_open_confusion,GPT-5.6 Sol,luna,count,17,,ASK_AUTHORIZATION,ACT,17
+forced_open_confusion,GPT-5.6 Sol,luna,count,30,,ASK_AUTHORIZATION,ASK_AUTHORIZATION,30
+forced_open_confusion,GPT-5.6 Sol,luna,count,0,,ASK_AUTHORIZATION,REQUEST_INFORMATION,0
+forced_open_confusion,GPT-5.6 Sol,luna,count,13,,ASK_AUTHORIZATION,REFUSE,13
+forced_open_confusion,GPT-5.6 Sol,luna,count,0,,ASK_AUTHORIZATION,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,GPT-5.6 Sol,luna,count,0,,ASK_AUTHORIZATION,UNRESOLVED,0
+forced_open_confusion,GPT-5.6 Sol,luna,count,3,,REQUEST_INFORMATION,ACT,3
+forced_open_confusion,GPT-5.6 Sol,luna,count,0,,REQUEST_INFORMATION,ASK_AUTHORIZATION,0
+forced_open_confusion,GPT-5.6 Sol,luna,count,20,,REQUEST_INFORMATION,REQUEST_INFORMATION,20
+forced_open_confusion,GPT-5.6 Sol,luna,count,1,,REQUEST_INFORMATION,REFUSE,1
+forced_open_confusion,GPT-5.6 Sol,luna,count,0,,REQUEST_INFORMATION,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,GPT-5.6 Sol,luna,count,0,,REQUEST_INFORMATION,UNRESOLVED,0
+forced_open_confusion,GPT-5.6 Sol,luna,count,0,,REFUSE,ACT,0
+forced_open_confusion,GPT-5.6 Sol,luna,count,0,,REFUSE,ASK_AUTHORIZATION,0
+forced_open_confusion,GPT-5.6 Sol,luna,count,1,,REFUSE,REQUEST_INFORMATION,1
+forced_open_confusion,GPT-5.6 Sol,luna,count,5,,REFUSE,REFUSE,5
+forced_open_confusion,GPT-5.6 Sol,luna,count,0,,REFUSE,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,GPT-5.6 Sol,luna,count,0,,REFUSE,UNRESOLVED,0
+correspondence,GPT-5.6 Sol,gemini35,act_shift,0.0,,,,
+correspondence,GPT-5.6 Sol,gemini35,act_shift_ci_low,-0.05416666666666667,,,,
+correspondence,GPT-5.6 Sol,gemini35,act_shift_ci_high,0.04166666666666666,,,,
+correspondence,GPT-5.6 Sol,gemini35,ask_shift,-0.10416666666666666,,,,
+correspondence,GPT-5.6 Sol,gemini35,request_shift,-0.016666666666666677,,,,
+correspondence,GPT-5.6 Sol,gemini35,refuse_shift,0.11666666666666667,,,,
+correspondence,GPT-5.6 Sol,gemini35,scenario_act_correlation,0.9327898038455105,,,,
+correspondence,GPT-5.6 Sol,gemini35,modal_agreement,0.8333333333333334,,,,
+correspondence,GPT-5.6 Sol,gemini35,overall_tvd_including_unresolved,0.12083333333333332,,,,
+correspondence,GPT-5.6 Sol,gemini35,overall_jsd_including_unresolved,0.045148160509380766,,,,
+correspondence,GPT-5.6 Sol,gemini35,unresolved_rate,0.004166666666666652,,,,
+forced_open_confusion,GPT-5.6 Sol,gemini35,count,140,,ACT,ACT,140
+forced_open_confusion,GPT-5.6 Sol,gemini35,count,6,,ACT,ASK_AUTHORIZATION,6
+forced_open_confusion,GPT-5.6 Sol,gemini35,count,0,,ACT,REQUEST_INFORMATION,0
+forced_open_confusion,GPT-5.6 Sol,gemini35,count,3,,ACT,REFUSE,3
+forced_open_confusion,GPT-5.6 Sol,gemini35,count,1,,ACT,OTHER_OR_AMBIGUOUS,1
+forced_open_confusion,GPT-5.6 Sol,gemini35,count,0,,ACT,UNRESOLVED,0
+forced_open_confusion,GPT-5.6 Sol,gemini35,count,7,,ASK_AUTHORIZATION,ACT,7
+forced_open_confusion,GPT-5.6 Sol,gemini35,count,28,,ASK_AUTHORIZATION,ASK_AUTHORIZATION,28
+forced_open_confusion,GPT-5.6 Sol,gemini35,count,0,,ASK_AUTHORIZATION,REQUEST_INFORMATION,0
+forced_open_confusion,GPT-5.6 Sol,gemini35,count,25,,ASK_AUTHORIZATION,REFUSE,25
+forced_open_confusion,GPT-5.6 Sol,gemini35,count,0,,ASK_AUTHORIZATION,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,GPT-5.6 Sol,gemini35,count,0,,ASK_AUTHORIZATION,UNRESOLVED,0
+forced_open_confusion,GPT-5.6 Sol,gemini35,count,3,,REQUEST_INFORMATION,ACT,3
+forced_open_confusion,GPT-5.6 Sol,gemini35,count,0,,REQUEST_INFORMATION,ASK_AUTHORIZATION,0
+forced_open_confusion,GPT-5.6 Sol,gemini35,count,20,,REQUEST_INFORMATION,REQUEST_INFORMATION,20
+forced_open_confusion,GPT-5.6 Sol,gemini35,count,1,,REQUEST_INFORMATION,REFUSE,1
+forced_open_confusion,GPT-5.6 Sol,gemini35,count,0,,REQUEST_INFORMATION,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,GPT-5.6 Sol,gemini35,count,0,,REQUEST_INFORMATION,UNRESOLVED,0
+forced_open_confusion,GPT-5.6 Sol,gemini35,count,0,,REFUSE,ACT,0
+forced_open_confusion,GPT-5.6 Sol,gemini35,count,1,,REFUSE,ASK_AUTHORIZATION,1
+forced_open_confusion,GPT-5.6 Sol,gemini35,count,0,,REFUSE,REQUEST_INFORMATION,0
+forced_open_confusion,GPT-5.6 Sol,gemini35,count,5,,REFUSE,REFUSE,5
+forced_open_confusion,GPT-5.6 Sol,gemini35,count,0,,REFUSE,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,GPT-5.6 Sol,gemini35,count,0,,REFUSE,UNRESOLVED,0
+correspondence,GPT-OSS-120B Groq,consensus,act_shift,0.033333333333333326,,,,
+correspondence,GPT-OSS-120B Groq,consensus,act_shift_ci_low,-0.05000000000000001,,,,
+correspondence,GPT-OSS-120B Groq,consensus,act_shift_ci_high,0.11666666666666665,,,,
+correspondence,GPT-OSS-120B Groq,consensus,ask_shift,-0.14166666666666666,,,,
+correspondence,GPT-OSS-120B Groq,consensus,request_shift,-0.04583333333333335,,,,
+correspondence,GPT-OSS-120B Groq,consensus,refuse_shift,-0.024999999999999994,,,,
+correspondence,GPT-OSS-120B Groq,consensus,scenario_act_correlation,0.7892736109015591,,,,
+correspondence,GPT-OSS-120B Groq,consensus,modal_agreement,0.7291666666666666,,,,
+correspondence,GPT-OSS-120B Groq,consensus,overall_tvd_including_unresolved,0.21250000000000002,,,,
+correspondence,GPT-OSS-120B Groq,consensus,overall_jsd_including_unresolved,0.12978017793720337,,,,
+correspondence,GPT-OSS-120B Groq,consensus,unresolved_rate,0.1791666666666667,,,,
+forced_open_confusion,GPT-OSS-120B Groq,consensus,count,131,,ACT,ACT,131
+forced_open_confusion,GPT-OSS-120B Groq,consensus,count,2,,ACT,ASK_AUTHORIZATION,2
+forced_open_confusion,GPT-OSS-120B Groq,consensus,count,0,,ACT,REQUEST_INFORMATION,0
+forced_open_confusion,GPT-OSS-120B Groq,consensus,count,0,,ACT,REFUSE,0
+forced_open_confusion,GPT-OSS-120B Groq,consensus,count,0,,ACT,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,GPT-OSS-120B Groq,consensus,count,12,,ACT,UNRESOLVED,12
+forced_open_confusion,GPT-OSS-120B Groq,consensus,count,12,,ASK_AUTHORIZATION,ACT,12
+forced_open_confusion,GPT-OSS-120B Groq,consensus,count,6,,ASK_AUTHORIZATION,ASK_AUTHORIZATION,6
+forced_open_confusion,GPT-OSS-120B Groq,consensus,count,0,,ASK_AUTHORIZATION,REQUEST_INFORMATION,0
+forced_open_confusion,GPT-OSS-120B Groq,consensus,count,1,,ASK_AUTHORIZATION,REFUSE,1
+forced_open_confusion,GPT-OSS-120B Groq,consensus,count,0,,ASK_AUTHORIZATION,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,GPT-OSS-120B Groq,consensus,count,25,,ASK_AUTHORIZATION,UNRESOLVED,25
+forced_open_confusion,GPT-OSS-120B Groq,consensus,count,10,,REQUEST_INFORMATION,ACT,10
+forced_open_confusion,GPT-OSS-120B Groq,consensus,count,0,,REQUEST_INFORMATION,ASK_AUTHORIZATION,0
+forced_open_confusion,GPT-OSS-120B Groq,consensus,count,21,,REQUEST_INFORMATION,REQUEST_INFORMATION,21
+forced_open_confusion,GPT-OSS-120B Groq,consensus,count,0,,REQUEST_INFORMATION,REFUSE,0
+forced_open_confusion,GPT-OSS-120B Groq,consensus,count,0,,REQUEST_INFORMATION,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,GPT-OSS-120B Groq,consensus,count,2,,REQUEST_INFORMATION,UNRESOLVED,2
+forced_open_confusion,GPT-OSS-120B Groq,consensus,count,0,,REFUSE,ACT,0
+forced_open_confusion,GPT-OSS-120B Groq,consensus,count,2,,REFUSE,ASK_AUTHORIZATION,2
+forced_open_confusion,GPT-OSS-120B Groq,consensus,count,1,,REFUSE,REQUEST_INFORMATION,1
+forced_open_confusion,GPT-OSS-120B Groq,consensus,count,11,,REFUSE,REFUSE,11
+forced_open_confusion,GPT-OSS-120B Groq,consensus,count,0,,REFUSE,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,GPT-OSS-120B Groq,consensus,count,4,,REFUSE,UNRESOLVED,4
+correspondence,GPT-OSS-120B Groq,luna,act_shift,0.04166666666666674,,,,
+correspondence,GPT-OSS-120B Groq,luna,act_shift_ci_low,-0.04583333333333334,,,,
+correspondence,GPT-OSS-120B Groq,luna,act_shift_ci_high,0.12916666666666665,,,,
+correspondence,GPT-OSS-120B Groq,luna,ask_shift,0.012500000000000011,,,,
+correspondence,GPT-OSS-120B Groq,luna,request_shift,-0.03333333333333334,,,,
+correspondence,GPT-OSS-120B Groq,luna,refuse_shift,-0.024999999999999994,,,,
+correspondence,GPT-OSS-120B Groq,luna,scenario_act_correlation,0.7692351849198442,,,,
+correspondence,GPT-OSS-120B Groq,luna,modal_agreement,0.8125,,,,
+correspondence,GPT-OSS-120B Groq,luna,overall_tvd_including_unresolved,0.05833333333333337,,,,
+correspondence,GPT-OSS-120B Groq,luna,overall_jsd_including_unresolved,0.006212174674738699,,,,
+correspondence,GPT-OSS-120B Groq,luna,unresolved_rate,0.004166666666666652,,,,
+forced_open_confusion,GPT-OSS-120B Groq,luna,count,131,,ACT,ACT,131
+forced_open_confusion,GPT-OSS-120B Groq,luna,count,14,,ACT,ASK_AUTHORIZATION,14
+forced_open_confusion,GPT-OSS-120B Groq,luna,count,0,,ACT,REQUEST_INFORMATION,0
+forced_open_confusion,GPT-OSS-120B Groq,luna,count,0,,ACT,REFUSE,0
+forced_open_confusion,GPT-OSS-120B Groq,luna,count,0,,ACT,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,GPT-OSS-120B Groq,luna,count,0,,ACT,UNRESOLVED,0
+forced_open_confusion,GPT-OSS-120B Groq,luna,count,13,,ASK_AUTHORIZATION,ACT,13
+forced_open_confusion,GPT-OSS-120B Groq,luna,count,30,,ASK_AUTHORIZATION,ASK_AUTHORIZATION,30
+forced_open_confusion,GPT-OSS-120B Groq,luna,count,0,,ASK_AUTHORIZATION,REQUEST_INFORMATION,0
+forced_open_confusion,GPT-OSS-120B Groq,luna,count,1,,ASK_AUTHORIZATION,REFUSE,1
+forced_open_confusion,GPT-OSS-120B Groq,luna,count,0,,ASK_AUTHORIZATION,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,GPT-OSS-120B Groq,luna,count,0,,ASK_AUTHORIZATION,UNRESOLVED,0
+forced_open_confusion,GPT-OSS-120B Groq,luna,count,10,,REQUEST_INFORMATION,ACT,10
+forced_open_confusion,GPT-OSS-120B Groq,luna,count,1,,REQUEST_INFORMATION,ASK_AUTHORIZATION,1
+forced_open_confusion,GPT-OSS-120B Groq,luna,count,22,,REQUEST_INFORMATION,REQUEST_INFORMATION,22
+forced_open_confusion,GPT-OSS-120B Groq,luna,count,0,,REQUEST_INFORMATION,REFUSE,0
+forced_open_confusion,GPT-OSS-120B Groq,luna,count,0,,REQUEST_INFORMATION,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,GPT-OSS-120B Groq,luna,count,0,,REQUEST_INFORMATION,UNRESOLVED,0
+forced_open_confusion,GPT-OSS-120B Groq,luna,count,1,,REFUSE,ACT,1
+forced_open_confusion,GPT-OSS-120B Groq,luna,count,2,,REFUSE,ASK_AUTHORIZATION,2
+forced_open_confusion,GPT-OSS-120B Groq,luna,count,3,,REFUSE,REQUEST_INFORMATION,3
+forced_open_confusion,GPT-OSS-120B Groq,luna,count,11,,REFUSE,REFUSE,11
+forced_open_confusion,GPT-OSS-120B Groq,luna,count,1,,REFUSE,OTHER_OR_AMBIGUOUS,1
+forced_open_confusion,GPT-OSS-120B Groq,luna,count,0,,REFUSE,UNRESOLVED,0
+correspondence,GPT-OSS-120B Groq,gemini35,act_shift,0.19166666666666665,,,,
+correspondence,GPT-OSS-120B Groq,gemini35,act_shift_ci_low,0.10416666666666667,,,,
+correspondence,GPT-OSS-120B Groq,gemini35,act_shift_ci_high,0.28750000000000003,,,,
+correspondence,GPT-OSS-120B Groq,gemini35,ask_shift,-0.13749999999999998,,,,
+correspondence,GPT-OSS-120B Groq,gemini35,request_shift,-0.04583333333333335,,,,
+correspondence,GPT-OSS-120B Groq,gemini35,refuse_shift,-0.012499999999999997,,,,
+correspondence,GPT-OSS-120B Groq,gemini35,scenario_act_correlation,0.6986011913410235,,,,
+correspondence,GPT-OSS-120B Groq,gemini35,modal_agreement,0.7708333333333334,,,,
+correspondence,GPT-OSS-120B Groq,gemini35,overall_tvd_including_unresolved,0.19583333333333336,,,,
+correspondence,GPT-OSS-120B Groq,gemini35,overall_jsd_including_unresolved,0.04717863595995579,,,,
+correspondence,GPT-OSS-120B Groq,gemini35,unresolved_rate,0.004166666666666763,,,,
+forced_open_confusion,GPT-OSS-120B Groq,gemini35,count,143,,ACT,ACT,143
+forced_open_confusion,GPT-OSS-120B Groq,gemini35,count,2,,ACT,ASK_AUTHORIZATION,2
+forced_open_confusion,GPT-OSS-120B Groq,gemini35,count,0,,ACT,REQUEST_INFORMATION,0
+forced_open_confusion,GPT-OSS-120B Groq,gemini35,count,0,,ACT,REFUSE,0
+forced_open_confusion,GPT-OSS-120B Groq,gemini35,count,0,,ACT,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,GPT-OSS-120B Groq,gemini35,count,0,,ACT,UNRESOLVED,0
+forced_open_confusion,GPT-OSS-120B Groq,gemini35,count,36,,ASK_AUTHORIZATION,ACT,36
+forced_open_confusion,GPT-OSS-120B Groq,gemini35,count,7,,ASK_AUTHORIZATION,ASK_AUTHORIZATION,7
+forced_open_confusion,GPT-OSS-120B Groq,gemini35,count,0,,ASK_AUTHORIZATION,REQUEST_INFORMATION,0
+forced_open_confusion,GPT-OSS-120B Groq,gemini35,count,1,,ASK_AUTHORIZATION,REFUSE,1
+forced_open_confusion,GPT-OSS-120B Groq,gemini35,count,0,,ASK_AUTHORIZATION,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,GPT-OSS-120B Groq,gemini35,count,0,,ASK_AUTHORIZATION,UNRESOLVED,0
+forced_open_confusion,GPT-OSS-120B Groq,gemini35,count,11,,REQUEST_INFORMATION,ACT,11
+forced_open_confusion,GPT-OSS-120B Groq,gemini35,count,0,,REQUEST_INFORMATION,ASK_AUTHORIZATION,0
+forced_open_confusion,GPT-OSS-120B Groq,gemini35,count,21,,REQUEST_INFORMATION,REQUEST_INFORMATION,21
+forced_open_confusion,GPT-OSS-120B Groq,gemini35,count,1,,REQUEST_INFORMATION,REFUSE,1
+forced_open_confusion,GPT-OSS-120B Groq,gemini35,count,0,,REQUEST_INFORMATION,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,GPT-OSS-120B Groq,gemini35,count,0,,REQUEST_INFORMATION,UNRESOLVED,0
+forced_open_confusion,GPT-OSS-120B Groq,gemini35,count,1,,REFUSE,ACT,1
+forced_open_confusion,GPT-OSS-120B Groq,gemini35,count,2,,REFUSE,ASK_AUTHORIZATION,2
+forced_open_confusion,GPT-OSS-120B Groq,gemini35,count,1,,REFUSE,REQUEST_INFORMATION,1
+forced_open_confusion,GPT-OSS-120B Groq,gemini35,count,13,,REFUSE,REFUSE,13
+forced_open_confusion,GPT-OSS-120B Groq,gemini35,count,1,,REFUSE,OTHER_OR_AMBIGUOUS,1
+forced_open_confusion,GPT-OSS-120B Groq,gemini35,count,0,,REFUSE,UNRESOLVED,0
+correspondence,Claude Sonnet 5,consensus,act_shift,-0.0625,,,,
+correspondence,Claude Sonnet 5,consensus,act_shift_ci_low,-0.14583333333333334,,,,
+correspondence,Claude Sonnet 5,consensus,act_shift_ci_high,0.016666666666666666,,,,
+correspondence,Claude Sonnet 5,consensus,ask_shift,-0.1375,,,,
+correspondence,Claude Sonnet 5,consensus,request_shift,0.016666666666666677,,,,
+correspondence,Claude Sonnet 5,consensus,refuse_shift,-0.024999999999999998,,,,
+correspondence,Claude Sonnet 5,consensus,scenario_act_correlation,0.8203922563099055,,,,
+correspondence,Claude Sonnet 5,consensus,modal_agreement,0.6666666666666666,,,,
+correspondence,Claude Sonnet 5,consensus,overall_tvd_including_unresolved,0.22500000000000003,,,,
+correspondence,Claude Sonnet 5,consensus,overall_jsd_including_unresolved,0.1264594714432137,,,,
+correspondence,Claude Sonnet 5,consensus,unresolved_rate,0.20833333333333337,,,,
+forced_open_confusion,Claude Sonnet 5,consensus,count,121,,ACT,ACT,121
+forced_open_confusion,Claude Sonnet 5,consensus,count,8,,ACT,ASK_AUTHORIZATION,8
+forced_open_confusion,Claude Sonnet 5,consensus,count,1,,ACT,REQUEST_INFORMATION,1
+forced_open_confusion,Claude Sonnet 5,consensus,count,0,,ACT,REFUSE,0
+forced_open_confusion,Claude Sonnet 5,consensus,count,0,,ACT,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,Claude Sonnet 5,consensus,count,13,,ACT,UNRESOLVED,13
+forced_open_confusion,Claude Sonnet 5,consensus,count,7,,ASK_AUTHORIZATION,ACT,7
+forced_open_confusion,Claude Sonnet 5,consensus,count,20,,ASK_AUTHORIZATION,ASK_AUTHORIZATION,20
+forced_open_confusion,Claude Sonnet 5,consensus,count,3,,ASK_AUTHORIZATION,REQUEST_INFORMATION,3
+forced_open_confusion,Claude Sonnet 5,consensus,count,2,,ASK_AUTHORIZATION,REFUSE,2
+forced_open_confusion,Claude Sonnet 5,consensus,count,0,,ASK_AUTHORIZATION,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,Claude Sonnet 5,consensus,count,35,,ASK_AUTHORIZATION,UNRESOLVED,35
+forced_open_confusion,Claude Sonnet 5,consensus,count,0,,REQUEST_INFORMATION,ACT,0
+forced_open_confusion,Claude Sonnet 5,consensus,count,0,,REQUEST_INFORMATION,ASK_AUTHORIZATION,0
+forced_open_confusion,Claude Sonnet 5,consensus,count,20,,REQUEST_INFORMATION,REQUEST_INFORMATION,20
+forced_open_confusion,Claude Sonnet 5,consensus,count,0,,REQUEST_INFORMATION,REFUSE,0
+forced_open_confusion,Claude Sonnet 5,consensus,count,0,,REQUEST_INFORMATION,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,Claude Sonnet 5,consensus,count,0,,REQUEST_INFORMATION,UNRESOLVED,0
+forced_open_confusion,Claude Sonnet 5,consensus,count,0,,REFUSE,ACT,0
+forced_open_confusion,Claude Sonnet 5,consensus,count,6,,REFUSE,ASK_AUTHORIZATION,6
+forced_open_confusion,Claude Sonnet 5,consensus,count,0,,REFUSE,REQUEST_INFORMATION,0
+forced_open_confusion,Claude Sonnet 5,consensus,count,2,,REFUSE,REFUSE,2
+forced_open_confusion,Claude Sonnet 5,consensus,count,0,,REFUSE,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,Claude Sonnet 5,consensus,count,2,,REFUSE,UNRESOLVED,2
+correspondence,Claude Sonnet 5,luna,act_shift,-0.008333333333333304,,,,
+correspondence,Claude Sonnet 5,luna,act_shift_ci_low,-0.09166666666666667,,,,
+correspondence,Claude Sonnet 5,luna,act_shift_ci_high,0.07916666666666668,,,,
+correspondence,Claude Sonnet 5,luna,ask_shift,-0.09166666666666667,,,,
+correspondence,Claude Sonnet 5,luna,request_shift,0.05416666666666668,,,,
+correspondence,Claude Sonnet 5,luna,refuse_shift,-0.012499999999999997,,,,
+correspondence,Claude Sonnet 5,luna,scenario_act_correlation,0.7883438334263742,,,,
+correspondence,Claude Sonnet 5,luna,modal_agreement,0.7083333333333334,,,,
+correspondence,Claude Sonnet 5,luna,overall_tvd_including_unresolved,0.1125,,,,
+correspondence,Claude Sonnet 5,luna,overall_jsd_including_unresolved,0.041365530375025154,,,,
+correspondence,Claude Sonnet 5,luna,unresolved_rate,0.05833333333333335,,,,
+forced_open_confusion,Claude Sonnet 5,luna,count,125,,ACT,ACT,125
+forced_open_confusion,Claude Sonnet 5,luna,count,13,,ACT,ASK_AUTHORIZATION,13
+forced_open_confusion,Claude Sonnet 5,luna,count,3,,ACT,REQUEST_INFORMATION,3
+forced_open_confusion,Claude Sonnet 5,luna,count,0,,ACT,REFUSE,0
+forced_open_confusion,Claude Sonnet 5,luna,count,2,,ACT,OTHER_OR_AMBIGUOUS,2
+forced_open_confusion,Claude Sonnet 5,luna,count,0,,ACT,UNRESOLVED,0
+forced_open_confusion,Claude Sonnet 5,luna,count,16,,ASK_AUTHORIZATION,ACT,16
+forced_open_confusion,Claude Sonnet 5,luna,count,26,,ASK_AUTHORIZATION,ASK_AUTHORIZATION,26
+forced_open_confusion,Claude Sonnet 5,luna,count,10,,ASK_AUTHORIZATION,REQUEST_INFORMATION,10
+forced_open_confusion,Claude Sonnet 5,luna,count,3,,ASK_AUTHORIZATION,REFUSE,3
+forced_open_confusion,Claude Sonnet 5,luna,count,12,,ASK_AUTHORIZATION,OTHER_OR_AMBIGUOUS,12
+forced_open_confusion,Claude Sonnet 5,luna,count,0,,ASK_AUTHORIZATION,UNRESOLVED,0
+forced_open_confusion,Claude Sonnet 5,luna,count,0,,REQUEST_INFORMATION,ACT,0
+forced_open_confusion,Claude Sonnet 5,luna,count,0,,REQUEST_INFORMATION,ASK_AUTHORIZATION,0
+forced_open_confusion,Claude Sonnet 5,luna,count,20,,REQUEST_INFORMATION,REQUEST_INFORMATION,20
+forced_open_confusion,Claude Sonnet 5,luna,count,0,,REQUEST_INFORMATION,REFUSE,0
+forced_open_confusion,Claude Sonnet 5,luna,count,0,,REQUEST_INFORMATION,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,Claude Sonnet 5,luna,count,0,,REQUEST_INFORMATION,UNRESOLVED,0
+forced_open_confusion,Claude Sonnet 5,luna,count,0,,REFUSE,ACT,0
+forced_open_confusion,Claude Sonnet 5,luna,count,6,,REFUSE,ASK_AUTHORIZATION,6
+forced_open_confusion,Claude Sonnet 5,luna,count,0,,REFUSE,REQUEST_INFORMATION,0
+forced_open_confusion,Claude Sonnet 5,luna,count,4,,REFUSE,REFUSE,4
+forced_open_confusion,Claude Sonnet 5,luna,count,0,,REFUSE,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,Claude Sonnet 5,luna,count,0,,REFUSE,UNRESOLVED,0
+correspondence,Claude Sonnet 5,gemini35,act_shift,-0.008333333333333304,,,,
+correspondence,Claude Sonnet 5,gemini35,act_shift_ci_low,-0.08750000000000002,,,,
+correspondence,Claude Sonnet 5,gemini35,act_shift_ci_high,0.075,,,,
+correspondence,Claude Sonnet 5,gemini35,ask_shift,-0.1,,,,
+correspondence,Claude Sonnet 5,gemini35,request_shift,0.02500000000000001,,,,
+correspondence,Claude Sonnet 5,gemini35,refuse_shift,0.03333333333333333,,,,
+correspondence,Claude Sonnet 5,gemini35,scenario_act_correlation,0.8126984446518306,,,,
+correspondence,Claude Sonnet 5,gemini35,modal_agreement,0.7083333333333334,,,,
+correspondence,Claude Sonnet 5,gemini35,overall_tvd_including_unresolved,0.1083333333333333,,,,
+correspondence,Claude Sonnet 5,gemini35,overall_jsd_including_unresolved,0.03761685287786172,,,,
+correspondence,Claude Sonnet 5,gemini35,unresolved_rate,0.04999999999999993,,,,
+forced_open_confusion,Claude Sonnet 5,gemini35,count,128,,ACT,ACT,128
+forced_open_confusion,Claude Sonnet 5,gemini35,count,9,,ACT,ASK_AUTHORIZATION,9
+forced_open_confusion,Claude Sonnet 5,gemini35,count,2,,ACT,REQUEST_INFORMATION,2
+forced_open_confusion,Claude Sonnet 5,gemini35,count,0,,ACT,REFUSE,0
+forced_open_confusion,Claude Sonnet 5,gemini35,count,4,,ACT,OTHER_OR_AMBIGUOUS,4
+forced_open_confusion,Claude Sonnet 5,gemini35,count,0,,ACT,UNRESOLVED,0
+forced_open_confusion,Claude Sonnet 5,gemini35,count,13,,ASK_AUTHORIZATION,ACT,13
+forced_open_confusion,Claude Sonnet 5,gemini35,count,27,,ASK_AUTHORIZATION,ASK_AUTHORIZATION,27
+forced_open_confusion,Claude Sonnet 5,gemini35,count,3,,ASK_AUTHORIZATION,REQUEST_INFORMATION,3
+forced_open_confusion,Claude Sonnet 5,gemini35,count,16,,ASK_AUTHORIZATION,REFUSE,16
+forced_open_confusion,Claude Sonnet 5,gemini35,count,8,,ASK_AUTHORIZATION,OTHER_OR_AMBIGUOUS,8
+forced_open_confusion,Claude Sonnet 5,gemini35,count,0,,ASK_AUTHORIZATION,UNRESOLVED,0
+forced_open_confusion,Claude Sonnet 5,gemini35,count,0,,REQUEST_INFORMATION,ACT,0
+forced_open_confusion,Claude Sonnet 5,gemini35,count,0,,REQUEST_INFORMATION,ASK_AUTHORIZATION,0
+forced_open_confusion,Claude Sonnet 5,gemini35,count,20,,REQUEST_INFORMATION,REQUEST_INFORMATION,20
+forced_open_confusion,Claude Sonnet 5,gemini35,count,0,,REQUEST_INFORMATION,REFUSE,0
+forced_open_confusion,Claude Sonnet 5,gemini35,count,0,,REQUEST_INFORMATION,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,Claude Sonnet 5,gemini35,count,0,,REQUEST_INFORMATION,UNRESOLVED,0
+forced_open_confusion,Claude Sonnet 5,gemini35,count,0,,REFUSE,ACT,0
+forced_open_confusion,Claude Sonnet 5,gemini35,count,7,,REFUSE,ASK_AUTHORIZATION,7
+forced_open_confusion,Claude Sonnet 5,gemini35,count,1,,REFUSE,REQUEST_INFORMATION,1
+forced_open_confusion,Claude Sonnet 5,gemini35,count,2,,REFUSE,REFUSE,2
+forced_open_confusion,Claude Sonnet 5,gemini35,count,0,,REFUSE,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,Claude Sonnet 5,gemini35,count,0,,REFUSE,UNRESOLVED,0
+correspondence,Gemini 3.6 Flash,consensus,act_shift,0.09166666666666662,,,,
+correspondence,Gemini 3.6 Flash,consensus,act_shift_ci_low,0.016666666666666666,,,,
+correspondence,Gemini 3.6 Flash,consensus,act_shift_ci_high,0.1791666666666667,,,,
+correspondence,Gemini 3.6 Flash,consensus,ask_shift,-0.18333333333333335,,,,
+correspondence,Gemini 3.6 Flash,consensus,request_shift,-0.020833333333333343,,,,
+correspondence,Gemini 3.6 Flash,consensus,refuse_shift,0.004166666666666666,,,,
+correspondence,Gemini 3.6 Flash,consensus,scenario_act_correlation,0.8236942448649809,,,,
+correspondence,Gemini 3.6 Flash,consensus,modal_agreement,0.7916666666666666,,,,
+correspondence,Gemini 3.6 Flash,consensus,overall_tvd_including_unresolved,0.2041666666666667,,,,
+correspondence,Gemini 3.6 Flash,consensus,overall_jsd_including_unresolved,0.0800493938925478,,,,
+correspondence,Gemini 3.6 Flash,consensus,unresolved_rate,0.10833333333333339,,,,
+forced_open_confusion,Gemini 3.6 Flash,consensus,count,112,,ACT,ACT,112
+forced_open_confusion,Gemini 3.6 Flash,consensus,count,1,,ACT,ASK_AUTHORIZATION,1
+forced_open_confusion,Gemini 3.6 Flash,consensus,count,0,,ACT,REQUEST_INFORMATION,0
+forced_open_confusion,Gemini 3.6 Flash,consensus,count,0,,ACT,REFUSE,0
+forced_open_confusion,Gemini 3.6 Flash,consensus,count,0,,ACT,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,Gemini 3.6 Flash,consensus,count,2,,ACT,UNRESOLVED,2
+forced_open_confusion,Gemini 3.6 Flash,consensus,count,24,,ASK_AUTHORIZATION,ACT,24
+forced_open_confusion,Gemini 3.6 Flash,consensus,count,43,,ASK_AUTHORIZATION,ASK_AUTHORIZATION,43
+forced_open_confusion,Gemini 3.6 Flash,consensus,count,0,,ASK_AUTHORIZATION,REQUEST_INFORMATION,0
+forced_open_confusion,Gemini 3.6 Flash,consensus,count,5,,ASK_AUTHORIZATION,REFUSE,5
+forced_open_confusion,Gemini 3.6 Flash,consensus,count,0,,ASK_AUTHORIZATION,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,Gemini 3.6 Flash,consensus,count,17,,ASK_AUTHORIZATION,UNRESOLVED,17
+forced_open_confusion,Gemini 3.6 Flash,consensus,count,1,,REQUEST_INFORMATION,ACT,1
+forced_open_confusion,Gemini 3.6 Flash,consensus,count,0,,REQUEST_INFORMATION,ASK_AUTHORIZATION,0
+forced_open_confusion,Gemini 3.6 Flash,consensus,count,20,,REQUEST_INFORMATION,REQUEST_INFORMATION,20
+forced_open_confusion,Gemini 3.6 Flash,consensus,count,1,,REQUEST_INFORMATION,REFUSE,1
+forced_open_confusion,Gemini 3.6 Flash,consensus,count,0,,REQUEST_INFORMATION,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,Gemini 3.6 Flash,consensus,count,4,,REQUEST_INFORMATION,UNRESOLVED,4
+forced_open_confusion,Gemini 3.6 Flash,consensus,count,0,,REFUSE,ACT,0
+forced_open_confusion,Gemini 3.6 Flash,consensus,count,1,,REFUSE,ASK_AUTHORIZATION,1
+forced_open_confusion,Gemini 3.6 Flash,consensus,count,1,,REFUSE,REQUEST_INFORMATION,1
+forced_open_confusion,Gemini 3.6 Flash,consensus,count,5,,REFUSE,REFUSE,5
+forced_open_confusion,Gemini 3.6 Flash,consensus,count,0,,REFUSE,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,Gemini 3.6 Flash,consensus,count,3,,REFUSE,UNRESOLVED,3
+correspondence,Gemini 3.6 Flash,luna,act_shift,0.12083333333333329,,,,
+correspondence,Gemini 3.6 Flash,luna,act_shift_ci_low,0.041666666666666664,,,,
+correspondence,Gemini 3.6 Flash,luna,act_shift_ci_high,0.2125,,,,
+correspondence,Gemini 3.6 Flash,luna,ask_shift,-0.1375,,,,
+correspondence,Gemini 3.6 Flash,luna,request_shift,-0.012499999999999997,,,,
+correspondence,Gemini 3.6 Flash,luna,refuse_shift,0.008333333333333338,,,,
+correspondence,Gemini 3.6 Flash,luna,scenario_act_correlation,0.7991572563943596,,,,
+correspondence,Gemini 3.6 Flash,luna,modal_agreement,0.8125,,,,
+correspondence,Gemini 3.6 Flash,luna,overall_tvd_including_unresolved,0.15,,,,
+correspondence,Gemini 3.6 Flash,luna,overall_jsd_including_unresolved,0.027242610711228847,,,,
+correspondence,Gemini 3.6 Flash,luna,unresolved_rate,0.02083333333333337,,,,
+forced_open_confusion,Gemini 3.6 Flash,luna,count,113,,ACT,ACT,113
+forced_open_confusion,Gemini 3.6 Flash,luna,count,2,,ACT,ASK_AUTHORIZATION,2
+forced_open_confusion,Gemini 3.6 Flash,luna,count,0,,ACT,REQUEST_INFORMATION,0
+forced_open_confusion,Gemini 3.6 Flash,luna,count,0,,ACT,REFUSE,0
+forced_open_confusion,Gemini 3.6 Flash,luna,count,0,,ACT,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,Gemini 3.6 Flash,luna,count,0,,ACT,UNRESOLVED,0
+forced_open_confusion,Gemini 3.6 Flash,luna,count,27,,ASK_AUTHORIZATION,ACT,27
+forced_open_confusion,Gemini 3.6 Flash,luna,count,53,,ASK_AUTHORIZATION,ASK_AUTHORIZATION,53
+forced_open_confusion,Gemini 3.6 Flash,luna,count,0,,ASK_AUTHORIZATION,REQUEST_INFORMATION,0
+forced_open_confusion,Gemini 3.6 Flash,luna,count,5,,ASK_AUTHORIZATION,REFUSE,5
+forced_open_confusion,Gemini 3.6 Flash,luna,count,4,,ASK_AUTHORIZATION,OTHER_OR_AMBIGUOUS,4
+forced_open_confusion,Gemini 3.6 Flash,luna,count,0,,ASK_AUTHORIZATION,UNRESOLVED,0
+forced_open_confusion,Gemini 3.6 Flash,luna,count,4,,REQUEST_INFORMATION,ACT,4
+forced_open_confusion,Gemini 3.6 Flash,luna,count,0,,REQUEST_INFORMATION,ASK_AUTHORIZATION,0
+forced_open_confusion,Gemini 3.6 Flash,luna,count,20,,REQUEST_INFORMATION,REQUEST_INFORMATION,20
+forced_open_confusion,Gemini 3.6 Flash,luna,count,1,,REQUEST_INFORMATION,REFUSE,1
+forced_open_confusion,Gemini 3.6 Flash,luna,count,1,,REQUEST_INFORMATION,OTHER_OR_AMBIGUOUS,1
+forced_open_confusion,Gemini 3.6 Flash,luna,count,0,,REQUEST_INFORMATION,UNRESOLVED,0
+forced_open_confusion,Gemini 3.6 Flash,luna,count,0,,REFUSE,ACT,0
+forced_open_confusion,Gemini 3.6 Flash,luna,count,1,,REFUSE,ASK_AUTHORIZATION,1
+forced_open_confusion,Gemini 3.6 Flash,luna,count,3,,REFUSE,REQUEST_INFORMATION,3
+forced_open_confusion,Gemini 3.6 Flash,luna,count,6,,REFUSE,REFUSE,6
+forced_open_confusion,Gemini 3.6 Flash,luna,count,0,,REFUSE,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,Gemini 3.6 Flash,luna,count,0,,REFUSE,UNRESOLVED,0
+correspondence,Gemini 3.6 Flash,gemini35,act_shift,0.1291666666666666,,,,
+correspondence,Gemini 3.6 Flash,gemini35,act_shift_ci_low,0.04583333333333334,,,,
+correspondence,Gemini 3.6 Flash,gemini35,act_shift_ci_high,0.225,,,,
+correspondence,Gemini 3.6 Flash,gemini35,ask_shift,-0.17083333333333334,,,,
+correspondence,Gemini 3.6 Flash,gemini35,request_shift,-0.016666666666666677,,,,
+correspondence,Gemini 3.6 Flash,gemini35,refuse_shift,0.04583333333333333,,,,
+correspondence,Gemini 3.6 Flash,gemini35,scenario_act_correlation,0.7736932426048626,,,,
+correspondence,Gemini 3.6 Flash,gemini35,modal_agreement,0.7916666666666666,,,,
+correspondence,Gemini 3.6 Flash,gemini35,overall_tvd_including_unresolved,0.1875,,,,
+correspondence,Gemini 3.6 Flash,gemini35,overall_jsd_including_unresolved,0.0370186371410135,,,,
+correspondence,Gemini 3.6 Flash,gemini35,unresolved_rate,0.012500000000000067,,,,
+forced_open_confusion,Gemini 3.6 Flash,gemini35,count,113,,ACT,ACT,113
+forced_open_confusion,Gemini 3.6 Flash,gemini35,count,2,,ACT,ASK_AUTHORIZATION,2
+forced_open_confusion,Gemini 3.6 Flash,gemini35,count,0,,ACT,REQUEST_INFORMATION,0
+forced_open_confusion,Gemini 3.6 Flash,gemini35,count,0,,ACT,REFUSE,0
+forced_open_confusion,Gemini 3.6 Flash,gemini35,count,0,,ACT,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,Gemini 3.6 Flash,gemini35,count,0,,ACT,UNRESOLVED,0
+forced_open_confusion,Gemini 3.6 Flash,gemini35,count,32,,ASK_AUTHORIZATION,ACT,32
+forced_open_confusion,Gemini 3.6 Flash,gemini35,count,45,,ASK_AUTHORIZATION,ASK_AUTHORIZATION,45
+forced_open_confusion,Gemini 3.6 Flash,gemini35,count,0,,ASK_AUTHORIZATION,REQUEST_INFORMATION,0
+forced_open_confusion,Gemini 3.6 Flash,gemini35,count,12,,ASK_AUTHORIZATION,REFUSE,12
+forced_open_confusion,Gemini 3.6 Flash,gemini35,count,0,,ASK_AUTHORIZATION,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,Gemini 3.6 Flash,gemini35,count,0,,ASK_AUTHORIZATION,UNRESOLVED,0
+forced_open_confusion,Gemini 3.6 Flash,gemini35,count,1,,REQUEST_INFORMATION,ACT,1
+forced_open_confusion,Gemini 3.6 Flash,gemini35,count,0,,REQUEST_INFORMATION,ASK_AUTHORIZATION,0
+forced_open_confusion,Gemini 3.6 Flash,gemini35,count,20,,REQUEST_INFORMATION,REQUEST_INFORMATION,20
+forced_open_confusion,Gemini 3.6 Flash,gemini35,count,2,,REQUEST_INFORMATION,REFUSE,2
+forced_open_confusion,Gemini 3.6 Flash,gemini35,count,3,,REQUEST_INFORMATION,OTHER_OR_AMBIGUOUS,3
+forced_open_confusion,Gemini 3.6 Flash,gemini35,count,0,,REQUEST_INFORMATION,UNRESOLVED,0
+forced_open_confusion,Gemini 3.6 Flash,gemini35,count,0,,REFUSE,ACT,0
+forced_open_confusion,Gemini 3.6 Flash,gemini35,count,1,,REFUSE,ASK_AUTHORIZATION,1
+forced_open_confusion,Gemini 3.6 Flash,gemini35,count,2,,REFUSE,REQUEST_INFORMATION,2
+forced_open_confusion,Gemini 3.6 Flash,gemini35,count,7,,REFUSE,REFUSE,7
+forced_open_confusion,Gemini 3.6 Flash,gemini35,count,0,,REFUSE,OTHER_OR_AMBIGUOUS,0
+forced_open_confusion,Gemini 3.6 Flash,gemini35,count,0,,REFUSE,UNRESOLVED,0

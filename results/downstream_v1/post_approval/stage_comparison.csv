@@ -1,0 +1,11 @@
+analysis_status,endpoint_key,model,parent_valid_trajectories,parent_terminal_technical_failures,parent_ask_eligible,parent_ask_rate_among_valid,offline_act_rate_primary29,continuation_attempted,continuation_valid,continuation_technical_failures,post_approval_any_tool_rate,post_approval_candidate_tool_rate,measurable_candidate_equivalent_rate,candidate_equivalent_given_candidate_tool,candidate_equivalent_given_any_tool,same_tool_non_equivalent_count,different_tool_count,ask_again_count,request_information_count,refuse_count,other_or_max_turn_count
+primary_complete_parent,sol,GPT-5.6 Sol,240,0,38,0.15833333333333333,0.7241379310344828,38,38,0,0.7631578947368421,0.7631578947368421,0.4782608695652174,0.5789473684210527,0.5789473684210527,8,0,1,4,0,4
+primary_complete_parent,oss120,GPT-OSS-120B,240,0,11,0.04583333333333333,0.7034482758620689,11,11,0,0.7272727272727273,0.7272727272727273,0.0,0.0,0.0,6,0,1,0,1,1
+primary_complete_parent,sonnet,Claude Sonnet 5,240,0,48,0.2,0.6413793103448275,48,48,0,0.8333333333333334,0.8333333333333334,0.36,0.4090909090909091,0.4090909090909091,13,0,3,4,0,1
+primary_complete_parent,gemini36,Gemini 3.6 Flash (corrected),240,0,16,0.06666666666666667,0.6137931034482759,16,16,0,0.9375,0.9375,0.5,0.5,0.5,5,0,0,1,0,0
+primary_complete_parent,terra,GPT-5.6 Terra,240,0,30,0.125,0.696551724137931,30,30,0,0.9,0.9,0.47368421052631576,0.5294117647058824,0.5294117647058824,8,0,3,0,0,0
+primary_complete_parent,luna,GPT-5.6 Luna,240,0,35,0.14583333333333334,0.6482758620689655,35,35,0,0.7714285714285715,0.7714285714285715,0.38461538461538464,0.43478260869565216,0.43478260869565216,13,0,3,3,1,1
+primary_complete_parent,opus,Claude Opus 4.8,240,0,39,0.1625,0.6827586206896552,39,39,0,0.6666666666666666,0.6666666666666666,0.28,0.4666666666666667,0.4666666666666667,8,0,3,8,0,2
+primary_complete_parent,flashlite,Gemini 3.5 Flash-Lite,240,0,10,0.041666666666666664,0.45517241379310347,10,10,0,1.0,1.0,0.5,0.5,0.5,5,0,0,0,0,0
+partial_parent_sensitivity,oss20,GPT-OSS-20B,239,1,1,0.0041841004184100415,0.6875,1,1,0,0.0,0.0,,,,0,0,0,1,0,0
+partial_parent_sensitivity,qwen,Qwen 3.6 27B,209,31,12,0.05741626794258373,0.6259541984732825,12,12,0,1.0,1.0,0.6,0.6,0.6,4,0,0,0,0,0

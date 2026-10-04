@@ -1,0 +1,289 @@
+endpoint_key,endpoint,condition,coding_scheme,factor,n_pairs,act_effect_high_minus_low,act_effect_ci_low,act_effect_ci_high,original_act_effect,effect_difference_vs_original,sign_agreement_with_original,pair_effect_correlation_with_original,bootstrap_unit
+sol,GPT-5.6 Sol,frozen_original,source,scope,4,-1.0,-1.0,-1.0,-1.0,0.0,1,nan,matched_pair
+sol,GPT-5.6 Sol,frozen_original,source,stakes,4,-0.9,-1.0,-0.7000000000000001,-0.9,0.0,1,0.9999999999999999,matched_pair
+sol,GPT-5.6 Sol,frozen_original,source,reversibility,4,-0.5,-1.0,0.0,-0.5,0.0,1,1.0,matched_pair
+sol,GPT-5.6 Sol,frozen_original,source,external_visibility,4,-0.15,-0.30000000000000004,0.0,-0.15,0.0,1,1.0,matched_pair
+sol,GPT-5.6 Sol,balanced_option_order,source,scope,4,-1.0,-1.0,-1.0,-1.0,0.0,1,nan,matched_pair
+sol,GPT-5.6 Sol,balanced_option_order,source,stakes,4,-0.7,-1.0,-0.4,-0.9,0.20000000000000007,1,0.5773502691896257,matched_pair
+sol,GPT-5.6 Sol,balanced_option_order,source,reversibility,4,-0.6,-1.0,-0.2,-0.5,-0.09999999999999998,1,0.9428090415820634,matched_pair
+sol,GPT-5.6 Sol,balanced_option_order,source,external_visibility,4,-0.05000000000000002,-0.30000000000000004,0.14999999999999997,-0.15,0.09999999999999998,1,0.6225430174794674,matched_pair
+sol,GPT-5.6 Sol,concise_equivalent,source,scope,4,-1.0,-1.0,-1.0,-1.0,0.0,1,nan,matched_pair
+sol,GPT-5.6 Sol,concise_equivalent,source,stakes,4,-0.75,-1.0,-0.39999999999999997,-0.9,0.15000000000000002,1,0.9684959969581861,matched_pair
+sol,GPT-5.6 Sol,concise_equivalent,source,reversibility,4,-0.5,-0.9,-0.09999999999999998,-0.5,0.0,1,0.9701425001453319,matched_pair
+sol,GPT-5.6 Sol,concise_equivalent,source,external_visibility,4,-0.04999999999999999,-0.14999999999999997,0.0,-0.15,0.1,1,0.8703882797784892,matched_pair
+sol,GPT-5.6 Sol,policy_oriented_equivalent,source,scope,4,-1.0,-1.0,-1.0,-1.0,0.0,1,nan,matched_pair
+sol,GPT-5.6 Sol,policy_oriented_equivalent,source,stakes,4,-0.65,-0.9,-0.35,-0.9,0.25,1,0.09759000729485323,matched_pair
+sol,GPT-5.6 Sol,policy_oriented_equivalent,source,reversibility,4,-0.7,-1.0,-0.25,-0.5,-0.19999999999999996,1,0.7276068751089989,matched_pair
+sol,GPT-5.6 Sol,policy_oriented_equivalent,source,external_visibility,4,-0.2,-0.75,0.14999999999999997,-0.15,-0.05000000000000002,1,0.8999540851465151,matched_pair
+sol,GPT-5.6 Sol,open_ended,strict_consensus,scope,4,-1.0,-1.0,-1.0,-1.0,0.0,1,nan,matched_pair
+sol,GPT-5.6 Sol,open_ended,strict_consensus,stakes,4,-0.8,-0.95,-0.65,-0.9,0.09999999999999998,1,-1.1102230246251565e-16,matched_pair
+sol,GPT-5.6 Sol,open_ended,strict_consensus,reversibility,4,-0.75,-1.0,-0.25,-0.5,-0.25,1,0.5773502691896256,matched_pair
+sol,GPT-5.6 Sol,open_ended,strict_consensus,external_visibility,4,-0.15,-0.30000000000000004,0.0,-0.15,0.0,1,1.0,matched_pair
+sol,GPT-5.6 Sol,open_ended,luna,scope,4,-0.8,-1.0,-0.39999999999999997,-1.0,0.19999999999999996,1,nan,matched_pair
+sol,GPT-5.6 Sol,open_ended,luna,stakes,4,-0.8,-0.95,-0.65,-0.9,0.09999999999999998,1,-1.1102230246251565e-16,matched_pair
+sol,GPT-5.6 Sol,open_ended,luna,reversibility,4,-0.5,-0.9,-0.09999999999999998,-0.5,0.0,1,0.2425356250363329,matched_pair
+sol,GPT-5.6 Sol,open_ended,luna,external_visibility,4,-0.15,-0.30000000000000004,0.0,-0.15,0.0,1,1.0,matched_pair
+sol,GPT-5.6 Sol,open_ended,gemini35,scope,4,-0.95,-1.0,-0.8500000000000001,-1.0,0.050000000000000044,1,nan,matched_pair
+sol,GPT-5.6 Sol,open_ended,gemini35,stakes,4,-0.95,-1.0,-0.8500000000000001,-0.9,-0.04999999999999993,1,1.0,matched_pair
+sol,GPT-5.6 Sol,open_ended,gemini35,reversibility,4,-0.75,-1.0,-0.25,-0.5,-0.25,1,0.5773502691896256,matched_pair
+sol,GPT-5.6 Sol,open_ended,gemini35,external_visibility,4,-0.15,-0.30000000000000004,0.0,-0.15,0.0,1,1.0,matched_pair
+oss120,GPT-OSS-120B,frozen_original,source,scope,4,-0.85,-1.0,-0.5499999999999999,-0.85,0.0,1,0.9999999999999997,matched_pair
+oss120,GPT-OSS-120B,frozen_original,source,stakes,4,-0.85,-1.0,-0.5499999999999999,-0.85,0.0,1,0.9999999999999997,matched_pair
+oss120,GPT-OSS-120B,frozen_original,source,reversibility,4,-0.25,-0.75,0.0,-0.25,0.0,1,0.9999999999999996,matched_pair
+oss120,GPT-OSS-120B,frozen_original,source,external_visibility,4,0.25,0.0,0.5,0.25,0.0,1,1.0,matched_pair
+oss120,GPT-OSS-120B,balanced_option_order,source,scope,4,-0.7999999999999999,-1.0,-0.5499999999999999,-0.85,0.050000000000000044,1,0.9428090415820634,matched_pair
+oss120,GPT-OSS-120B,balanced_option_order,source,stakes,4,-0.5,-0.7,-0.39999999999999997,-0.85,0.35,1,0.33333333333333337,matched_pair
+oss120,GPT-OSS-120B,balanced_option_order,source,reversibility,4,-0.15000000000000002,-0.45000000000000007,0.0,-0.25,0.09999999999999998,1,0.9999999999999996,matched_pair
+oss120,GPT-OSS-120B,balanced_option_order,source,external_visibility,4,-0.09999999999999999,-0.19999999999999998,0.0,0.25,-0.35,0,-0.19245008972987532,matched_pair
+oss120,GPT-OSS-120B,concise_equivalent,source,scope,4,-0.55,-0.75,-0.3,-0.85,0.29999999999999993,1,-0.1324532357065044,matched_pair
+oss120,GPT-OSS-120B,concise_equivalent,source,stakes,4,-0.19999999999999998,-0.75,0.15000000000000005,-0.85,0.65,1,0.4923659639173309,matched_pair
+oss120,GPT-OSS-120B,concise_equivalent,source,reversibility,4,-0.15000000000000002,-0.45000000000000007,0.0,-0.25,0.09999999999999998,1,0.9999999999999996,matched_pair
+oss120,GPT-OSS-120B,concise_equivalent,source,external_visibility,4,-0.09999999999999998,-0.19999999999999996,0.0,0.25,-0.35,0,-0.9622504486493764,matched_pair
+oss120,GPT-OSS-120B,policy_oriented_equivalent,source,scope,4,-0.05,-0.15000000000000002,0.0,-0.85,0.7999999999999999,1,0.33333333333333326,matched_pair
+oss120,GPT-OSS-120B,policy_oriented_equivalent,source,stakes,4,-0.05,-0.30000000000000004,0.15000000000000002,-0.85,0.7999999999999999,1,0.6622661785325218,matched_pair
+oss120,GPT-OSS-120B,policy_oriented_equivalent,source,reversibility,4,-0.1,-0.2,0.0,-0.25,0.15,1,0.5773502691896256,matched_pair
+oss120,GPT-OSS-120B,policy_oriented_equivalent,source,external_visibility,4,-0.2,-0.44999999999999996,0.0,0.25,-0.45,0,0.4714045207910318,matched_pair
+oss120,GPT-OSS-120B,open_ended,strict_consensus,scope,4,-0.85,-1.0,-0.5499999999999999,-0.85,0.0,1,-0.33333333333333326,matched_pair
+oss120,GPT-OSS-120B,open_ended,strict_consensus,stakes,4,-0.75,-1.0,-0.39999999999999997,-0.85,0.09999999999999998,1,0.9684959969581859,matched_pair
+oss120,GPT-OSS-120B,open_ended,strict_consensus,reversibility,4,-0.75,-1.0,-0.25,-0.25,-0.5,1,0.3333333333333332,matched_pair
+oss120,GPT-OSS-120B,open_ended,strict_consensus,external_visibility,4,-0.1,-0.30000000000000004,0.0,0.25,-0.35,0,0.5555555555555556,matched_pair
+oss120,GPT-OSS-120B,open_ended,luna,scope,4,-0.8,-1.0,-0.5499999999999999,-0.85,0.04999999999999993,1,-0.4714045207910316,matched_pair
+oss120,GPT-OSS-120B,open_ended,luna,stakes,4,-0.75,-1.0,-0.39999999999999997,-0.85,0.09999999999999998,1,0.9684959969581859,matched_pair
+oss120,GPT-OSS-120B,open_ended,luna,reversibility,4,-0.75,-1.0,-0.25,-0.25,-0.5,1,0.3333333333333332,matched_pair
+oss120,GPT-OSS-120B,open_ended,luna,external_visibility,4,-0.1,-0.30000000000000004,0.0,0.25,-0.35,0,0.5555555555555556,matched_pair
+oss120,GPT-OSS-120B,open_ended,gemini35,scope,4,-0.4,-0.7000000000000001,-0.09999999999999998,-0.85,0.44999999999999996,1,-0.36514837167011055,matched_pair
+oss120,GPT-OSS-120B,open_ended,gemini35,stakes,4,-0.75,-1.0,-0.25,-0.85,0.09999999999999998,1,0.9999999999999996,matched_pair
+oss120,GPT-OSS-120B,open_ended,gemini35,reversibility,4,-0.04999999999999999,-0.14999999999999997,0.0,-0.25,0.2,1,-0.33333333333333326,matched_pair
+oss120,GPT-OSS-120B,open_ended,gemini35,external_visibility,4,-0.04999999999999999,-0.14999999999999997,0.0,0.25,-0.3,0,0.5555555555555556,matched_pair
+oss20,GPT-OSS-20B,frozen_original,source,scope,4,-0.95,-1.0,-0.8500000000000001,-0.95,0.0,1,1.0,matched_pair
+oss20,GPT-OSS-20B,frozen_original,source,stakes,4,-0.55,-1.0,-0.09999999999999998,-0.55,0.0,1,1.0,matched_pair
+oss20,GPT-OSS-20B,frozen_original,source,reversibility,4,-0.4,-0.8,0.0,-0.4,0.0,1,1.0,matched_pair
+oss20,GPT-OSS-20B,frozen_original,source,external_visibility,4,-0.04999999999999999,-0.14999999999999997,0.0,-0.04999999999999999,0.0,1,1.0,matched_pair
+oss20,GPT-OSS-20B,balanced_option_order,source,scope,4,-0.65,-0.9,-0.4,-0.95,0.29999999999999993,1,0.5555555555555556,matched_pair
+oss20,GPT-OSS-20B,balanced_option_order,source,stakes,4,-0.45,-0.6,-0.3,-0.55,0.10000000000000003,1,0.8273792404018689,matched_pair
+oss20,GPT-OSS-20B,balanced_option_order,source,reversibility,4,-0.09999999999999998,-0.30000000000000004,0.10000000000000006,-0.4,0.30000000000000004,1,0.632455532033676,matched_pair
+oss20,GPT-OSS-20B,balanced_option_order,source,external_visibility,4,-0.04999999999999996,-0.19999999999999996,0.10000000000000006,-0.04999999999999999,2.7755575615628914e-17,1,-0.8703882797784893,matched_pair
+oss20,GPT-OSS-20B,concise_equivalent,source,scope,4,-0.8500000000000001,-1.0,-0.7,-0.95,0.09999999999999987,1,0.8703882797784893,matched_pair
+oss20,GPT-OSS-20B,concise_equivalent,source,stakes,4,-0.65,-0.95,-0.2,-0.55,-0.09999999999999998,1,0.7573747420517117,matched_pair
+oss20,GPT-OSS-20B,concise_equivalent,source,reversibility,4,-0.09999999999999998,-0.19999999999999996,0.0,-0.4,0.30000000000000004,1,0.9428090415820634,matched_pair
+oss20,GPT-OSS-20B,concise_equivalent,source,external_visibility,4,-0.19999999999999998,-0.35,-0.04999999999999999,-0.04999999999999999,-0.15,1,-1.1102230246251565e-16,matched_pair
+oss20,GPT-OSS-20B,policy_oriented_equivalent,source,scope,4,-0.25,-0.4,-0.1,-0.95,0.7,1,-0.5222329678670936,matched_pair
+oss20,GPT-OSS-20B,policy_oriented_equivalent,source,stakes,4,-0.1,-0.2,0.0,-0.55,0.45000000000000007,1,-0.10976425998969036,matched_pair
+oss20,GPT-OSS-20B,policy_oriented_equivalent,source,reversibility,4,-0.15000000000000002,-0.30000000000000004,0.0,-0.4,0.25,1,0.5685352436149611,matched_pair
+oss20,GPT-OSS-20B,policy_oriented_equivalent,source,external_visibility,4,-0.15000000000000002,-0.6000000000000001,0.15000000000000002,-0.04999999999999999,-0.10000000000000003,1,-0.22549380840084862,matched_pair
+oss20,GPT-OSS-20B,open_ended,strict_consensus,scope,4,-0.85,-1.0,-0.7,-0.95,0.09999999999999998,1,-0.5222329678670936,matched_pair
+oss20,GPT-OSS-20B,open_ended,strict_consensus,stakes,4,-0.75,-1.0,-0.5,-0.55,-0.19999999999999996,1,0.31686212526223895,matched_pair
+oss20,GPT-OSS-20B,open_ended,strict_consensus,reversibility,4,-0.7,-1.0,-0.25,-0.4,-0.29999999999999993,1,0.4001633653325206,matched_pair
+oss20,GPT-OSS-20B,open_ended,strict_consensus,external_visibility,4,-0.15,-0.30000000000000004,0.0,-0.04999999999999999,-0.1,1,-0.5222329678670936,matched_pair
+oss20,GPT-OSS-20B,open_ended,luna,scope,4,-0.8999999999999999,-1.0,-0.8,-0.95,0.050000000000000044,1,-0.5773502691896258,matched_pair
+oss20,GPT-OSS-20B,open_ended,luna,stakes,4,-0.75,-1.0,-0.5,-0.55,-0.19999999999999996,1,0.31686212526223895,matched_pair
+oss20,GPT-OSS-20B,open_ended,luna,reversibility,4,-0.75,-1.0,-0.25,-0.4,-0.35,1,0.5443310539518172,matched_pair
+oss20,GPT-OSS-20B,open_ended,luna,external_visibility,4,-0.15,-0.30000000000000004,0.0,-0.04999999999999999,-0.1,1,-0.5222329678670936,matched_pair
+oss20,GPT-OSS-20B,open_ended,gemini35,scope,4,-0.4,-0.8,-0.1,-0.95,0.5499999999999999,1,0.6172133998483678,matched_pair
+oss20,GPT-OSS-20B,open_ended,gemini35,stakes,4,-0.75,-1.0,-0.25,-0.55,-0.19999999999999996,1,0.6970966755769256,matched_pair
+oss20,GPT-OSS-20B,open_ended,gemini35,reversibility,4,-0.15000000000000002,-0.30000000000000004,0.0,-0.4,0.25,1,-0.14213381090374017,matched_pair
+oss20,GPT-OSS-20B,open_ended,gemini35,external_visibility,4,0.0,0.0,0.0,-0.04999999999999999,0.04999999999999999,0,nan,matched_pair
+terra,GPT-5.6 Terra,frozen_original,source,scope,4,-1.0,-1.0,-1.0,-1.0,0.0,1,nan,matched_pair
+terra,GPT-5.6 Terra,frozen_original,source,stakes,4,-0.8,-1.0,-0.39999999999999997,-0.8,0.0,1,0.9999999999999997,matched_pair
+terra,GPT-5.6 Terra,frozen_original,source,reversibility,4,-0.35,-0.75,0.0,-0.35,0.0,1,1.0,matched_pair
+terra,GPT-5.6 Terra,frozen_original,source,external_visibility,4,-0.15,-0.44999999999999996,0.0,-0.15,0.0,1,0.9999999999999997,matched_pair
+terra,GPT-5.6 Terra,balanced_option_order,source,scope,4,-0.5,-1.0,0.0,-1.0,0.5,1,nan,matched_pair
+terra,GPT-5.6 Terra,balanced_option_order,source,stakes,4,-0.15000000000000002,-0.30000000000000004,0.0,-0.8,0.65,1,-0.17407765595569777,matched_pair
+terra,GPT-5.6 Terra,balanced_option_order,source,reversibility,4,-0.5,-1.0,0.0,-0.35,-0.15000000000000002,1,0.36650833306891567,matched_pair
+terra,GPT-5.6 Terra,balanced_option_order,source,external_visibility,4,-0.5,-1.0,0.0,-0.15,-0.35,1,0.5773502691896257,matched_pair
+terra,GPT-5.6 Terra,concise_equivalent,source,scope,4,-1.0,-1.0,-1.0,-1.0,0.0,1,nan,matched_pair
+terra,GPT-5.6 Terra,concise_equivalent,source,stakes,4,-0.5,-1.0,0.0,-0.8,0.30000000000000004,1,-0.5773502691896257,matched_pair
+terra,GPT-5.6 Terra,concise_equivalent,source,reversibility,4,-0.55,-1.0,-0.1,-0.35,-0.20000000000000007,1,0.41570499824676643,matched_pair
+terra,GPT-5.6 Terra,concise_equivalent,source,external_visibility,4,-0.5,-1.0,0.0,-0.15,-0.35,1,0.5773502691896257,matched_pair
+terra,GPT-5.6 Terra,policy_oriented_equivalent,source,scope,4,-0.95,-1.0,-0.8500000000000001,-1.0,0.050000000000000044,1,nan,matched_pair
+terra,GPT-5.6 Terra,policy_oriented_equivalent,source,stakes,4,-0.3,-0.6,0.0,-0.8,0.5,1,-0.5773502691896257,matched_pair
+terra,GPT-5.6 Terra,policy_oriented_equivalent,source,reversibility,4,-0.25,-0.75,0.0,-0.35,0.09999999999999998,1,-0.4937419311010187,matched_pair
+terra,GPT-5.6 Terra,policy_oriented_equivalent,source,external_visibility,4,-0.75,-1.0,-0.39999999999999997,-0.15,-0.6,1,-0.9684959969581859,matched_pair
+terra,GPT-5.6 Terra,open_ended,strict_consensus,scope,4,-0.95,-1.0,-0.8500000000000001,-1.0,0.050000000000000044,1,nan,matched_pair
+terra,GPT-5.6 Terra,open_ended,strict_consensus,stakes,4,-0.65,-0.9,-0.44999999999999996,-0.8,0.15000000000000002,1,0.1324532357065044,matched_pair
+terra,GPT-5.6 Terra,open_ended,strict_consensus,reversibility,4,-0.8,-1.0,-0.39999999999999997,-0.35,-0.45000000000000007,1,0.49374193110101894,matched_pair
+terra,GPT-5.6 Terra,open_ended,strict_consensus,external_visibility,4,-0.3,-0.75,0.0,-0.15,-0.15,1,-0.14002800840280094,matched_pair
+terra,GPT-5.6 Terra,open_ended,luna,scope,4,-0.9,-1.0,-0.8,-1.0,0.09999999999999998,1,nan,matched_pair
+terra,GPT-5.6 Terra,open_ended,luna,stakes,4,-0.7,-0.9,-0.6,-0.8,0.10000000000000009,1,0.3333333333333332,matched_pair
+terra,GPT-5.6 Terra,open_ended,luna,reversibility,4,-0.55,-1.0,-0.09999999999999998,-0.35,-0.20000000000000007,1,-0.22796725710306542,matched_pair
+terra,GPT-5.6 Terra,open_ended,luna,external_visibility,4,-0.25,-0.75,0.0,-0.15,-0.1,1,-0.33333333333333326,matched_pair
+terra,GPT-5.6 Terra,open_ended,gemini35,scope,4,-0.75,-1.0,-0.25,-1.0,0.25,1,nan,matched_pair
+terra,GPT-5.6 Terra,open_ended,gemini35,stakes,4,-0.8500000000000001,-1.0,-0.7,-0.8,-0.050000000000000044,1,0.17407765595569766,matched_pair
+terra,GPT-5.6 Terra,open_ended,gemini35,reversibility,4,-0.45,-0.8,-0.19999999999999996,-0.35,-0.10000000000000003,1,0.9874252769412579,matched_pair
+terra,GPT-5.6 Terra,open_ended,gemini35,external_visibility,4,-0.3,-0.75,0.0,-0.15,-0.15,1,-0.14002800840280094,matched_pair
+luna,GPT-5.6 Luna,frozen_original,source,scope,4,-1.0,-1.0,-1.0,-1.0,0.0,1,nan,matched_pair
+luna,GPT-5.6 Luna,frozen_original,source,stakes,4,-0.5,-0.9,-0.1,-0.5,0.0,1,0.9999999999999999,matched_pair
+luna,GPT-5.6 Luna,frozen_original,source,reversibility,4,-0.75,-1.0,-0.25,-0.75,0.0,1,0.9999999999999996,matched_pair
+luna,GPT-5.6 Luna,frozen_original,source,external_visibility,4,-0.15000000000000002,-0.6000000000000001,0.14999999999999997,-0.15000000000000002,0.0,1,1.0,matched_pair
+luna,GPT-5.6 Luna,balanced_option_order,source,scope,4,-0.95,-1.0,-0.8500000000000001,-1.0,0.050000000000000044,1,nan,matched_pair
+luna,GPT-5.6 Luna,balanced_option_order,source,stakes,4,-0.45,-0.8,-0.1,-0.5,0.04999999999999999,1,0.9788389158235424,matched_pair
+luna,GPT-5.6 Luna,balanced_option_order,source,reversibility,4,-0.55,-0.9,-0.2,-0.75,0.19999999999999996,1,0.8268106308031116,matched_pair
+luna,GPT-5.6 Luna,balanced_option_order,source,external_visibility,4,-0.3,-0.6,0.0,-0.15000000000000002,-0.14999999999999997,1,0.6509445549041195,matched_pair
+luna,GPT-5.6 Luna,concise_equivalent,source,scope,4,-1.0,-1.0,-1.0,-1.0,0.0,1,nan,matched_pair
+luna,GPT-5.6 Luna,concise_equivalent,source,stakes,4,-0.5,-0.85,-0.15000000000000002,-0.5,0.0,1,0.7399400733959436,matched_pair
+luna,GPT-5.6 Luna,concise_equivalent,source,reversibility,4,-0.75,-1.0,-0.25,-0.75,0.0,1,0.9999999999999996,matched_pair
+luna,GPT-5.6 Luna,concise_equivalent,source,external_visibility,4,-0.25,-0.5,0.0,-0.15000000000000002,-0.09999999999999998,1,0.4259327492016032,matched_pair
+luna,GPT-5.6 Luna,policy_oriented_equivalent,source,scope,4,-1.0,-1.0,-1.0,-1.0,0.0,1,nan,matched_pair
+luna,GPT-5.6 Luna,policy_oriented_equivalent,source,stakes,4,-0.15000000000000002,-0.2,-0.05,-0.5,0.35,1,0.700140042014005,matched_pair
+luna,GPT-5.6 Luna,policy_oriented_equivalent,source,reversibility,4,-0.7,-1.0,-0.25,-0.75,0.050000000000000044,1,0.9801960588196067,matched_pair
+luna,GPT-5.6 Luna,policy_oriented_equivalent,source,external_visibility,4,-0.5,-0.9,-0.10000000000000003,-0.15000000000000002,-0.35,1,0.7262353246432736,matched_pair
+luna,GPT-5.6 Luna,open_ended,strict_consensus,scope,4,-1.0,-1.0,-1.0,-1.0,0.0,1,nan,matched_pair
+luna,GPT-5.6 Luna,open_ended,strict_consensus,stakes,4,-0.55,-0.9,-0.15,-0.5,-0.050000000000000044,1,0.033961780540566144,matched_pair
+luna,GPT-5.6 Luna,open_ended,strict_consensus,reversibility,4,-0.75,-1.0,-0.25,-0.75,0.0,1,0.9999999999999996,matched_pair
+luna,GPT-5.6 Luna,open_ended,strict_consensus,external_visibility,4,-0.35,-0.7000000000000001,0.0,-0.15000000000000002,-0.19999999999999996,1,0.7838940385932957,matched_pair
+luna,GPT-5.6 Luna,open_ended,luna,scope,4,-0.6499999999999999,-0.9,-0.35,-1.0,0.3500000000000001,1,nan,matched_pair
+luna,GPT-5.6 Luna,open_ended,luna,stakes,4,-0.6,-0.9,-0.3,-0.5,-0.09999999999999998,1,0.17149858514250876,matched_pair
+luna,GPT-5.6 Luna,open_ended,luna,reversibility,4,-0.6000000000000001,-0.9,-0.2,-0.75,0.1499999999999999,1,0.9258200997725512,matched_pair
+luna,GPT-5.6 Luna,open_ended,luna,external_visibility,4,-0.35,-0.7000000000000001,0.0,-0.15000000000000002,-0.19999999999999996,1,0.7838940385932957,matched_pair
+luna,GPT-5.6 Luna,open_ended,gemini35,scope,4,-1.0,-1.0,-1.0,-1.0,0.0,1,nan,matched_pair
+luna,GPT-5.6 Luna,open_ended,gemini35,stakes,4,-0.65,-1.0,-0.25,-0.5,-0.15000000000000002,1,-0.2666739829256819,matched_pair
+luna,GPT-5.6 Luna,open_ended,gemini35,reversibility,4,-0.75,-1.0,-0.25,-0.75,0.0,1,0.9999999999999996,matched_pair
+luna,GPT-5.6 Luna,open_ended,gemini35,external_visibility,4,-0.25,-0.5,0.0,-0.15000000000000002,-0.09999999999999998,1,0.4259327492016032,matched_pair
+luna,GPT-5.6 Luna,open_ended,prespecified_nonself_gemini35,scope,4,-1.0,-1.0,-1.0,-1.0,0.0,1,nan,matched_pair
+luna,GPT-5.6 Luna,open_ended,prespecified_nonself_gemini35,stakes,4,-0.65,-1.0,-0.25,-0.5,-0.15000000000000002,1,-0.2666739829256819,matched_pair
+luna,GPT-5.6 Luna,open_ended,prespecified_nonself_gemini35,reversibility,4,-0.75,-1.0,-0.25,-0.75,0.0,1,0.9999999999999996,matched_pair
+luna,GPT-5.6 Luna,open_ended,prespecified_nonself_gemini35,external_visibility,4,-0.25,-0.5,0.0,-0.15000000000000002,-0.09999999999999998,1,0.4259327492016032,matched_pair
+sonnet,Claude Sonnet 5,frozen_original,source,scope,4,-1.0,-1.0,-1.0,-1.0,0.0,1,nan,matched_pair
+sonnet,Claude Sonnet 5,frozen_original,source,stakes,4,-0.5,-1.0,0.0,-0.5,0.0,1,1.0,matched_pair
+sonnet,Claude Sonnet 5,frozen_original,source,reversibility,4,-0.5,-1.0,0.0,-0.5,0.0,1,1.0,matched_pair
+sonnet,Claude Sonnet 5,frozen_original,source,external_visibility,4,0.0,0.0,0.0,0.0,0.0,1,nan,matched_pair
+sonnet,Claude Sonnet 5,balanced_option_order,source,scope,4,-1.0,-1.0,-1.0,-1.0,0.0,1,nan,matched_pair
+sonnet,Claude Sonnet 5,balanced_option_order,source,stakes,4,-0.2,-0.6000000000000001,0.0,-0.5,0.3,1,0.5773502691896256,matched_pair
+sonnet,Claude Sonnet 5,balanced_option_order,source,reversibility,4,-0.5,-1.0,0.0,-0.5,0.0,1,1.0,matched_pair
+sonnet,Claude Sonnet 5,balanced_option_order,source,external_visibility,4,-0.25,-0.75,0.0,0.0,-0.25,0,nan,matched_pair
+sonnet,Claude Sonnet 5,concise_equivalent,source,scope,4,-1.0,-1.0,-1.0,-1.0,0.0,1,nan,matched_pair
+sonnet,Claude Sonnet 5,concise_equivalent,source,stakes,4,0.0,0.0,0.0,-0.5,0.5,0,nan,matched_pair
+sonnet,Claude Sonnet 5,concise_equivalent,source,reversibility,4,-0.5,-1.0,0.0,-0.5,0.0,1,1.0,matched_pair
+sonnet,Claude Sonnet 5,concise_equivalent,source,external_visibility,4,0.0,0.0,0.0,0.0,0.0,1,nan,matched_pair
+sonnet,Claude Sonnet 5,policy_oriented_equivalent,source,scope,4,-1.0,-1.0,-1.0,-1.0,0.0,1,nan,matched_pair
+sonnet,Claude Sonnet 5,policy_oriented_equivalent,source,stakes,4,0.0,0.0,0.0,-0.5,0.5,0,nan,matched_pair
+sonnet,Claude Sonnet 5,policy_oriented_equivalent,source,reversibility,4,-0.5,-1.0,0.0,-0.5,0.0,1,1.0,matched_pair
+sonnet,Claude Sonnet 5,policy_oriented_equivalent,source,external_visibility,4,-0.25,-0.75,0.0,0.0,-0.25,0,nan,matched_pair
+sonnet,Claude Sonnet 5,open_ended,strict_consensus,scope,4,-0.7999999999999999,-1.0,-0.5499999999999999,-1.0,0.20000000000000007,1,nan,matched_pair
+sonnet,Claude Sonnet 5,open_ended,strict_consensus,stakes,4,-0.4,-0.8,-0.1,-0.5,0.09999999999999998,1,0.8017837257372731,matched_pair
+sonnet,Claude Sonnet 5,open_ended,strict_consensus,reversibility,4,-0.8,-1.0,-0.39999999999999997,-0.5,-0.30000000000000004,1,0.577350269189626,matched_pair
+sonnet,Claude Sonnet 5,open_ended,strict_consensus,external_visibility,4,-0.4,-0.8,0.0,0.0,-0.4,0,nan,matched_pair
+sonnet,Claude Sonnet 5,open_ended,luna,scope,4,-0.7999999999999999,-1.0,-0.5499999999999999,-1.0,0.20000000000000007,1,nan,matched_pair
+sonnet,Claude Sonnet 5,open_ended,luna,stakes,4,-0.4,-0.8,-0.1,-0.5,0.09999999999999998,1,0.8017837257372731,matched_pair
+sonnet,Claude Sonnet 5,open_ended,luna,reversibility,4,-0.5,-0.85,-0.15,-0.5,0.0,1,0.0,matched_pair
+sonnet,Claude Sonnet 5,open_ended,luna,external_visibility,4,-0.25,-0.5,0.0,0.0,-0.25,0,nan,matched_pair
+sonnet,Claude Sonnet 5,open_ended,gemini35,scope,4,-0.7,-1.0,-0.25,-1.0,0.30000000000000004,1,nan,matched_pair
+sonnet,Claude Sonnet 5,open_ended,gemini35,stakes,4,-0.4,-0.8,-0.1,-0.5,0.09999999999999998,1,0.8017837257372731,matched_pair
+sonnet,Claude Sonnet 5,open_ended,gemini35,reversibility,4,-0.8,-1.0,-0.39999999999999997,-0.5,-0.30000000000000004,1,0.577350269189626,matched_pair
+sonnet,Claude Sonnet 5,open_ended,gemini35,external_visibility,4,-0.4,-0.8,0.0,0.0,-0.4,0,nan,matched_pair
+opus,Claude Opus 4.8,frozen_original,source,scope,4,-0.8,-1.0,-0.39999999999999997,-0.8,0.0,1,0.9999999999999997,matched_pair
+opus,Claude Opus 4.8,frozen_original,source,stakes,4,-0.7,-1.0,-0.25,-0.7,0.0,1,1.0,matched_pair
+opus,Claude Opus 4.8,frozen_original,source,reversibility,4,-0.75,-1.0,-0.25,-0.75,0.0,1,0.9999999999999996,matched_pair
+opus,Claude Opus 4.8,frozen_original,source,external_visibility,4,0.0,0.0,0.0,0.0,0.0,1,nan,matched_pair
+opus,Claude Opus 4.8,balanced_option_order,source,scope,4,-0.75,-1.0,-0.25,-0.8,0.050000000000000044,1,0.9999999999999999,matched_pair
+opus,Claude Opus 4.8,balanced_option_order,source,stakes,4,-0.65,-0.9,-0.35,-0.7,0.04999999999999993,1,0.7789240586062484,matched_pair
+opus,Claude Opus 4.8,balanced_option_order,source,reversibility,4,-0.75,-1.0,-0.25,-0.75,0.0,1,0.9999999999999996,matched_pair
+opus,Claude Opus 4.8,balanced_option_order,source,external_visibility,4,0.0,0.0,0.0,0.0,0.0,1,nan,matched_pair
+opus,Claude Opus 4.8,concise_equivalent,source,scope,4,-0.6,-1.0,-0.2,-0.8,0.20000000000000007,1,0.8164965809277259,matched_pair
+opus,Claude Opus 4.8,concise_equivalent,source,stakes,4,-0.75,-1.0,-0.39999999999999997,-0.7,-0.050000000000000044,1,0.9246584018191363,matched_pair
+opus,Claude Opus 4.8,concise_equivalent,source,reversibility,4,-0.75,-1.0,-0.25,-0.75,0.0,1,0.9999999999999996,matched_pair
+opus,Claude Opus 4.8,concise_equivalent,source,external_visibility,4,0.0,0.0,0.0,0.0,0.0,1,nan,matched_pair
+opus,Claude Opus 4.8,policy_oriented_equivalent,source,scope,4,-0.75,-1.0,-0.25,-0.8,0.050000000000000044,1,0.9999999999999999,matched_pair
+opus,Claude Opus 4.8,policy_oriented_equivalent,source,stakes,4,-0.85,-1.0,-0.5499999999999999,-0.7,-0.15000000000000002,1,-0.4200840252084028,matched_pair
+opus,Claude Opus 4.8,policy_oriented_equivalent,source,reversibility,4,-0.65,-1.0,-0.25,-0.75,0.09999999999999998,1,0.9169493006161775,matched_pair
+opus,Claude Opus 4.8,policy_oriented_equivalent,source,external_visibility,4,0.0,0.0,0.0,0.0,0.0,1,nan,matched_pair
+opus,Claude Opus 4.8,open_ended,strict_consensus,scope,4,-0.75,-1.0,-0.25,-0.8,0.050000000000000044,1,0.9999999999999999,matched_pair
+opus,Claude Opus 4.8,open_ended,strict_consensus,stakes,4,-0.7,-0.9,-0.5,-0.7,0.0,1,-0.4338609156373124,matched_pair
+opus,Claude Opus 4.8,open_ended,strict_consensus,reversibility,4,-0.75,-1.0,-0.25,-0.75,0.0,1,0.9999999999999996,matched_pair
+opus,Claude Opus 4.8,open_ended,strict_consensus,external_visibility,4,-0.04999999999999999,-0.14999999999999997,0.0,0.0,-0.04999999999999999,0,nan,matched_pair
+opus,Claude Opus 4.8,open_ended,luna,scope,4,-0.7999999999999999,-1.0,-0.5499999999999999,-0.8,1.1102230246251565e-16,1,0.9428090415820631,matched_pair
+opus,Claude Opus 4.8,open_ended,luna,stakes,4,-0.75,-0.9,-0.6,-0.7,-0.050000000000000044,1,-0.3656362120635654,matched_pair
+opus,Claude Opus 4.8,open_ended,luna,reversibility,4,-0.44999999999999996,-0.85,-0.1,-0.75,0.30000000000000004,1,0.7276068751089987,matched_pair
+opus,Claude Opus 4.8,open_ended,luna,external_visibility,4,-0.04999999999999999,-0.14999999999999997,0.0,0.0,-0.04999999999999999,0,nan,matched_pair
+opus,Claude Opus 4.8,open_ended,gemini35,scope,4,-0.65,-1.0,-0.25,-0.8,0.15000000000000002,1,0.9169493006161775,matched_pair
+opus,Claude Opus 4.8,open_ended,gemini35,stakes,4,-0.8,-1.0,-0.5499999999999999,-0.7,-0.10000000000000009,1,-0.0990147542976675,matched_pair
+opus,Claude Opus 4.8,open_ended,gemini35,reversibility,4,-0.75,-1.0,-0.25,-0.75,0.0,1,0.9999999999999996,matched_pair
+opus,Claude Opus 4.8,open_ended,gemini35,external_visibility,4,0.0,0.0,0.0,0.0,0.0,1,nan,matched_pair
+flash,Gemini 3.6 Flash,frozen_original,source,scope,4,-0.75,-1.0,-0.25,-0.75,0.0,1,1.0,matched_pair
+flash,Gemini 3.6 Flash,frozen_original,source,stakes,4,-0.25,-0.75,0.0,-0.25,0.0,1,1.0,matched_pair
+flash,Gemini 3.6 Flash,frozen_original,source,reversibility,4,-0.45,-0.9,0.0,-0.45,0.0,1,1.0,matched_pair
+flash,Gemini 3.6 Flash,frozen_original,source,external_visibility,4,0.0,0.0,0.0,0.0,0.0,1,nan,matched_pair
+flash,Gemini 3.6 Flash,balanced_option_order,source,scope,4,-0.6,-1.0,-0.2,-0.75,0.15000000000000002,1,0.816496580927726,matched_pair
+flash,Gemini 3.6 Flash,balanced_option_order,source,stakes,4,-0.05,-0.15000000000000002,0.0,-0.25,0.2,1,1.0,matched_pair
+flash,Gemini 3.6 Flash,balanced_option_order,source,reversibility,4,-0.65,-0.95,-0.2,-0.45,-0.2,1,0.6144738473249737,matched_pair
+flash,Gemini 3.6 Flash,balanced_option_order,source,external_visibility,4,-0.44999999999999996,-0.85,-0.1,0.0,-0.44999999999999996,0,nan,matched_pair
+flash,Gemini 3.6 Flash,concise_equivalent,source,scope,4,-0.6,-1.0,-0.2,-0.75,0.15000000000000002,1,0.816496580927726,matched_pair
+flash,Gemini 3.6 Flash,concise_equivalent,source,stakes,4,0.0,0.0,0.0,-0.25,0.25,0,nan,matched_pair
+flash,Gemini 3.6 Flash,concise_equivalent,source,reversibility,4,-0.45,-0.9,0.0,-0.45,0.0,1,1.0,matched_pair
+flash,Gemini 3.6 Flash,concise_equivalent,source,external_visibility,4,-0.25,-0.6000000000000001,0.0,0.0,-0.25,0,nan,matched_pair
+flash,Gemini 3.6 Flash,policy_oriented_equivalent,source,scope,4,-0.5,-1.0,0.0,-0.75,0.25,1,0.5773502691896257,matched_pair
+flash,Gemini 3.6 Flash,policy_oriented_equivalent,source,stakes,4,0.0,0.0,0.0,-0.25,0.25,0,nan,matched_pair
+flash,Gemini 3.6 Flash,policy_oriented_equivalent,source,reversibility,4,-0.15000000000000002,-0.30000000000000004,0.0,-0.45,0.3,1,0.9597599188661681,matched_pair
+flash,Gemini 3.6 Flash,policy_oriented_equivalent,source,external_visibility,4,-0.5,-1.0,0.0,0.0,-0.5,0,nan,matched_pair
+flash,Gemini 3.6 Flash,open_ended,strict_consensus,scope,4,-0.8,-1.0,-0.39999999999999997,-0.75,-0.050000000000000044,1,0.9999999999999999,matched_pair
+flash,Gemini 3.6 Flash,open_ended,strict_consensus,stakes,4,-0.7,-1.0,-0.25,-0.25,-0.44999999999999996,1,0.42008402520840293,matched_pair
+flash,Gemini 3.6 Flash,open_ended,strict_consensus,reversibility,4,-0.7,-1.0,-0.25,-0.45,-0.24999999999999994,1,0.7187870718877527,matched_pair
+flash,Gemini 3.6 Flash,open_ended,strict_consensus,external_visibility,4,-0.04999999999999999,-0.14999999999999997,0.0,0.0,-0.04999999999999999,0,nan,matched_pair
+flash,Gemini 3.6 Flash,open_ended,luna,scope,4,-0.8999999999999999,-1.0,-0.8,-0.75,-0.1499999999999999,1,0.5773502691896258,matched_pair
+flash,Gemini 3.6 Flash,open_ended,luna,stakes,4,-0.7,-0.95,-0.35000000000000003,-0.25,-0.44999999999999996,1,0.19245008972987535,matched_pair
+flash,Gemini 3.6 Flash,open_ended,luna,reversibility,4,-0.7,-1.0,-0.25,-0.45,-0.24999999999999994,1,0.7187870718877527,matched_pair
+flash,Gemini 3.6 Flash,open_ended,luna,external_visibility,4,-0.04999999999999999,-0.14999999999999997,0.0,0.0,-0.04999999999999999,0,nan,matched_pair
+flash,Gemini 3.6 Flash,open_ended,gemini35,scope,4,-0.8,-1.0,-0.39999999999999997,-0.75,-0.050000000000000044,1,0.9999999999999999,matched_pair
+flash,Gemini 3.6 Flash,open_ended,gemini35,stakes,4,-0.7,-1.0,-0.25,-0.25,-0.44999999999999996,1,0.42008402520840293,matched_pair
+flash,Gemini 3.6 Flash,open_ended,gemini35,reversibility,4,-0.75,-1.0,-0.25,-0.45,-0.3,1,0.57035182547203,matched_pair
+flash,Gemini 3.6 Flash,open_ended,gemini35,external_visibility,4,0.0,0.0,0.0,0.0,0.0,1,nan,matched_pair
+flashlite,Gemini 3.5 Flash-Lite,frozen_original,source,scope,4,-1.0,-1.0,-1.0,-1.0,0.0,1,nan,matched_pair
+flashlite,Gemini 3.5 Flash-Lite,frozen_original,source,stakes,4,0.0,0.0,0.0,0.0,0.0,1,nan,matched_pair
+flashlite,Gemini 3.5 Flash-Lite,frozen_original,source,reversibility,4,-0.1,-0.2,0.0,-0.1,0.0,1,1.0,matched_pair
+flashlite,Gemini 3.5 Flash-Lite,frozen_original,source,external_visibility,4,-0.04999999999999999,-0.14999999999999997,0.0,-0.04999999999999999,0.0,1,1.0,matched_pair
+flashlite,Gemini 3.5 Flash-Lite,balanced_option_order,source,scope,4,-0.7000000000000001,-0.9,-0.5,-1.0,0.29999999999999993,1,nan,matched_pair
+flashlite,Gemini 3.5 Flash-Lite,balanced_option_order,source,stakes,4,0.0,0.0,0.0,0.0,0.0,1,nan,matched_pair
+flashlite,Gemini 3.5 Flash-Lite,balanced_option_order,source,reversibility,4,-0.25,-0.6000000000000001,0.0,-0.1,-0.15,1,0.7624928516630233,matched_pair
+flashlite,Gemini 3.5 Flash-Lite,balanced_option_order,source,external_visibility,4,-0.15,-0.44999999999999996,0.09999999999999998,-0.04999999999999999,-0.1,1,-0.6831300510639733,matched_pair
+flashlite,Gemini 3.5 Flash-Lite,concise_equivalent,source,scope,4,-0.9,-1.0,-0.7000000000000001,-1.0,0.09999999999999998,1,nan,matched_pair
+flashlite,Gemini 3.5 Flash-Lite,concise_equivalent,source,stakes,4,-0.3,-0.75,0.0,0.0,-0.3,0,nan,matched_pair
+flashlite,Gemini 3.5 Flash-Lite,concise_equivalent,source,reversibility,4,-0.35,-0.75,0.0,-0.1,-0.24999999999999997,1,0.8551861104941365,matched_pair
+flashlite,Gemini 3.5 Flash-Lite,concise_equivalent,source,external_visibility,4,-0.25,-0.75,0.0,-0.04999999999999999,-0.2,1,-0.3333333333333333,matched_pair
+flashlite,Gemini 3.5 Flash-Lite,policy_oriented_equivalent,source,scope,4,-1.0,-1.0,-1.0,-1.0,0.0,1,nan,matched_pair
+flashlite,Gemini 3.5 Flash-Lite,policy_oriented_equivalent,source,stakes,4,-0.2,-0.6000000000000001,0.0,0.0,-0.2,0,nan,matched_pair
+flashlite,Gemini 3.5 Flash-Lite,policy_oriented_equivalent,source,reversibility,4,-0.35,-0.75,0.0,-0.1,-0.24999999999999997,1,0.8551861104941365,matched_pair
+flashlite,Gemini 3.5 Flash-Lite,policy_oriented_equivalent,source,external_visibility,4,-0.05000000000000002,-0.15000000000000005,0.0,-0.04999999999999999,-2.7755575615628914e-17,1,1.0,matched_pair
+flashlite,Gemini 3.5 Flash-Lite,open_ended,strict_consensus,scope,4,-0.8999999999999999,-1.0,-0.8,-1.0,0.10000000000000009,1,nan,matched_pair
+flashlite,Gemini 3.5 Flash-Lite,open_ended,strict_consensus,stakes,4,-0.85,-1.0,-0.7,0.0,-0.85,0,nan,matched_pair
+flashlite,Gemini 3.5 Flash-Lite,open_ended,strict_consensus,reversibility,4,-0.7,-1.0,-0.25,-0.1,-0.6,1,0.48507125007266594,matched_pair
+flashlite,Gemini 3.5 Flash-Lite,open_ended,strict_consensus,external_visibility,4,-0.04999999999999999,-0.14999999999999997,0.0,-0.04999999999999999,0.0,1,-0.3333333333333333,matched_pair
+flashlite,Gemini 3.5 Flash-Lite,open_ended,luna,scope,4,-0.8999999999999999,-1.0,-0.8,-1.0,0.10000000000000009,1,nan,matched_pair
+flashlite,Gemini 3.5 Flash-Lite,open_ended,luna,stakes,4,-0.85,-1.0,-0.7,0.0,-0.85,0,nan,matched_pair
+flashlite,Gemini 3.5 Flash-Lite,open_ended,luna,reversibility,4,-0.7,-1.0,-0.25,-0.1,-0.6,1,0.48507125007266594,matched_pair
+flashlite,Gemini 3.5 Flash-Lite,open_ended,luna,external_visibility,4,-0.04999999999999999,-0.14999999999999997,0.0,-0.04999999999999999,0.0,1,-0.3333333333333333,matched_pair
+flashlite,Gemini 3.5 Flash-Lite,open_ended,gemini35,scope,4,-0.45,-0.8,-0.09999999999999998,-1.0,0.55,1,nan,matched_pair
+flashlite,Gemini 3.5 Flash-Lite,open_ended,gemini35,stakes,4,-0.75,-1.0,-0.25,0.0,-0.75,0,nan,matched_pair
+flashlite,Gemini 3.5 Flash-Lite,open_ended,gemini35,reversibility,4,-0.2,-0.6000000000000001,0.0,-0.1,-0.1,1,-0.5773502691896257,matched_pair
+flashlite,Gemini 3.5 Flash-Lite,open_ended,gemini35,external_visibility,4,0.0,0.0,0.0,-0.04999999999999999,0.04999999999999999,0,nan,matched_pair
+flashlite,Gemini 3.5 Flash-Lite,open_ended,prespecified_nonself_luna,scope,4,-0.8999999999999999,-1.0,-0.8,-1.0,0.10000000000000009,1,nan,matched_pair
+flashlite,Gemini 3.5 Flash-Lite,open_ended,prespecified_nonself_luna,stakes,4,-0.85,-1.0,-0.7,0.0,-0.85,0,nan,matched_pair
+flashlite,Gemini 3.5 Flash-Lite,open_ended,prespecified_nonself_luna,reversibility,4,-0.7,-1.0,-0.25,-0.1,-0.6,1,0.48507125007266594,matched_pair
+flashlite,Gemini 3.5 Flash-Lite,open_ended,prespecified_nonself_luna,external_visibility,4,-0.04999999999999999,-0.14999999999999997,0.0,-0.04999999999999999,0.0,1,-0.3333333333333333,matched_pair
+qwen,Qwen 3.6 27B,frozen_original,source,scope,4,-0.95,-1.0,-0.8500000000000001,-0.95,0.0,1,1.0,matched_pair
+qwen,Qwen 3.6 27B,frozen_original,source,stakes,4,-0.5,-0.8,-0.19999999999999996,-0.5,0.0,1,1.0,matched_pair
+qwen,Qwen 3.6 27B,frozen_original,source,reversibility,4,-0.3,-0.75,0.0,-0.3,0.0,1,0.9999999999999999,matched_pair
+qwen,Qwen 3.6 27B,frozen_original,source,external_visibility,4,-0.1,-0.2,0.0,-0.1,0.0,1,1.0,matched_pair
+qwen,Qwen 3.6 27B,balanced_option_order,source,scope,4,-0.8,-0.95,-0.65,-0.95,0.1499999999999999,1,-1.1102230246251565e-16,matched_pair
+qwen,Qwen 3.6 27B,balanced_option_order,source,stakes,4,-0.4,-0.8,-0.1,-0.5,0.09999999999999998,1,0.8058229640253803,matched_pair
+qwen,Qwen 3.6 27B,balanced_option_order,source,reversibility,4,-0.44999999999999996,-0.6,-0.3,-0.3,-0.14999999999999997,1,0.3656362120635652,matched_pair
+qwen,Qwen 3.6 27B,balanced_option_order,source,external_visibility,4,-0.15,-0.44999999999999996,0.0,-0.1,-0.04999999999999999,1,0.577350269189626,matched_pair
+qwen,Qwen 3.6 27B,concise_equivalent,source,scope,4,-0.8999999999999999,-1.0,-0.8,-0.95,0.050000000000000044,1,0.5773502691896258,matched_pair
+qwen,Qwen 3.6 27B,concise_equivalent,source,stakes,4,-0.6000000000000001,-0.8,-0.4,-0.5,-0.10000000000000009,1,0.3015113445777637,matched_pair
+qwen,Qwen 3.6 27B,concise_equivalent,source,reversibility,4,-0.7000000000000001,-0.8,-0.49999999999999994,-0.3,-0.4000000000000001,1,0.4200840252084029,matched_pair
+qwen,Qwen 3.6 27B,concise_equivalent,source,external_visibility,4,-0.15,-0.30000000000000004,0.0,-0.1,-0.04999999999999999,1,0.9045340337332907,matched_pair
+qwen,Qwen 3.6 27B,policy_oriented_equivalent,source,scope,4,-0.7000000000000001,-1.0,-0.39999999999999997,-0.95,0.2499999999999999,1,0.8703882797784892,matched_pair
+qwen,Qwen 3.6 27B,policy_oriented_equivalent,source,stakes,4,-0.7,-0.9,-0.5,-0.5,-0.19999999999999996,1,0.6741998624632421,matched_pair
+qwen,Qwen 3.6 27B,policy_oriented_equivalent,source,reversibility,4,-0.44999999999999996,-0.85,5.551115123125783e-17,-0.3,-0.14999999999999997,1,0.19603921176392133,matched_pair
+qwen,Qwen 3.6 27B,policy_oriented_equivalent,source,external_visibility,4,-0.15000000000000002,-0.44999999999999996,0.1,-0.1,-0.05000000000000002,1,-0.5070925528371097,matched_pair
+qwen,Qwen 3.6 27B,open_ended,strict_consensus,scope,4,-0.25,-0.4,-0.1,-0.95,0.7,1,0.8703882797784892,matched_pair
+qwen,Qwen 3.6 27B,open_ended,strict_consensus,stakes,4,-0.30000000000000004,-0.6,2.7755575615628914e-17,-0.5,0.19999999999999996,1,0.4545454545454547,matched_pair
+qwen,Qwen 3.6 27B,open_ended,strict_consensus,reversibility,4,-0.4,-0.6,-0.2,-0.3,-0.10000000000000003,1,-0.485071250072666,matched_pair
+qwen,Qwen 3.6 27B,open_ended,strict_consensus,external_visibility,4,-0.44999999999999996,-0.55,-0.4,-0.1,-0.35,1,0.5773502691896255,matched_pair
+qwen,Qwen 3.6 27B,open_ended,luna,scope,4,-0.25,-0.4,-0.1,-0.95,0.7,1,0.8703882797784892,matched_pair
+qwen,Qwen 3.6 27B,open_ended,luna,stakes,4,-0.30000000000000004,-0.6,2.7755575615628914e-17,-0.5,0.19999999999999996,1,0.4545454545454547,matched_pair
+qwen,Qwen 3.6 27B,open_ended,luna,reversibility,4,-0.4,-0.6,-0.2,-0.3,-0.10000000000000003,1,-0.485071250072666,matched_pair
+qwen,Qwen 3.6 27B,open_ended,luna,external_visibility,4,-0.44999999999999996,-0.55,-0.4,-0.1,-0.35,1,0.5773502691896255,matched_pair
+qwen,Qwen 3.6 27B,open_ended,gemini35,scope,4,-0.2,-0.4,0.0,-0.95,0.75,1,0.5773502691896258,matched_pair
+qwen,Qwen 3.6 27B,open_ended,gemini35,stakes,4,-0.30000000000000004,-0.6,2.7755575615628914e-17,-0.5,0.19999999999999996,1,0.4545454545454547,matched_pair
+qwen,Qwen 3.6 27B,open_ended,gemini35,reversibility,4,-0.2,-0.39999999999999997,0.05000000000000003,-0.3,0.09999999999999998,1,-0.8911327886790068,matched_pair
+qwen,Qwen 3.6 27B,open_ended,gemini35,external_visibility,4,-0.4,-0.4,-0.39999999999999997,-0.1,-0.30000000000000004,1,-0.4999999999999997,matched_pair

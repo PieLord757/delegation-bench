@@ -1,0 +1,10 @@
+endpoint,eligible,valid,action,non_action,candidate_tool,strict_candidate_equivalent,same_tool_non_equivalent,candidate_tool_unmeasurable,ask_again,request_information,refuse,other
+flashlite,10,10,10,0,10,5,5,0,0,0,0,0
+gemini36,16,16,15,1,15,5,5,5,0,1,0,0
+luna,35,35,27,8,27,10,13,4,3,3,1,1
+opus,39,39,26,13,26,7,8,11,3,8,0,2
+oss120,11,11,8,3,8,0,6,2,1,0,1,1
+sol,38,38,29,9,29,11,8,10,1,4,0,4
+sonnet,48,48,40,8,40,9,13,18,3,4,0,1
+terra,30,30,27,3,27,9,8,10,3,0,0,0
+PRIMARY_EIGHT_TOTAL,227,227,182,45,182,56,66,60,14,20,2,9

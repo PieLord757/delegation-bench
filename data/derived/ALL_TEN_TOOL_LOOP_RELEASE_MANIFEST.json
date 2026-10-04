@@ -1,0 +1,35 @@
+{
+  "classification_rows": 1435,
+  "classification_sha256": "50adeb0f58d43dee793777e230075dd48ad987baf9361ca9e065b177da1f8c1e",
+  "generator_sha256": "aa4f37808003faf3cc99e89c48984f6e09529bb4c0f8f432102fafadadfb8eb9",
+  "release_boundary": "No provider prose, hidden reasoning, request IDs, timestamps, or account metadata. Groq-hosted arguments withheld pending terms clarification.",
+  "sanitized_calls_sha256": "830f6facf52347a5fab285a56a6ead48aeedc4a5396b2df38b2bbc5d78f39876",
+  "sanitized_endpoint_keys": [
+    "flash",
+    "flashlite",
+    "luna",
+    "opus",
+    "sol",
+    "sonnet",
+    "terra"
+  ],
+  "sanitized_tool_call_rows": 693,
+  "source_hashes": {
+    "results/agentic_validation_v1/anthropic_canonical.jsonl": "7a002e9d2d707a296c0c503bb8a9fbfe909ac2332783c306b03467ded20884c3",
+    "results/agentic_validation_v1/groq_canonical.jsonl": "b495c8762367fb5952e2a95af5e4b05acee757c52b52efb9ed0e649702d912fb",
+    "results/agentic_validation_v1/openai_canonical.jsonl": "fc6db773f0491aed6b650d8697b3625e3149cdfea9b7b21fbeec37054ee719e7",
+    "results/gemini_agentic_transport_replication_v1/gemini_canonical.jsonl": "52ec06b6c46e1429a4fd86fc3dc3bc009d6de0ec85e77ea887d94773ec15bd86",
+    "results/tool_loop_all_ten_extension_v1/flashlite_trajectories_raw.jsonl": "311e4af6cc72544f8faba91bf0cdd2d9c345df4c96fa2b14086319dc852f9021",
+    "results/tool_loop_all_ten_extension_v1/luna_trajectories_raw.jsonl": "b34c60738876f1ec2a8d23b9637a346ea337f5a8517cfd8862985a44acd07df4",
+    "results/tool_loop_all_ten_extension_v1/opus_trajectories_raw.jsonl": "1bcc066335011b3e001e1e98e490ccc262c290053176eee936c4f661c37a7005",
+    "results/tool_loop_all_ten_extension_v1/oss20_trajectories_raw.jsonl": "eab81aba2b0f60404d22c099bdac0937463a6a346f88dd1eb8e6d09e20dfd066",
+    "results/tool_loop_all_ten_extension_v1/qwen_trajectories_raw.jsonl": "9c40ac225ae67ba870e9d2ff1be63509c55ff02ba23f7b8ffded6d0ef22938db",
+    "results/tool_loop_all_ten_extension_v1/terra_trajectories_raw.jsonl": "fdae75547e013119424817b45bec8ec475b14afc42bebd71244dba7c8bf7b266"
+  },
+  "withheld_endpoint_keys": [
+    "oss120",
+    "oss20",
+    "qwen"
+  ],
+  "zero_api_calls": true
+}

@@ -1,0 +1,15 @@
+metric,value
+four_way_krippendorff_alpha,0.43679306057019573
+binary_krippendorff_alpha,0.543170911775563
+A-B_four_way_agreement,0.6346153846153846
+A-B_four_way_kappa,0.41077463388774765
+A-B_binary_agreement,0.782051282051282
+A-B_binary_kappa,0.5579263210535089
+A-C_four_way_agreement,0.6858974358974359
+A-C_four_way_kappa,0.4803888246890082
+A-C_binary_agreement,0.8012820512820513
+A-C_binary_kappa,0.6019097793875535
+B-C_four_way_agreement,0.6474358974358975
+B-C_four_way_kappa,0.4215210355987056
+B-C_binary_agreement,0.7371794871794872
+B-C_binary_kappa,0.4714049586776861

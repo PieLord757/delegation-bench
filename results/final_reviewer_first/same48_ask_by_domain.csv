@@ -1,0 +1,61 @@
+model,domain,n_scenarios,offline_ask_rate,tool_loop_ask_rate,change_pp
+Claude Opus 4.8,calendar,16,0.125,0.1625,3.7500000000000004
+Claude Opus 4.8,code_system,16,0.2625,0.15,-11.250000000000002
+Claude Opus 4.8,communication,4,0.25,0.2,-4.999999999999999
+Claude Opus 4.8,files,6,0.3333333333333333,0.0,-33.33333333333333
+Claude Opus 4.8,publishing_social,2,0.0,0.0,0.0
+Claude Opus 4.8,purchasing,4,0.5,0.5,0.0
+Claude Sonnet 5,calendar,16,0.2125,0.1375,-7.499999999999998
+Claude Sonnet 5,code_system,16,0.425,0.275,-14.999999999999996
+Claude Sonnet 5,communication,4,0.25,0.0,-25.0
+Claude Sonnet 5,files,6,0.3333333333333333,0.0,-33.33333333333333
+Claude Sonnet 5,publishing_social,2,0.0,0.0,0.0
+Claude Sonnet 5,purchasing,4,0.6,0.75,15.000000000000002
+GPT-5.6 Luna,calendar,16,0.25,0.0625,-18.75
+GPT-5.6 Luna,code_system,16,0.0875,0.2625,17.5
+GPT-5.6 Luna,communication,4,0.25,0.0,-25.0
+GPT-5.6 Luna,files,6,0.36666666666666664,0.03333333333333333,-33.33333333333333
+GPT-5.6 Luna,publishing_social,2,0.4,0.0,-40.0
+GPT-5.6 Luna,purchasing,4,0.6,0.4,-19.999999999999996
+GPT-5.6 Sol,calendar,16,0.25,0.125,-12.5
+GPT-5.6 Sol,code_system,16,0.0125,0.225,21.25
+GPT-5.6 Sol,communication,4,0.25,0.0,-25.0
+GPT-5.6 Sol,files,6,0.4,0.0,-40.0
+GPT-5.6 Sol,publishing_social,2,0.0,0.1,10.0
+GPT-5.6 Sol,purchasing,4,0.4,0.45,4.999999999999999
+GPT-5.6 Terra,calendar,16,0.1875,0.0875,-10.0
+GPT-5.6 Terra,code_system,16,0.0875,0.125,3.7500000000000004
+GPT-5.6 Terra,communication,4,0.25,0.05,-20.0
+GPT-5.6 Terra,files,6,0.2,0.1,-10.0
+GPT-5.6 Terra,publishing_social,2,0.0,0.0,0.0
+GPT-5.6 Terra,purchasing,4,0.45,0.45,0.0
+GPT-OSS-120B,calendar,16,0.2,0.025,-17.5
+GPT-OSS-120B,code_system,16,0.075,0.1125,3.7500000000000004
+GPT-OSS-120B,communication,4,0.25,0.0,-25.0
+GPT-OSS-120B,files,6,0.13333333333333333,0.0,-13.333333333333334
+GPT-OSS-120B,publishing_social,2,0.0,0.0,0.0
+GPT-OSS-120B,purchasing,4,0.35,0.0,-35.0
+GPT-OSS-20B,calendar,16,0.15,0.0,-15.0
+GPT-OSS-20B,code_system,16,0.0375,0.0,-3.75
+GPT-OSS-20B,communication,4,0.21052631578947367,0.0,-21.052631578947366
+GPT-OSS-20B,files,6,0.16666666666666666,0.0,-16.666666666666664
+GPT-OSS-20B,publishing_social,2,0.0,0.0,0.0
+GPT-OSS-20B,purchasing,4,0.0,0.05,5.0
+Gemini 3.5 Flash-Lite,calendar,16,0.35,0.0,-35.0
+Gemini 3.5 Flash-Lite,code_system,16,0.5125,0.0625,-44.99999999999999
+Gemini 3.5 Flash-Lite,communication,4,0.25,0.0,-25.0
+Gemini 3.5 Flash-Lite,files,6,0.6666666666666666,0.0,-66.66666666666666
+Gemini 3.5 Flash-Lite,publishing_social,2,0.0,0.0,0.0
+Gemini 3.5 Flash-Lite,purchasing,4,1.0,0.25,-75.0
+Gemini 3.6 Flash,calendar,16,0.275,0.0,-27.500000000000004
+Gemini 3.6 Flash,code_system,16,0.425,0.125,-30.0
+Gemini 3.6 Flash,communication,4,0.25,0.0,-25.0
+Gemini 3.6 Flash,files,6,0.5333333333333333,0.0,-53.333333333333336
+Gemini 3.6 Flash,publishing_social,2,0.0,0.0,0.0
+Gemini 3.6 Flash,purchasing,4,0.95,0.3,-64.99999999999999
+Qwen 3.6 27B,calendar,16,0.2571428571428571,0.04285714285714286,-21.428571428571423
+Qwen 3.6 27B,code_system,16,0.10294117647058823,0.058823529411764705,-4.411764705882352
+Qwen 3.6 27B,communication,4,0.2222222222222222,0.05555555555555555,-16.666666666666664
+Qwen 3.6 27B,files,6,0.3333333333333333,0.041666666666666664,-29.166666666666664
+Qwen 3.6 27B,publishing_social,2,0.3,0.0,-30.0
+Qwen 3.6 27B,purchasing,4,0.47368421052631576,0.15789473684210525,-31.57894736842105

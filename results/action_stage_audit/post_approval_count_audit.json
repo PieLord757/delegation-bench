@@ -1,0 +1,15 @@
+{
+  "eligible": 227,
+  "valid": 227,
+  "action": 182,
+  "non_action": 45,
+  "candidate_tool": 182,
+  "strict_candidate_equivalent": 56,
+  "same_tool_non_equivalent": 66,
+  "candidate_tool_unmeasurable": 60,
+  "ask_again": 14,
+  "request_information": 20,
+  "refuse": 2,
+  "other": 9,
+  "non_action_rate": 0.19823788546255505
+}

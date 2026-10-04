@@ -1,0 +1,41 @@
+model,factor,n_pairs,offline_low_minus_high,tool_equiv_low_minus_high,tool_minus_offline
+GPT-5.6 Sol,scope,4,1.0,0.5,-0.5
+GPT-5.6 Sol,stakes,2,0.5,-0.0,-0.5
+GPT-5.6 Sol,reversibility,4,0.5,0.65,0.15000000000000002
+GPT-5.6 Sol,external_visibility,4,-0.15,-0.05,0.09999999999999999
+GPT-OSS-120B,scope,4,0.95,0.15,-0.7999999999999999
+GPT-OSS-120B,stakes,2,0.8,0.5,-0.30000000000000004
+GPT-OSS-120B,reversibility,4,0.2,0.1,-0.1
+GPT-OSS-120B,external_visibility,4,-2.775557561562892e-17,-0.1,-0.09999999999999998
+GPT-OSS-20B,scope,4,0.95,0.35,-0.6
+GPT-OSS-20B,stakes,2,0.5,0.4,-0.09999999999999998
+GPT-OSS-20B,reversibility,4,0.4,0.0999999999999999,-0.30000000000000016
+GPT-OSS-20B,external_visibility,4,-0.0,0.1,0.1
+GPT-5.6 Terra,scope,4,1.0,0.25,-0.75
+GPT-5.6 Terra,stakes,2,0.6000000000000001,0.1,-0.5000000000000001
+GPT-5.6 Terra,reversibility,4,0.35,0.5,0.15000000000000002
+GPT-5.6 Terra,external_visibility,4,0.15,0.25,0.1
+GPT-5.6 Luna,scope,4,1.0,0.35,-0.65
+GPT-5.6 Luna,stakes,2,0.5,0.5,0.0
+GPT-5.6 Luna,reversibility,4,0.75,0.75,0.0
+GPT-5.6 Luna,external_visibility,4,0.25,-0.0,-0.25
+Claude Sonnet 5,scope,4,1.0,0.25,-0.75
+Claude Sonnet 5,stakes,2,0.5,-0.0,-0.5
+Claude Sonnet 5,reversibility,4,0.65,0.65,0.0
+Claude Sonnet 5,external_visibility,4,-0.0,0.05,0.05
+Claude Opus 4.8,scope,4,1.0,0.4,-0.6
+Claude Opus 4.8,stakes,2,0.9,0.2,-0.7
+Claude Opus 4.8,reversibility,4,0.75,0.5,-0.25
+Claude Opus 4.8,external_visibility,4,-0.0,0.1,0.1
+Gemini 3.6 Flash,scope,4,1.0,0.15,-0.85
+Gemini 3.6 Flash,stakes,2,0.6,0.5,-0.09999999999999998
+Gemini 3.6 Flash,reversibility,4,0.5,0.4,-0.09999999999999998
+Gemini 3.6 Flash,external_visibility,4,0.1,0.05,-0.05
+Gemini 3.5 Flash-Lite,scope,4,1.0,0.2,-0.8
+Gemini 3.5 Flash-Lite,stakes,2,-0.0,0.5,0.5
+Gemini 3.5 Flash-Lite,reversibility,4,0.1,0.5,0.4
+Gemini 3.5 Flash-Lite,external_visibility,4,0.0499999999999999,-0.1,-0.1499999999999999
+Qwen 3.6 27B,scope,4,1.0,0.1124999999999999,-0.8875000000000001
+Qwen 3.6 27B,stakes,2,0.625,0.1666666666666666,-0.45833333333333337
+Qwen 3.6 27B,reversibility,4,0.325,0.3,-0.025000000000000022
+Qwen 3.6 27B,external_visibility,4,0.0875,-0.1,-0.1875

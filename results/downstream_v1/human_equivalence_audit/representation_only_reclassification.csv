@@ -1,0 +1,11 @@
+endpoint,model,representation_reclassified_count,representation_reclassified_rate_all_valid
+sol,GPT-5.6 Sol,39,0.593103448275862
+oss120,GPT-OSS-120B,26,0.5448275862068965
+oss20,GPT-OSS-20B,31,0.5902777777777778
+terra,GPT-5.6 Terra,20,0.5931034482758621
+luna,GPT-5.6 Luna,30,0.5517241379310345
+sonnet,Claude Sonnet 5,26,0.5655172413793104
+opus,Claude Opus 4.8,35,0.6620689655172414
+gemini36,Gemini 3.6 Flash,41,0.7517241379310344
+flashlite,Gemini 3.5 Flash-Lite,25,0.7103448275862069
+qwen,Qwen 3.6 27B,35,0.7786259541984732

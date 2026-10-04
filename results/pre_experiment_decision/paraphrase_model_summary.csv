@@ -1,0 +1,11 @@
+model,n_paraphrases,trial_index_decision_consistency,mean_absolute_act_change,large_act_change_ge_60pp
+GPT-5.6 Sol,16,0.9375,0.0625,1
+GPT-OSS-120B,16,0.8125,0.1625,2
+GPT-OSS-20B,16,0.825,0.1125,1
+GPT-5.6 Terra,16,0.9,0.1,2
+GPT-5.6 Luna,16,0.825,0.1125,2
+Claude Sonnet 5,16,0.875,0.125,2
+Claude Opus 4.8,16,0.975,0.024999999999999994,0
+Gemini 3.6 Flash,16,1.0,0.0,0
+Gemini 3.5 Flash-Lite,16,0.925,0.075,1
+Qwen 3.6 27B,16,0.8375,0.06249999999999999,0

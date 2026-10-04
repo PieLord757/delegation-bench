@@ -1,0 +1,34 @@
+{
+  "candidate_shown_all10": {
+    "expected": 14.341199999999999,
+    "conservative": 21.5118
+  },
+  "candidate_shown_five_lineage": {
+    "expected": 4.069,
+    "conservative": 6.1035
+  },
+  "denial_all_eligible": {
+    "expected": 1.8812,
+    "conservative": 2.8218
+  },
+  "approval_modification_all_eligible": {
+    "expected": 2.06932,
+    "conservative": 3.10398
+  },
+  "policy_48_all10": {
+    "expected": 4.1385,
+    "conservative": 6.20775
+  },
+  "policy_48_five_lineage": {
+    "expected": 1.4385,
+    "conservative": 2.15775
+  },
+  "policy_72_all10": {
+    "expected": 6.20775,
+    "conservative": 9.311625000000001
+  },
+  "policy_72_five_lineage": {
+    "expected": 2.15775,
+    "conservative": 3.236625
+  }
+}

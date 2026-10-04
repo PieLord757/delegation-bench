@@ -1,0 +1,20 @@
+{
+  "plan_sha256": "88437dfa85896e8c20e7e12db3110d779107d520c4d6179d341f71144a4d2f63",
+  "inputs": {
+    "plan": "88437dfa85896e8c20e7e12db3110d779107d520c4d6179d341f71144a4d2f63",
+    "results/agentic_validation_v1/openai_canonical.jsonl": "fc6db773f0491aed6b650d8697b3625e3149cdfea9b7b21fbeec37054ee719e7",
+    "results/main_study_gpt_5_6_sol_canonical.jsonl": "8e76243546b24b430e67ebeaa35e52b6db9b0208809cb06f05db490c66495a31",
+    "results/agentic_validation_v1/groq_canonical.jsonl": "b495c8762367fb5952e2a95af5e4b05acee757c52b52efb9ed0e649702d912fb",
+    "results/main_study_gpt_oss_120b_groq_canonical.jsonl": "b74d1c396fe5d0bf24847f36910cee2d06d4df8140a15afae76f213aac9bb8b2",
+    "results/agentic_validation_v1/anthropic_canonical.jsonl": "7a002e9d2d707a296c0c503bb8a9fbfe909ac2332783c306b03467ded20884c3",
+    "results/model_extension_v1/claude_sonnet_5_canonical.jsonl": "00132a757cb1a2c87bc7e1567da0badae4350d8412c44e66b7d99a0e075cf090",
+    "results/gemini_agentic_transport_replication_v1/gemini_canonical.jsonl": "52ec06b6c46e1429a4fd86fc3dc3bc009d6de0ec85e77ea887d94773ec15bd86",
+    "results/model_extension_v1/gemini_3_6_flash_canonical.jsonl": "e76278699c878d1aa7041ae5a854fee62d6daa697609214ca23c7fb825651ed6"
+  },
+  "outputs": {
+    "three_stage_trial_paths.csv": "80fe6dd930bc2cd8f760a6beaf39bdf4fc50aafdbdf6a74e1ec8395ddc64e52b",
+    "three_stage_summary.csv": "ba44b38818ca8418d213bdbb63c9dd498a66c4c616c4f7069d083f45f8f3e1e9",
+    "three_stage_bootstrap.csv": "4d269d7e03b23318df9fb77fe4e11daa2f1f96ea351c1f1cb553c6d2ba181377"
+  },
+  "zero_api_calls": true
+}

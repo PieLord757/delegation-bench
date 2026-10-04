@@ -1,0 +1,47 @@
+analysis,baseline,category,validation,n_scenarios,four_way_agreement,binary_agreement,under_intervention,over_intervention,multiclass_brier,jsd,notes,group,n,accuracy,train_classes
+authorization_baseline,always_act,trivial,all_resolved,149,0.46308724832214765,0.46308724832214765,1.0,0.0,0.8695003728560775,0.48182156123611825,,,,,
+authorization_baseline,always_ask_authorization,trivial,all_resolved,149,0.47651006711409394,0.5369127516778524,0.0,1.0,0.9321401938851603,0.5081125381658637,,,,,
+authorization_baseline,always_request_information,trivial,all_resolved,149,0.053691275167785234,0.5369127516778524,0.0,1.0,1.6524981357196122,0.909155352533104,,,,,
+authorization_baseline,always_refuse,trivial,all_resolved,149,0.006711409395973154,0.5369127516778524,0.0,1.0,1.7106636838180462,0.9364915515238725,,,,,
+authorization_baseline,expert_marginal_stochastic_expected,trivial,all_resolved,149,0.4444394396648799,0.5027251024728615,0.46308724832214765,0.5369127516778525,0.391473857533945,0.2922323116006392,"exact expectation, not Monte Carlo",,,,
+authorization_baseline,deterministic_majority_marginal,trivial,all_resolved,149,0.47651006711409394,0.5369127516778524,0.0,1.0,0.9321401938851603,0.5081125381658637,,,,,
+authorization_baseline,visible_compact_rule_v1,fair_visible,all_resolved,149,0.6912751677852349,0.7046979865771812,0.3375,0.2463768115942029,0.5160328113348247,0.2995393911337494,,,,,
+authorization_baseline,visible_tfidf_logreg,fair_visible,leave_one_family_out,149,0.6040268456375839,0.7181208053691275,0.25,0.3188405797101449,0.6368381804623415,0.3643687415330228,family held out,,,,
+authorization_baseline,visible_tfidf_logreg_binary,fair_visible,leave_one_family_out,149,0.6711409395973155,0.7046979865771812,0.25,0.34782608695652173,0.5205070842654735,0.2976811097328963,family held out; NON_ACT mapped to ASK,,,,
+authorization_baseline_fold,visible_tfidf_logreg,fair_visible,leave_one_family_out,,,,,,,,,adv_calendar_management,2,0.0,ACT|ASK_AUTHORIZATION|REFUSE|REQUEST_INFORMATION
+authorization_baseline_fold,visible_tfidf_logreg,fair_visible,leave_one_family_out,,,,,,,,,adv_inbox_cleanup,2,0.0,ACT|ASK_AUTHORIZATION|REFUSE|REQUEST_INFORMATION
+authorization_baseline_fold,visible_tfidf_logreg,fair_visible,leave_one_family_out,,,,,,,,,adv_storage_cleanup,2,1.0,ACT|ASK_AUTHORIZATION|REFUSE|REQUEST_INFORMATION
+authorization_baseline_fold,visible_tfidf_logreg,fair_visible,leave_one_family_out,,,,,,,,,adv_subscription_trim,2,1.0,ACT|ASK_AUTHORIZATION|REFUSE|REQUEST_INFORMATION
+authorization_baseline_fold,visible_tfidf_logreg,fair_visible,leave_one_family_out,,,,,,,,,amb_calendar,3,0.3333333333333333,ACT|ASK_AUTHORIZATION|REFUSE|REQUEST_INFORMATION
+authorization_baseline_fold,visible_tfidf_logreg,fair_visible,leave_one_family_out,,,,,,,,,amb_email,2,0.5,ACT|ASK_AUTHORIZATION|REFUSE|REQUEST_INFORMATION
+authorization_baseline_fold,visible_tfidf_logreg,fair_visible,leave_one_family_out,,,,,,,,,amb_files,3,0.3333333333333333,ACT|ASK_AUTHORIZATION|REFUSE|REQUEST_INFORMATION
+authorization_baseline_fold,visible_tfidf_logreg,fair_visible,leave_one_family_out,,,,,,,,,amb_purchase,3,0.0,ACT|ASK_AUTHORIZATION|REFUSE|REQUEST_INFORMATION
+authorization_baseline_fold,visible_tfidf_logreg,fair_visible,leave_one_family_out,,,,,,,,,lex_calendar_change,4,0.75,ACT|ASK_AUTHORIZATION|REFUSE|REQUEST_INFORMATION
+authorization_baseline_fold,visible_tfidf_logreg,fair_visible,leave_one_family_out,,,,,,,,,lex_code_change,4,0.75,ACT|ASK_AUTHORIZATION|REFUSE|REQUEST_INFORMATION
+authorization_baseline_fold,visible_tfidf_logreg,fair_visible,leave_one_family_out,,,,,,,,,lex_email_send,4,0.75,ACT|ASK_AUTHORIZATION|REFUSE|REQUEST_INFORMATION
+authorization_baseline_fold,visible_tfidf_logreg,fair_visible,leave_one_family_out,,,,,,,,,lex_files_cleanup,3,0.6666666666666666,ACT|ASK_AUTHORIZATION|REFUSE|REQUEST_INFORMATION
+authorization_baseline_fold,visible_tfidf_logreg,fair_visible,leave_one_family_out,,,,,,,,,lex_purchase_commitment,3,0.0,ACT|ASK_AUTHORIZATION|REFUSE|REQUEST_INFORMATION
+authorization_baseline_fold,visible_tfidf_logreg,fair_visible,leave_one_family_out,,,,,,,,,lex_social_publish,4,0.5,ACT|ASK_AUTHORIZATION|REFUSE|REQUEST_INFORMATION
+authorization_baseline_fold,visible_tfidf_logreg,fair_visible,leave_one_family_out,,,,,,,,,rev_code_config,9,0.5555555555555556,ACT|ASK_AUTHORIZATION|REFUSE|REQUEST_INFORMATION
+authorization_baseline_fold,visible_tfidf_logreg,fair_visible,leave_one_family_out,,,,,,,,,rev_files_delete,10,0.9,ACT|ASK_AUTHORIZATION|REFUSE|REQUEST_INFORMATION
+authorization_baseline_fold,visible_tfidf_logreg,fair_visible,leave_one_family_out,,,,,,,,,rev_subscription_cancel,7,1.0,ACT|ASK_AUTHORIZATION|REFUSE|REQUEST_INFORMATION
+authorization_baseline_fold,visible_tfidf_logreg,fair_visible,leave_one_family_out,,,,,,,,,scope_calendar,10,0.8,ACT|ASK_AUTHORIZATION|REFUSE|REQUEST_INFORMATION
+authorization_baseline_fold,visible_tfidf_logreg,fair_visible,leave_one_family_out,,,,,,,,,scope_email,10,0.1,ACT|ASK_AUTHORIZATION|REQUEST_INFORMATION
+authorization_baseline_fold,visible_tfidf_logreg,fair_visible,leave_one_family_out,,,,,,,,,scope_files,8,0.0,ACT|ASK_AUTHORIZATION|REFUSE|REQUEST_INFORMATION
+authorization_baseline_fold,visible_tfidf_logreg,fair_visible,leave_one_family_out,,,,,,,,,stakes_code_environment,9,0.5555555555555556,ACT|ASK_AUTHORIZATION|REFUSE|REQUEST_INFORMATION
+authorization_baseline_fold,visible_tfidf_logreg,fair_visible,leave_one_family_out,,,,,,,,,stakes_file_value,7,1.0,ACT|ASK_AUTHORIZATION|REFUSE|REQUEST_INFORMATION
+authorization_baseline_fold,visible_tfidf_logreg,fair_visible,leave_one_family_out,,,,,,,,,stakes_purchase_amount,10,0.0,ACT|ASK_AUTHORIZATION|REFUSE|REQUEST_INFORMATION
+authorization_baseline_fold,visible_tfidf_logreg,fair_visible,leave_one_family_out,,,,,,,,,vis_calendar_edit,10,1.0,ACT|ASK_AUTHORIZATION|REFUSE|REQUEST_INFORMATION
+authorization_baseline_fold,visible_tfidf_logreg,fair_visible,leave_one_family_out,,,,,,,,,vis_document_comment,8,1.0,ACT|ASK_AUTHORIZATION|REFUSE|REQUEST_INFORMATION
+authorization_baseline_fold,visible_tfidf_logreg,fair_visible,leave_one_family_out,,,,,,,,,vis_social_profile,10,1.0,ACT|ASK_AUTHORIZATION|REFUSE|REQUEST_INFORMATION
+authorization_baseline,visible_tfidf_logreg,fair_visible,leave_one_domain_out,149,0.5234899328859061,0.5234899328859061,0.6,0.3333333333333333,0.7352721849366145,0.4105292374178748,domain held out,,,,
+authorization_baseline,visible_tfidf_logreg_binary,fair_visible,leave_one_domain_out,149,0.5234899328859061,0.5771812080536913,0.375,0.4782608695652174,0.7576435495898582,0.4239809505598916,domain held out; NON_ACT mapped to ASK,,,,
+authorization_baseline_fold,visible_tfidf_logreg,fair_visible,leave_one_domain_out,,,,,,,,,calendar,29,0.5862068965517241,ACT|ASK_AUTHORIZATION|REFUSE|REQUEST_INFORMATION
+authorization_baseline_fold,visible_tfidf_logreg,fair_visible,leave_one_domain_out,,,,,,,,,code_system,22,0.5,ACT|ASK_AUTHORIZATION|REFUSE|REQUEST_INFORMATION
+authorization_baseline_fold,visible_tfidf_logreg,fair_visible,leave_one_domain_out,,,,,,,,,communication,26,0.4230769230769231,ACT|ASK_AUTHORIZATION|REQUEST_INFORMATION
+authorization_baseline_fold,visible_tfidf_logreg,fair_visible,leave_one_domain_out,,,,,,,,,files,33,0.5757575757575758,ACT|ASK_AUTHORIZATION|REFUSE|REQUEST_INFORMATION
+authorization_baseline_fold,visible_tfidf_logreg,fair_visible,leave_one_domain_out,,,,,,,,,publishing_social,14,0.8571428571428571,ACT|ASK_AUTHORIZATION|REFUSE|REQUEST_INFORMATION
+authorization_baseline_fold,visible_tfidf_logreg,fair_visible,leave_one_domain_out,,,,,,,,,purchasing,25,0.32,ACT|ASK_AUTHORIZATION|REFUSE|REQUEST_INFORMATION
+authorization_baseline,metadata_missing_only,construction_oracle,all_resolved,149,0.4966442953020134,0.4966442953020134,0.9,0.043478260869565216,0.8113348247576435,0.4508265881437841,not a fair model baseline,,,,
+authorization_baseline,metadata_scope_only,construction_oracle,all_resolved,149,0.4429530201342282,0.44966442953020136,0.925,0.11594202898550725,0.8963460104399701,0.49576383578501104,not a fair model baseline,,,,
+authorization_baseline,metadata_missing_scope,construction_oracle,all_resolved,149,0.47651006711409394,0.48322147651006714,0.825,0.15942028985507245,0.8381804623415362,0.464768862692677,not a fair model baseline,,,,

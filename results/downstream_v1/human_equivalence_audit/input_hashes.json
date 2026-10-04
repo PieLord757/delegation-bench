@@ -1,0 +1,6 @@
+{
+  "HUMAN_CANDIDATE_EQUIVALENCE_AUDIT_V2_ANALYSIS_PLAN.md": "1aaaf391ff10138485f46c53ea04fb05e7a6fc66d6f73673a70161043eebb4da",
+  "human_review/tool_loop_equivalence_audit_v2_blinded.csv": "3f16db52b02a051575627a4cb8c3b0730c7e45d4438f8f3a72b706a42ae89fcf",
+  "human_review/tool_loop_equivalence_audit_v2_labeled.csv": "f21ccc192fcb0cfa943b7b4dc4ec12d78db424ccd8ecd1e9cde805b0a48c59b0",
+  "human_review/tool_loop_equivalence_audit_v2_private_key.csv": "248412be753d113724a286a0f1d952310b40b46131b38acf039ad09665746c58"
+}

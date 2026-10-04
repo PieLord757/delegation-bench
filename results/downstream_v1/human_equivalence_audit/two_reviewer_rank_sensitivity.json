@@ -1,0 +1,126 @@
+{
+  "bootstrap_95": {
+    "reviewer1": {
+      "pairwise_order_preservation": [
+        0.3333333333333333,
+        0.5555555555555556
+      ],
+      "pearson": [
+        -0.43397988597006154,
+        0.14559217606962457
+      ],
+      "spearman": [
+        -0.5169835375066715,
+        0.06686960980480709
+      ]
+    },
+    "reviewer2": {
+      "pairwise_order_preservation": [
+        0.3333333333333333,
+        0.5111111111111111
+      ],
+      "pearson": [
+        -0.43531501890603924,
+        0.11734281379168583
+      ],
+      "spearman": [
+        -0.5272727272727272,
+        -0.005909090909093114
+      ]
+    },
+    "reviewer_average": {
+      "pairwise_order_preservation": [
+        0.3333333333333333,
+        0.5111111111111111
+      ],
+      "pearson": [
+        -0.4310918727693342,
+        0.12251476925531293
+      ],
+      "spearman": [
+        -0.5167197121280549,
+        0.04255338805760452
+      ]
+    }
+  },
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20260903,
+  "endpoint_audit_n": {
+    "flashlite": 18,
+    "gemini36": 18,
+    "luna": 14,
+    "opus": 16,
+    "oss120": 16,
+    "oss20": 18,
+    "qwen": 17,
+    "sol": 15,
+    "sonnet": 14,
+    "terra": 14
+  },
+  "endpoint_semantic_rate_all_valid": {
+    "reviewer1": {
+      "flashlite": 0.6413793103448275,
+      "gemini36": 0.7862068965517242,
+      "luna": 0.5635467980295568,
+      "opus": 0.6620689655172414,
+      "oss120": 0.6689655172413793,
+      "oss20": 0.6628787878787878,
+      "qwen": 0.8396946564885496,
+      "sol": 0.6122605363984673,
+      "sonnet": 0.5701149425287356,
+      "terra": 0.6275862068965518
+    },
+    "reviewer2": {
+      "flashlite": 0.6758620689655173,
+      "gemini36": 0.7862068965517242,
+      "luna": 0.5635467980295568,
+      "opus": 0.6620689655172414,
+      "oss120": 0.6689655172413793,
+      "oss20": 0.7708333333333334,
+      "qwen": 0.8396946564885496,
+      "sol": 0.6122605363984673,
+      "sonnet": 0.5701149425287356,
+      "terra": 0.6275862068965518
+    },
+    "reviewer_average": {
+      "flashlite": 0.6586206896551724,
+      "gemini36": 0.7862068965517242,
+      "luna": 0.5635467980295568,
+      "opus": 0.6620689655172414,
+      "oss120": 0.6689655172413793,
+      "oss20": 0.7168560606060606,
+      "qwen": 0.8396946564885496,
+      "sol": 0.6122605363984673,
+      "sonnet": 0.5701149425287356,
+      "terra": 0.6275862068965518
+    }
+  },
+  "interpretation_boundary": "Sensitivity to two fixed reviewers and sampling; not a corrected semantic leaderboard or reviewer-population interval.",
+  "point": {
+    "reviewer1": {
+      "pairwise_order_preservation": 0.4444444444444444,
+      "pearson": -0.1428073140796997,
+      "spearman": -0.2121212121212121
+    },
+    "reviewer2": {
+      "pairwise_order_preservation": 0.37777777777777777,
+      "pearson": -0.17101514447157895,
+      "spearman": -0.3939393939393939
+    },
+    "reviewer_average": {
+      "pairwise_order_preservation": 0.4222222222222222,
+      "pearson": -0.16023456841046158,
+      "spearman": -0.23636363636363633
+    }
+  },
+  "source_hashes": {
+    "TWO_REVIEWER_EQUIVALENCE_RANK_SENSITIVITY_PLAN.md": "fdfbb146e4d71b40daec3d1925c510842e1000b5b9c6a85505c2b29dd81238a2",
+    "human_review/tool_loop_equivalence_audit_v2_labeled.csv": "f21ccc192fcb0cfa943b7b4dc4ec12d78db424ccd8ecd1e9cde805b0a48c59b0",
+    "human_review/tool_loop_equivalence_audit_v2_private_key.csv": "248412be753d113724a286a0f1d952310b40b46131b38acf039ad09665746c58",
+    "human_review/tool_loop_equivalence_audit_v2_reviewer2_labeled.csv": "f83c0763128ae4eb2a8189add20f4d522d296ccbcecf15967e2ba800ee6aa848"
+  },
+  "strict_historical": {
+    "pearson": -0.7350598737465854,
+    "spearman": -0.7575757575757575
+  }
+}

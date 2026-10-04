@@ -1,0 +1,236 @@
+{
+  "confidence_by_human": {
+    "EQUIVALENT|4": 63,
+    "EQUIVALENT|5": 125,
+    "NOT_EQUIVALENT|4": 3,
+    "NOT_EQUIVALENT|5": 6,
+    "UNCERTAIN|2": 3
+  },
+  "confidence_counts": {
+    "2": 3,
+    "4": 66,
+    "5": 131
+  },
+  "confidence_median": 5.0,
+  "confidence_sensitivity": {
+    "confidence_at_least_4": {
+      "metrics": {
+        "accepted_population_weight": 656.0,
+        "deterministic_rule_agreement": 0.6282528840668375,
+        "false_acceptance_contribution": 0.0,
+        "false_rejection_contribution": 0.37174711593316245,
+        "false_rejection_fraction": 0.8995958346607698,
+        "human_equivalent_rate": 0.9585091910673306,
+        "human_not_equivalent_rate": 0.0414908089326694,
+        "human_uncertain_rate": 0.0,
+        "population_weight": 1118.0,
+        "rejected_population_weight": 462.0,
+        "rule_acceptance_non_equivalent": 0.0,
+        "rule_acceptance_precision": 1.0,
+        "rule_acceptance_uncertain": 0.0,
+        "rule_rejection_correctness": 0.10040416533923027,
+        "rule_rejection_uncertain": 0.0,
+        "weighted_sensitivity_among_human_equivalent": 0.6121611358580609,
+        "weighted_specificity_among_human_non_equivalent": 1.0
+      },
+      "sample_n": 197
+    },
+    "confidence_at_least_5": {
+      "metrics": {
+        "accepted_population_weight": 653.0,
+        "deterministic_rule_agreement": 0.8622580822707914,
+        "false_acceptance_contribution": 0.0,
+        "false_rejection_contribution": 0.1377419177292086,
+        "false_rejection_fraction": 0.7798339973268574,
+        "human_equivalent_rate": 0.9611121244637633,
+        "human_not_equivalent_rate": 0.038887875536236655,
+        "human_uncertain_rate": 0.0,
+        "population_weight": 793.0818903318903,
+        "rejected_population_weight": 140.08189033189032,
+        "rule_acceptance_non_equivalent": 0.0,
+        "rule_acceptance_precision": 1.0,
+        "rule_acceptance_uncertain": 0.0,
+        "rule_rejection_correctness": 0.22016600267314265,
+        "rule_rejection_uncertain": 0.0,
+        "weighted_sensitivity_among_human_equivalent": 0.8566848609822091,
+        "weighted_specificity_among_human_non_equivalent": 1.0
+      },
+      "sample_n": 131
+    }
+  },
+  "integrity": {
+    "hidden_fields_absent": true,
+    "labeled_sha256": "f21ccc192fcb0cfa943b7b4dc4ec12d78db424ccd8ecd1e9cde805b0a48c59b0",
+    "nonjudgment_cells_unchanged": true,
+    "rows": 200
+  },
+  "optional_correctness_counts": {
+    "CORRECT": 197,
+    "UNCERTAIN": 3
+  },
+  "optional_safety_counts": {
+    "SAFER": 6,
+    "SAME": 191,
+    "UNCLEAR": 3
+  },
+  "rank_sensitivity": {
+    "bootstrap_probability_pearson_negative": 0.8142,
+    "bootstrap_probability_spearman_negative": 0.8812,
+    "human_corrected_pairwise_order_preservation": 0.4444444444444444,
+    "human_corrected_pearson_bootstrap_95": [
+      -0.43676825546220943,
+      0.14176169879089354
+    ],
+    "human_corrected_pearson_point": -0.1428073140796997,
+    "human_corrected_spearman_bootstrap_95": [
+      -0.5272727272727272,
+      0.06686960980480709
+    ],
+    "human_corrected_spearman_point": -0.2121212121212121,
+    "strict_deterministic_pearson": -0.7350598737465854,
+    "strict_deterministic_spearman": -0.7575757575757575
+  },
+  "representation_only_reclassification": {
+    "pearson": -0.5465202719270524,
+    "spearman": -0.5757575757575757
+  },
+  "sample_human_counts": {
+    "EQUIVALENT": 188,
+    "NOT_EQUIVALENT": 9,
+    "UNCERTAIN": 3
+  },
+  "stratified_bootstrap_95": {
+    "accepted_population_weight": [
+      656.0,
+      656.0
+    ],
+    "deterministic_rule_agreement": [
+      0.5972191973957198,
+      0.6466014959836672
+    ],
+    "false_acceptance_contribution": [
+      0.0,
+      0.0
+    ],
+    "false_rejection_contribution": [
+      0.33992735958755377,
+      0.3896333146112493
+    ],
+    "false_rejection_fraction": [
+      0.8074165585171874,
+      0.9254812273680197
+    ],
+    "human_equivalent_rate": [
+      0.9189211812998219,
+      0.9686271363235176
+    ],
+    "human_not_equivalent_rate": [
+      0.018225375683451586,
+      0.06760767427139888
+    ],
+    "human_uncertain_rate": [
+      0.00441306266548985,
+      0.0264783759929391
+    ],
+    "population_weight": [
+      1133.0,
+      1133.0
+    ],
+    "post_approval_human_equivalent_rate": [
+      1.0,
+      1.0
+    ],
+    "rejected_population_weight": [
+      477.0,
+      477.0
+    ],
+    "rule_acceptance_non_equivalent": [
+      0.0,
+      0.0
+    ],
+    "rule_acceptance_precision": [
+      1.0,
+      1.0
+    ],
+    "rule_acceptance_uncertain": [
+      0.0,
+      0.0
+    ],
+    "rule_rejection_correctness": [
+      0.04329004329004329,
+      0.16058594329034578
+    ],
+    "rule_rejection_uncertain": [
+      0.010482180293501049,
+      0.06289308176100629
+    ],
+    "tool_loop_human_equivalent_rate": [
+      0.9091371893300677,
+      0.9648412912507869
+    ],
+    "weighted_sensitivity_among_human_equivalent": [
+      0.5977468522200132,
+      0.630079960620364
+    ],
+    "weighted_specificity_among_human_non_equivalent": [
+      1.0,
+      1.0
+    ]
+  },
+  "uncertain_excluded_metrics": {
+    "accepted_population_weight": 656.0,
+    "deterministic_rule_agreement": 0.6282528840668375,
+    "false_acceptance_contribution": 0.0,
+    "false_rejection_contribution": 0.37174711593316245,
+    "false_rejection_fraction": 0.8995958346607698,
+    "human_equivalent_rate": 0.9585091910673306,
+    "human_not_equivalent_rate": 0.0414908089326694,
+    "human_uncertain_rate": 0.0,
+    "population_weight": 1118.0,
+    "rejected_population_weight": 462.0,
+    "rule_acceptance_non_equivalent": 0.0,
+    "rule_acceptance_precision": 1.0,
+    "rule_acceptance_uncertain": 0.0,
+    "rule_rejection_correctness": 0.10040416533923027,
+    "rule_rejection_uncertain": 0.0,
+    "weighted_sensitivity_among_human_equivalent": 0.6121611358580609,
+    "weighted_specificity_among_human_non_equivalent": 1.0
+  },
+  "unweighted_wilson_95_checks": {
+    "accepted_precision_unweighted_wilson": [
+      0.9630065017930143,
+      1.0
+    ],
+    "false_rejection_unweighted_wilson": [
+      0.8018790057328857,
+      0.9300059356298052
+    ],
+    "post_approval_human_equivalence_unweighted_wilson": [
+      0.9123783988027135,
+      1.0000000000000002
+    ],
+    "rejected_correctness_unweighted_wilson": [
+      0.04807254000256516,
+      0.1622621285271631
+    ]
+  },
+  "weighted_point": {
+    "accepted_population_weight": 656.0,
+    "deterministic_rule_agreement": 0.6199353260253525,
+    "false_acceptance_contribution": 0.0,
+    "false_rejection_contribution": 0.36682548597817793,
+    "false_rejection_fraction": 0.8713066574701795,
+    "human_equivalent_rate": 0.9458193076904463,
+    "human_not_equivalent_rate": 0.040941504313084194,
+    "human_uncertain_rate": 0.01323918799646955,
+    "population_weight": 1133.0,
+    "rejected_population_weight": 477.0,
+    "rule_acceptance_non_equivalent": 0.0,
+    "rule_acceptance_precision": 1.0,
+    "rule_acceptance_uncertain": 0.0,
+    "rule_rejection_correctness": 0.09724680164931737,
+    "rule_rejection_uncertain": 0.031446540880503145,
+    "weighted_sensitivity_among_human_equivalent": 0.6121611358580609,
+    "weighted_specificity_among_human_non_equivalent": 1.0
+  }
+}

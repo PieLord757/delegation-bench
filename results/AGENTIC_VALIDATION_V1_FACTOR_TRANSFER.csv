@@ -1,0 +1,17 @@
+population,endpoint,factor,n_pairs,forced_high_minus_low_act,agentic_high_minus_low_act,difference,sign_preserved,matched_pair_correlation,insufficient_pairs,agentic_bootstrap_low,agentic_bootstrap_high
+primary_measurable,GPT-5.6 Sol,scope,4,-1.0,-0.5,0.5,True,nan,False,-1.0,0.0
+primary_measurable,GPT-5.6 Sol,stakes,2,-0.5,0.0,0.5,,nan,True,nan,nan
+primary_measurable,GPT-5.6 Sol,reversibility,4,-0.5,-0.65,-0.15000000000000002,True,0.36650833306891567,False,-1.0,-0.25
+primary_measurable,GPT-5.6 Sol,external_visibility,4,0.15000000000000002,0.05,-0.10000000000000002,True,-0.2254938084008487,False,0.0,0.15000000000000002
+primary_measurable,GPT-OSS-120B Groq,scope,4,-0.95,-0.15000000000000002,0.7999999999999999,True,0.2927700218845599,False,-0.45000000000000007,0.1
+primary_measurable,GPT-OSS-120B Groq,stakes,2,-0.8,-0.5,0.30000000000000004,True,nan,True,nan,nan
+primary_measurable,GPT-OSS-120B Groq,reversibility,4,-0.2,-0.1,0.1,True,0.9428090415820634,False,-0.30000000000000004,0.0
+primary_measurable,GPT-OSS-120B Groq,external_visibility,4,2.7755575615628914e-17,0.1,0.09999999999999998,True,-0.8164965809277259,False,0.0,0.2
+primary_measurable,Claude Sonnet 5,scope,4,-1.0,-0.25,0.75,True,nan,False,-0.75,0.0
+primary_measurable,Claude Sonnet 5,stakes,2,-0.5,0.0,0.5,,nan,True,nan,nan
+primary_measurable,Claude Sonnet 5,reversibility,4,-0.65,-0.65,0.0,True,0.8111604527098667,False,-0.95,-0.2
+primary_measurable,Claude Sonnet 5,external_visibility,4,0.0,-0.05,-0.05,,nan,False,-0.15000000000000002,0.0
+primary_measurable,Gemini 3.6 Flash,scope,4,-1.0,0.0,1.0,,nan,False,0.0,0.0
+primary_measurable,Gemini 3.6 Flash,stakes,2,-0.6,0.0,0.6,,nan,True,nan,nan
+primary_measurable,Gemini 3.6 Flash,reversibility,4,-0.5,0.0,0.5,,nan,False,0.0,0.0
+primary_measurable,Gemini 3.6 Flash,external_visibility,4,-0.1,0.0,0.1,,nan,False,0.0,0.0

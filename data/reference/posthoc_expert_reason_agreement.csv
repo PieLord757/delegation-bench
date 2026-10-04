@@ -1,0 +1,5 @@
+view,n,exact_agreement,exact_agreement_rate,alpha,alpha_note,A_ASK,A_REQUEST,A_REFUSE,B_ASK,B_REQUEST,B_REFUSE,C_ASK,C_REQUEST,C_REFUSE
+three_way_all_NON_ACT,59,35,0.5932203389830508,0.2202918693537178,,42,6,11,47,11,1,49,5,5
+pairwise_A_B_both_NON_ACT,72,49,0.6805555555555556,,cohens_kappa=0.1125,46,,,,,,,,
+pairwise_A_C_both_NON_ACT,66,48,0.7272727272727273,,cohens_kappa=0.3040,42,,,,,,,,
+pairwise_B_C_both_NON_ACT,67,53,0.7910447761194029,,cohens_kappa=0.3861,47,,,,,,,,

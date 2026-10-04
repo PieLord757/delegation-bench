@@ -1,0 +1,2 @@
+population,n_scenarios,endpoint,forced_act_propensity,agentic_act_propensity,act_difference,scenario_act_correlation,modal_agreement,agentic_act_bootstrap_low,agentic_act_bootstrap_high
+primary_measurable,29,Gemini 3.6 Flash,0.6137931034482759,0.4689655172413793,-0.14482758620689656,0.27659676828360297,0.41379310344827586,0.3034482758620689,0.6413793103448275

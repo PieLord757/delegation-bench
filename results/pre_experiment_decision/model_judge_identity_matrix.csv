@@ -1,0 +1,27 @@
+analysis,source_model,source_family,judge,judge_family,same_model,same_family,included_cross_family_view
+rationale_semantic_recoding,gpt-5.6-sol,GPT-5.6,claude-sonnet-5,Claude,False,False,
+rationale_semantic_recoding,gpt-5.6-sol,GPT-5.6,gemini-3.6-flash,Gemini,False,False,
+rationale_semantic_recoding,openai/gpt-oss-120b,GPT-OSS,claude-sonnet-5,Claude,False,False,
+rationale_semantic_recoding,openai/gpt-oss-120b,GPT-OSS,gemini-3.6-flash,Gemini,False,False,
+rationale_semantic_recoding,openai/gpt-oss-20b,GPT-OSS,claude-sonnet-5,Claude,False,False,
+rationale_semantic_recoding,openai/gpt-oss-20b,GPT-OSS,gemini-3.6-flash,Gemini,False,False,
+measurement_open_ended,GPT-5.6 Sol,GPT-5.6,GPT-5.6 Luna,GPT-5.6,False,True,False
+measurement_open_ended,GPT-5.6 Sol,GPT-5.6,Gemini 3.5 Flash-Lite,Gemini,False,False,True
+measurement_open_ended,GPT-OSS-120B,GPT-OSS,GPT-5.6 Luna,GPT-5.6,False,False,True
+measurement_open_ended,GPT-OSS-120B,GPT-OSS,Gemini 3.5 Flash-Lite,Gemini,False,False,True
+measurement_open_ended,GPT-OSS-20B,GPT-OSS,GPT-5.6 Luna,GPT-5.6,False,False,True
+measurement_open_ended,GPT-OSS-20B,GPT-OSS,Gemini 3.5 Flash-Lite,Gemini,False,False,True
+measurement_open_ended,GPT-5.6 Terra,GPT-5.6,GPT-5.6 Luna,GPT-5.6,False,True,False
+measurement_open_ended,GPT-5.6 Terra,GPT-5.6,Gemini 3.5 Flash-Lite,Gemini,False,False,True
+measurement_open_ended,GPT-5.6 Luna,GPT-5.6,GPT-5.6 Luna,GPT-5.6,True,True,False
+measurement_open_ended,GPT-5.6 Luna,GPT-5.6,Gemini 3.5 Flash-Lite,Gemini,False,False,True
+measurement_open_ended,Claude Sonnet 5,Claude,GPT-5.6 Luna,GPT-5.6,False,False,True
+measurement_open_ended,Claude Sonnet 5,Claude,Gemini 3.5 Flash-Lite,Gemini,False,False,True
+measurement_open_ended,Claude Opus 4.8,Claude,GPT-5.6 Luna,GPT-5.6,False,False,True
+measurement_open_ended,Claude Opus 4.8,Claude,Gemini 3.5 Flash-Lite,Gemini,False,False,True
+measurement_open_ended,Gemini 3.6 Flash,Gemini,GPT-5.6 Luna,GPT-5.6,False,False,True
+measurement_open_ended,Gemini 3.6 Flash,Gemini,Gemini 3.5 Flash-Lite,Gemini,False,True,False
+measurement_open_ended,Gemini 3.5 Flash-Lite,Gemini,GPT-5.6 Luna,GPT-5.6,False,False,True
+measurement_open_ended,Gemini 3.5 Flash-Lite,Gemini,Gemini 3.5 Flash-Lite,Gemini,True,True,False
+measurement_open_ended,Qwen 3.6 27B,Qwen,GPT-5.6 Luna,GPT-5.6,False,False,True
+measurement_open_ended,Qwen 3.6 27B,Qwen,Gemini 3.5 Flash-Lite,Gemini,False,False,True

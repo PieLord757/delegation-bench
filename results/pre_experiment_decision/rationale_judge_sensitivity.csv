@@ -1,0 +1,10 @@
+source_model,view,n,emitted_label_semantic_match,refuse_n,refuse_coded_missing_authorization
+gpt-5.6-sol,claude-sonnet-5,780,0.9948717948717949,16,0
+gpt-5.6-sol,gemini-3.6-flash,780,0.9961538461538462,16,0
+gpt-5.6-sol,strict_two_judge_joint,780,0.9923076923076923,16,0
+openai/gpt-oss-120b,claude-sonnet-5,780,0.9564102564102565,58,18
+openai/gpt-oss-120b,gemini-3.6-flash,780,0.9653846153846154,58,18
+openai/gpt-oss-120b,strict_two_judge_joint,780,0.9551282051282052,58,16
+openai/gpt-oss-20b,claude-sonnet-5,780,0.941025641025641,72,31
+openai/gpt-oss-20b,gemini-3.6-flash,780,0.9512820512820512,72,25
+openai/gpt-oss-20b,strict_two_judge_joint,780,0.9384615384615385,72,25

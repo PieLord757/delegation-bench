@@ -1,0 +1,11 @@
+stability_metric,target,spearman,n_models
+exact,panel_agreement,0.5878787878787878,10
+exact,controlled_coherence,-0.3015741528993652,10
+exact,elicitation_shift,-0.7333333333333332,10
+exact,tool_loop_candidate_equivalent,-0.04242424242424241,10
+exact,tool_loop_candidate_tool,-0.38181818181818183,10
+fourplus,panel_agreement,0.4498501023232478,10
+fourplus,controlled_coherence,-0.35187866880641633,10
+fourplus,elicitation_shift,-0.7173285415424762,10
+fourplus,tool_loop_candidate_equivalent,-0.2127669402880226,10
+fourplus,tool_loop_candidate_tool,-0.4559291577600484,10

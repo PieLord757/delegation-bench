@@ -1,0 +1,11 @@
+endpoint_key,endpoint,attempt_log_available,attempt_log_rows,send_events,received_events,provider_stop_events,technical_failures,rate_limit_events,retry_events,primary_invalid_or_unresolved_trials,canonical_trials
+sol,GPT-5.6 Sol,0,0,0,0,0,0,0,0,27,1200
+oss120,GPT-OSS-120B,0,0,0,0,0,0,0,0,59,1200
+oss20,GPT-OSS-20B,1,1930,965,960,5,5,4,0,51,1200
+terra,GPT-5.6 Terra,1,1920,960,960,0,0,0,0,43,1200
+luna,GPT-5.6 Luna,1,1920,960,960,0,0,0,0,29,1200
+sonnet,Claude Sonnet 5,0,0,0,0,0,0,0,0,50,1200
+opus,Claude Opus 4.8,1,1920,960,960,0,0,0,0,45,1200
+flash,Gemini 3.6 Flash,0,0,0,0,0,0,0,0,26,1200
+flashlite,Gemini 3.5 Flash-Lite,1,1920,960,960,0,0,0,0,40,1200
+qwen,Qwen 3.6 27B,1,1936,968,748,220,220,8,0,248,1200

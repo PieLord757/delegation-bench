@@ -1,0 +1,8 @@
+{
+  "REVIEWER_EXTRACTION_EXISTING_DATA_ANALYSIS_PLAN.md": "723912c803ab226e425535fbeaf4945950013d71aa1fd199c515975ea0017e14",
+  "data/agentic_validation_v1_ids.json": "2096d800d42caf74e4ba3a5bc5a0b0d99b91873061df3cc0ec68f3d337830f3c",
+  "results/expert_grounding_final/final_expert_reference.csv": "01d8bf94ca154c9f1e70b26e1ed1bcbd83a0da140ec3dc537455e944246ccd61",
+  "results/post_approval_continuation_v1/eligibility_manifest.json": "87cea1f43de59d2e92ddea15677b929da17f51970274c3ee3a8abcd2294d1737",
+  "results/post_approval_continuation_v1_partial_parent/eligibility_manifest.json": "d07de1ee55e2d8e67487a7a2f4f750d14194b63fe867d00fc923b2e79aeaa91b",
+  "results/tool_loop_all_ten_extension_v1/analysis/model_summary.csv": "e905599586e8ac7168cc9341d5485ab8c6a73691f4ad28d59d410e9b98d3e07f"
+}

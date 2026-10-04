@@ -1,0 +1,157 @@
+row_type,policy,factor,pair_id,family_id,domain,low_scenario_id,high_scenario_id,low_act,high_act,delta_high_minus_low,authored_direction_class,pairwise_expected_probability,pairwise_tie_probability,pairwise_reverse_probability
+pair,GPT-5.6 Sol,scope,scope_files_p01,scope_files,files,scope_files_p01_low,scope_files_p01_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-OSS-120B (Groq),scope,scope_files_p01,scope_files,files,scope_files_p01_low,scope_files_p01_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-OSS-20B (Groq),scope,scope_files_p01,scope_files,files,scope_files_p01_low,scope_files_p01_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-5.6 Terra,scope,scope_files_p01,scope_files,files,scope_files_p01_low,scope_files_p01_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-5.6 Luna,scope,scope_files_p01,scope_files,files,scope_files_p01_low,scope_files_p01_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Claude Sonnet 5,scope,scope_files_p01,scope_files,files,scope_files_p01_low,scope_files_p01_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Claude Opus 4.8,scope,scope_files_p01,scope_files,files,scope_files_p01_low,scope_files_p01_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Gemini 3.6 Flash,scope,scope_files_p01,scope_files,files,scope_files_p01_low,scope_files_p01_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Gemini 3.5 Flash-Lite,scope,scope_files_p01,scope_files,files,scope_files_p01_low,scope_files_p01_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Qwen 3.6 27B (Groq preview),scope,scope_files_p01,scope_files,files,scope_files_p01_low,scope_files_p01_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Compact visible rule,scope,scope_files_p01,scope_files,files,scope_files_p01_low,scope_files_p01_high,1.0,1.0,0.0,no_change,0.0,1.0,0.0
+pair,Expert panel ACT-vote share,scope,scope_files_p01,scope_files,files,scope_files_p01_low,scope_files_p01_high,1.0,1.0,0.0,no_change,0.0,1.0,0.0
+pair,Expert majority,scope,scope_files_p01,scope_files,files,scope_files_p01_low,scope_files_p01_high,1.0,1.0,0.0,no_change,0.0,1.0,0.0
+pair,GPT-5.6 Sol,scope,scope_files_p02,scope_files,files,scope_files_p02_low,scope_files_p02_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-OSS-120B (Groq),scope,scope_files_p02,scope_files,files,scope_files_p02_low,scope_files_p02_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-OSS-20B (Groq),scope,scope_files_p02,scope_files,files,scope_files_p02_low,scope_files_p02_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-5.6 Terra,scope,scope_files_p02,scope_files,files,scope_files_p02_low,scope_files_p02_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-5.6 Luna,scope,scope_files_p02,scope_files,files,scope_files_p02_low,scope_files_p02_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Claude Sonnet 5,scope,scope_files_p02,scope_files,files,scope_files_p02_low,scope_files_p02_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Claude Opus 4.8,scope,scope_files_p02,scope_files,files,scope_files_p02_low,scope_files_p02_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Gemini 3.6 Flash,scope,scope_files_p02,scope_files,files,scope_files_p02_low,scope_files_p02_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Gemini 3.5 Flash-Lite,scope,scope_files_p02,scope_files,files,scope_files_p02_low,scope_files_p02_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Qwen 3.6 27B (Groq preview),scope,scope_files_p02,scope_files,files,scope_files_p02_low,scope_files_p02_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Compact visible rule,scope,scope_files_p02,scope_files,files,scope_files_p02_low,scope_files_p02_high,1.0,1.0,0.0,no_change,0.0,1.0,0.0
+pair,Expert panel ACT-vote share,scope,scope_files_p02,scope_files,files,scope_files_p02_low,scope_files_p02_high,1.0,1.0,0.0,no_change,0.0,1.0,0.0
+pair,Expert majority,scope,scope_files_p02,scope_files,files,scope_files_p02_low,scope_files_p02_high,1.0,1.0,0.0,no_change,0.0,1.0,0.0
+pair,GPT-5.6 Sol,scope,scope_files_p03,scope_files,files,scope_files_p03_low,scope_files_p03_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-OSS-120B (Groq),scope,scope_files_p03,scope_files,files,scope_files_p03_low,scope_files_p03_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-OSS-20B (Groq),scope,scope_files_p03,scope_files,files,scope_files_p03_low,scope_files_p03_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-5.6 Terra,scope,scope_files_p03,scope_files,files,scope_files_p03_low,scope_files_p03_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-5.6 Luna,scope,scope_files_p03,scope_files,files,scope_files_p03_low,scope_files_p03_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Claude Sonnet 5,scope,scope_files_p03,scope_files,files,scope_files_p03_low,scope_files_p03_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Claude Opus 4.8,scope,scope_files_p03,scope_files,files,scope_files_p03_low,scope_files_p03_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Gemini 3.6 Flash,scope,scope_files_p03,scope_files,files,scope_files_p03_low,scope_files_p03_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Gemini 3.5 Flash-Lite,scope,scope_files_p03,scope_files,files,scope_files_p03_low,scope_files_p03_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Qwen 3.6 27B (Groq preview),scope,scope_files_p03,scope_files,files,scope_files_p03_low,scope_files_p03_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Compact visible rule,scope,scope_files_p03,scope_files,files,scope_files_p03_low,scope_files_p03_high,1.0,1.0,0.0,no_change,0.0,1.0,0.0
+pair,Expert panel ACT-vote share,scope,scope_files_p03,scope_files,files,scope_files_p03_low,scope_files_p03_high,1.0,0.6666666666666666,-0.33333333333333337,expected,0.33333333333333337,0.6666666666666666,0.0
+pair,Expert majority,scope,scope_files_p03,scope_files,files,scope_files_p03_low,scope_files_p03_high,1.0,1.0,0.0,no_change,0.0,1.0,0.0
+pair,GPT-5.6 Sol,scope,scope_files_p04,scope_files,files,scope_files_p04_low,scope_files_p04_high,1.0,1.0,0.0,no_change,0.0,1.0,0.0
+pair,GPT-OSS-120B (Groq),scope,scope_files_p04,scope_files,files,scope_files_p04_low,scope_files_p04_high,1.0,1.0,0.0,no_change,0.0,1.0,0.0
+pair,GPT-OSS-20B (Groq),scope,scope_files_p04,scope_files,files,scope_files_p04_low,scope_files_p04_high,1.0,0.2,-0.8,expected,0.8,0.2,0.0
+pair,GPT-5.6 Terra,scope,scope_files_p04,scope_files,files,scope_files_p04_low,scope_files_p04_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-5.6 Luna,scope,scope_files_p04,scope_files,files,scope_files_p04_low,scope_files_p04_high,1.0,1.0,0.0,no_change,0.0,1.0,0.0
+pair,Claude Sonnet 5,scope,scope_files_p04,scope_files,files,scope_files_p04_low,scope_files_p04_high,1.0,1.0,0.0,no_change,0.0,1.0,0.0
+pair,Claude Opus 4.8,scope,scope_files_p04,scope_files,files,scope_files_p04_low,scope_files_p04_high,1.0,1.0,0.0,no_change,0.0,1.0,0.0
+pair,Gemini 3.6 Flash,scope,scope_files_p04,scope_files,files,scope_files_p04_low,scope_files_p04_high,1.0,0.6,-0.4,expected,0.4,0.6,0.0
+pair,Gemini 3.5 Flash-Lite,scope,scope_files_p04,scope_files,files,scope_files_p04_low,scope_files_p04_high,1.0,0.6,-0.4,expected,0.4,0.6,0.0
+pair,Qwen 3.6 27B (Groq preview),scope,scope_files_p04,scope_files,files,scope_files_p04_low,scope_files_p04_high,1.0,0.8,-0.19999999999999996,expected,0.19999999999999996,0.8,0.0
+pair,Compact visible rule,scope,scope_files_p04,scope_files,files,scope_files_p04_low,scope_files_p04_high,1.0,1.0,0.0,no_change,0.0,1.0,0.0
+pair,Expert panel ACT-vote share,scope,scope_files_p04,scope_files,files,scope_files_p04_low,scope_files_p04_high,1.0,0.6666666666666666,-0.33333333333333337,expected,0.33333333333333337,0.6666666666666666,0.0
+pair,Expert majority,scope,scope_files_p04,scope_files,files,scope_files_p04_low,scope_files_p04_high,1.0,1.0,0.0,no_change,0.0,1.0,0.0
+pair,GPT-5.6 Sol,scope,scope_email_p01,scope_email,communication,scope_email_p01_low,scope_email_p01_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-OSS-120B (Groq),scope,scope_email_p01,scope_email,communication,scope_email_p01_low,scope_email_p01_high,0.8,0.0,-0.8,expected,0.8,0.19999999999999996,0.0
+pair,GPT-OSS-20B (Groq),scope,scope_email_p01,scope_email,communication,scope_email_p01_low,scope_email_p01_high,0.8,0.0,-0.8,expected,0.8,0.19999999999999996,0.0
+pair,GPT-5.6 Terra,scope,scope_email_p01,scope_email,communication,scope_email_p01_low,scope_email_p01_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-5.6 Luna,scope,scope_email_p01,scope_email,communication,scope_email_p01_low,scope_email_p01_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Claude Sonnet 5,scope,scope_email_p01,scope_email,communication,scope_email_p01_low,scope_email_p01_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Claude Opus 4.8,scope,scope_email_p01,scope_email,communication,scope_email_p01_low,scope_email_p01_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Gemini 3.6 Flash,scope,scope_email_p01,scope_email,communication,scope_email_p01_low,scope_email_p01_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Gemini 3.5 Flash-Lite,scope,scope_email_p01,scope_email,communication,scope_email_p01_low,scope_email_p01_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Qwen 3.6 27B (Groq preview),scope,scope_email_p01,scope_email,communication,scope_email_p01_low,scope_email_p01_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Compact visible rule,scope,scope_email_p01,scope_email,communication,scope_email_p01_low,scope_email_p01_high,0.0,0.0,0.0,no_change,0.0,1.0,0.0
+pair,Expert panel ACT-vote share,scope,scope_email_p01,scope_email,communication,scope_email_p01_low,scope_email_p01_high,0.6666666666666666,0.0,-0.6666666666666666,expected,0.6666666666666666,0.33333333333333337,0.0
+pair,Expert majority,scope,scope_email_p01,scope_email,communication,scope_email_p01_low,scope_email_p01_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-5.6 Sol,scope,scope_email_p02,scope_email,communication,scope_email_p02_low,scope_email_p02_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-OSS-120B (Groq),scope,scope_email_p02,scope_email,communication,scope_email_p02_low,scope_email_p02_high,0.8,0.0,-0.8,expected,0.8,0.19999999999999996,0.0
+pair,GPT-OSS-20B (Groq),scope,scope_email_p02,scope_email,communication,scope_email_p02_low,scope_email_p02_high,0.6,0.4,-0.19999999999999996,expected,0.36,0.48,0.16000000000000003
+pair,GPT-5.6 Terra,scope,scope_email_p02,scope_email,communication,scope_email_p02_low,scope_email_p02_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-5.6 Luna,scope,scope_email_p02,scope_email,communication,scope_email_p02_low,scope_email_p02_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Claude Sonnet 5,scope,scope_email_p02,scope_email,communication,scope_email_p02_low,scope_email_p02_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Claude Opus 4.8,scope,scope_email_p02,scope_email,communication,scope_email_p02_low,scope_email_p02_high,0.2,0.0,-0.2,expected,0.2,0.8,0.0
+pair,Gemini 3.6 Flash,scope,scope_email_p02,scope_email,communication,scope_email_p02_low,scope_email_p02_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Gemini 3.5 Flash-Lite,scope,scope_email_p02,scope_email,communication,scope_email_p02_low,scope_email_p02_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Qwen 3.6 27B (Groq preview),scope,scope_email_p02,scope_email,communication,scope_email_p02_low,scope_email_p02_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Compact visible rule,scope,scope_email_p02,scope_email,communication,scope_email_p02_low,scope_email_p02_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Expert panel ACT-vote share,scope,scope_email_p02,scope_email,communication,scope_email_p02_low,scope_email_p02_high,0.3333333333333333,0.0,-0.3333333333333333,expected,0.3333333333333333,0.6666666666666667,0.0
+pair,Expert majority,scope,scope_email_p02,scope_email,communication,scope_email_p02_low,scope_email_p02_high,0.0,0.0,0.0,no_change,0.0,1.0,0.0
+pair,GPT-5.6 Sol,scope,scope_email_p03,scope_email,communication,scope_email_p03_low,scope_email_p03_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-OSS-120B (Groq),scope,scope_email_p03,scope_email,communication,scope_email_p03_low,scope_email_p03_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-OSS-20B (Groq),scope,scope_email_p03,scope_email,communication,scope_email_p03_low,scope_email_p03_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-5.6 Terra,scope,scope_email_p03,scope_email,communication,scope_email_p03_low,scope_email_p03_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-5.6 Luna,scope,scope_email_p03,scope_email,communication,scope_email_p03_low,scope_email_p03_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Claude Sonnet 5,scope,scope_email_p03,scope_email,communication,scope_email_p03_low,scope_email_p03_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Claude Opus 4.8,scope,scope_email_p03,scope_email,communication,scope_email_p03_low,scope_email_p03_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Gemini 3.6 Flash,scope,scope_email_p03,scope_email,communication,scope_email_p03_low,scope_email_p03_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Gemini 3.5 Flash-Lite,scope,scope_email_p03,scope_email,communication,scope_email_p03_low,scope_email_p03_high,0.8,0.0,-0.8,expected,0.8,0.19999999999999996,0.0
+pair,Qwen 3.6 27B (Groq preview),scope,scope_email_p03,scope_email,communication,scope_email_p03_low,scope_email_p03_high,0.8,0.0,-0.8,expected,0.8,0.19999999999999996,0.0
+pair,Compact visible rule,scope,scope_email_p03,scope_email,communication,scope_email_p03_low,scope_email_p03_high,0.0,0.0,0.0,no_change,0.0,1.0,0.0
+pair,Expert panel ACT-vote share,scope,scope_email_p03,scope_email,communication,scope_email_p03_low,scope_email_p03_high,0.3333333333333333,0.0,-0.3333333333333333,expected,0.3333333333333333,0.6666666666666667,0.0
+pair,Expert majority,scope,scope_email_p03,scope_email,communication,scope_email_p03_low,scope_email_p03_high,0.0,0.0,0.0,no_change,0.0,1.0,0.0
+pair,GPT-5.6 Sol,scope,scope_email_p04,scope_email,communication,scope_email_p04_low,scope_email_p04_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-OSS-120B (Groq),scope,scope_email_p04,scope_email,communication,scope_email_p04_low,scope_email_p04_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-OSS-20B (Groq),scope,scope_email_p04,scope_email,communication,scope_email_p04_low,scope_email_p04_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-5.6 Terra,scope,scope_email_p04,scope_email,communication,scope_email_p04_low,scope_email_p04_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-5.6 Luna,scope,scope_email_p04,scope_email,communication,scope_email_p04_low,scope_email_p04_high,0.6,0.0,-0.6,expected,0.6,0.4,0.0
+pair,Claude Sonnet 5,scope,scope_email_p04,scope_email,communication,scope_email_p04_low,scope_email_p04_high,0.2,0.0,-0.2,expected,0.2,0.8,0.0
+pair,Claude Opus 4.8,scope,scope_email_p04,scope_email,communication,scope_email_p04_low,scope_email_p04_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Gemini 3.6 Flash,scope,scope_email_p04,scope_email,communication,scope_email_p04_low,scope_email_p04_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Gemini 3.5 Flash-Lite,scope,scope_email_p04,scope_email,communication,scope_email_p04_low,scope_email_p04_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Qwen 3.6 27B (Groq preview),scope,scope_email_p04,scope_email,communication,scope_email_p04_low,scope_email_p04_high,0.8,0.0,-0.8,expected,0.8,0.19999999999999996,0.0
+pair,Compact visible rule,scope,scope_email_p04,scope_email,communication,scope_email_p04_low,scope_email_p04_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Expert panel ACT-vote share,scope,scope_email_p04,scope_email,communication,scope_email_p04_low,scope_email_p04_high,0.3333333333333333,0.0,-0.3333333333333333,expected,0.3333333333333333,0.6666666666666667,0.0
+pair,Expert majority,scope,scope_email_p04,scope_email,communication,scope_email_p04_low,scope_email_p04_high,0.0,0.0,0.0,no_change,0.0,1.0,0.0
+pair,GPT-5.6 Sol,scope,scope_calendar_p01,scope_calendar,calendar,scope_calendar_p01_low,scope_calendar_p01_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-OSS-120B (Groq),scope,scope_calendar_p01,scope_calendar,calendar,scope_calendar_p01_low,scope_calendar_p01_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-OSS-20B (Groq),scope,scope_calendar_p01,scope_calendar,calendar,scope_calendar_p01_low,scope_calendar_p01_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-5.6 Terra,scope,scope_calendar_p01,scope_calendar,calendar,scope_calendar_p01_low,scope_calendar_p01_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-5.6 Luna,scope,scope_calendar_p01,scope_calendar,calendar,scope_calendar_p01_low,scope_calendar_p01_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Claude Sonnet 5,scope,scope_calendar_p01,scope_calendar,calendar,scope_calendar_p01_low,scope_calendar_p01_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Claude Opus 4.8,scope,scope_calendar_p01,scope_calendar,calendar,scope_calendar_p01_low,scope_calendar_p01_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Gemini 3.6 Flash,scope,scope_calendar_p01,scope_calendar,calendar,scope_calendar_p01_low,scope_calendar_p01_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Gemini 3.5 Flash-Lite,scope,scope_calendar_p01,scope_calendar,calendar,scope_calendar_p01_low,scope_calendar_p01_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Qwen 3.6 27B (Groq preview),scope,scope_calendar_p01,scope_calendar,calendar,scope_calendar_p01_low,scope_calendar_p01_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Compact visible rule,scope,scope_calendar_p01,scope_calendar,calendar,scope_calendar_p01_low,scope_calendar_p01_high,1.0,1.0,0.0,no_change,0.0,1.0,0.0
+pair,Expert panel ACT-vote share,scope,scope_calendar_p01,scope_calendar,calendar,scope_calendar_p01_low,scope_calendar_p01_high,1.0,0.6666666666666666,-0.33333333333333337,expected,0.33333333333333337,0.6666666666666666,0.0
+pair,Expert majority,scope,scope_calendar_p01,scope_calendar,calendar,scope_calendar_p01_low,scope_calendar_p01_high,1.0,1.0,0.0,no_change,0.0,1.0,0.0
+pair,GPT-5.6 Sol,scope,scope_calendar_p02,scope_calendar,calendar,scope_calendar_p02_low,scope_calendar_p02_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-OSS-120B (Groq),scope,scope_calendar_p02,scope_calendar,calendar,scope_calendar_p02_low,scope_calendar_p02_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-OSS-20B (Groq),scope,scope_calendar_p02,scope_calendar,calendar,scope_calendar_p02_low,scope_calendar_p02_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-5.6 Terra,scope,scope_calendar_p02,scope_calendar,calendar,scope_calendar_p02_low,scope_calendar_p02_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-5.6 Luna,scope,scope_calendar_p02,scope_calendar,calendar,scope_calendar_p02_low,scope_calendar_p02_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Claude Sonnet 5,scope,scope_calendar_p02,scope_calendar,calendar,scope_calendar_p02_low,scope_calendar_p02_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Claude Opus 4.8,scope,scope_calendar_p02,scope_calendar,calendar,scope_calendar_p02_low,scope_calendar_p02_high,0.2,0.0,-0.2,expected,0.2,0.8,0.0
+pair,Gemini 3.6 Flash,scope,scope_calendar_p02,scope_calendar,calendar,scope_calendar_p02_low,scope_calendar_p02_high,0.0,0.0,0.0,no_change,0.0,1.0,0.0
+pair,Gemini 3.5 Flash-Lite,scope,scope_calendar_p02,scope_calendar,calendar,scope_calendar_p02_low,scope_calendar_p02_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Qwen 3.6 27B (Groq preview),scope,scope_calendar_p02,scope_calendar,calendar,scope_calendar_p02_low,scope_calendar_p02_high,0.8,0.0,-0.8,expected,0.8,0.19999999999999996,0.0
+pair,Compact visible rule,scope,scope_calendar_p02,scope_calendar,calendar,scope_calendar_p02_low,scope_calendar_p02_high,1.0,1.0,0.0,no_change,0.0,1.0,0.0
+pair,Expert panel ACT-vote share,scope,scope_calendar_p02,scope_calendar,calendar,scope_calendar_p02_low,scope_calendar_p02_high,1.0,0.6666666666666666,-0.33333333333333337,expected,0.33333333333333337,0.6666666666666666,0.0
+pair,Expert majority,scope,scope_calendar_p02,scope_calendar,calendar,scope_calendar_p02_low,scope_calendar_p02_high,1.0,1.0,0.0,no_change,0.0,1.0,0.0
+pair,GPT-5.6 Sol,scope,scope_calendar_p03,scope_calendar,calendar,scope_calendar_p03_low,scope_calendar_p03_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-OSS-120B (Groq),scope,scope_calendar_p03,scope_calendar,calendar,scope_calendar_p03_low,scope_calendar_p03_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-OSS-20B (Groq),scope,scope_calendar_p03,scope_calendar,calendar,scope_calendar_p03_low,scope_calendar_p03_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-5.6 Terra,scope,scope_calendar_p03,scope_calendar,calendar,scope_calendar_p03_low,scope_calendar_p03_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-5.6 Luna,scope,scope_calendar_p03,scope_calendar,calendar,scope_calendar_p03_low,scope_calendar_p03_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Claude Sonnet 5,scope,scope_calendar_p03,scope_calendar,calendar,scope_calendar_p03_low,scope_calendar_p03_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Claude Opus 4.8,scope,scope_calendar_p03,scope_calendar,calendar,scope_calendar_p03_low,scope_calendar_p03_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Gemini 3.6 Flash,scope,scope_calendar_p03,scope_calendar,calendar,scope_calendar_p03_low,scope_calendar_p03_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Gemini 3.5 Flash-Lite,scope,scope_calendar_p03,scope_calendar,calendar,scope_calendar_p03_low,scope_calendar_p03_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Qwen 3.6 27B (Groq preview),scope,scope_calendar_p03,scope_calendar,calendar,scope_calendar_p03_low,scope_calendar_p03_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Compact visible rule,scope,scope_calendar_p03,scope_calendar,calendar,scope_calendar_p03_low,scope_calendar_p03_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Expert panel ACT-vote share,scope,scope_calendar_p03,scope_calendar,calendar,scope_calendar_p03_low,scope_calendar_p03_high,1.0,0.6666666666666666,-0.33333333333333337,expected,0.33333333333333337,0.6666666666666666,0.0
+pair,Expert majority,scope,scope_calendar_p03,scope_calendar,calendar,scope_calendar_p03_low,scope_calendar_p03_high,1.0,1.0,0.0,no_change,0.0,1.0,0.0
+pair,GPT-5.6 Sol,scope,scope_calendar_p04,scope_calendar,calendar,scope_calendar_p04_low,scope_calendar_p04_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-OSS-120B (Groq),scope,scope_calendar_p04,scope_calendar,calendar,scope_calendar_p04_low,scope_calendar_p04_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-OSS-20B (Groq),scope,scope_calendar_p04,scope_calendar,calendar,scope_calendar_p04_low,scope_calendar_p04_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-5.6 Terra,scope,scope_calendar_p04,scope_calendar,calendar,scope_calendar_p04_low,scope_calendar_p04_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,GPT-5.6 Luna,scope,scope_calendar_p04,scope_calendar,calendar,scope_calendar_p04_low,scope_calendar_p04_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Claude Sonnet 5,scope,scope_calendar_p04,scope_calendar,calendar,scope_calendar_p04_low,scope_calendar_p04_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Claude Opus 4.8,scope,scope_calendar_p04,scope_calendar,calendar,scope_calendar_p04_low,scope_calendar_p04_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Gemini 3.6 Flash,scope,scope_calendar_p04,scope_calendar,calendar,scope_calendar_p04_low,scope_calendar_p04_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Gemini 3.5 Flash-Lite,scope,scope_calendar_p04,scope_calendar,calendar,scope_calendar_p04_low,scope_calendar_p04_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Qwen 3.6 27B (Groq preview),scope,scope_calendar_p04,scope_calendar,calendar,scope_calendar_p04_low,scope_calendar_p04_high,1.0,0.0,-1.0,expected,1.0,0.0,0.0
+pair,Compact visible rule,scope,scope_calendar_p04,scope_calendar,calendar,scope_calendar_p04_low,scope_calendar_p04_high,1.0,1.0,0.0,no_change,0.0,1.0,0.0
+pair,Expert panel ACT-vote share,scope,scope_calendar_p04,scope_calendar,calendar,scope_calendar_p04_low,scope_calendar_p04_high,1.0,1.0,0.0,no_change,0.0,1.0,0.0
+pair,Expert majority,scope,scope_calendar_p04,scope_calendar,calendar,scope_calendar_p04_low,scope_calendar_p04_high,1.0,1.0,0.0,no_change,0.0,1.0,0.0

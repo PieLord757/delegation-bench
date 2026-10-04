@@ -1,0 +1,7 @@
+quantity_x,quantity_y,correlation,estimate,endpoint_bootstrap_low,endpoint_bootstrap_high,n_configurations
+panel_binary_auroc,act_bias,spearman,-0.960490759014502,-1.0,-0.6996542420830071,10
+panel_binary_auroc,act_bias,pearson,-0.9539101413278462,-0.9977505321042688,-0.9118076555287841,10
+panel_relative_spearman,act_bias,spearman,-0.9300954818304988,-1.0,-0.673296388083381,10
+panel_relative_spearman,act_bias,pearson,-0.9107092749027594,-0.987966410088183,-0.81817970281297,10
+panel_binary_auroc,panel_relative_spearman,spearman,0.9757575757575757,0.8101265822784811,1.0,10
+panel_binary_auroc,panel_relative_spearman,pearson,0.9786351079645287,0.9180209745862169,0.9962433068738731,10

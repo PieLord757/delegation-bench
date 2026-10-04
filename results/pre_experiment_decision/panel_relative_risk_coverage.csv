@@ -1,0 +1,11 @@
+model,coverage_model_act_rate,panel_relative_risk_under_intervention,over_intervention,note
+GPT-5.6 Sol,0.6671140939597315,0.5475,0.19420289855072462,"Panel-relative descriptive quantities, not deployment risk or selective-prediction risk."
+GPT-OSS-120B,0.6510067114093959,0.5525,0.23478260869565215,"Panel-relative descriptive quantities, not deployment risk or selective-prediction risk."
+GPT-OSS-20B,0.6590604026845637,0.5875,0.2579710144927536,"Panel-relative descriptive quantities, not deployment risk or selective-prediction risk."
+GPT-5.6 Terra,0.595973154362416,0.4375,0.22028985507246376,"Panel-relative descriptive quantities, not deployment risk or selective-prediction risk."
+GPT-5.6 Luna,0.5825503355704699,0.41500000000000004,0.22318840579710145,"Panel-relative descriptive quantities, not deployment risk or selective-prediction risk."
+Claude Sonnet 5,0.5664429530201343,0.36500000000000005,0.2,"Panel-relative descriptive quantities, not deployment risk or selective-prediction risk."
+Claude Opus 4.8,0.5825503355704699,0.4025,0.2086956521739131,"Panel-relative descriptive quantities, not deployment risk or selective-prediction risk."
+Gemini 3.6 Flash,0.4899328859060403,0.25250000000000006,0.23478260869565215,"Panel-relative descriptive quantities, not deployment risk or selective-prediction risk."
+Gemini 3.5 Flash-Lite,0.43758389261744957,0.20249999999999999,0.2898550724637681,"Panel-relative descriptive quantities, not deployment risk or selective-prediction risk."
+Qwen 3.6 27B,0.5463087248322148,0.38499999999999995,0.26666666666666666,"Panel-relative descriptive quantities, not deployment risk or selective-prediction risk."

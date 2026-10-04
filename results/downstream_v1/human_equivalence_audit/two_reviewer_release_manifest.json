@@ -1,0 +1,8 @@
+{
+  "output_sha256": "8a33a73e6c583f7a82c212b685405eae1b34e33d7e119cb52fbb798bea9c62fb",
+  "release_boundary": "Categorical labels and sampling metadata only; no case text, tool arguments, rationale, reviewer identity, or adjudication.",
+  "reviewer1_sha256": "f21ccc192fcb0cfa943b7b4dc4ec12d78db424ccd8ecd1e9cde805b0a48c59b0",
+  "reviewer2_sha256": "f83c0763128ae4eb2a8189add20f4d522d296ccbcecf15967e2ba800ee6aa848",
+  "rows": 200,
+  "zero_model_api_calls": true
+}

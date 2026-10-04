@@ -1,0 +1,5 @@
+population,endpoint,forced_ask_to_agent_act,forced_act_to_agent_ask,forced_request_to_agent_act,forced_refuse_to_agent_act,forced_act_to_agent_refuse,forced_act_to_agent_other,forced_non_act_to_agent_act
+primary_measurable,GPT-5.6 Sol,0,9,0,0,0,40,0
+primary_measurable,GPT-OSS-120B Groq,5,2,2,0,0,36,7
+primary_measurable,Claude Sonnet 5,8,2,0,0,0,24,8
+primary_measurable,Gemini 3.6 Flash,0,0,0,0,0,81,0

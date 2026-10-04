@@ -1,0 +1,89 @@
+{
+  "adjudication_executed": false,
+  "interrater_bootstrap": {
+    "cohens_kappa_95": [
+      0.45111492281303656,
+      0.8677248677248676
+    ],
+    "raw_agreement_95": [
+      0.95,
+      0.99
+    ],
+    "reviewer_average_semantic_correspondence_95_sampling_only": [
+      0.9325301941365489,
+      0.9753155053243314
+    ],
+    "undefined_kappa_replicates": 0
+  },
+  "joint_weighted_point": {
+    "any_uncertain": 0.01323918799646955,
+    "both_equivalent": 0.9458193076904459,
+    "both_not_equivalent": 0.027220891298561197,
+    "equivalent_not_equivalent_disagreement": 0.013720613014522988,
+    "reviewer_average_semantic_correspondence": 0.9548861455304527
+  },
+  "optional_correctness_interrater": {
+    "cohens_kappa": 0.17279411764705815,
+    "crosstab": {
+      "CORRECT|CORRECT": 191,
+      "CORRECT|INCORRECT": 6,
+      "UNCERTAIN|CORRECT": 1,
+      "UNCERTAIN|INCORRECT": 2
+    },
+    "n": 200,
+    "raw_agreement": 0.955,
+    "reviewer1_counts": {
+      "CORRECT": 197,
+      "UNCERTAIN": 3
+    },
+    "reviewer2_counts": {
+      "CORRECT": 192,
+      "INCORRECT": 8
+    }
+  },
+  "optional_safety_interrater": {
+    "cohens_kappa": 0.7938144329896908,
+    "crosstab": {
+      "SAFER|SAFER": 6,
+      "SAME|SAME": 191,
+      "UNCLEAR|SAME": 3
+    },
+    "n": 200,
+    "raw_agreement": 0.985,
+    "reviewer1_counts": {
+      "SAFER": 6,
+      "SAME": 191,
+      "UNCLEAR": 3
+    },
+    "reviewer2_counts": {
+      "SAFER": 6,
+      "SAME": 194
+    }
+  },
+  "reviewer2_counts": {
+    "confidence": {
+      "4": 92,
+      "5": 108
+    },
+    "human_equivalence": {
+      "EQUIVALENT": 192,
+      "NOT_EQUIVALENT": 8
+    },
+    "optional_correctness": {
+      "CORRECT": 192,
+      "INCORRECT": 8
+    },
+    "optional_safety": {
+      "SAFER": 6,
+      "SAME": 194
+    }
+  },
+  "source_hashes": {
+    "CANDIDATE_EQUIVALENCE_SECOND_REVIEWER_ANALYSIS_PLAN.md": "ebd46cdd731a66c949c338cebfc968d1a139fed9518a14406727015fd0b1aa50",
+    "CANDIDATE_EQUIVALENCE_SECOND_REVIEWER_ANALYZER_AMENDMENT_1.md": "1ca45e1112d54504538ec879e6181669cda8b77929289fab0951da9b39d19b3b",
+    "human_review/tool_loop_equivalence_audit_v2_labeled.csv": "f21ccc192fcb0cfa943b7b4dc4ec12d78db424ccd8ecd1e9cde805b0a48c59b0",
+    "human_review/tool_loop_equivalence_audit_v2_private_key.csv": "248412be753d113724a286a0f1d952310b40b46131b38acf039ad09665746c58",
+    "human_review/tool_loop_equivalence_audit_v2_reviewer2_labeled.csv": "f83c0763128ae4eb2a8189add20f4d522d296ccbcecf15967e2ba800ee6aa848"
+  },
+  "zero_model_api_calls": true
+}

@@ -1,0 +1,9 @@
+statistic,p2_5,p50,p97_5,probability
+pearson,-0.8155602645947072,-0.5726928984018631,-0.11594549655320462,nan
+spearman,-0.8042851064116697,-0.4662664434271299,0.0,nan
+pairwise_order_preservation,0.15555555555555556,0.3111111111111111,0.4888888888888889,nan
+exact_ranking_preserved,nan,nan,nan,0.0
+exact_reverse_ranking,nan,nan,nan,0.0
+top_model_preserved,nan,nan,nan,0.00972
+bottom_model_preserved,nan,nan,nan,0.00154
+spearman_negative,nan,nan,nan,0.97482
