@@ -34,7 +34,7 @@ Python 3.10 or newer. The tested versions are pinned in
 `requirements-tested.txt`.
 
 ```bash
-git clone https://github.com/<user>/delegation-bench.git
+git clone https://github.com/PieLord757/delegation-bench.git
 cd delegation-bench
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements-tested.txt
