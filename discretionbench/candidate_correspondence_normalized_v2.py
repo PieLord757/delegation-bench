@@ -10,7 +10,7 @@ import re
 import unicodedata
 from typing import Any
 
-from delegationbench.agentic_equivalence import arguments_equivalent, _normalize_date, _normalize_time
+from discretionbench.agentic_equivalence import arguments_equivalent, _normalize_date, _normalize_time
 
 
 def _text(value: Any) -> str | None:

@@ -82,7 +82,7 @@
   "source_calls": 1133,
   "source_hashes": {
     "NORMALIZED_MATCHER_V2_PLAN.md": "fcaf1a95e3e51d61d494d372fef2e86b8cae2f19b18189dd86d2e5a788960d76",
-    "delegationbench/candidate_correspondence_normalized_v2.py": "83f9f21df85818d1f191a1582abd96405d49e9506f10fa080c4893d35311d6c0",
+    "discretionbench/candidate_correspondence_normalized_v2.py": "83f9f21df85818d1f191a1582abd96405d49e9506f10fa080c4893d35311d6c0",
     "human_review/tool_loop_equivalence_audit_v2_labeled.csv": "f21ccc192fcb0cfa943b7b4dc4ec12d78db424ccd8ecd1e9cde805b0a48c59b0",
     "human_review/tool_loop_equivalence_audit_v2_private_key.csv": "248412be753d113724a286a0f1d952310b40b46131b38acf039ad09665746c58",
     "human_review/tool_loop_equivalence_audit_v2_reviewer2_labeled.csv": "f83c0763128ae4eb2a8189add20f4d522d296ccbcecf15967e2ba800ee6aa848",

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate a DelegationBench JSONL file without changing it."""
+"""Validate a DiscretionBench JSONL file without changing it."""
 
 import argparse
 from pathlib import Path
@@ -7,12 +7,12 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from delegationbench.validation import validate_dataset
+from discretionbench.validation import validate_dataset
 
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("data", nargs="?", default="delegationbench_v0_1_authoring_draft.jsonl")
+    parser.add_argument("data", nargs="?", default="discretionbench_v1_0.jsonl")
     args = parser.parse_args()
     report = validate_dataset(Path(args.data))
     print(f"Validated records: {report.records}")

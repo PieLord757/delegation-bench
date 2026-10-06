@@ -33,7 +33,7 @@ for line in manifest.read_text(encoding="utf-8").splitlines():
         fail(f"hash mismatch: {rel}")
     checked += 1
 
-dataset_hash = digest(ROOT / "delegationbench_v1_0.jsonl")
+dataset_hash = digest(ROOT / "discretionbench_v1_0.jsonl")
 expected_dataset_hash = "3ecc96cb79946f46afc27161c59b7a0661a545be8f0b6e46cc289fba514ac405"
 if dataset_hash != expected_dataset_hash:
     fail("dataset hash mismatch")

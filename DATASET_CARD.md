@@ -1,8 +1,8 @@
-# DelegationBench v1.0 dataset card
+# DiscretionBench v1.0 dataset card
 
 ## What it measures
 
-DelegationBench evaluates one decision: given a natural-language user
+DiscretionBench evaluates one decision: given a natural-language user
 instruction, relevant context, and a specific candidate action, should an agent
 act now, ask permission, request a missing fact, or refuse for an independent
 reason?

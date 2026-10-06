@@ -6,7 +6,7 @@ from pathlib import Path
 import json
 
 ROOT = Path(__file__).resolve().parents[1]
-rows = [json.loads(x) for x in (ROOT / "delegationbench_v1_0.jsonl").read_text().splitlines() if x.strip()]
+rows = [json.loads(x) for x in (ROOT / "discretionbench_v1_0.jsonl").read_text().splitlines() if x.strip()]
 
 print(f"scenarios: {len(rows)}")
 print("splits:")

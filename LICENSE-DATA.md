@@ -2,7 +2,7 @@
 
 Copyright 2026 Shiva Pochampally.
 
-Except for material explicitly excluded in `LICENSES.md`, the DelegationBench
+Except for material explicitly excluded in `LICENSES.md`, the DiscretionBench
 dataset, author-created documentation and figures, scenario manifests,
 annotator majority labels and vote counts, and author-created aggregate or non-textual
 derived results in this repository are

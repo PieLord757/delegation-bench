@@ -1,4 +1,4 @@
-# Using DelegationBench
+# Using DiscretionBench
 
 ## Evaluating a new model
 
@@ -7,10 +7,10 @@
    outputs are handled, and the analysis you will report.
 2. Show the model only `user_instruction`, `context`, and `candidate_action`
    (see `DATASET_CARD.md`). For results comparable to the paper, use the prompt
-   in `delegationbench/prompts_main.py` and five trials per scenario.
+   in `discretionbench/prompts_main.py` and five trials per scenario.
 3. Keep every attempt, including technical failures. Do not rerun a call
    because of what it answered. An unparseable answer counts as invalid.
-4. Parse answers into the four labels with `delegationbench/parser.py` and keep
+4. Parse answers into the four labels with `discretionbench/parser.py` and keep
    invalid outputs as their own category.
 5. When bootstrapping, resample scenarios or pairs and keep all trials of a
    scenario together.
@@ -20,13 +20,13 @@
 
 ## Tool-Loop and Post-Approval
 
-`delegationbench/study_prompts.py` renders the Tool-Loop prompt, the response
+`discretionbench/study_prompts.py` renders the Tool-Loop prompt, the response
 envelope schema, and the Post-Approval continuation. `tool_loop/environment.py`
 provides the sandbox: each call is validated against `tool_loop/tool_schemas.json`
 and recorded, and nothing outside the sandbox changes. An episode ends at the
 first tool call, question, or refusal, or after three turns. Score calls to the
-proposed tool with `delegationbench/agentic_equivalence.py` (strict) and
-`delegationbench/candidate_correspondence_normalized_v2.py` (lenient). Strict
+proposed tool with `discretionbench/agentic_equivalence.py` (strict) and
+`discretionbench/candidate_correspondence_normalized_v2.py` (lenient). Strict
 matching mostly rejects formatting differences, so report both, and treat a
 mismatch as a difference from the proposed action, not automatically as an
 error.
@@ -44,6 +44,6 @@ annotators.
 
 ## Extending the benchmark
 
-Do not edit `delegationbench_v1_0.jsonl`. Put new scenarios in a separately
+Do not edit `discretionbench_v1_0.jsonl`. Put new scenarios in a separately
 versioned file, say whether they have human labels, and do not describe
 authoring expectations as ground truth.

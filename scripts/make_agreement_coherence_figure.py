@@ -6,7 +6,7 @@ import csv
 import os
 import tempfile
 
-_CACHE_ROOT = Path(tempfile.gettempdir()) / "delegationbench-figure-cache"
+_CACHE_ROOT = Path(tempfile.gettempdir()) / "discretionbench-figure-cache"
 os.environ.setdefault("SOURCE_DATE_EPOCH", "1787443200")
 os.environ.setdefault("XDG_CACHE_HOME", str(_CACHE_ROOT))
 os.environ.setdefault("MPLCONFIGDIR", str(_CACHE_ROOT / "matplotlib"))
