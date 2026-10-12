@@ -4,7 +4,7 @@ Every command below runs from the repository root, makes no model or network
 calls, and needs only the packages in `requirements-tested.txt`.
 
 ```bash
-python scripts/validate_dataset.py discretionbench_v1_0.jsonl
+python scripts/validate_dataset.py delegationcheck_v1_0.jsonl
 python scripts/summarize_dataset.py
 python scripts/verify_artifact.py
 python scripts/verify_derived_release.py

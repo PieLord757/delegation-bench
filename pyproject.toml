@@ -3,9 +3,9 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "discretionbench"
+name = "delegationcheck"
 version = "1.0.0"
-description = "DiscretionBench: when should an AI agent ask before acting?"
+description = "DelegationCheck: when should an AI agent ask before acting?"
 readme = "README.md"
 authors = [{ name = "Shiva Pochampally" }]
 license = { text = "MIT (code); CC-BY-4.0 (data)" }
@@ -23,4 +23,4 @@ testpaths = ["tests"]
 pythonpath = ["."]
 
 [tool.setuptools]
-packages = ["discretionbench"]
+packages = ["delegationcheck"]

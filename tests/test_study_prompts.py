@@ -4,9 +4,9 @@ import hashlib
 import json
 from pathlib import Path
 
-from discretionbench import study_prompts as sp
-from discretionbench.prompts_main import build_prompt
-from discretionbench.schemas import load_scenarios
+from delegationcheck import study_prompts as sp
+from delegationcheck.prompts_main import build_prompt
+from delegationcheck.schemas import load_scenarios
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -17,7 +17,7 @@ EXPECTED_STRICT_ENVELOPE_SHA256 = "d19afadb1172c4504b635555f788e8d27a9c17b6b14d4
 
 
 def test_rendered_prompts_match_paper_versions():
-    scenarios = load_scenarios(str(ROOT / "discretionbench_v1_0.jsonl"))
+    scenarios = load_scenarios(str(ROOT / "delegationcheck_v1_0.jsonl"))
     manifest = json.loads((ROOT / "data/measurement_robustness_v1_ids.json").read_text())
     elicitation_ids = set(manifest["scenario_ids"])
     digest = hashlib.sha256()
@@ -39,7 +39,7 @@ def test_agent_envelope_schema_is_stable():
 
 
 def test_tool_loop_prompt_hides_candidate_action():
-    scenario = load_scenarios(str(ROOT / "discretionbench_v1_0.jsonl"))[0]
+    scenario = load_scenarios(str(ROOT / "delegationcheck_v1_0.jsonl"))[0]
     prompt = sp.tool_loop_prompt(scenario)
     assert scenario.candidate_action.description not in prompt
     assert "candidate" not in prompt.lower()

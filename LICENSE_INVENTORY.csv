@@ -34,16 +34,16 @@ data/reference/posthoc_expert_factor_vote_share.csv,CC-BY-4.0,"author-created da
 data/reference/posthoc_expert_reason_agreement.csv,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 data/reference/posthoc_model_marginal_adjusted_agreement.csv,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 data/reference/posthoc_model_marginal_match.csv,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
-discretionbench/__init__.py,MIT,author-created code or software metadata
-discretionbench/agentic_equivalence.py,MIT,author-created code or software metadata
-discretionbench/candidate_correspondence_normalized_v2.py,MIT,author-created code or software metadata
-discretionbench/metrics.py,MIT,author-created code or software metadata
-discretionbench/parser.py,MIT,author-created code or software metadata
-discretionbench/prompts_main.py,MIT,author-created code or software metadata
-discretionbench/schemas.py,MIT,author-created code or software metadata
-discretionbench/study_prompts.py,MIT,author-created code or software metadata
-discretionbench/validation.py,MIT,author-created code or software metadata
-discretionbench_v1_0.jsonl,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
+delegationcheck/__init__.py,MIT,author-created code or software metadata
+delegationcheck/agentic_equivalence.py,MIT,author-created code or software metadata
+delegationcheck/candidate_correspondence_normalized_v2.py,MIT,author-created code or software metadata
+delegationcheck/metrics.py,MIT,author-created code or software metadata
+delegationcheck/parser.py,MIT,author-created code or software metadata
+delegationcheck/prompts_main.py,MIT,author-created code or software metadata
+delegationcheck/schemas.py,MIT,author-created code or software metadata
+delegationcheck/study_prompts.py,MIT,author-created code or software metadata
+delegationcheck/validation.py,MIT,author-created code or software metadata
+delegationcheck_v1_0.jsonl,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 figures/final_reviewer_first/ask_and_action_stages.pdf,CC-BY-4.0 + DejaVu-font-license,author-created figure with an embedded DejaVu Sans font subset
 figures/final_reviewer_first/ask_and_action_stages.png,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 figures/policy_consistency_lexical_audit/agreement_vs_controlled_coherence.pdf,CC-BY-4.0 + DejaVu-font-license,author-created figure with an embedded DejaVu Sans font subset

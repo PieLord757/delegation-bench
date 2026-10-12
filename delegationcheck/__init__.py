@@ -1,4 +1,4 @@
-"""DiscretionBench evaluation harness."""
+"""DelegationCheck evaluation harness."""
 
 from .schemas import Decision, Scenario
 

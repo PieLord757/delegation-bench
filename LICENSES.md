@@ -7,7 +7,7 @@ the list is complete.
 
 ## MIT License (`LICENSE`)
 
-- `discretionbench/*.py`
+- `delegationcheck/*.py`
 - `scripts/*.py`
 - `tests/*.py`
 - `tool_loop/environment.py`
@@ -15,7 +15,7 @@ the list is complete.
 
 ## CC BY 4.0 (`LICENSE-DATA.md`)
 
-- `discretionbench_v1_0.jsonl`
+- `delegationcheck_v1_0.jsonl`
 - documentation (`README.md`, `DATASET_CARD.md`, `SCHEMA.md`,
   `BENCHMARK_USE.md`, `REPRODUCING.md`, `CONTAMINATION_CANARY.md`, and the
   README files in subdirectories)

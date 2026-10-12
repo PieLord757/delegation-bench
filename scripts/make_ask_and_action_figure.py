@@ -7,7 +7,7 @@ import os
 import tempfile
 from pathlib import Path
 
-_CACHE_ROOT = Path(tempfile.gettempdir()) / "discretionbench-figure-cache"
+_CACHE_ROOT = Path(tempfile.gettempdir()) / "delegationcheck-figure-cache"
 os.environ.setdefault("SOURCE_DATE_EPOCH", "1787443200")
 os.environ.setdefault("MPLCONFIGDIR", str(_CACHE_ROOT / "matplotlib"))
 

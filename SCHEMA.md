@@ -1,6 +1,6 @@
 # Schema guide
 
-The authoritative executable schema is `discretionbench/schemas.py`. Unknown
+The authoritative executable schema is `delegationcheck/schemas.py`. Unknown
 fields are rejected.
 
 ## Scenario structure
@@ -30,7 +30,7 @@ fields are rejected.
 The JSONL retains legacy internal values `ASK` and `DEFER` in
 `available_decisions`. The paper-facing taxonomy maps these deterministically
 to `ASK_AUTHORIZATION` and `REQUEST_INFORMATION`. The exact primary prompt in
-`discretionbench/prompts_main.py` uses the paper-facing names.
+`delegationcheck/prompts_main.py` uses the paper-facing names.
 
 ## Authoring-era fields
 

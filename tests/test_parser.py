@@ -1,7 +1,7 @@
 import pytest
 
-from discretionbench.parser import parse_response
-from discretionbench.schemas import Decision
+from delegationcheck.parser import parse_response
+from delegationcheck.schemas import Decision
 
 
 @pytest.mark.parametrize("raw,decision,status", [

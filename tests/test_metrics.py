@@ -1,4 +1,4 @@
-from discretionbench.metrics import calculate_metrics
+from delegationcheck.metrics import calculate_metrics
 
 
 def row(decision, *, sid, variant, pair="p1", factor="stakes", lexical=None, consequence=None):

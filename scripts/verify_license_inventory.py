@@ -20,7 +20,7 @@ TOP_LEVEL_CC_FILES = {
     Path("README.md"),
     Path("REPRODUCING.md"),
     Path("SCHEMA.md"),
-    Path("discretionbench_v1_0.jsonl"),
+    Path("delegationcheck_v1_0.jsonl"),
 }
 IGNORED_PARTS = {".git", "__pycache__", ".pytest_cache", "reproduction_outputs", ".venv", "venv"}
 IGNORED_NAMES = {".gitignore", ".DS_Store"}
@@ -35,7 +35,7 @@ PRIVATE_OUTPUT_PATTERN = re.compile(
 def license_for(relative: Path) -> tuple[str, str]:
     if PRIVATE_OUTPUT_PATTERN.search(relative.as_posix()):
         raise ValueError(f"private/provider-output filename is not releasable: {relative}")
-    if relative.suffix == ".jsonl" and relative != Path("discretionbench_v1_0.jsonl"):
+    if relative.suffix == ".jsonl" and relative != Path("delegationcheck_v1_0.jsonl"):
         raise ValueError(f"unexpected JSONL is not releasable: {relative}")
     if relative == Path("LICENSE"):
         return "license_notice", "MIT license text"

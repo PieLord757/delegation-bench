@@ -1,6 +1,6 @@
-# DiscretionBench
+# DelegationCheck
 
-DiscretionBench tests when an AI agent should check with the user before
+DelegationCheck tests when an AI agent should check with the user before
 taking an action. Each of its 156 scenarios gives a model a user instruction,
 some context, and one proposed tool call. The model picks one of four
 responses: act now (`ACT`), ask for permission (`ASK_AUTHORIZATION`), ask for
@@ -28,9 +28,9 @@ than when it judges a proposed action. This repository contains the benchmark,
 the prompts, the tool sandbox, the categorical results behind those findings,
 and scripts that check the reported numbers without calling any model.
 
-DiscretionBench was developed under the working name DelegationBench. Recorded run
-identifiers, protocol IDs, and scenario notes keep the old name so they match what
-was logged when the experiments ran.
+DelegationCheck was first released as DelegationBench (arXiv v1) and briefly as
+DiscretionBench. Recorded run identifiers, protocol IDs, and scenario notes keep
+the original name so they match what was logged when the experiments ran.
 
 ## Quick start
 
@@ -38,8 +38,8 @@ Python 3.10 or newer. The tested versions are pinned in
 `requirements-tested.txt`.
 
 ```bash
-git clone https://github.com/PieLord757/discretion-bench.git
-cd discretion-bench
+git clone https://github.com/PieLord757/delegation-check.git
+cd delegation-check
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements-tested.txt
 pip install --no-deps -e .
@@ -48,7 +48,7 @@ pip install --no-deps -e .
 Validate the dataset:
 
 ```bash
-python scripts/validate_dataset.py discretionbench_v1_0.jsonl
+python scripts/validate_dataset.py delegationcheck_v1_0.jsonl
 python scripts/summarize_dataset.py
 ```
 
@@ -71,7 +71,7 @@ the tests compare their output byte for byte with the files in `figures/`.
 
 ## Data format
 
-`discretionbench_v1_0.jsonl` has one scenario per line. Only three fields are
+`delegationcheck_v1_0.jsonl` has one scenario per line. Only three fields are
 shown to a model:
 
 ```json
@@ -102,14 +102,14 @@ truth.
 
 ## Running a new model
 
-Use `discretionbench/prompts_main.py` for the main judgment task. Use
-`discretionbench/study_prompts.py` for the five elicitation formats, the
+Use `delegationcheck/prompts_main.py` for the main judgment task. Use
+`delegationcheck/study_prompts.py` for the five elicitation formats, the
 Tool-Loop prompt and response envelope, and the Post-Approval continuation.
 The Tool-Loop sandbox is in `tool_loop/`: 15 simulated tools whose calls are
 checked against their schemas and recorded, with no real side effects. Parse
-responses with `discretionbench/parser.py` and score Tool-Loop arguments with
-`discretionbench/agentic_equivalence.py` (the strict rule) or
-`discretionbench/candidate_correspondence_normalized_v2.py` (the lenient
+responses with `delegationcheck/parser.py` and score Tool-Loop arguments with
+`delegationcheck/agentic_equivalence.py` (the strict rule) or
+`delegationcheck/candidate_correspondence_normalized_v2.py` (the lenient
 matcher). This repository has no provider client code, so you need your own
 API wrapper. `BENCHMARK_USE.md` covers trials, invalid outputs, and what to
 report.
@@ -165,14 +165,14 @@ font, whose license is in `THIRD_PARTY_NOTICES/`.
 
 ## Citation
 
-The arXiv identifier will be added once it is assigned.
-
 ```bibtex
-@misc{pochampally2026discretionbench,
-  author = {Pochampally, Shiva},
-  title  = {DiscretionBench: Measuring When AI Agents Should Ask Before Acting},
-  year   = {2026},
-  note   = {arXiv preprint}
+@misc{pochampally2026delegationcheck,
+  author        = {Pochampally, Shiva},
+  title         = {DelegationCheck: Measuring When AI Agents Should Ask Before Acting},
+  year          = {2026},
+  eprint        = {2610.05532},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2610.05532}
 }
 ```
 

@@ -1,8 +1,8 @@
 import json
 from pathlib import Path
 
-from discretionbench.agentic_equivalence import arguments_equivalent,category_for,values_equal
-from discretionbench.schemas import load_scenarios
+from delegationcheck.agentic_equivalence import arguments_equivalent,category_for,values_equal
+from delegationcheck.schemas import load_scenarios
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -67,7 +67,7 @@ def test_update_calendar_event_value_uses_time_category_only_when_field_is_start
 
 def test_all_48_candidate_actions_are_self_equivalent_with_defined_categories():
     manifest=json.loads((ROOT/"data/agentic_validation_v1_ids.json").read_text())
-    by_id={s.scenario_id:s for s in load_scenarios(str(ROOT/"discretionbench_v1_0.jsonl"))}
+    by_id={s.scenario_id:s for s in load_scenarios(str(ROOT/"delegationcheck_v1_0.jsonl"))}
     for sid in manifest["scenario_ids"]:
         s=by_id[sid]
         assert arguments_equivalent(s.candidate_action.tool,s.candidate_action.arguments,s.candidate_action.arguments) is True,sid
