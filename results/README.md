@@ -26,6 +26,8 @@ analyses were run, so the table below maps them to the paper.
 | `AGENTIC_VALIDATION_V1_*.csv` | The first four-model Tool-Loop run |
 | `GEMINI_AGENTIC_TRANSPORT_REPLICATION_V1_*.csv` | The Gemini 3.6 Flash rerun with strict argument schemas, which replaces the first Gemini run in the ten-model results |
 | `MEASUREMENT_ROBUSTNESS_*.csv` | The first four-model elicitation-format run |
+| `post_approval_question_split/` | Category of the question behind each Post-Approval continuation (simple permission, timing, alternatives, or mixed) |
+| `pair_construct_audit/` | Pair-by-pair review of the 48 matched pairs: clean or confounded, the kind of confound, and a short reason |
 | `posthoc_tool_loop_mismatch_*.csv` | Scenario-level correlations between judged act rate and Tool-Loop behavior |
 
 Some JSON files record hashes and file names of private inputs. Those entries

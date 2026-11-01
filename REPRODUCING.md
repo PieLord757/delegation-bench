@@ -13,6 +13,8 @@ python scripts/verify_human_equivalence_audit_release.py
 python scripts/verify_normalized_matcher_v2_release.py
 python scripts/reconstruct_tool_loop_summary.py
 python scripts/verify_explicit_rules_release.py
+python scripts/verify_post_approval_question_split.py
+python scripts/verify_clean_pair_reanalysis.py
 python scripts/make_agreement_coherence_figure.py
 python scripts/make_ask_and_action_figure.py
 python scripts/update_checksums.py --check
@@ -32,6 +34,8 @@ pytest -q
 | `verify_normalized_matcher_v2_release.py` | The lenient matcher's 900 of 1,011 accepted Tool-Loop calls (89.0%) and its precision against both reviewers |
 | `reconstruct_tool_loop_summary.py` | Rebuilds the four-model three-stage Tool-Loop summary from the per-trial view |
 | `verify_explicit_rules_release.py` | Rebuilds the explicit-rule cases and every prompt hash, checks the vendored tau-bench files against upstream hashes, and recomputes the explicit-rule tables from the 5,880 released outcomes: balanced accuracy (Luna 100/100/100/100, Sonnet 97.6/100/99.4/100, Flash-Lite 97.3/98.5/100/100 for natural, structured, decision given, and τ-bench), the ordinary-rule, interface, and pilot tables, the paired bootstrap contrasts, and the paraphrase comparison |
+| `verify_post_approval_question_split.py` | Joins the question category of each of the 227 Post-Approval continuations to its released outcome: 120 simple permission questions and 107 others; 117 of 120 (97.5%) simple questions led to a tool call, against 33.3% for timing, 65.0% for alternatives, and 75.0% for mixed questions |
+| `verify_clean_pair_reanalysis.py` | Recomputes the matched-pair feature effects from the 7,800 released decisions, on all pairs and on the pairs the review marks clean: 13 of 24 stakes and reversibility pairs confounded; GPT-5.6 Sol's stakes effect 41.7 to 12.0 points; Claude Sonnet 5 76.0 and Claude Opus 4.8 100 points on clean pairs |
 | `make_agreement_coherence_figure.py` | Redraws the agreement versus pair-responsiveness figure |
 | `make_ask_and_action_figure.py` | Redraws the judging versus acting figure |
 | `update_checksums.py --check` | Confirms `SHA256SUMS` lists every file with its current hash |
@@ -56,6 +60,8 @@ pytest -q
 | Strict versus lenient matching | `results/downstream_v1/normalized_matcher_v2/` |
 | Human correspondence audit | `results/downstream_v1/human_equivalence_audit/` |
 | Narrower or safer calls | `results/action_stage_audit/narrower_safer_by_endpoint.csv` |
+| Post-Approval by question type | `results/post_approval_question_split/parent_question_categories.csv` |
+| Clean-pair re-analysis | `results/pair_construct_audit/pair_audit_table.csv`, `data/derived/decision_by_scenario_trial.csv` |
 | Explicit-rule studies | `explicit_rules/outcomes/explicit_policy_outcomes.csv`, `explicit_rules/outcomes/paraphrase_outcomes.csv` |
 | Domain breakdown | `results/final_reviewer_first/domain_summary.csv`, `factor_by_domain.csv` |
 
@@ -70,8 +76,11 @@ released categorical data and check them against those tables. They cannot
 re-parse model text or recompute anything that needs a vote linked to a
 specific annotator.
 
-These paper results have no source table in this repository:
-
-- the split of Post-Approval questions into simple permission, timing,
-  alternative, and mixed questions;
-- the stakes and reversibility re-analysis restricted to clean pairs.
+The Post-Approval question categories were assigned from the question text,
+which is model output and is not released. The classifier rules are in
+`delegationcheck/post_approval_question_classifier.py`, but they cannot be
+rerun on this repository's data; the verifier checks the reported rates from
+the released categories. The paper's description of which details triggered
+the explicit-rule errors (legal holds and review requests) also rests on
+response text; the verifier checks only that all six errors are unnecessary
+questions in the files and messaging domains, where those predicates appear.

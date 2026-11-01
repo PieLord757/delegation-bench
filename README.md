@@ -62,6 +62,8 @@ python scripts/verify_human_equivalence_audit_release.py
 python scripts/verify_normalized_matcher_v2_release.py
 python scripts/reconstruct_tool_loop_summary.py
 python scripts/verify_explicit_rules_release.py
+python scripts/verify_post_approval_question_split.py
+python scripts/verify_clean_pair_reanalysis.py
 pytest -q
 ```
 
@@ -124,6 +126,12 @@ report.
   (`data/derived/decision_by_scenario_trial.csv`).
 - The categorical Tool-Loop outcomes (1,435 episodes) and Post-Approval
   outcomes (227 continuations), plus the elicitation-format results.
+- The category of each question that preceded a Post-Approval continuation
+  (simple permission, timing, alternatives, or mixed), and the classifier rules
+  that assigned it (`delegationcheck/post_approval_question_classifier.py`).
+- The pair-by-pair review of the 48 matched pairs, which marks the 13 stakes
+  and reversibility pairs that also change something besides the target
+  feature.
 - Tool names and arguments from Tool-Loop calls by the seven OpenAI-,
   Anthropic-, and Google-hosted models.
 - The two reviewers' categorical labels from the 200-call correspondence

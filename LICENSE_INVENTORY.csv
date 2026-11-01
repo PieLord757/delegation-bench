@@ -41,6 +41,7 @@ delegationcheck/candidate_correspondence_normalized_v2.py,MIT,author-created cod
 delegationcheck/explicit_rules.py,MIT,author-created code or software metadata
 delegationcheck/metrics.py,MIT,author-created code or software metadata
 delegationcheck/parser.py,MIT,author-created code or software metadata
+delegationcheck/post_approval_question_classifier.py,MIT,author-created code or software metadata
 delegationcheck/prompts_main.py,MIT,author-created code or software metadata
 delegationcheck/schemas.py,MIT,author-created code or software metadata
 delegationcheck/study_prompts.py,MIT,author-created code or software metadata
@@ -166,6 +167,7 @@ results/next_existing_data_analyses/figures/elicitation_pareto.png,CC-BY-4.0,"au
 results/next_existing_data_analyses/figures/expert_vote_calibration.pdf,CC-BY-4.0 + DejaVu-font-license,author-created figure with an embedded DejaVu Sans font subset
 results/next_existing_data_analyses/figures/expert_vote_calibration.png,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 results/next_existing_data_analyses/probabilistic_expert_calibration.csv,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
+results/pair_construct_audit/pair_audit_table.csv,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 results/panel_leave_one_out/alpha_bootstrap_summary.csv,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 results/panel_leave_one_out/leave_one_out_panel_agreement.csv,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 results/panel_leave_one_out/model_by_annotator_agreement.csv,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
@@ -177,6 +179,7 @@ results/policy_consistency_lexical_audit/paraphrase_consistency.csv,CC-BY-4.0,"a
 results/policy_consistency_lexical_audit/policy_consistency_core_pairs.csv,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 results/policy_consistency_lexical_audit/policy_consistency_rule_model_comparison.csv,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 results/policy_consistency_lexical_audit/policy_consistency_scope_pairs.csv,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
+results/post_approval_question_split/parent_question_categories.csv,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 results/posthoc_tool_loop_mismatch_bootstrap_summary.csv,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 results/posthoc_tool_loop_mismatch_scenario_correlations.csv,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 results/posthoc_tool_loop_mismatch_scenario_nested_rates.csv,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
@@ -223,17 +226,20 @@ scripts/summarize_dataset.py,MIT,author-created code or software metadata
 scripts/update_checksums.py,MIT,author-created code or software metadata
 scripts/validate_dataset.py,MIT,author-created code or software metadata
 scripts/verify_artifact.py,MIT,author-created code or software metadata
+scripts/verify_clean_pair_reanalysis.py,MIT,author-created code or software metadata
 scripts/verify_derived_release.py,MIT,author-created code or software metadata
 scripts/verify_explicit_rules_release.py,MIT,author-created code or software metadata
 scripts/verify_human_equivalence_audit_release.py,MIT,author-created code or software metadata
 scripts/verify_license_inventory.py,MIT,author-created code or software metadata
 scripts/verify_normalized_matcher_v2_release.py,MIT,author-created code or software metadata
+scripts/verify_post_approval_question_split.py,MIT,author-created code or software metadata
 scripts/verify_story_first_headlines.py,MIT,author-created code or software metadata
 tests/test_agentic_equivalence.py,MIT,author-created code or software metadata
 tests/test_artifact_layout.py,MIT,author-created code or software metadata
 tests/test_explicit_rules.py,MIT,author-created code or software metadata
 tests/test_metrics.py,MIT,author-created code or software metadata
 tests/test_parser.py,MIT,author-created code or software metadata
+tests/test_post_approval_and_pair_audits.py,MIT,author-created code or software metadata
 tests/test_study_prompts.py,MIT,author-created code or software metadata
 tool_loop/DERIVED_AUDIT_VIEW.md,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 tool_loop/TRAJECTORY_MAPPING.md,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
