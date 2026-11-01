@@ -1,0 +1,15 @@
+{
+  "repo": "sierra-research/tau-bench",
+  "commit": "59a200c6d575d595120f1cb70fea53cef0632f6b",
+  "files": {
+    "LICENSE": "243d23d45b80122b5ac575586ccef352fdc9c45e6d7d2605449aca8a17478b42",
+    "tau_bench/envs/tool.py": "0a158be298092fc64862ae8843f35f57cfba139aa02c2ee8fbe87b1e4a1de0fc",
+    "tau_bench/envs/retail/wiki.md": "d539fd2a46a8b8dd2e934ff9ed92f43e9f6b56bc7a718db8d2803ba8ad8f6bf7",
+    "tau_bench/envs/retail/tasks_test.py": "6f09468923c6cfb6162e94fe659264d6aee70816c18d51278fb4a581db7765a4",
+    "tau_bench/envs/retail/data/orders.json": "2598a12586d28f2d6bd16bc86f4c800029b6af18e0abb5c475ef5c869c11ced1",
+    "tau_bench/envs/retail/data/users.json": "6f4fd104cc5e80b92166c4035315c31532c6cea52a90dcdf18425ee7f87c2b82",
+    "tau_bench/envs/retail/tools/cancel_pending_order.py": "c33151a896b62ac87ed1bcbcbd62dabcd47c8c1eaf47bbb5e2f15f8b6283b19d",
+    "tau_bench/envs/retail/tools/modify_pending_order_address.py": "8f23d24511078ca10818fac8501db358ad699584952233d696a695e78993d001",
+    "tau_bench/envs/retail/tools/modify_pending_order_payment.py": "6c2d4c329fae0d66d50bd48cb6ae9520167137f8b20d3385fa407aa5b03d2fe5"
+  }
+}

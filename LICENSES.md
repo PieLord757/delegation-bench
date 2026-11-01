@@ -7,7 +7,7 @@ the list is complete.
 
 ## MIT License (`LICENSE`)
 
-- `delegationcheck/*.py`
+- `delegationcheck/*.py` (including `delegationcheck/explicit_rules.py`)
 - `scripts/*.py`
 - `tests/*.py`
 - `tool_loop/environment.py`
@@ -27,6 +27,8 @@ the list is complete.
   and contain no model-written text
 - result tables under `results/` and figures under `figures/` and
   `results/**/figures/`
+- the explicit-rule cases, categorical outcomes, and documentation under
+  `explicit_rules/`, except `explicit_rules/third_party/`
 
 ## Third-party material
 
@@ -34,6 +36,17 @@ The PDF figures embed a subset of the DejaVu Sans font. The plots and data are
 covered by CC BY 4.0, and the embedded font remains under the DejaVu Fonts
 license in `THIRD_PARTY_NOTICES/DEJAVU_FONTS_LICENSE.txt`. PNG figures contain
 rasterized glyphs, not a font program.
+
+`explicit_rules/third_party/tau_bench/` contains nine unmodified files from
+tau-bench (<https://github.com/sierra-research/tau-bench>, revision
+`59a200c6d575d595120f1cb70fea53cef0632f6b`): the retail policy, the test task
+list, the user and order databases, the tool base class, and three retail
+tools. They remain under tau-bench's MIT License, copyright 2024 Sierra, which
+is reproduced in that directory and in
+`THIRD_PARTY_NOTICES/TAU_BENCH_LICENSE.txt`. The tau-bench decision points in
+`explicit_rules/cases/tau_bench_decision_points.json` copy task instructions
+and user and order records from those files and are covered by the same
+license.
 
 Python dependencies are not included; their own licenses apply when you
 install them. Provider and model names are used only to describe what was

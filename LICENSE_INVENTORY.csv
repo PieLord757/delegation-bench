@@ -9,6 +9,7 @@ README.md,CC-BY-4.0,"author-created data, documentation, figure, or derived resu
 REPRODUCING.md,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 SCHEMA.md,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 THIRD_PARTY_NOTICES/DEJAVU_FONTS_LICENSE.txt,DejaVu-font-license,verbatim license for the font subset embedded in PDFs
+THIRD_PARTY_NOTICES/TAU_BENCH_LICENSE.txt,MIT-tau-bench,verbatim MIT license of the vendored tau-bench files (Sierra)
 data/agentic_validation_v1_ids.json,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 data/agentic_validation_v1_measurability.json,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 data/derived/ALL_TEN_TOOL_LOOP_RELEASE_MANIFEST.json,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
@@ -37,6 +38,7 @@ data/reference/posthoc_model_marginal_match.csv,CC-BY-4.0,"author-created data, 
 delegationcheck/__init__.py,MIT,author-created code or software metadata
 delegationcheck/agentic_equivalence.py,MIT,author-created code or software metadata
 delegationcheck/candidate_correspondence_normalized_v2.py,MIT,author-created code or software metadata
+delegationcheck/explicit_rules.py,MIT,author-created code or software metadata
 delegationcheck/metrics.py,MIT,author-created code or software metadata
 delegationcheck/parser.py,MIT,author-created code or software metadata
 delegationcheck/prompts_main.py,MIT,author-created code or software metadata
@@ -44,6 +46,24 @@ delegationcheck/schemas.py,MIT,author-created code or software metadata
 delegationcheck/study_prompts.py,MIT,author-created code or software metadata
 delegationcheck/validation.py,MIT,author-created code or software metadata
 delegationcheck_v1_0.jsonl,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
+explicit_rules/README.md,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
+explicit_rules/cases/development_cases.json,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
+explicit_rules/cases/interface_study_case_ids.json,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
+explicit_rules/cases/paraphrase_cases.json,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
+explicit_rules/cases/synthetic_test_cases.json,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
+explicit_rules/cases/tau_bench_decision_points.json,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
+explicit_rules/outcomes/explicit_policy_outcomes.csv,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
+explicit_rules/outcomes/paraphrase_outcomes.csv,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
+explicit_rules/third_party/tau_bench/LICENSE,MIT-tau-bench,unmodified third-party file from tau-bench revision 59a200c (Sierra)
+explicit_rules/third_party/tau_bench/SOURCE_MANIFEST.json,MIT-tau-bench,unmodified third-party file from tau-bench revision 59a200c (Sierra)
+explicit_rules/third_party/tau_bench/tau_bench/envs/retail/data/orders.json,MIT-tau-bench,unmodified third-party file from tau-bench revision 59a200c (Sierra)
+explicit_rules/third_party/tau_bench/tau_bench/envs/retail/data/users.json,MIT-tau-bench,unmodified third-party file from tau-bench revision 59a200c (Sierra)
+explicit_rules/third_party/tau_bench/tau_bench/envs/retail/tasks_test.py,MIT-tau-bench,unmodified third-party file from tau-bench revision 59a200c (Sierra)
+explicit_rules/third_party/tau_bench/tau_bench/envs/retail/tools/cancel_pending_order.py,MIT-tau-bench,unmodified third-party file from tau-bench revision 59a200c (Sierra)
+explicit_rules/third_party/tau_bench/tau_bench/envs/retail/tools/modify_pending_order_address.py,MIT-tau-bench,unmodified third-party file from tau-bench revision 59a200c (Sierra)
+explicit_rules/third_party/tau_bench/tau_bench/envs/retail/tools/modify_pending_order_payment.py,MIT-tau-bench,unmodified third-party file from tau-bench revision 59a200c (Sierra)
+explicit_rules/third_party/tau_bench/tau_bench/envs/retail/wiki.md,MIT-tau-bench,unmodified third-party file from tau-bench revision 59a200c (Sierra)
+explicit_rules/third_party/tau_bench/tau_bench/envs/tool.py,MIT-tau-bench,unmodified third-party file from tau-bench revision 59a200c (Sierra)
 figures/final_reviewer_first/ask_and_action_stages.pdf,CC-BY-4.0 + DejaVu-font-license,author-created figure with an embedded DejaVu Sans font subset
 figures/final_reviewer_first/ask_and_action_stages.png,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 figures/policy_consistency_lexical_audit/agreement_vs_controlled_coherence.pdf,CC-BY-4.0 + DejaVu-font-license,author-created figure with an embedded DejaVu Sans font subset
@@ -204,12 +224,14 @@ scripts/update_checksums.py,MIT,author-created code or software metadata
 scripts/validate_dataset.py,MIT,author-created code or software metadata
 scripts/verify_artifact.py,MIT,author-created code or software metadata
 scripts/verify_derived_release.py,MIT,author-created code or software metadata
+scripts/verify_explicit_rules_release.py,MIT,author-created code or software metadata
 scripts/verify_human_equivalence_audit_release.py,MIT,author-created code or software metadata
 scripts/verify_license_inventory.py,MIT,author-created code or software metadata
 scripts/verify_normalized_matcher_v2_release.py,MIT,author-created code or software metadata
 scripts/verify_story_first_headlines.py,MIT,author-created code or software metadata
 tests/test_agentic_equivalence.py,MIT,author-created code or software metadata
 tests/test_artifact_layout.py,MIT,author-created code or software metadata
+tests/test_explicit_rules.py,MIT,author-created code or software metadata
 tests/test_metrics.py,MIT,author-created code or software metadata
 tests/test_parser.py,MIT,author-created code or software metadata
 tests/test_study_prompts.py,MIT,author-created code or software metadata

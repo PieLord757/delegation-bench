@@ -61,6 +61,7 @@ python scripts/verify_story_first_headlines.py
 python scripts/verify_human_equivalence_audit_release.py
 python scripts/verify_normalized_matcher_v2_release.py
 python scripts/reconstruct_tool_loop_summary.py
+python scripts/verify_explicit_rules_release.py
 pytest -q
 ```
 
@@ -129,6 +130,11 @@ report.
   audit, with sampling weights.
 - Prompts, the Tool-Loop sandbox and tool schemas, the parser, both
   argument matchers, and the verification scripts and tests.
+- The explicit-rule studies in `explicit_rules/`: the synthetic policy cases,
+  the 34 decision points adapted from tau-bench (with the upstream files they
+  use, under tau-bench's MIT License), the categorical outcomes of all 5,880
+  calls, and the code that rebuilds every case and prompt
+  (`delegationcheck/explicit_rules.py`).
 
 ## What is not included, and why
 
@@ -149,8 +155,6 @@ report.
 - **Collection scripts and provider adapters.** Running them requires keys and
   account setup that does not transfer, and the analyses here start from the
   recorded categorical outputs.
-- **The explicit-rule checks** (the policy and τ-bench decision points in the
-  paper) are not part of this repository.
 
 Because raw outputs are withheld, the scripts here check the reported numbers
 from the released categorical data. They cannot re-parse model responses.
@@ -161,7 +165,8 @@ Code is released under the MIT License (`LICENSE`). The dataset,
 documentation, figures, and derived data are released under CC BY 4.0
 (`LICENSE-DATA.md`). `LICENSES.md` and `LICENSE_INVENTORY.csv` list which
 license covers each file. The PDF figures embed a subset of the DejaVu Sans
-font, whose license is in `THIRD_PARTY_NOTICES/`.
+font, and `explicit_rules/third_party/tau_bench/` holds unmodified files from
+tau-bench; both licenses are in `THIRD_PARTY_NOTICES/`.
 
 ## Citation
 

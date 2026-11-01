@@ -24,7 +24,8 @@ TOP_LEVEL_CC_FILES = {
 }
 IGNORED_PARTS = {".git", "__pycache__", ".pytest_cache", "reproduction_outputs", ".venv", "venv"}
 IGNORED_NAMES = {".gitignore", ".DS_Store"}
-CC_ROOTS = {"data", "figures", "results", "tool_loop"}
+CC_ROOTS = {"data", "explicit_rules", "figures", "results", "tool_loop"}
+TAU_BENCH_ROOT = Path("explicit_rules/third_party/tau_bench")
 CC_SUFFIXES = {".csv", ".json", ".md", ".png", ".sha256"}
 PRIVATE_OUTPUT_PATTERN = re.compile(
     r"(^|[_/-])(raw|canonical|provider)[^/]*(response|responses|output|outputs)([_./-]|$)",
@@ -43,6 +44,10 @@ def license_for(relative: Path) -> tuple[str, str]:
         return "license_notice", "CC BY notice or licensing boundary"
     if relative == Path("THIRD_PARTY_NOTICES/DEJAVU_FONTS_LICENSE.txt"):
         return "DejaVu-font-license", "verbatim license for the font subset embedded in PDFs"
+    if relative == Path("THIRD_PARTY_NOTICES/TAU_BENCH_LICENSE.txt"):
+        return "MIT-tau-bench", "verbatim MIT license of the vendored tau-bench files (Sierra)"
+    if relative.parts[: len(TAU_BENCH_ROOT.parts)] == TAU_BENCH_ROOT.parts:
+        return "MIT-tau-bench", "unmodified third-party file from tau-bench revision 59a200c (Sierra)"
     if relative.suffix == ".py" or relative in {
         Path("pyproject.toml"),
         Path("requirements-tested.txt"),

@@ -12,6 +12,7 @@ python scripts/verify_story_first_headlines.py
 python scripts/verify_human_equivalence_audit_release.py
 python scripts/verify_normalized_matcher_v2_release.py
 python scripts/reconstruct_tool_loop_summary.py
+python scripts/verify_explicit_rules_release.py
 python scripts/make_agreement_coherence_figure.py
 python scripts/make_ask_and_action_figure.py
 python scripts/update_checksums.py --check
@@ -30,6 +31,7 @@ pytest -q
 | `verify_human_equivalence_audit_release.py` | Reviewer agreement (97.0%) and each reviewer's weighted estimates (93.9% and 96.0% Tool-Loop correspondence) from the 200 audit labels and weights |
 | `verify_normalized_matcher_v2_release.py` | The lenient matcher's 900 of 1,011 accepted Tool-Loop calls (89.0%) and its precision against both reviewers |
 | `reconstruct_tool_loop_summary.py` | Rebuilds the four-model three-stage Tool-Loop summary from the per-trial view |
+| `verify_explicit_rules_release.py` | Rebuilds the explicit-rule cases and every prompt hash, checks the vendored tau-bench files against upstream hashes, and recomputes the explicit-rule tables from the 5,880 released outcomes: balanced accuracy (Luna 100/100/100/100, Sonnet 97.6/100/99.4/100, Flash-Lite 97.3/98.5/100/100 for natural, structured, decision given, and τ-bench), the ordinary-rule, interface, and pilot tables, the paired bootstrap contrasts, and the paraphrase comparison |
 | `make_agreement_coherence_figure.py` | Redraws the agreement versus pair-responsiveness figure |
 | `make_ask_and_action_figure.py` | Redraws the judging versus acting figure |
 | `update_checksums.py --check` | Confirms `SHA256SUMS` lists every file with its current hash |
@@ -54,6 +56,7 @@ pytest -q
 | Strict versus lenient matching | `results/downstream_v1/normalized_matcher_v2/` |
 | Human correspondence audit | `results/downstream_v1/human_equivalence_audit/` |
 | Narrower or safer calls | `results/action_stage_audit/narrower_safer_by_endpoint.csv` |
+| Explicit-rule studies | `explicit_rules/outcomes/explicit_policy_outcomes.csv`, `explicit_rules/outcomes/paraphrase_outcomes.csv` |
 | Domain breakdown | `results/final_reviewer_first/domain_summary.csv`, `factor_by_domain.csv` |
 
 `results/README.md` describes each results directory.
@@ -69,7 +72,6 @@ specific annotator.
 
 These paper results have no source table in this repository:
 
-- the explicit-rule checks (policy cases and τ-bench decision points);
 - the split of Post-Approval questions into simple permission, timing,
   alternative, and mixed questions;
 - the stakes and reversibility re-analysis restricted to clean pairs.
