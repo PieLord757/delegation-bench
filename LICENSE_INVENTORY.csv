@@ -54,7 +54,7 @@ explicit_rules/cases/development_cases.json,CC-BY-4.0,"author-created data, docu
 explicit_rules/cases/interface_study_case_ids.json,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 explicit_rules/cases/paraphrase_cases.json,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 explicit_rules/cases/synthetic_test_cases.json,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
-explicit_rules/cases/tau_bench_decision_points.json,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
+explicit_rules/cases/tau_bench_decision_points.json,CC-BY-4.0 + MIT-tau-bench,"author-assembled decision points embedding tau-bench task instructions and user/order records (MIT, Sierra)"
 explicit_rules/outcomes/explicit_policy_outcomes.csv,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 explicit_rules/outcomes/paraphrase_outcomes.csv,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 explicit_rules/third_party/tau_bench/LICENSE,MIT-tau-bench,unmodified third-party file from tau-bench revision 59a200c (Sierra)

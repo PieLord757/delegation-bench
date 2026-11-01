@@ -48,6 +48,11 @@ def license_for(relative: Path) -> tuple[str, str]:
         return "DejaVu-font-license", "verbatim license for the font subset embedded in PDFs"
     if relative == Path("THIRD_PARTY_NOTICES/TAU_BENCH_LICENSE.txt"):
         return "MIT-tau-bench", "verbatim MIT license of the vendored tau-bench files (Sierra)"
+    if relative == Path("explicit_rules/cases/tau_bench_decision_points.json"):
+        return (
+            "CC-BY-4.0 + MIT-tau-bench",
+            "author-assembled decision points embedding tau-bench task instructions and user/order records (MIT, Sierra)",
+        )
     if relative.parts[: len(TAU_BENCH_ROOT.parts)] == TAU_BENCH_ROOT.parts:
         return "MIT-tau-bench", "unmodified third-party file from tau-bench revision 59a200c (Sierra)"
     if relative.suffix == ".py" or relative in {

@@ -47,8 +47,8 @@ tools. They remain under tau-bench's MIT License, copyright 2024 Sierra, which
 is reproduced in that directory and in
 `THIRD_PARTY_NOTICES/TAU_BENCH_LICENSE.txt`. The tau-bench decision points in
 `explicit_rules/cases/tau_bench_decision_points.json` copy task instructions
-and user and order records from those files and are covered by the same
-license.
+and user and order records from those files; that copied material stays under
+tau-bench's MIT License, and the rest of the file is under CC BY 4.0.
 
 Python dependencies are not included; their own licenses apply when you
 install them. Provider and model names are used only to describe what was
