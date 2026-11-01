@@ -1,0 +1,1216 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "cr": "http://mlcommons.org/croissant/",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "data": {
+      "@id": "cr:data",
+      "@type": "@json"
+    },
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "dct": "http://purl.org/dc/terms/",
+    "examples": {
+      "@id": "cr:examples",
+      "@type": "@json"
+    },
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileProperty": "cr:fileProperty",
+    "fileObject": "cr:fileObject",
+    "fileSet": "cr:fileSet",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "isLiveDataset": "cr:isLiveDataset",
+    "jsonPath": "cr:jsonPath",
+    "key": "cr:key",
+    "md5": "cr:md5",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "sc": "https://schema.org/",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform",
+    "samplingRate": "cr:samplingRate",
+    "equivalentProperty": "cr:equivalentProperty"
+  },
+  "@type": "sc:Dataset",
+  "name": "DelegationCheck",
+  "description": "DelegationCheck tests when an AI agent should check with the user before taking an action. Each of its 156 English scenarios gives a model a user instruction, some context, and one proposed tool call, and the model chooses to act, ask for permission, ask for a missing fact, or decline. Most scenarios come in 48 matched pairs that differ in one feature: scope, stakes, reversibility, or visibility to others. The release also contains the majority labels and vote counts of three annotators and the categorical decisions of ten models.",
+  "conformsTo": [
+    "http://mlcommons.org/croissant/1.0",
+    "http://mlcommons.org/croissant/RAI/1.0"
+  ],
+  "url": "https://github.com/PieLord757/delegation-check",
+  "sameAs": "https://arxiv.org/abs/2610.05532",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "version": "1.0.0",
+  "datePublished": "2026-10-04",
+  "inLanguage": "en",
+  "isLiveDataset": false,
+  "keywords": [
+    "AI agents",
+    "tool use",
+    "authorization",
+    "human oversight",
+    "benchmark",
+    "matched pairs"
+  ],
+  "creator": {
+    "@type": "sc:Person",
+    "name": "Shiva Pochampally"
+  },
+  "citeAs": "@misc{pochampally2026delegationcheck, author = {Pochampally, Shiva}, title = {DelegationCheck: Measuring When AI Agents Should Ask Before Acting}, year = {2026}, eprint = {2610.05532}, archivePrefix = {arXiv}, url = {https://arxiv.org/abs/2610.05532}}",
+  "rai:dataCollection": "The author wrote the 156 scenarios. Most are matched pairs that keep the instruction and proposed action fixed and change one sentence of context. Three annotators labeled every scenario independently. Ten models were evaluated with five trials per scenario; their responses were parsed into one of four decisions.",
+  "rai:dataCollectionType": [
+    "Manual Human Curation",
+    "Experiments"
+  ],
+  "rai:dataAnnotationProtocol": "Three unpaid computer-science students with AI experience, not involved in building the benchmark, each labeled all 156 scenarios in their own random order through the same interface, with written definitions of the four decisions. They did not see model outputs or the authoring expectations. The reference label is the 2-of-3 or 3-of-3 majority (149 scenarios); disagreements were not adjudicated.",
+  "rai:annotatorDemographics": "Three computer-science students with AI experience. No other demographic information was collected or released.",
+  "rai:dataAnnotationAnalysis": "Krippendorff's alpha across the three annotators is .437 for the four-way label and .543 for act versus any other response. Seven scenarios have no majority.",
+  "rai:dataPreprocessingProtocol": "Model responses were parsed into ACT, ASK_AUTHORIZATION, REQUEST_INFORMATION, REFUSE, or INVALID. Unparseable outputs were kept as INVALID and never rerun. Only these categorical results are released.",
+  "rai:dataLimitations": "Synthetic, English-only scenarios in six task domains, each built around one proposed action rather than a full workflow. The annotators are three technically trained students and are not representative of users; their labels are a reference point, not ground truth. REQUEST_INFORMATION and REFUSE are sparse in the majority labels (8 and 1). Each matched-pair feature is built from three scenario families.",
+  "rai:dataBiases": "Scenarios reflect the author's choice of domains and situations. The annotators share a technical background, which may make them more willing to let an agent act than a general user population.",
+  "rai:personalSensitiveInformation": "None. Scenarios are synthetic and contain no personal data. Annotator identities, notes, and confidence ratings are withheld, and vote counts are released without a link to any person.",
+  "rai:dataUseCases": "Intended: measuring and comparing how AI agents decide whether to act, ask, request information, or refuse, including pair responsiveness and judging versus acting. Not intended: certifying a model as safe to deploy, or training models (the release includes a contamination canary).",
+  "rai:dataSocialImpact": "The benchmark is meant to help developers see when agents act without permission or ask too often. Scores on a public benchmark can be overfit, so results should be reported with the breakdowns in the paper.",
+  "rai:dataReleaseMaintenancePlan": "Maintained by the author on GitHub. The v1.0 file is never edited in place; corrections or extensions are released as separately versioned files. Report problems through GitHub issues.",
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "scenarios-jsonl",
+      "name": "scenarios-jsonl",
+      "description": "The 156 DelegationCheck v1.0 scenarios, one JSON object per line.",
+      "contentUrl": "delegationcheck_v1_0.jsonl",
+      "encodingFormat": "application/jsonlines",
+      "sha256": "3ecc96cb79946f46afc27161c59b7a0661a545be8f0b6e46cc289fba514ac405"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "majority-reference-csv",
+      "name": "majority-reference-csv",
+      "description": "Annotators' majority label for each scenario (149 resolved, 7 without a majority).",
+      "contentUrl": "data/reference/expert_majority_reference.csv",
+      "encodingFormat": "text/csv",
+      "sha256": "e40f384e71c8ae4cc734561f82378d96237bffe8c2816a4e91c2588319ed8b05"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "vote-distribution-csv",
+      "name": "vote-distribution-csv",
+      "description": "Number of annotator votes for each decision per scenario, with no link between a vote and a person.",
+      "contentUrl": "data/reference/panel_vote_distribution.csv",
+      "encodingFormat": "text/csv",
+      "sha256": "1f24814d6c69cfeb2dc1420fcf4d21f0e7388743e31480ddb69d1272d45b6868"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "decisions-csv",
+      "name": "decisions-csv",
+      "description": "The 7,800 main-study decisions: ten models, 156 scenarios, five trials.",
+      "contentUrl": "data/derived/decision_by_scenario_trial.csv",
+      "encodingFormat": "text/csv",
+      "sha256": "fe86cbadbcc8558a52fc729faa6d3aeb327a3a9698d9b80a7c37970e0b8bf52a"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "tool-loop-csv",
+      "name": "tool-loop-csv",
+      "description": "Categorical outcome of each of the 1,435 Tool-Loop episodes.",
+      "contentUrl": "data/derived/tool_loop_trial_classification.csv",
+      "encodingFormat": "text/csv",
+      "sha256": "50adeb0f58d43dee793777e230075dd48ad987baf9361ca9e065b177da1f8c1e"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "post-approval-csv",
+      "name": "post-approval-csv",
+      "description": "Categorical outcome of each of the 227 Post-Approval continuations.",
+      "contentUrl": "results/downstream_v1/post_approval_primary/scenario_trial_outcomes.csv",
+      "encodingFormat": "text/csv",
+      "sha256": "2919cae6b4310f8223029312c641f91c6d7420db7ec1ed2ba7cd49073783c908"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "explicit-policy-csv",
+      "name": "explicit-policy-csv",
+      "description": "Categorical outcomes of the 4,728 explicit-rule study calls (policy format, ordinary-rule control, interface, tau-bench decision points, development pilot).",
+      "contentUrl": "explicit_rules/outcomes/explicit_policy_outcomes.csv",
+      "encodingFormat": "text/csv",
+      "sha256": "bd59d4cf30a5c363b77e1cf767a682c23586306d8fae63e95fedcd699c538e71"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "paraphrase-csv",
+      "name": "paraphrase-csv",
+      "description": "Categorical outcomes of the 1,152 paraphrase-comparison calls.",
+      "contentUrl": "explicit_rules/outcomes/paraphrase_outcomes.csv",
+      "encodingFormat": "text/csv",
+      "sha256": "9adf3aa239522ccdf6d1cbbd8b5db8ad6d77962f44295db336f0a11513f5c8ca"
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "@id": "scenarios",
+      "name": "scenarios",
+      "description": "Scenarios. Only user_instruction, context, and candidate_action are shown to an evaluated model; candidate_action.arguments is kept in the JSONL and varies in shape by tool.",
+      "key": {
+        "@id": "scenarios/scenario_id"
+      },
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "scenarios/scenario_id",
+          "name": "scenario_id",
+          "description": "Unique scenario identifier.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "scenarios-jsonl"
+            },
+            "extract": {
+              "column": "scenario_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "scenarios/family_id",
+          "name": "family_id",
+          "description": "Group of related scenarios.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "scenarios-jsonl"
+            },
+            "extract": {
+              "column": "family_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "scenarios/pair_id",
+          "name": "pair_id",
+          "description": "Matched-pair identifier for core-factor scenarios; null otherwise.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "scenarios-jsonl"
+            },
+            "extract": {
+              "column": "pair_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "scenarios/paired_with",
+          "name": "paired_with",
+          "description": "The other scenario in the matched pair; null otherwise.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "scenarios-jsonl"
+            },
+            "extract": {
+              "column": "paired_with"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "scenarios/parent_scenario_id",
+          "name": "parent_scenario_id",
+          "description": "Parent of a paraphrase scenario; null otherwise.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "scenarios-jsonl"
+            },
+            "extract": {
+              "column": "parent_scenario_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "scenarios/split",
+          "name": "split",
+          "description": "Construction set: core_factor, lexical_decorrelation, ambiguity_control, paraphrase_robustness, or adversarial_disagreement.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "scenarios-jsonl"
+            },
+            "extract": {
+              "column": "split"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "scenarios/domain",
+          "name": "domain",
+          "description": "Task domain: files, calendar, code_system, communication, publishing_social, or purchasing.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "scenarios-jsonl"
+            },
+            "extract": {
+              "column": "domain"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "scenarios/target_factor",
+          "name": "target_factor",
+          "description": "Feature varied in a matched pair: scope, stakes, reversibility, or external_visibility.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "scenarios-jsonl"
+            },
+            "extract": {
+              "column": "target_factor"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "scenarios/variant",
+          "name": "variant",
+          "description": "low or high variant of a matched pair.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "scenarios-jsonl"
+            },
+            "extract": {
+              "column": "variant"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "scenarios/user_instruction",
+          "name": "user_instruction",
+          "description": "The user's instruction. Shown to the model.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "scenarios-jsonl"
+            },
+            "extract": {
+              "column": "user_instruction"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "scenarios/context",
+          "name": "context",
+          "description": "Relevant state and facts. Shown to the model.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "scenarios-jsonl"
+            },
+            "extract": {
+              "column": "context"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "scenarios/authoring_expectation",
+          "name": "authoring_expectation",
+          "description": "Direction intended when the scenario was written. Not ground truth; never shown to the model.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "scenarios-jsonl"
+            },
+            "extract": {
+              "column": "authoring_expectation"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "scenarios/candidate_action_tool",
+          "name": "candidate_action_tool",
+          "description": "Tool of the proposed action. Shown to the model.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "scenarios-jsonl"
+            },
+            "extract": {
+              "column": "candidate_action"
+            },
+            "transform": {
+              "jsonPath": "tool"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "scenarios/candidate_action_description",
+          "name": "candidate_action_description",
+          "description": "Plain-language description of the proposed action. Shown to the model.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "scenarios-jsonl"
+            },
+            "extract": {
+              "column": "candidate_action"
+            },
+            "transform": {
+              "jsonPath": "description"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "majority_reference",
+      "name": "majority_reference",
+      "description": "Majority label of the three annotators.",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "majority_reference/scenario_id",
+          "name": "scenario_id",
+          "description": "Scenario identifier.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "majority-reference-csv"
+            },
+            "extract": {
+              "column": "scenario_id"
+            }
+          },
+          "references": {
+            "field": {
+              "@id": "scenarios/scenario_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "majority_reference/reference_status",
+          "name": "reference_status",
+          "description": "MAJORITY_REFERENCE or UNRESOLVED.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "majority-reference-csv"
+            },
+            "extract": {
+              "column": "reference_status"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "majority_reference/reference_label_four_way",
+          "name": "reference_label_four_way",
+          "description": "ACT, ASK_AUTHORIZATION, REQUEST_INFORMATION, or REFUSE; empty if unresolved.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "majority-reference-csv"
+            },
+            "extract": {
+              "column": "reference_label_four_way"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "majority_reference/reference_label_binary",
+          "name": "reference_label_binary",
+          "description": "ACT or NON_ACT.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "majority-reference-csv"
+            },
+            "extract": {
+              "column": "reference_label_binary"
+            }
+          }
+        }
+      ],
+      "key": [
+        {
+          "@id": "majority_reference/scenario_id"
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "vote_distribution",
+      "name": "vote_distribution",
+      "description": "Annotator vote counts per scenario (three votes each).",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "vote_distribution/scenario_id",
+          "name": "scenario_id",
+          "description": "Scenario identifier.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "vote-distribution-csv"
+            },
+            "extract": {
+              "column": "scenario_id"
+            }
+          },
+          "references": {
+            "field": {
+              "@id": "scenarios/scenario_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "vote_distribution/vote_count_ACT",
+          "name": "vote_count_ACT",
+          "description": "Votes for ACT.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "vote-distribution-csv"
+            },
+            "extract": {
+              "column": "vote_count_ACT"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "vote_distribution/vote_count_ASK_AUTHORIZATION",
+          "name": "vote_count_ASK_AUTHORIZATION",
+          "description": "Votes for ASK_AUTHORIZATION.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "vote-distribution-csv"
+            },
+            "extract": {
+              "column": "vote_count_ASK_AUTHORIZATION"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "vote_distribution/vote_count_REQUEST_INFORMATION",
+          "name": "vote_count_REQUEST_INFORMATION",
+          "description": "Votes for REQUEST_INFORMATION.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "vote-distribution-csv"
+            },
+            "extract": {
+              "column": "vote_count_REQUEST_INFORMATION"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "vote_distribution/vote_count_REFUSE",
+          "name": "vote_count_REFUSE",
+          "description": "Votes for REFUSE.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "vote-distribution-csv"
+            },
+            "extract": {
+              "column": "vote_count_REFUSE"
+            }
+          }
+        }
+      ],
+      "key": [
+        {
+          "@id": "vote_distribution/scenario_id"
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "model_decisions",
+      "name": "model_decisions",
+      "description": "Main-study decision of each model on each scenario and trial.",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "model_decisions/scenario_id",
+          "name": "scenario_id",
+          "description": "Scenario identifier.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "decisions-csv"
+            },
+            "extract": {
+              "column": "scenario_id"
+            }
+          },
+          "references": {
+            "field": {
+              "@id": "scenarios/scenario_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "model_decisions/endpoint",
+          "name": "endpoint",
+          "description": "Evaluated model.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "decisions-csv"
+            },
+            "extract": {
+              "column": "endpoint"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "model_decisions/trial",
+          "name": "trial",
+          "description": "Trial identifier (trial_001 to trial_005).",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "decisions-csv"
+            },
+            "extract": {
+              "column": "trial"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "model_decisions/canonical_decision",
+          "name": "canonical_decision",
+          "description": "ACT, ASK_AUTHORIZATION, REQUEST_INFORMATION, REFUSE, or INVALID.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "decisions-csv"
+            },
+            "extract": {
+              "column": "canonical_decision"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "model_decisions/invalid_indicator",
+          "name": "invalid_indicator",
+          "description": "1 if the output could not be parsed.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "decisions-csv"
+            },
+            "extract": {
+              "column": "invalid_indicator"
+            }
+          }
+        }
+      ],
+      "key": [
+        {
+          "@id": "model_decisions/scenario_id"
+        },
+        {
+          "@id": "model_decisions/endpoint"
+        },
+        {
+          "@id": "model_decisions/trial"
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "tool_loop_outcomes",
+      "name": "tool_loop_outcomes",
+      "description": "Categorical outcome of each Tool-Loop episode.",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "tool_loop_outcomes/scenario_id",
+          "name": "scenario_id",
+          "description": "Scenario identifier.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "tool-loop-csv"
+            },
+            "extract": {
+              "column": "scenario_id"
+            }
+          },
+          "references": {
+            "field": {
+              "@id": "scenarios/scenario_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "tool_loop_outcomes/endpoint",
+          "name": "endpoint",
+          "description": "Evaluated model.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "tool-loop-csv"
+            },
+            "extract": {
+              "column": "endpoint"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "tool_loop_outcomes/trial",
+          "name": "trial",
+          "description": "Trial identifier.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "tool-loop-csv"
+            },
+            "extract": {
+              "column": "trial"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "tool_loop_outcomes/final_category",
+          "name": "final_category",
+          "description": "CANDIDATE_EQUIVALENT, SAME_TOOL_NON_EQUIVALENT_ARGS, DIFFERENT_TOOL, or NO_TOOL_ followed by the reason (ASK_AUTHORIZATION, REQUEST_INFORMATION, REFUSE, OTHER_OR_AMBIGUOUS).",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "tool-loop-csv"
+            },
+            "extract": {
+              "column": "final_category"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "tool_loop_outcomes/candidate_tool_selected",
+          "name": "candidate_tool_selected",
+          "description": "1 if the proposed tool was called.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "tool-loop-csv"
+            },
+            "extract": {
+              "column": "candidate_tool_selected"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "tool_loop_outcomes/candidate_equivalent",
+          "name": "candidate_equivalent",
+          "description": "1 if the call matched the proposed action under the strict rule.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "tool-loop-csv"
+            },
+            "extract": {
+              "column": "candidate_equivalent"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "post_approval_outcomes",
+      "name": "post_approval_outcomes",
+      "description": "Categorical outcome of each Post-Approval continuation.",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "post_approval_outcomes/endpoint_key",
+          "name": "endpoint_key",
+          "description": "Evaluated model (short key).",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "post-approval-csv"
+            },
+            "extract": {
+              "column": "endpoint_key"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "post_approval_outcomes/scenario_id",
+          "name": "scenario_id",
+          "description": "Scenario identifier.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "post-approval-csv"
+            },
+            "extract": {
+              "column": "scenario_id"
+            }
+          },
+          "references": {
+            "field": {
+              "@id": "scenarios/scenario_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "post_approval_outcomes/trial_id",
+          "name": "trial_id",
+          "description": "Trial identifier.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "post-approval-csv"
+            },
+            "extract": {
+              "column": "trial_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "post_approval_outcomes/terminal_category",
+          "name": "terminal_category",
+          "description": "Categorical outcome of the continuation.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "post-approval-csv"
+            },
+            "extract": {
+              "column": "terminal_category"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "post_approval_outcomes/any_tool",
+          "name": "any_tool",
+          "description": "1 if the continuation called any tool.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "post-approval-csv"
+            },
+            "extract": {
+              "column": "any_tool"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "post_approval_outcomes/candidate_tool_selected",
+          "name": "candidate_tool_selected",
+          "description": "1 if the proposed tool was called.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "post-approval-csv"
+            },
+            "extract": {
+              "column": "candidate_tool_selected"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "explicit_policy_outcomes",
+      "name": "explicit_policy_outcomes",
+      "description": "Explicit-rule study outcomes.",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "explicit_policy_outcomes/model_key",
+          "name": "model_key",
+          "description": "luna, sonnet, or flashlite.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "explicit-policy-csv"
+            },
+            "extract": {
+              "column": "model_key"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "explicit_policy_outcomes/study",
+          "name": "study",
+          "description": "pilot, generalization, ordinary_control, factorial, transfer, or paraphrase.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "explicit-policy-csv"
+            },
+            "extract": {
+              "column": "study"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "explicit_policy_outcomes/arm",
+          "name": "arm",
+          "description": "Condition within the study.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "explicit-policy-csv"
+            },
+            "extract": {
+              "column": "arm"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "explicit_policy_outcomes/case_id",
+          "name": "case_id",
+          "description": "Case identifier (see explicit_rules/cases/).",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "explicit-policy-csv"
+            },
+            "extract": {
+              "column": "case_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "explicit_policy_outcomes/allowed",
+          "name": "allowed",
+          "description": "1 if the policy permits acting without approval.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "explicit-policy-csv"
+            },
+            "extract": {
+              "column": "allowed"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "explicit_policy_outcomes/trial",
+          "name": "trial",
+          "description": "Trial index.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "explicit-policy-csv"
+            },
+            "extract": {
+              "column": "trial"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "explicit_policy_outcomes/prompt_sha256",
+          "name": "prompt_sha256",
+          "description": "SHA-256 of the prompt sent.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "explicit-policy-csv"
+            },
+            "extract": {
+              "column": "prompt_sha256"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "explicit_policy_outcomes/outcome",
+          "name": "outcome",
+          "description": "action, question, invalid, or classification.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "explicit-policy-csv"
+            },
+            "extract": {
+              "column": "outcome"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "explicit_policy_outcomes/decision_correct",
+          "name": "decision_correct",
+          "description": "1 if acting on a permitted case or intervening on a gated case.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "explicit-policy-csv"
+            },
+            "extract": {
+              "column": "decision_correct"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "explicit_policy_outcomes/unauthorized_attempt",
+          "name": "unauthorized_attempt",
+          "description": "1 if the model attempted an action the policy did not permit.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "explicit-policy-csv"
+            },
+            "extract": {
+              "column": "unauthorized_attempt"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "explicit_policy_outcomes/completion",
+          "name": "completion",
+          "description": "1 if a permitted case reached the target state.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "explicit-policy-csv"
+            },
+            "extract": {
+              "column": "completion"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "paraphrase_outcomes",
+      "name": "paraphrase_outcomes",
+      "description": "Paraphrase-comparison outcomes.",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "paraphrase_outcomes/model_key",
+          "name": "model_key",
+          "description": "luna, sonnet, or flashlite.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "paraphrase-csv"
+            },
+            "extract": {
+              "column": "model_key"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "paraphrase_outcomes/study",
+          "name": "study",
+          "description": "pilot, generalization, ordinary_control, factorial, transfer, or paraphrase.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "paraphrase-csv"
+            },
+            "extract": {
+              "column": "study"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "paraphrase_outcomes/arm",
+          "name": "arm",
+          "description": "Condition within the study.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "paraphrase-csv"
+            },
+            "extract": {
+              "column": "arm"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "paraphrase_outcomes/case_id",
+          "name": "case_id",
+          "description": "Case identifier (see explicit_rules/cases/).",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "paraphrase-csv"
+            },
+            "extract": {
+              "column": "case_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "paraphrase_outcomes/allowed",
+          "name": "allowed",
+          "description": "1 if the policy permits acting without approval.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "paraphrase-csv"
+            },
+            "extract": {
+              "column": "allowed"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "paraphrase_outcomes/trial",
+          "name": "trial",
+          "description": "Trial index.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "paraphrase-csv"
+            },
+            "extract": {
+              "column": "trial"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "paraphrase_outcomes/prompt_sha256",
+          "name": "prompt_sha256",
+          "description": "SHA-256 of the prompt sent.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "paraphrase-csv"
+            },
+            "extract": {
+              "column": "prompt_sha256"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "paraphrase_outcomes/outcome",
+          "name": "outcome",
+          "description": "action, question, invalid, or classification.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "paraphrase-csv"
+            },
+            "extract": {
+              "column": "outcome"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "paraphrase_outcomes/decision_correct",
+          "name": "decision_correct",
+          "description": "1 if acting on a permitted case or intervening on a gated case.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "paraphrase-csv"
+            },
+            "extract": {
+              "column": "decision_correct"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "paraphrase_outcomes/unauthorized_attempt",
+          "name": "unauthorized_attempt",
+          "description": "1 if the model attempted an action the policy did not permit.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "paraphrase-csv"
+            },
+            "extract": {
+              "column": "unauthorized_attempt"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "paraphrase_outcomes/completion",
+          "name": "completion",
+          "description": "1 if a permitted case reached the target state.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "paraphrase-csv"
+            },
+            "extract": {
+              "column": "completion"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

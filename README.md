@@ -93,7 +93,9 @@ The other fields (pair links, target feature, domain, authoring notes) are
 for analysis and must not be shown to the model being evaluated. The JSONL
 keeps two legacy label names: `ASK` means `ASK_AUTHORIZATION` and `DEFER`
 means `REQUEST_INFORMATION`. `SCHEMA.md` describes every field and
-`DATASET_CARD.md` describes the composition.
+`DATASET_CARD.md` describes the composition. `DATASHEET.md` answers the
+"Datasheets for Datasets" questions, and `croissant.json` describes the main
+files in Croissant 1.0 format with responsible-AI fields.
 
 The annotators' labels are in `data/reference/`.
 `expert_majority_reference.csv` holds the majority label for each scenario
@@ -143,6 +145,10 @@ report.
   use, under tau-bench's MIT License), the categorical outcomes of all 5,880
   calls, and the code that rebuilds every case and prompt
   (`delegationcheck/explicit_rules.py`).
+
+- Dataset metadata: `DATASHEET.md`, `croissant.json`, and a Hugging Face
+  dataset card in `hf_dataset/` with upload instructions
+  (`hf_dataset/UPLOAD.md`, `scripts/build_hf_dataset.py`).
 
 ## What is not included, and why
 

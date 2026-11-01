@@ -10,7 +10,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "SHA256SUMS"
-IGNORED_PARTS = {".git", "__pycache__", ".pytest_cache", "reproduction_outputs", ".venv", "venv"}
+IGNORED_PARTS = {".git", "__pycache__", ".pytest_cache", "reproduction_outputs", "hf_upload", ".venv", "venv"}
 IGNORED_NAMES = {"SHA256SUMS", ".gitignore", ".DS_Store"}
 
 

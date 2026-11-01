@@ -17,14 +17,16 @@ TOP_LEVEL_CC_FILES = {
     Path("BENCHMARK_USE.md"),
     Path("CONTAMINATION_CANARY.md"),
     Path("DATASET_CARD.md"),
+    Path("DATASHEET.md"),
+    Path("croissant.json"),
     Path("README.md"),
     Path("REPRODUCING.md"),
     Path("SCHEMA.md"),
     Path("delegationcheck_v1_0.jsonl"),
 }
-IGNORED_PARTS = {".git", "__pycache__", ".pytest_cache", "reproduction_outputs", ".venv", "venv"}
+IGNORED_PARTS = {".git", "__pycache__", ".pytest_cache", "reproduction_outputs", "hf_upload", ".venv", "venv"}
 IGNORED_NAMES = {".gitignore", ".DS_Store"}
-CC_ROOTS = {"data", "explicit_rules", "figures", "results", "tool_loop"}
+CC_ROOTS = {"data", "explicit_rules", "figures", "hf_dataset", "results", "tool_loop"}
 TAU_BENCH_ROOT = Path("explicit_rules/third_party/tau_bench")
 CC_SUFFIXES = {".csv", ".json", ".md", ".png", ".sha256"}
 PRIVATE_OUTPUT_PATTERN = re.compile(

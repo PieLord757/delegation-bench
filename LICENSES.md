@@ -16,9 +16,11 @@ the list is complete.
 ## CC BY 4.0 (`LICENSE-DATA.md`)
 
 - `delegationcheck_v1_0.jsonl`
-- documentation (`README.md`, `DATASET_CARD.md`, `SCHEMA.md`,
-  `BENCHMARK_USE.md`, `REPRODUCING.md`, `CONTAMINATION_CANARY.md`, and the
-  README files in subdirectories)
+- documentation (`README.md`, `DATASET_CARD.md`, `DATASHEET.md`, `SCHEMA.md`,
+  `BENCHMARK_USE.md`, `REPRODUCING.md`, `CONTAMINATION_CANARY.md`, the
+  Hugging Face card and notes in `hf_dataset/`, and the README files in
+  subdirectories)
+- the Croissant metadata file `croissant.json`
 - scenario manifests and tool schemas under `data/` and `tool_loop/`
 - the annotators' majority labels and vote counts, which contain no annotator
   identity, notes, confidence ratings, or link between a vote and a person

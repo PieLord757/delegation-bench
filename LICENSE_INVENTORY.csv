@@ -2,6 +2,7 @@ path,license,rationale
 BENCHMARK_USE.md,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 CONTAMINATION_CANARY.md,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 DATASET_CARD.md,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
+DATASHEET.md,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 LICENSE,license_notice,MIT license text
 LICENSE-DATA.md,license_notice,CC BY notice or licensing boundary
 LICENSES.md,license_notice,CC BY notice or licensing boundary
@@ -10,6 +11,7 @@ REPRODUCING.md,CC-BY-4.0,"author-created data, documentation, figure, or derived
 SCHEMA.md,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 THIRD_PARTY_NOTICES/DEJAVU_FONTS_LICENSE.txt,DejaVu-font-license,verbatim license for the font subset embedded in PDFs
 THIRD_PARTY_NOTICES/TAU_BENCH_LICENSE.txt,MIT-tau-bench,verbatim MIT license of the vendored tau-bench files (Sierra)
+croissant.json,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 data/agentic_validation_v1_ids.json,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 data/agentic_validation_v1_measurability.json,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 data/derived/ALL_TEN_TOOL_LOOP_RELEASE_MANIFEST.json,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
@@ -69,6 +71,8 @@ figures/final_reviewer_first/ask_and_action_stages.pdf,CC-BY-4.0 + DejaVu-font-l
 figures/final_reviewer_first/ask_and_action_stages.png,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 figures/policy_consistency_lexical_audit/agreement_vs_controlled_coherence.pdf,CC-BY-4.0 + DejaVu-font-license,author-created figure with an embedded DejaVu Sans font subset
 figures/policy_consistency_lexical_audit/agreement_vs_controlled_coherence.png,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
+hf_dataset/README.md,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
+hf_dataset/UPLOAD.md,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 pyproject.toml,MIT,author-created code or software metadata
 requirements-tested.txt,MIT,author-created code or software metadata
 results/AGENTIC_VALIDATION_V1_FACTOR_TRANSFER.csv,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
@@ -219,6 +223,7 @@ results/tool_loop_three_stage/manifest.json,CC-BY-4.0,"author-created data, docu
 results/tool_loop_three_stage/three_stage_bootstrap.csv,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 results/tool_loop_three_stage/three_stage_summary.csv,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 results/tool_loop_three_stage/three_stage_trial_paths.csv,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
+scripts/build_hf_dataset.py,MIT,author-created code or software metadata
 scripts/make_agreement_coherence_figure.py,MIT,author-created code or software metadata
 scripts/make_ask_and_action_figure.py,MIT,author-created code or software metadata
 scripts/reconstruct_tool_loop_summary.py,MIT,author-created code or software metadata
@@ -240,6 +245,7 @@ tests/test_explicit_rules.py,MIT,author-created code or software metadata
 tests/test_metrics.py,MIT,author-created code or software metadata
 tests/test_parser.py,MIT,author-created code or software metadata
 tests/test_post_approval_and_pair_audits.py,MIT,author-created code or software metadata
+tests/test_release_metadata.py,MIT,author-created code or software metadata
 tests/test_study_prompts.py,MIT,author-created code or software metadata
 tool_loop/DERIVED_AUDIT_VIEW.md,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
 tool_loop/TRAJECTORY_MAPPING.md,CC-BY-4.0,"author-created data, documentation, figure, or derived result"
